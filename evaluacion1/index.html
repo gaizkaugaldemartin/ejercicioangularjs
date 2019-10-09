@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app> <!--Directiva para decir que es una App de Angular-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <script src="js/angular.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>Evaluacion</h1>  
+    <h2>Angular 101</h2>
+
+    <div class="container">
+   
+
+        <a href="https://docs.angularjs.org/api/ng/filter" target="_blank">Documentacion</a>
+           
+
+<h2>Directiva ng-model</h2>
+
+Nombre completo : {{ nombre | uppercase }}
+<br>
+<input type="text" ng-model="nombre" placeholder="Dime tu nombre" class="form-control">
+
+Lugar de trabajo : {{ trabajo | lowercase}}
+<br>
+<input type="text" ng-model="trabajo" placeholder="Dime tu trabajo" class="form-control">
+
+
+Salario en dolares : {{ salario | currency:"$ "}}
+<br>
+<input type="text" ng-model="salario" placeholder="Introduce el salario" class="form-control">
+
+
+
+
+
+
+</body>
+</html>

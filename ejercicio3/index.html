@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="fruteriaApp">
+<!-- directiva para decir que es un App de Angular -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- angular js -->
+    <script src="js/lib/angular.min.js"></script>
+    <script src="//code.angularjs.org/1.2.23/i18n/angular-locale_es-us.js"></script>
+
+    <script src="js/app.js"></script>
+
+
+    <!-- font-awesome  y bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    
+    <!-- estilos propios-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="container">
+
+
+        <p>Filtro <input type="text" ng-model="busqueda.nombre" placeholder="Introduce fruta para buscar">
+           
+           <select ng-model="busqueda.color">
+             <option value="">Todos </option>
+             <option value="verde">verde de todas las gamas </option>
+             <option value="marron">marron con pelo</option>
+
+           </select>
+           
+            <p>Ordenar por</p>
+
+            <button class="btn btn-primary mr-2" ng-click="ordenar(nombre)">Nombre</button>
+            <button class="btn btn-primary mr-2" ng-click="ordenar(precio)">Precio</button>
+            <button class="btn btn-primary mr-2" ng-click="ordenar(cantidad)">Cantidad</button>
+
+
+            <h2>Fruteria</h2>
+        <div class="row" ng-controller="frutasController">
+                <table class="table">
+                        <thead>
+                          <tr >
+                            <th class="text-center" scope="col">Imagen</th>
+                            <th  class="text-left" scope="col" ng-click="orden='nombre';reverse =!reverse">Nombre</th>
+                            <th scope="col" ng-click="orden='nombre';reverse =!reverse">Precio</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr ng-repeat="fruta in frutasJson.frutas | filter:busqueda | orderBy:orden:reverse">
+                            <td class="align-middle text-center" scope="row"><img ng-src="{{fruta.imagen}}" width="100px" alt="{{fruta.nombre}}"></td>
+                            <td class="align-middle text-left">{{fruta.nombre}}</td>
+                            <td class="align-middle">{{fruta.precio | currency }}/Kg</td>
+                            <td class="align-middle"> <i class="fas fa-minus" ng-click="decrementar(fruta)"></i> {{fruta.cantidad}} <i class="fas fa-plus" ng-click="incrementar(fruta)"></i> </td>
+                            <td class="align-middle"><i class="fas fa-shopping-cart fa-2x" ng-click="sumarTotal(fj)"></i></td>
+                            </tr>
+                          <tr >
+                            <th class="text-center">TOTAL</th>
+                            <td colspan="3">{{total | currency }} </td>
+                            <td><i class="fas fa-trash-alt fa-2x" ng-click="restarTotal()"></i></td>
+                          </tr>
+                       </tbody>
+                      </table>
+        </div>
+    </main> 
+</body>
+
+</html>
