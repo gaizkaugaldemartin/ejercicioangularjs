@@ -10,7 +10,7 @@ var app = angular.module('angularApp',['ngRoute','ngSanitize']);
                                       "idioma": "es-Es",
                                       "version": "1.0",
                                       "autor": "Gaizka Ugalde",
-                                      "github": "https://github.com/anderuraga/AngularJSEjercicios"
+                                      "github": "https://github.com/"
                                     } );
 
 /**
@@ -43,5 +43,29 @@ var app = angular.module('angularApp',['ngRoute','ngSanitize']);
   }
 }
 
-//definir Servicio
+/**Filtro Personalizado para Capitalizar la 1 letra de un String */
 
+
+
+
+
+//definir filtro en la app
+
+app.filter("capitalizar", function(){
+
+
+  return function(cadena){
+
+  if(cadena != undefined && typeof cadena == 'string'){
+
+    return cadena.charAt(0).toUpperCase() + cadena.slice(1);
+    
+    }else{
+    
+      return "";
+    
+    }
+    }
+
+
+});

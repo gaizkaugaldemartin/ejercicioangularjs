@@ -39,6 +39,10 @@ app.config( function( $routeProvider ){
     .when('/pokemones',{
       templateUrl: 'parciales/pokemones.html'
     })
+    .when('/pokemon/:nombre',{
+      templateUrl: 'parciales/pokemon.html'
+      //controller: 'pokemonController'
+    })
       .when('/detalle/:id',{
       templateUrl: 'parciales/detalle.html',
       controller:'detalleController'
