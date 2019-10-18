@@ -1,0 +1,454 @@
+WEBVTT
+
+00:03.620 --> 00:08.700
+Unidos nuevamente a esta clase triangular hoy comenzaremos a hacer nuestra primera aplicación real.
+
+00:09.260 --> 00:17.240
+Pero para ello antes necesitamos conocer un tema principal que es el Routh el encierro permitirá a nosotros
+
+00:17.240 --> 00:23.120
+poder navegar entre páginas web de nuestra aplicación sin tener que semos refresh general de la página
+
+00:23.330 --> 00:29.570
+tal como se había mostrado en documentos documentación triangula que esa página no se refiere pero navega
+
+00:29.570 --> 00:30.790
+en diversos sitios.
+
+00:31.550 --> 00:37.280
+Entonces empecemos a explicar un poco de esto necesito que se descarguen el archivo que se encuentra
+
+00:37.280 --> 00:45.650
+en material adjunto lo descomprime y como podrán ver es una aplicación llamada Univer app que será una
+
+00:45.650 --> 00:49.480
+aplicación de manejo de alumnos y profesores de una universidad.
+
+00:49.720 --> 00:55.160
+La vamos a cortar la pondremos en nuestra carpeta ayúdeme si no saben cómo hacer esto por favor verifiquen
+
+00:55.160 --> 00:56.790
+los videos anteriores.
+
+00:56.960 --> 01:02.360
+Van a poder encontrar qué y cómo se crea este acceso directo.
+
+01:02.360 --> 01:05.810
+Lo abrimos en nuestro navegador web que yo ya lo tengo abierto.
+
+01:05.990 --> 01:14.270
+Refresquen simplemente es una aplicación o una página web que tiene diferentes Links un menú todo hecho.
+
+01:15.110 --> 01:16.550
+No tiene mucha ciencia.
+
+01:17.000 --> 01:20.160
+Abriremos esto en el texto.
+
+01:20.750 --> 01:29.950
+Quiero que observemos lo siguiente en el Index en el Index HTML lo que tienes el título y está declarado
+
+01:30.010 --> 01:33.320
+en Giap el VF menos 8.
+
+01:33.350 --> 01:41.120
+La librería Bootstrap del anime es de un estilo este estilo lo voy a lo voy a mostrar para que vean
+
+01:41.120 --> 01:42.780
+qué es lo que trae.
+
+01:42.860 --> 01:51.780
+Simplemente es una separación que no esté tan pegado al título como con el contenido de este estilo.
+
+01:51.830 --> 01:54.980
+Aquí podremos cosas personalizadas que vayamos a hacer.
+
+01:55.520 --> 02:03.530
+De aquí viene la librería La gula y la configuración de Apple p.ej. es más abajo viene el menú o podrán
+
+02:03.530 --> 02:03.950
+ver aquí.
+
+02:03.950 --> 02:08.580
+Este es el menú y abajo el contenedor como lo hemos hecho siempre.
+
+02:09.860 --> 02:16.300
+Bien si refrescamos aquí nuestro navegador web vas a poder observar que se navega a diferentes sitios
+
+02:16.390 --> 02:18.010
+que no hace nada todavía.
+
+02:18.250 --> 02:24.790
+Esto no es más que ver este web reírle donde se está navegando simplemente le ponemos el símbolo numeral
+
+02:25.450 --> 02:31.350
+para que realmente no se mueva y solo cambia el lugares podrá observar eso lo que pasa acá
+
+02:34.410 --> 02:41.000
+vamos a hacer un par de adecuaciones a nuestro código en el texto vamos al carpeta del proyecto.
+
+02:41.010 --> 02:43.050
+Ellos saben que este es el menú.
+
+02:43.050 --> 02:48.750
+Todo este código es el menú y no vale la pena ponerlo aquí porque lo podemos modificar después si esto
+
+02:48.750 --> 02:57.720
+entorpece la visión del código crearemos una nueva carpeta y nuestra raíz de proyecto llamada parciales
+
+03:00.010 --> 03:10.280
+e parciales crearemos un nuevo archivo con el nombre menú punto HTML lo guardamos que vamos a poner
+
+03:10.280 --> 03:18.950
+en el menú todo nuestro menú de navegación controlé X o como en X y lo pegamos aquí arreglemos la tabulación
+
+03:18.950 --> 03:23.440
+un poco para que quede de esta manera aquí ojo.
+
+03:24.170 --> 03:30.320
+Hay que ponerle una barrita una flecha más acá eso ya lo vamos a ver yo lo voy a explicar porque es
+
+03:30.320 --> 03:34.640
+importante lo guárdelo todo o el menú y se ven.
+
+03:34.730 --> 03:39.290
+Aquí tenemos que hacer un club en un club
+
+03:42.170 --> 03:50.870
+y quedamos que vamos a incluir acá tenemos que incluir la dirección a nuestro menú a HTML para eso en
+
+03:50.870 --> 04:00.050
+nuestro Main controller crearemos una variable del scout llamada menú superior porque podemos tener
+
+04:00.050 --> 04:02.930
+varios menús en el menú superior.
+
+04:02.930 --> 04:10.040
+Lo que haremos es poner la dirección donde está nuestro menú parciales Leca menú junto a HTML.
+
+04:10.490 --> 04:19.700
+Guardamos cambios voy a copiar esta variable menú superior la copio esto no va a cerrar y pondremos
+
+04:19.700 --> 04:22.220
+la variable Lending Club menú superior.
+
+04:22.300 --> 04:30.490
+Cuando damos todo regresamos a nuestro navegador web y algo pasó Serret algo pasó.
+
+04:30.500 --> 04:32.510
+No hay ningún error del JavaScript.
+
+04:32.980 --> 04:33.730
+Qué pasó.
+
+04:34.870 --> 04:46.640
+Incluso superior en controlã aunque como podrán observar el mail controlé no está relacionado en nuestro
+
+04:46.640 --> 04:48.050
+sitio web.
+
+04:48.080 --> 04:50.680
+Ustedes pueden observar no está definido en ningún lado.
+
+04:51.670 --> 05:03.100
+Entonces en el guía nuestro Main controla será colocado acá en controles igual a controles es decir
+
+05:05.720 --> 05:12.070
+este controlador es como un super controlador va a controlar o más va a manejar el sitio web completo
+
+05:13.290 --> 05:16.380
+esto no quiere decir que vayamos a tener sus controladores.
+
+05:16.430 --> 05:18.840
+De hecho esa es la idea que este sea.
+
+05:18.900 --> 05:19.290
+Donde.
+
+05:19.450 --> 05:24.600
+Donde vamos a definir funciones globales o procedimientos generales variables que van a estar en el
+
+05:24.600 --> 05:31.080
+ámbito de todo el programa y a su vez haremos pequeños controles controladores para manejar diferentes
+
+05:31.080 --> 05:33.540
+cosas de diferentes páginas.
+
+05:33.600 --> 05:38.770
+Entonces no se preocupen por el control Herba aquí arriba en el PP junto es 1Jn.
+
+05:38.870 --> 05:42.720
+Vamos a colocar nuestra dirección al menú superior.
+
+05:42.870 --> 05:48.360
+Salvamos todos y refrescamos el navegador web y ahora sí aparece el menú y funciona de la misma manera
+
+05:48.360 --> 05:55.360
+que estaba antes ahora bien entonces creemos unas pequeñas páginas para el inicio para profesores y
+
+05:55.360 --> 05:57.010
+para alumnos.
+
+05:57.010 --> 06:02.290
+Hay unos pequeños que el objetivo sólo sea el contenido que realmente queremos mostrar en dicha página
+
+06:02.690 --> 06:09.490
+imparciales vamos a crear tres archivos uno que se llamará el home junto a HTML.
+
+06:09.490 --> 06:25.070
+Haremos otro llamado profesores HTML y el último será alumnos alumnos punto HTML colocaremos un contenido
+
+06:25.070 --> 06:26.960
+de la página principal.
+
+06:28.460 --> 06:39.970
+Esta es la página principal salvamos cambios profesores tomamos cambios alumnos alumnos
+
+06:42.940 --> 06:50.050
+que tenemos de los tres pequeñas secciones ahora cada una de esas páginas debería ser autosuficiente
+
+06:50.190 --> 06:54.980
+tener todo el contenido que queremos mostrar más la lógica de la programación y todo eso lo vamos a
+
+06:54.980 --> 06:56.250
+hacer a continuación.
+
+06:56.450 --> 07:02.360
+Para hacer el movimiento entre páginas y poder cargar esta página dinámicamente necesitamos una librería
+
+07:02.360 --> 07:14.560
+adicional necesitamos lo que es en Routh en la página de angula G10 ustedes van a poder buscar en adición
+
+07:14.560 --> 07:23.650
+en módulos adicionales lo que es el X Vault en este caso angulos Routh y la angula angular Routh punto
+
+07:23.650 --> 07:24.800
+Mapp.
+
+07:25.000 --> 07:35.350
+Ambos archivos son necesarios descarguemos el mular Routh primero descargas y también usaremos el Mapp
+
+07:37.340 --> 07:42.530
+pero siempre recomiendo descargar la versión minimizaba porque hace que los tiempos de carga sean menores
+
+07:43.080 --> 07:47.870
+que descargamos ambos archivos ya no ocupamos esa página.
+
+07:48.320 --> 07:56.740
+Ahora en la sección de descargas de nuestro computador vamos a mover el agua al robot .1.000 .3 y el
+
+07:56.740 --> 07:57.850
+mar.
+
+07:57.850 --> 08:05.820
+Estos dos nos vamos a mover quien no necesita hilo color lo colocaremos aquí nuestro aplicación J.V
+
+08:06.040 --> 08:13.800
+librerías y lo pegamos aquí ahora tenemos que hacer la referencia en la página principal en nuestro
+
+08:13.800 --> 08:17.280
+índex y poner aquí los dos archivos.
+
+08:17.520 --> 08:26.230
+Ambos archivos o mejor dicho sólo angular Routh abajo de la librería del ángulo.
+
+08:26.340 --> 08:33.180
+Estos son un requerimiento entonces lo colocaremos aquí.
+
+08:33.490 --> 08:40.620
+Creo que es aquí hago abuela Routh .1.000 puto J.V lo que haremos acá.
+
+08:40.820 --> 08:46.670
+Ya tenemos incluida esta librería ahora que son la configuración en el módulo principal.
+
+08:46.670 --> 08:49.430
+Se acuerdan estos paréntesis que teníamos aquí.
+
+08:49.430 --> 08:59.260
+Aquí necesitaremos ponerle el engine Routh y con eso estamos listos para utilizar las funciones de el
+
+08:59.330 --> 09:01.150
+movimiento entre páginas.
+
+09:01.310 --> 09:02.510
+Sabemos todos los cambios.
+
+09:03.730 --> 09:12.160
+Ok entonces configuramos la navegación en nuestra carpeta JBS crearemos un nuevo archivo no guardaremos
+
+09:12.160 --> 09:15.230
+inmediatamente llamado Koffi punto J.S.
+
+09:15.490 --> 09:20.060
+Esto también es muy parecido a los estándares que hay en el angular de desarrollo.
+
+09:20.110 --> 09:25.630
+Ya se sabe que este archivo contiene la configuración de movimiento entre páginas o otro tipo de configuraciones
+
+09:25.630 --> 09:26.850
+de la angula.
+
+09:26.920 --> 09:33.360
+Para eso necesitamos poner a Pepe punto Cofis parentesis.
+
+09:33.550 --> 09:40.640
+Esto es una función que lleva un parámetro de argumento llamado Routh pararlas.
+
+09:40.900 --> 09:50.090
+Perdón Rob provided esta función que va a ser es la que se encarga de la navegación y el movimiento
+
+09:50.270 --> 09:54.190
+de los segmentos que acabamos de crear a la página principal.
+
+09:54.190 --> 10:05.450
+Esto es utilizando el robot Provider que se encuentra al principio en punto buén y aquí vamos a ponerle
+
+10:05.540 --> 10:07.010
+un primer parámetro.
+
+10:07.730 --> 10:16.700
+Cuando estemos en la raíz de la página o cuando R.L no termine en nada qué es lo que va a hacer va a
+
+10:16.700 --> 10:21.530
+ejecutar el siguiente código lo podemos hacer así porque es un poco más ordenado no vamos a recibir
+
+10:21.530 --> 10:32.950
+un poco más entendible diremos que el temple el temple y el temple sería nuestro caso faciales.
+
+10:33.070 --> 10:39.330
+LK le pusimos un punto HTML tricomas.
+
+10:39.470 --> 10:46.230
+Es bueno programar de una es el poder warez pero después todo todo en minúscula.
+
+10:46.350 --> 10:51.730
+No sé por qué algunos está capitalizadas como la anterior y en otras no. En este caso Derbaix es todo
+
+10:51.740 --> 11:04.530
+en minúscula si no navega o si lo R.L es cualquier otro menos menos el este de acá entonces lo que haremos
+
+11:04.530 --> 11:15.070
+es redireccionar el Direct tuvo dos puntos Leca lo redirecciona haremos a la página principal va de
+
+11:15.070 --> 11:16.870
+nuevo el rostro Heider.
+
+11:16.870 --> 11:23.920
+Esto es un estándar cuando el RL término implica el temple que demostrarás será esta página.
+
+11:23.920 --> 11:30.940
+Caso contrario mostrará los redirecciona a este lugar siempre es bueno poner el Horwitz porque la gente
+
+11:30.940 --> 11:36.100
+puede ser viva y manipular los wireless para tener algún tipo de información.
+
+11:36.130 --> 11:39.100
+Esto lo controlamos guardemos los cambios.
+
+11:39.550 --> 11:46.780
+Ahora necesitamos incluir este archivo de configuración a la página principal lo pondremos abajo del
+
+11:46.870 --> 11:50.480
+AP p.ej. es esto es necesario.
+
+11:51.460 --> 11:55.720
+Ahora bien en ningún lado le hemos dicho a la página donde queremos que se despliegue la información
+
+11:55.720 --> 11:58.280
+de la del punto HTML.
+
+11:58.280 --> 12:07.140
+Entonces eso necesitamos crear para eso necesitamos crear un nuevo espacio con la directiva Enjoy View.
+
+12:07.150 --> 12:13.060
+Eso esto lo que estamos diciendo es que en esta sección en esta parte de aquí será reemplazada por el
+
+12:13.060 --> 12:20.800
+contenido de las páginas guardamos todos los cambios miremos la página web y tengamos algún problema
+
+12:21.040 --> 12:24.730
+o se enseñarlas consola como pueden ver.
+
+12:24.960 --> 12:31.600
+Este error y aparece el server respondió con un 4 0 3 que es un error de protección.
+
+12:31.860 --> 12:38.040
+Entonces necesitamos en este caso darle los 2 el acceso de nuevo
+
+12:41.400 --> 12:42.600
+ponerlo otra vez
+
+12:45.480 --> 12:50.740
+y lo aplicamos a todos son una restricción de seguridad de lo que actualmente que ustedes no han tenido
+
+12:50.740 --> 12:58.470
+ese problema es fresco y ahora si ya no tenemos el error pero sirvió por lo menos para enseñar el problema.
+
+13:00.600 --> 13:02.200
+Y listo.
+
+13:02.280 --> 13:10.520
+Como podrán observar cargó la página que en nuestro caso trajo al menú y trajo el home a la página principal.
+
+13:10.560 --> 13:15.120
+Si yo toco cualquier otro como podrán ver muy rápidamente aparece aquí el nombre de profesores pero
+
+13:15.120 --> 13:21.770
+como no está configurado en la ruta a esa página entonces lo regresa al joven.
+
+13:21.960 --> 13:26.830
+Por ejemplo si yo escribo aquí profesores gente no lo va a aceptar o escribo.
+
+13:26.830 --> 13:29.070
+1 2 3 no lo voy a aceptar.
+
+13:29.080 --> 13:35.820
+Al regresar a la página principal entonces para terminar hagamos la consideración de las otras dos páginas
+
+13:36.090 --> 13:43.550
+y con eso terminamos este video tutorial o esta clase en el Confi regresemos como podrán imaginarse
+
+13:43.560 --> 13:44.230
+más de uno.
+
+13:44.460 --> 13:51.850
+Hay que copiar esta línea y ponerla acá la pondremos tres veces porque son tres páginas como veremos
+
+13:51.850 --> 14:01.610
+en nuestro menú menú esta redirecciona a profesores y redirecciona alumnos profesores y alumnos.
+
+14:01.700 --> 14:02.490
+Acopian ambas.
+
+14:02.500 --> 14:03.630
+En esa configuración
+
+14:06.340 --> 14:09.770
+una regresa de moverse a profesores.
+
+14:09.770 --> 14:16.270
+En este caso sería profesores puntuó HTML y la otra a alumnos juto HTML.
+
+14:16.370 --> 14:18.700
+Cualquier otra cosa no es válida.
+
+14:18.730 --> 14:19.890
+Saludamos los cambios.
+
+14:19.900 --> 14:21.400
+Regresemos a nuestro navegador web.
+
+14:21.410 --> 14:29.060
+Tenemos la página con los profesores alumnos profesores alumnos inicio y como podrán observar funciona
+
+14:29.180 --> 14:30.330
+todo muy bien.
+
+14:30.330 --> 14:38.780
+Si yo pongo otro wherever me regresara al inicio algo que debería haber notado es que el menú seleccionado
+
+14:39.160 --> 14:41.240
+o la opción del menú seleccionado no cambia.
+
+14:41.240 --> 14:42.920
+Eso lo haremos en la siguiente clase.

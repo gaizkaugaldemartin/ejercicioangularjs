@@ -1,0 +1,424 @@
+WEBVTT
+
+00:02.910 --> 00:07.560
+Bienvenidos nuevamente al curso de hoy continuaremos con los formularios.
+
+00:07.590 --> 00:12.850
+Si ustedes piensan que lo que hicimos anterior era demasiado imagínense hacer eso por cada campo es
+
+00:12.870 --> 00:18.410
+un trabajarle y medio que hay que ser se preguntarán si hay una manera más fácil si hay una manera más
+
+00:18.410 --> 00:20.400
+fácil y es la que le puedo enseñar.
+
+00:20.410 --> 00:24.190
+Es una manera bien útil para validar formularios.
+
+00:24.260 --> 00:33.540
+Por favor descargues el material adjunto que no es más que el que no es más que el formulario sin tanta
+
+00:33.540 --> 00:40.950
+cosa necesito que igual dejen la consola aquí vista de la misma manera abrimos esto en el texto.
+
+00:41.040 --> 00:47.700
+Quiero que miren el Index en particular le quité muchas cosas le quité toda la lógica de programación
+
+00:47.720 --> 00:51.700
+en la clase y saben que aquí se me olvidó ponerle algo pero lo vamos a hacer.
+
+00:51.690 --> 00:59.190
+Aquí se volvió a poner una cosita bueno le quité toda la lógica toda lógica sólo les dije aquí uno con
+
+00:59.190 --> 01:05.140
+el recuerdo sólo es pero vamos a validar este formulario de una manera sencilla.
+
+01:05.160 --> 01:07.560
+Entonces les voy a pedir que abran el navegador web.
+
+01:07.560 --> 01:11.520
+Igual les voy a dejar el libro en el material de descargas por si acaso la página se llega a caer o
+
+01:11.520 --> 01:15.680
+cualquier cosa pero ha estado Arrio por muchos años y también está en Chile.
+
+01:16.530 --> 01:24.840
+Entonces van a buscar angular autovalores hay dos páginas verdad la primera es la de Kidjo y ahí la
+
+01:24.840 --> 01:32.430
+pueden descargar también pero la que nos interesa más es la de la segunda Angola auto válida de John
+
+01:33.630 --> 01:40.850
+vamos a abrir y aquí está cómo se usa la librería la cual voy a explicar detalladamente así que no se
+
+01:40.850 --> 01:41.790
+preocupen.
+
+01:41.930 --> 01:49.170
+Primero que nada vamos a descargar el archivo comprimido es un hecho pequeño lo vamos a ver en el Finder
+
+01:49.170 --> 01:58.370
+o no sus pruebas de Windows lo descomprime y lo que ocupamos llevarnos de aquí es en distribución.
+
+01:58.370 --> 02:01.040
+Vamos a agarrar el que no está comprimido.
+
+02:01.040 --> 02:10.130
+Voy a agarrar este normal para explicar lo que hay adentro el normale este no el que no tiene este manual
+
+02:10.850 --> 02:15.490
+lo vamos a pegar en nuestra carpeta Jota ese Lir y aquí adentro.
+
+02:16.000 --> 02:21.870
+O piense todo el nombre porque lo ocupamos escribió dentro de esto ya lo sepamos yo no lo ocupamos.
+
+02:21.930 --> 02:24.050
+Vamos a nuestro proyecto.
+
+02:24.680 --> 02:26.780
+Trabajo del de angulas.
+
+02:26.780 --> 02:30.720
+Vamos a hacer una copia de esta línea y lo pondremos acá.
+
+02:30.740 --> 02:35.300
+Vamos a hacer la referencia y listo.
+
+02:35.480 --> 02:36.120
+Los cambios.
+
+02:36.120 --> 02:41.700
+Ahora me voy a mi a apuntó J.V y como uno de ustedes pensarán esos que inyectarlo si hay que inyectar
+
+02:41.700 --> 02:46.020
+esa dependencia cuál es el nombre de la dependencia que tenemos que poner aquí.
+
+02:46.050 --> 02:54.300
+Ok vamos a irnos a la página de la documentación que iniciando podemos poner esta dependencia.
+
+02:55.560 --> 03:01.600
+Copiamos pego y listo.
+
+03:01.990 --> 03:06.680
+En algunos cambios y eso es todo eso es todo.
+
+03:06.680 --> 03:09.770
+Voy a regresar a mi formulario recargar la página web.
+
+03:10.040 --> 03:16.130
+Pareciera que todo está bien pero si yo toco el botón Guardar bien qué pasa si ya se pusieron en verde
+
+03:16.130 --> 03:17.120
+estos.
+
+03:17.120 --> 03:26.180
+El Correo la edad y el género pero no salió del error el error aquí en el del nombre.
+
+03:26.180 --> 03:32.020
+Ahora se me había olvidado poner un atlas aquí para que esto también se ponga rojo y esto es aquí el
+
+03:32.030 --> 03:37.820
+Index Leuven y aquí hay que agregarle la clase control
+
+03:40.540 --> 03:45.770
+hay que ser hay que copiar es la misma para todas ahí pero cuando ustedes pero ni modo lo vamos a tener
+
+03:45.770 --> 03:46.840
+que hacer aquí.
+
+03:47.690 --> 04:01.350
+Aquí y aquí esto Summon de nuevo Eduardo y Ben Stiller se puso rojo y los demás en verde y Ven que sencillo
+
+04:01.350 --> 04:02.210
+ya eso fue todo.
+
+04:02.220 --> 04:08.080
+Ya está toda la variación pero hay otras cosas que tenemos que ser verdad que hay que explicar.
+
+04:08.130 --> 04:11.560
+Voy a poner Rickard ahora sí en todas.
+
+04:11.580 --> 04:16.130
+Sólo esto necesito ponerle un regreso.
+
+04:18.660 --> 04:24.120
+Toco y listo ya todas están válidas pero ahora que hay problemas más de uno dirá o no pero es que yo
+
+04:24.120 --> 04:25.750
+necesito que esté en español.
+
+04:25.990 --> 04:29.230
+Ok ok ok ya vamos a ver eso.
+
+04:29.250 --> 04:39.260
+Primero que nada la manera que tengo yo de cambiarlo en español es abrir aquí el código y buscar recuerdos
+
+04:39.570 --> 04:48.030
+por ejemplo puede buscar la palabra Tykwer en 1643 en el mío y cabíamos aquí esto por ejemplo este campo
+
+04:48.270 --> 04:53.550
+es necesario voy a caminar sólo unos cuantos aquí.
+
+04:53.590 --> 04:56.180
+Por favor ingrese un correo válido.
+
+04:56.500 --> 05:04.710
+Ingresa un correo válido y hay otros otro por favor ingresa al menos tantos caracteres.
+
+05:05.400 --> 05:07.150
+Tal has ingresado más.
+
+05:07.450 --> 05:11.160
+Sólo aunque es relativamente sencillo voy a guardar los cambios.
+
+05:11.160 --> 05:17.270
+Regreso al navegador web descargo toco en este caso requerido este campo requerido este campo requerido
+
+05:17.650 --> 05:23.900
+pero en el correo ingresa un correo válido arroba y después revalide.
+
+05:24.460 --> 05:27.940
+Y ahí ya lo acepto ok.
+
+05:27.950 --> 05:29.240
+Entonces hay otras cosas que hacer.
+
+05:29.250 --> 05:33.020
+Por ejemplo el nombre está bien Fernando.
+
+05:33.410 --> 05:35.730
+Ahora vamos con la edad digamos que yo pongo.
+
+05:35.940 --> 05:45.680
+Yo necesito validar un rango de edades o un rango de monto aka aquí me voy para acá en la edad yo necesito
+
+05:45.680 --> 05:52.130
+decir esto ya no es de alguna esto por el tipo de dato nombre que el mínimo o a ser digamos que sea
+
+05:52.130 --> 05:56.530
+un sitio para mayores de edad digamos 21 o 18.
+
+05:56.530 --> 06:02.750
+Ustedes quieren un máximo digamos que no queremos que viejitos de arriba de 80 se mueran de un ataque
+
+06:02.750 --> 06:12.110
+cardíaco al ver contenia nuestra página gravó regreso Toko este capo necesario voy a poner 10 y 15 por
+
+06:12.110 --> 06:15.770
+favor ingresa un mínimo según un número mínimo de 21.
+
+06:15.780 --> 06:21.100
+O sea esto no es muy específico y no va aunque le cambiemos por favor ingrese un número arriba de 21
+
+06:21.140 --> 06:22.470
+tampoco va.
+
+06:22.640 --> 06:24.720
+Este es un error que tenemos que personalizar.
+
+06:25.280 --> 06:33.720
+Ok este acá entonces sigamos viendo aquí el código que aquí sigamos viendo en Iniap.
+
+06:33.790 --> 06:41.100
+Hay una parte aquí donde se especifica para hacer errores personalizados que de una manera muy fácil.
+
+06:41.140 --> 06:48.100
+Por ejemplo aquí hay que definir el error para largo mínimo y hay otros hay otros pero vamos a bajar
+
+06:48.100 --> 06:56.890
+un poquito más en poquito más o un poquito más a esta sección al manejador de los datos blusón al código
+
+06:56.890 --> 06:57.870
+que resuelve los errores.
+
+06:57.880 --> 07:04.110
+Disculpen el problema y me dice el Molta tal y hay que manejar esto.
+
+07:04.120 --> 07:06.720
+Voy a copiar todo esta sección todo esto.
+
+07:06.740 --> 07:13.690
+El que habla sobre error mesa Chuso hombre todo esto lo vamos a copiar empezamos aquí en nuestro navegador
+
+07:13.690 --> 07:22.160
+web el y aquí en el arte p.ej. s abajo de la inyección vamos a poner lo siguiente Aquí esto hay que
+
+07:22.160 --> 07:29.560
+cambiarlo por nuestro nuestro nombre de aplicación y aquí vamos a hacer nuestro error personalizado
+
+07:29.720 --> 07:31.860
+biopoder aquí error.
+
+07:32.110 --> 07:33.670
+Edad mínima.
+
+07:33.670 --> 07:35.070
+Así se va a llamar nuestro error
+
+07:37.930 --> 07:39.190
+la edad mínima
+
+07:41.990 --> 07:50.030
+es oro si yo quiero poner la edad mínima es 21 pero podemos poner algo usando el parámetro que la persona
+
+07:50.030 --> 07:51.790
+ingresó.
+
+07:52.210 --> 07:57.800
+Debes debe de ser mayor a 21
+
+08:00.800 --> 08:03.180
+el valor que nosotros pusimos acá.
+
+08:03.650 --> 08:05.220
+Cómo cerramos eso.
+
+08:05.320 --> 08:13.720
+Así debe ser admitió años de edad dijo una vez acabamos la edad máxima.
+
+08:13.720 --> 08:19.650
+No aquí en esto por favor no pongan acentos de caracteres especiales
+
+08:22.530 --> 08:27.000
+esto puede ser menor a tantos años de edad.
+
+08:28.780 --> 08:30.620
+Edad mínima y edad máxima.
+
+08:30.870 --> 08:34.430
+Esto aquí no lo voy a cerrar.
+
+08:34.750 --> 08:37.650
+Cómo le decimos esto que hay un error personalizado.
+
+08:37.930 --> 08:41.420
+Aquí hay uno en Yi min.
+
+08:41.650 --> 08:43.290
+Error.
+
+08:45.180 --> 08:58.720
+Y aquí le vamos a poner en mínima y otra para el Max y máximo grado los cambios regreso navegador web.
+
+08:58.740 --> 09:00.760
+Pero aquí no estoy aquí.
+
+09:01.380 --> 09:07.980
+Primero que nada el error es requerido voy a poner 10 puede ser mayor a 21 años de edad o que voy a
+
+09:08.010 --> 09:17.830
+ponerle 90 debe ser menor a 80 años de edad como 50 o 59 y listo ya está aquí de seleccionar decidió
+
+09:17.910 --> 09:27.400
+poner un correo intentó grabar y quiero que observen algo o el auto valide que todo está bien toco iba
+
+09:27.400 --> 09:37.400
+a postear el auto validez no sólo hacer esto sino que también hace que ya no sea necesario.
+
+09:37.400 --> 09:46.380
+En esta parte de la es decir ni siquiera llega a ser un posteo si la información está invalida y así
+
+09:46.380 --> 09:47.270
+debería ser.
+
+09:47.320 --> 09:52.530
+Voy a guardar todo fresco toco el botón y ni siquiera llega a postear.
+
+09:52.530 --> 09:57.160
+A pesar de que quitamos la validación aquí en teoría debía hacerlo pero no lo hace.
+
+09:57.900 --> 09:59.950
+El OToole hace eso por nosotros.
+
+10:00.900 --> 10:07.200
+Entonces aquí los invito a que descarguen esto se pueden hacer otro tipo de cosas se pueden hacer patrones
+
+10:07.290 --> 10:12.600
+y otras cosas interesantes con esto pero de esta manera tenemos variaciones rápidas en segundos.
+
+10:12.600 --> 10:21.690
+Por ejemplo aquí este es interesante no hacer nada más para terminar el código que es muy pequeño.
+
+10:21.770 --> 10:22.610
+2.
+
+10:22.790 --> 10:28.900
+Vamos que nuestro nombre tiene que ser de tantos caracteres voy a ponerlo aquí en el nombre igual os
+
+10:28.910 --> 10:31.750
+invito a que miren la documentación aquí.
+
+10:31.760 --> 10:34.510
+3.
+
+10:34.770 --> 10:36.660
+Guardarlo.
+
+10:36.660 --> 10:45.420
+Regresar aquí entonces probemos no tocó el campo necesario voy a poner fe y por favor Igrexa tres caracteres.
+
+10:45.550 --> 10:49.480
+R Ya sale pero en mi error está en inglés.
+
+10:49.490 --> 10:56.720
+Podemos hacer lo que vimos anteriormente atonalidad y pongamos Max Len.
+
+10:56.780 --> 10:58.640
+Vamos a ver Mindlin.
+
+10:58.860 --> 11:06.780
+Pues bueno ingresa ingrese al menos parentesis 0 caracteres.
+
+11:06.830 --> 11:14.010
+Podemos hacer de una vez el Max por qué no.
+
+11:14.120 --> 11:20.000
+El máximo es de cero caracteres
+
+11:22.960 --> 11:24.410
+máximo gravó.
+
+11:24.710 --> 11:26.030
+Vamos a cambiar acá.
+
+11:26.060 --> 11:30.240
+También tiene un Max lento y aquí un Max.
+
+11:30.260 --> 11:40.790
+Y lo voy a poner unos 10 gravó regreso al navegador web recargo probamos que voy a escribir fe ingresa
+
+11:40.830 --> 11:46.900
+al menos tres caracteres Fernando Herrera y vuelve a tirar el error.
+
+11:47.070 --> 11:52.700
+El máximo es de diez caracteres y ustedes pueden personalizar errores y los invito a que lean esta página
+
+11:53.170 --> 11:55.400
+de la actualidad hay información bastante útil.
+
+11:55.400 --> 11:58.460
+Aquí también tienen ejemplos tutoriales y otras cosas.
+
+11:59.000 --> 12:06.230
+Pero bueno si ustedes ven es una forma muy sencilla práctica económica por decirlo así porque es gratuita
+
+12:07.150 --> 12:14.030
+y la página queda bastante limpia bien validada con reglas correctas y es una herramienta bastante poderosa
+
+12:14.210 --> 12:15.530
+y bastante ligera.
+
+12:16.040 --> 12:17.800
+Bueno espero que les haya gustado esta sección.
+
+12:17.840 --> 12:21.680
+Si quieren profundizar más en temas de estos pues lo pueden inscribir en la sección de comentarios y
+
+12:21.680 --> 12:26.600
+con gusto sigo agregando más información a este curso de algunas de ellas.
+
+12:27.120 --> 12:28.520
+Bueno espero que les haya gustado.
+
+12:28.520 --> 12:29.680
+Los veo en la siguiente clase.

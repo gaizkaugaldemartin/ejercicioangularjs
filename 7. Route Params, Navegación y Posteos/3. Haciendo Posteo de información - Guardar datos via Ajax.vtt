@@ -1,0 +1,343 @@
+WEBVTT
+
+00:03.250 --> 00:07.440
+Ok bienvenidos nuevamente Ekklesia deambular les voy a pedir que por favor se descarguen el archivo
+
+00:07.440 --> 00:13.710
+que se encuentran en material adjunto son archivos PHP con el nombre alumnos punto guardad.
+
+00:13.770 --> 00:21.720
+Este es el la instrucción que utilizaremos para salvar la información en caso que sean solo actualizaciones
+
+00:21.840 --> 00:27.690
+a nuestra base de datos como se había dicho anteriormente esto no es una clase PHP por lo cual esto
+
+00:27.690 --> 00:34.770
+es una inserción convalidaciones básicas básicas muy genérico en la cual el nombre lo va a pasar siempre
+
+00:34.770 --> 00:40.470
+a mayúsculas se va a ejecutar esta instrucción de actualización se ejecuta aquí la variable hecho va
+
+00:40.470 --> 00:48.990
+a contener un uno o un error en caso de que suceda y va a responder un error falso si el registro lo
+
+00:48.990 --> 00:57.810
+hace la actualización correctamente o un error Tru con el mensaje de error que aparezca eso esto la
+
+00:57.810 --> 01:03.900
+información que se postea va a caer dentro de esta variable entiéndase por postear el procedimiento
+
+01:03.900 --> 01:10.890
+de actualización de datos Char envío de datos al servidor entiéndase por eso esos son posteo Ok empecemos
+
+01:11.570 --> 01:22.500
+escribiendo lo ocupamos esto lo vamos a mover a nuestra carpeta y Univer app de PHP servicios lo podremos
+
+01:22.510 --> 01:30.970
+sacar de nuestros alumnos y alumnas por dar alumnos lista entonces trabajaremos con los guarda que llevaremos
+
+01:30.970 --> 01:37.770
+nuestro proyecto tenemos acá y tenemos que trabajar en estos dos archivos
+
+01:40.500 --> 01:46.350
+aquí como ustedes pueden ver hay una función llamada English submit LVIII submit se va a encargar de
+
+01:46.860 --> 01:53.640
+trabajar y enviar toda esta información cuando el formulario es enviado al servidor o enviado a que
+
+01:53.640 --> 01:58.990
+se procese entonces esta función tenemos que crearla en nuestro alumnos.
+
+01:59.000 --> 02:07.080
+Controlar el punto votais empezemos Desktop punto cuando el alumno a ser igual a una función y listo
+
+02:07.440 --> 02:14.020
+no recibe ningún parámetro por lo cual trabajaremos directamente con el Escarp.
+
+02:14.040 --> 02:19.530
+De todos modos acuérdese que toda la información del alumno la tenemos en esta variable.
+
+02:19.560 --> 02:27.230
+Aquí voy a poner simplemente un mensaje de alerta hecho quiero enseñarles algo quiero enseñarles algo
+
+02:27.240 --> 02:28.670
+interesante.
+
+02:28.700 --> 02:33.110
+Nosotros queremos hacer una validación básica de que por lo menos todos los campos tengan que estar
+
+02:33.110 --> 02:39.150
+llenos exceptuando el código porque el código no se puede cambiar si ven aquí le puse alumnos punto
+
+02:39.170 --> 02:41.280
+nombre con la clase.
+
+02:41.780 --> 02:49.840
+O mejor dicho con el atributo Recuero o requerido este atributo es todo lo que tenemos que poner en
+
+02:49.840 --> 02:59.240
+los campos de texto Kotex áreas para que haga la siguiente el siguiente procedimiento.
+
+03:00.900 --> 03:02.570
+Imaginen voy a recargar el navegador web.
+
+03:02.580 --> 03:06.540
+Imagínense que el usuario no puso el teléfono pero el teléfono es obligatorio.
+
+03:06.540 --> 03:13.740
+Si toco podrán ver que se pone el foco ahí y no está apareciendo la alerta del mensaje no la voy a llenar
+
+03:13.740 --> 03:21.720
+de información poco guarda y ahí sí hace el posteo igual con el nombre voy a borrar el nombre que guarda
+
+03:22.320 --> 03:23.290
+iba a aparecer esto.
+
+03:23.320 --> 03:31.320
+Nosotros no programamos esto sólo fue el recuerdo lo mismo aquí me voy a poner aquí cualquier cosa y
+
+03:31.320 --> 03:39.540
+como pueden ver aparece el Tulip diciendo que el cuadro o la información es necesario o que eso es una
+
+03:39.540 --> 03:43.770
+validación muy sencilla muy fácil de hacer o que caigamos acá.
+
+03:43.770 --> 03:48.390
+Esta función se va a hacer cuando el formulario es enviado al servidor o para que se empiece a hacer
+
+03:48.390 --> 03:50.900
+su procesamiento.
+
+03:51.300 --> 03:58.300
+Cómo podrán pensar si va con la instrucción HTTP 2 HTTP punto y en vez de un jet.
+
+03:58.380 --> 04:00.410
+No es un jet porque no queremos obtener información.
+
+04:00.420 --> 04:07.070
+Es un post información a dónde queremos mandar la información.
+
+04:07.080 --> 04:12.020
+Acuerdense y unívocas PHP servicios alumnos guardar.
+
+04:12.120 --> 04:13.770
+Queremos mandarlo ahí.
+
+04:14.500 --> 04:21.840
+Entonces PHP aplica servicios fleta alumnos Goldar PHP y ahora qué queremos mandar.
+
+04:21.840 --> 04:30.640
+Vamos a mandar el disco vamos a usar todos nuestros Esco alumno o si todo esto lo hace bien Success
+
+04:31.520 --> 04:34.570
+todo lo hace bien llamará a la siguiente función.
+
+04:36.240 --> 04:43.470
+Entiéndase bien el hecho de que la información es enviada y retornada por abrir y recibir una respuesta
+
+04:43.470 --> 04:46.600
+del servidor en este caso nuestro chup chup.
+
+04:47.220 --> 04:53.020
+Voy a colocar aquí un Consol punto Log Data.
+
+04:53.020 --> 04:59.310
+Es esta data que está acá quiero imprimir en la consola todo lo que responda el servidor.
+
+04:59.460 --> 05:09.080
+Guardamos cambios regresar a mi programa voy a mostrar la consola ponerla aquí a al lado para que la
+
+05:09.090 --> 05:09.690
+pueda volver
+
+05:12.630 --> 05:15.660
+entonces si yo hago el posteo de la información
+
+05:18.610 --> 05:20.200
+si yo hago el posteo de la información
+
+05:23.080 --> 05:25.970
+hace el mensaje galeotes que no refrescaba la pantalla.
+
+05:26.270 --> 05:30.950
+Según el puesto de información aparece error falso y mensaje.
+
+05:30.960 --> 05:37.200
+Registro actualizado correctamente es decir si se está haciendo de manera adecuada.
+
+05:37.220 --> 05:42.950
+Ahora si ustedes quieren estar seguros de que la actualización se está haciendo voy a ponerla aquí Herrera
+
+05:43.820 --> 05:46.360
+aunque esté en minúscula tocó el botón.
+
+05:46.370 --> 05:51.890
+El mensaje se dice que fue autorizado correctamente y si yo regreso a El listado van a ver que aquí
+
+05:51.950 --> 05:52.660
+aparece.
+
+05:52.790 --> 06:02.390
+Hernando René Vallejo Herrera tocó acá y está en mayúsculas a quitar esto sólo voy a quitarle me cambios
+
+06:02.840 --> 06:08.770
+registro actualizado correctamente acá regreso y ven qué fácil es hacer este tipo de posteo.
+
+06:09.970 --> 06:23.080
+Sería sería útil manejar esto es decir poner algún mensaje de un mensaje aquí abajo una mole pongamos
+
+06:23.230 --> 06:34.340
+su mensaje diciendo registro actualizado con una clase de text subseries
+
+06:37.260 --> 06:43.910
+enseñarles esto no se hizo pero quiero enseñarles esto valdría la pena en vez de que aparezca la consola
+
+06:43.930 --> 06:45.100
+o un mensaje en pantalla.
+
+06:47.270 --> 06:57.410
+Ese mensaje en pantalla va a aparecer si y sólo si se actualiza se actualiza la información o punto
+
+06:58.660 --> 07:00.430
+actualizado igual.
+
+07:00.730 --> 07:10.730
+Fats recuperar esto y alumno HTML y esto se va a mostrar en Gijón.
+
+07:11.070 --> 07:19.930
+Solo si el mensaje es si y sólo si la bandera está marcada como verdadero y aquí le pondremos la clase
+
+07:19.970 --> 07:28.930
+a mi Maigret bail in fast agostó regresemos al navegador web y podrán observar que no aparece perfecto
+
+07:29.260 --> 07:31.180
+entonces si se hace el posteo correctamente.
+
+07:31.180 --> 07:33.010
+Lo único que tenemos que hacer es poner.
+
+07:33.010 --> 07:46.320
+Actualizado a true entonces si de la data que viene trae el error que traiga es igual a falso.
+
+07:46.840 --> 07:54.320
+Si no es verdadero o no has dicho si no hay error entonces actualizado.
+
+07:54.510 --> 08:01.590
+Punto actualizado igual Chuck el CSS se va a encargar de la animación.
+
+08:01.910 --> 08:04.790
+Entonces regresemos a la página web refrescamos.
+
+08:04.790 --> 08:13.390
+Guardo cambios y aparece el mensaje de registro actualizado sería bueno que esto se se removiera sólo
+
+08:13.390 --> 08:15.360
+con cierta cantidad de tiempo.
+
+08:15.940 --> 08:17.460
+Regresemos a nuestra.
+
+08:17.620 --> 08:26.960
+Nuestro código se muestra en mensaje y damos un taimado de que aparezca por cuanto unos tres segundos
+
+08:26.960 --> 08:38.590
+y medio a los tres segundos y medio va a ser igual a falso pero como esto es asíncrono y no es directamente
+
+08:38.590 --> 08:46.100
+una instrucción de la angula necesitamos decirle el angular que se actualice Scott junto a Plait.
+
+08:46.600 --> 08:53.050
+De esta manera le decimos si hacemos cambios asíncronos que no son de angula entiéndase por asíncronas
+
+08:53.050 --> 08:54.910
+procedimientos a destiempo
+
+08:57.730 --> 08:59.810
+es necesario hacer esta instrucción.
+
+09:00.090 --> 09:00.840
+Guardamos cambios.
+
+09:00.840 --> 09:09.610
+Regreso a mi navegador web qué cargo voy a poner aquí el teléfono que es el 34 45 6 6 7 8 tocó guardar
+
+09:09.700 --> 09:15.570
+registros hace desesperemos un momento y desapareció.
+
+09:15.750 --> 09:20.860
+Luego puedo volver a tocar el registro volver a pesar aparecer y a los 3 segundos si me va a desaparecer
+
+09:22.230 --> 09:23.100
+ok.
+
+09:23.170 --> 09:31.250
+Con esto tenemos cubierta las actualizaciones de datos de pronto cuando regreso me Vallejo.
+
+09:32.020 --> 09:41.520
+Entonces diésemos vamos a ver a Ana María Pineda hay que quitarle la palabra de María no sé dónde vive
+
+09:43.020 --> 09:48.540
+en la colonia lo guardo registro utilizado.
+
+09:48.630 --> 09:55.630
+Regreso aquí sólo sale Ana Pineda y está la información de su dirección actualizada correctamente.
+
+09:55.990 --> 10:00.680
+Entonces en la siguiente clase vamos a trabajar con inserciones de datos.
+
+10:00.780 --> 10:09.630
+Quiero mostrarles una cosa interesante en el archivo de guardar alguno guarda para la gente que sabe
+
+10:09.630 --> 10:10.560
+de PHP.
+
+10:10.560 --> 10:13.080
+Este formulario puede ser interesante.
+
+10:13.140 --> 10:19.770
+Por ejemplo se declara una variable de posdata que lo que hace es tener toda la información enviado
+
+10:20.240 --> 10:24.570
+ya serializada por decirlo así de nuestro punto alumnos.
+
+10:24.670 --> 10:32.790
+Todo el objeto que se decodifica a un rico es el recuesto lo pasamos a un arreglo y de esta manera ustedes
+
+10:32.790 --> 10:39.690
+pueden utilizar este request para obtener los valores de esta manera bastante sencillo.
+
+10:39.750 --> 10:44.610
+Aquí lo que estoy haciendo pasar a mayúscula pero ustedes pueden con este recuas mandar alguna clase
+
+10:44.610 --> 10:48.560
+o mandarlo cualquier cosa es bastante cómodo trabajar de esta manera.
+
+10:48.720 --> 10:55.260
+En este caso estoy haciendo el la actualización de los datos manualmente o podrán observar el nombre
+
+10:55.260 --> 10:57.520
+del campo en el campo.
+
+10:57.520 --> 11:05.490
+Este nombre del campo es exactamente el mismo que se encuentra aquí es el mismo en este caso teléfono
+
+11:06.720 --> 11:07.690
+teléfono.
+
+11:08.010 --> 11:12.620
+Sólo se actualizan estos datos y el código ustedes historia que hacer su propia actualización.
+
+11:12.780 --> 11:19.820
+Y aquí hago el llamado a la clase o construí que simplemente tengo que hacer ejecutar un zerbait con
+
+11:19.820 --> 11:20.400
+éste.
+
+11:20.490 --> 11:28.920
+Con la sentencia SQL respuesta hecho y se acaba responde un error.
+
+11:29.050 --> 11:36.230
+Sí si no es así no se actualiza o sea si regresa cualquier cosa que no sea uno y si es uno registro
+
+11:36.240 --> 11:39.580
+utilizado correctamente entonces los veo en la siguiente clase.

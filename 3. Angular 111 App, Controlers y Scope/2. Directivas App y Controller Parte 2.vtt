@@ -1,0 +1,394 @@
+WEBVTT
+
+00:00.720 --> 00:03.300
+Bienvenidos nuevamente a la segunda parte.
+
+00:03.660 --> 00:10.050
+Habíamos dejado este ejercicio de la siguiente manera cargando variables dinámicamente y poniéndolos
+
+00:10.050 --> 00:13.140
+en pantalla usando expresiones regulares de angula.
+
+00:13.150 --> 00:19.720
+A continuación lo que tenemos que hacer es agregar funcionalidades a nuestro sitio queremos poner por
+
+00:19.720 --> 00:26.410
+ejemplo cajas de texto donde la persona puede escribir y editar en tiempo real los datos desde guardar
+
+00:26.410 --> 00:31.920
+salvar entre otras cosas eso es sumamente sencillo de hacer en Angola.
+
+00:32.820 --> 00:35.250
+Entonces nuevamente vamos a abrir el proyecto.
+
+00:35.250 --> 00:41.180
+Yo lo tengo abierto y agregaremos los campos necesarios para la edición.
+
+00:41.260 --> 00:54.100
+En este caso vamos a poner después de nuestro Rou que es una etiqueta de una clase de buzo.
+
+00:54.100 --> 00:59.700
+Vamos a hacerlo nuevamente se van a separar escribiremos eso
+
+01:02.450 --> 01:07.150
+este mismo control lo pegamos.
+
+01:07.390 --> 01:17.300
+No ocupamos la imagen ni queremos que esto esté en el centro así nomás así plan escribiremos nombre
+
+01:17.330 --> 01:21.940
+dos puntos y pondremos un a cada texto Input text.
+
+01:22.070 --> 01:24.900
+Con la clase del vostra form control
+
+01:27.670 --> 01:31.900
+y el módulo podrán imaginarse que es igual.
+
+01:31.960 --> 01:35.680
+Cómo se llama El nombre lo que tiene acá.
+
+01:35.710 --> 01:43.240
+Sólo que como ya estamos utilizándolo dentro de una etiqueta o una directiva de angula no necesitamos
+
+01:43.240 --> 01:49.670
+poner esto acá sólo hay que poner eso cuando estamos usando el sours.
+
+01:49.840 --> 01:57.940
+Caso contrario no hay que ponerlo porque es una directiva de la angula si salvamos los cambios y regresamos
+
+01:57.940 --> 02:07.130
+a nuestro sitio vamos a refrescar la página podrán ver que aparece la caja salió un poco pequeño y a
+
+02:07.150 --> 02:14.590
+la izquierda vemos si yo cambio podrá ver que en tiempo real cambian los datos.
+
+02:14.590 --> 02:21.940
+Vamos a estirar de ese campo un poco vamos a poner uno de unos seis Salvago los cambios regresamos y
+
+02:21.940 --> 02:23.620
+ahí queda perfecto.
+
+02:23.740 --> 02:33.870
+Carlos Pineda Herrera por ejemplo esto haremos lo mismo con los otros campos otro se vamos a poner un
+
+02:33.870 --> 02:49.160
+salto de línea o Santorini no quedar de la misma manera es dar salto de línea para el avión no es normal
+
+02:49.190 --> 02:55.720
+porque es muy pequeño entonces usaremos otro otro controlador otro controla HTML que imagino que más
+
+02:55.720 --> 03:02.320
+de uno ya usó que es el Texeira o el text area.
+
+03:02.480 --> 03:12.760
+Para esto escribimos bio lospuntos text tap no ocupamos el nombre ni idea ni las columnas dejémosla
+
+03:13.020 --> 03:26.470
+1 cinco líneas estetización la clase obviamente con menos control el engine Model igual como se lo puedan
+
+03:26.470 --> 03:28.670
+imaginar es esto mismo.
+
+03:28.930 --> 03:33.760
+Esto mismo y aquí lo pegamos vamos cambios.
+
+03:33.910 --> 03:42.940
+Regresamos al formulario y si cambiamos aquí 40 y 45 tenemos un poco
+
+03:46.600 --> 03:53.440
+digamos que eliminar estos datos y como podrán observar en tiempo real se actualizan la información
+
+03:53.830 --> 03:57.750
+pero este comportamiento realmente no es el adecuado.
+
+03:57.820 --> 04:04.000
+Nosotros deberíamos de poder cambiar los datos cuando el usuario desea grabar los datos cuando el usuario
+
+04:04.000 --> 04:05.350
+ya quiere salvarlos.
+
+04:05.380 --> 04:10.540
+No cuando se está editando en tiempo real puede ser que en este momento se equivocara y quisiera regresar
+
+04:10.600 --> 04:12.440
+a como estaba la información original.
+
+04:12.580 --> 04:16.690
+Por eso esta alternativa no es muy eficiente por lo que queremos hacer.
+
+04:16.840 --> 04:19.420
+Entonces cómo se solventamos el problema.
+
+04:19.420 --> 04:28.840
+Muy sencillo vamos a regresarnos a nuestro programa entreguemos la carpeta J.S a p.ej. ese donde tenemos
+
+04:28.840 --> 04:37.420
+nuestras definiciones y vamos a empezar a usar el concepto de Skype Scopes como una variable global
+
+04:37.540 --> 04:41.850
+está fuera del controlador es más grande vive en el ámbito de angula.
+
+04:41.890 --> 04:47.110
+En general podemos poner propiedades tiene sus funciones sus métodos y otras cosas.
+
+04:47.130 --> 04:54.580
+Entremos en detalles más adelante por los momentos vamos a cambiar la variable profesor ya no queremos
+
+04:54.580 --> 05:00.520
+que haga referencia al ya no queremos que sea una propiedad del controlador profesor sino que queremos
+
+05:00.520 --> 05:03.960
+que sea una propiedad del Esco principal.
+
+05:04.030 --> 05:14.540
+De esta manera hacemos eso si salvamos los cambios aquí regresamos a nuestro índex HTML todavía aquí
+
+05:14.560 --> 05:17.060
+hace referencia al profe.
+
+05:17.160 --> 05:24.480
+En estos elementos si regresamos a nuestro navegador web van a ver que ya no funciona por qué porque
+
+05:24.480 --> 05:26.500
+ya no existe una propiedad que se llame profe.
+
+05:26.530 --> 05:30.980
+Punto profesor en el profesor en el controlador profesor.
+
+05:31.110 --> 05:34.280
+Pero existe una scoop.
+
+05:34.500 --> 05:35.640
+Van a ver qué es más sencillo.
+
+05:35.640 --> 05:42.000
+Yo sé que es un poco complicada la explicación pero cuando usamos variables del scoop lo tenemos que
+
+05:42.000 --> 05:46.910
+hacer referencia a ellas ya no ocupamos profe punto profesor.
+
+05:47.190 --> 05:55.560
+Sólo ocupamos profesor vamos a quitar de aquí también y de aquí también salvamos los cambios regresamos
+
+05:55.560 --> 05:56.680
+a nuestra página.
+
+05:56.880 --> 06:03.040
+Van a ver que ya funciona nuevamente aquí abajo no va a funcionar porque todavía sigue siendo referencia
+
+06:03.040 --> 06:05.320
+del viejo lado pero no va a ser referencia.
+
+06:05.320 --> 06:13.240
+Ahí empezamos a nuestro programa esta cajita de texto de 6 cm Storm vamos a hacerla de nuevo para que
+
+06:13.240 --> 06:15.100
+sea un poco más ancha.
+
+06:15.490 --> 06:21.590
+Regresamos a nuestra app p.ej. dice nuestro archivo y vamos a crear una nueva variable en el disco el
+
+06:21.590 --> 06:28.650
+disco principal que se va a llamar editando el cual inicia avisaremos es un arreglo vacío.
+
+06:28.780 --> 06:34.050
+Aquí es donde será una copia de El profesor.
+
+06:34.160 --> 06:41.600
+Cuando suceda algo salvamos los cambios y vamos a explicar qué es lo que queremos hacer aquí colocaremos
+
+06:41.660 --> 06:47.670
+un botón abajo que al presionarlo va a cargar los datos en pantalla.
+
+06:47.670 --> 06:54.630
+Luego con los datos ya modificados tendremos dos botones abajo uno que sea cancelar que revierta toda
+
+06:54.630 --> 07:02.670
+la información y el otro que sea guardar que aplicará los cambios y lo dejará grabados en memoria.
+
+07:03.920 --> 07:10.120
+Entonces empecemos primero hay que colocar el botón lo colocaremos abajo de la edad vamos a hacer un
+
+07:10.120 --> 07:18.910
+salto de línea escribiremos botón con la clase una clase bustos de TN de TN MTN Primi
+
+07:22.010 --> 07:25.500
+y escribiremos editara.
+
+07:25.990 --> 07:31.010
+Probamos los cambios vamos a nuestro navegador web refrescamos y podrán ver el botón y al hacer clic
+
+07:31.100 --> 07:38.970
+no hace absolutamente nada para eso incluiremos empezaremos a utilizar la siguiente directiva que es
+
+07:39.060 --> 07:39.900
+en clik
+
+07:43.970 --> 07:51.990
+recibe una expresión realidad lo queremos nosotros aquí es llamar a una función de angula no voy a bajar
+
+07:51.990 --> 07:58.080
+así por mientos regresaremos a nuestro chivó a Pepe apuntó J.V y tenemos que definir la función para
+
+07:58.080 --> 07:59.370
+definir una función.
+
+07:59.380 --> 08:01.480
+Seamos Escofet punto.
+
+08:01.890 --> 08:09.000
+El nombre de la función aquí puede ser tanto el controlador como el escudo pero vamos a mantenernos
+
+08:09.000 --> 08:14.330
+con el escudo para no complicar un poco el asunto es Kopp punto.
+
+08:14.340 --> 08:19.180
+En nombre de la función en este caso hacer editar profesor.
+
+08:19.470 --> 08:23.590
+Esto va a ser igual a una función que no recibe ningún parámetro.
+
+08:24.250 --> 08:27.830
+Ya ves qué queremos hacer.
+
+08:28.020 --> 08:37.620
+Queremos hacer una copia del profesor y que se almacene dentro de nuestro disco editando una manera
+
+08:37.620 --> 08:43.480
+muy sencilla de hacer eso es usar la siguiente instrucción angular.
+
+08:43.570 --> 08:44.910
+Punto copy.
+
+08:45.780 --> 08:48.030
+Abro paréntesis.
+
+08:48.030 --> 08:50.410
+Y qué queremos copiar.
+
+08:50.520 --> 08:53.680
+Queremos copiar nuestro punto profesor.
+
+08:55.320 --> 08:59.010
+Y a qué variable queremos que se le asignen esos valores.
+
+08:59.250 --> 09:09.370
+A escote punto editando guardamos los datos si queremos aquí un momento que está haciendo referencia
+
+09:09.370 --> 09:15.080
+a profe con profesor ya no es esto es editando.
+
+09:15.080 --> 09:22.270
+Entonces ya no es profe profesor editando apuntó nombre editando a punto de edad editando punto Tobío
+
+09:23.700 --> 09:25.070
+salvamos los cambios.
+
+09:25.080 --> 09:32.600
+Regresamos a nuestro navegador web de cargamos de nuevo los datos presionaremos el botón Editar y no
+
+09:32.610 --> 09:35.440
+funciona por qué.
+
+09:35.550 --> 09:42.280
+Porque esta función no la hemos asignado al botón.
+
+09:42.420 --> 09:51.660
+De esta manera ahora sí va a funcionar espero refrescamos la página con el botón y tenemos los datos.
+
+09:51.660 --> 10:00.200
+Entonces a continuación lo que sigue es crear los dos botones procedamos con ello entonces debajo de
+
+10:00.280 --> 10:06.160
+la BIOS es donde colocaremos los botones.
+
+10:07.060 --> 10:15.560
+Haremos un salto de línea o hacerlo dos veces creamos un botón de la misma manera que las MTN Primary
+
+10:17.500 --> 10:22.720
+con el click lo Bejar así puesto sólo la expresión.
+
+10:22.720 --> 10:25.420
+Tenemos que crear la función.
+
+10:26.050 --> 10:32.050
+Este se llamará guardar y el otro no va a ser programa y va a ser Bringer.
+
+10:32.110 --> 10:33.830
+Esas son clases de vostra.
+
+10:34.000 --> 10:46.660
+El siguiente vídeo va a ser una explicación de esto y aquí va a ser cancelar cancelar los datos revisamos
+
+10:46.660 --> 10:49.410
+el navegador web sólo para que miren los botones.
+
+10:49.700 --> 10:54.310
+Hay mucho espacio y podemos eliminar uno de estos quiere delinear.
+
+10:54.480 --> 10:58.440
+Ahí se ve mejor guardar cancelar editar guardar cancelar.
+
+10:58.610 --> 11:09.740
+Perfecto ahora creemos las funciones que vamos a Alape p.ej. ese tengo que crear dos una para el botón
+
+11:09.740 --> 11:18.320
+de Guardar Guardar cambios y hacer igual Alfonso no recibe ningún parámetro y tendremos la otra que
+
+11:18.320 --> 11:24.830
+va a ser cancelar cambios que es igual a una función que no recibe ningún parámetro.
+
+11:24.830 --> 11:30.390
+Entonces cómo sería la primera la de cancelar cambios.
+
+11:30.390 --> 11:36.570
+Yo sé que más de uno ya lo tiene en la punta de la lengua y es scoop punto editando como está la variable
+
+11:36.570 --> 11:37.330
+que los controlan.
+
+11:37.350 --> 11:42.420
+Va a ser igual el objeto vacío salvo algunos cambios.
+
+11:42.450 --> 11:48.370
+Regresamos al navegador web pues llevamos botón Editar cancelar.
+
+11:49.820 --> 11:58.410
+Recuerden por qué no pasa porque pasa porque no está asignada la función y vamos a hacer lo mismo con
+
+11:58.410 --> 12:02.720
+la otra para que no nos pase este error.
+
+12:02.790 --> 12:09.780
+Salvamos los datos les damos al navegador web refrescamos la pantalla presionamos el botón Editar aparecen
+
+12:09.780 --> 12:13.450
+los datos y aquí podemos poner otra cosa podemos tener 37.
+
+12:13.500 --> 12:20.430
+Juan Carlos de nuevo Herrera todavía no se cambian en pantalla y si presiono cancelar se van a limpiar
+
+12:20.430 --> 12:24.000
+los datos pero no cambia nada.
+
+12:24.000 --> 12:29.700
+Hagamos el botón de Guardar cambios como se podrán imaginar.
+
+12:29.730 --> 12:37.380
+Es exactamente esto mismo sólo que con los valores invertidos porque ya ahora queremos agarrar los datos
+
+12:37.380 --> 12:41.680
+que están en el scoop editando y pasarlos al profesor.
+
+12:41.700 --> 12:42.860
+Eso es todo.
+
+12:42.870 --> 12:51.390
+Salvamos los cambios pasamos a navegador web refrescamos la página tocamos editar Herrera y aquí pongámosle
+
+12:51.420 --> 12:59.790
+unos 35 años y aquí ya no queremos que diga todo esto sino que solo hasta termonucleares guardamos y
+
+12:59.790 --> 13:01.440
+se aplican los cambios inmediatamente.

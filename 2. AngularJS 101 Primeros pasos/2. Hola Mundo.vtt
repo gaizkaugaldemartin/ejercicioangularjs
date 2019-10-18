@@ -1,0 +1,169 @@
+WEBVTT
+
+00:03.850 --> 00:10.530
+O que en la clase anterior vimos cómo copiamos los archivos de angular J.S y el Bushra copiamos dentro
+
+00:10.530 --> 00:13.800
+de nuestro proyecto pero no lo hemos utilizado ahora.
+
+00:14.070 --> 00:20.250
+Este ejercicio el de hoy es el Hola Mundo es decir el ejercicio más fácil que se puede hacer en un lenguaje
+
+00:20.250 --> 00:27.250
+de programación así que no te preocupes y va a ser sumamente sencillo al abrir la carpeta podrás notar
+
+00:27.340 --> 00:33.720
+que hay un nuevo archivo llamado índex punto HTML que es una página web plana.
+
+00:33.820 --> 00:40.830
+Vamos a abrir dicho archivo con sus textos no pueden crear ustedes que no es más que un hecho de texto
+
+00:40.840 --> 00:44.140
+con esta información voy a dar un momento para que lo Copping.
+
+00:44.250 --> 00:52.300
+Tiene el doctas para decir que es una página web viene el meta que es la manera de decirle al navegador
+
+00:52.300 --> 00:55.600
+web voy a usar caracteres de tipo VF menos 8.
+
+00:55.600 --> 01:01.840
+En otras palabras voy a usar tildes y Añez y otros caracteres latinoamericanos y americanos por decirlo
+
+01:01.840 --> 01:02.050
+así.
+
+01:03.670 --> 01:09.600
+Ok ahora vamos a empezar a trabajar con el Sub20 como deberíamos.
+
+01:09.820 --> 01:15.830
+Vamos a aumentar un poco y vamos a arrastrar a la carpeta del ejercicio cero uno dentro del texto.
+
+01:15.910 --> 01:25.260
+Al hacer esto se va a parecer una barra lateral si no aparece entonces se van a BYU Zaibat y aquí les
+
+01:25.270 --> 01:29.100
+aparecería yo Sippar le hacen clic.
+
+01:29.710 --> 01:33.490
+Esta barra contiene todos los archivos y folders de nuestro proyecto.
+
+01:33.490 --> 01:38.950
+Como podrán ver aquí está el J.V la librería y la librería de.
+
+01:39.280 --> 01:46.110
+Como también están las vostra y demás.
+
+01:46.480 --> 01:49.330
+Vamos a empezar a crear nuestro Hola mundo.
+
+01:49.360 --> 01:52.150
+Para eso necesitamos incluir la librería de angula
+
+01:56.760 --> 01:58.700
+como es una librería JavaScript.
+
+01:58.700 --> 02:06.150
+Entonces ponemos un script presionamos Tab para que su LaTeX nos auto complete el código srs de sours
+
+02:06.640 --> 02:13.680
+y eso si se acuerdan está dentro de Jota ese Liev a volar .1.000 p.ej. es
+
+02:16.450 --> 02:25.900
+Leca angular .1.000 .3 listo ya tenemos incluido el ángulo y ahora para que nuestra página no se mire
+
+02:26.350 --> 02:27.210
+tan fea.
+
+02:27.310 --> 02:35.380
+Vamos a poner una página que se llama Vamos a incluir robusta pero incluir Busto qué se si se acuerdan
+
+02:35.390 --> 02:48.050
+está dentro del CSS CSS Bushra se busca .1.000 puntos CSS como éste es un estilo en HTML para incluir
+
+02:48.050 --> 02:55.760
+estilos es la palabra Link top solo hay Tecnolóxico completa y eso está dentro de CSS plica Bootstrap
+
+02:57.540 --> 03:05.620
+.1.000 punto CSS y ya tenemos incluido Ambás voy a ocultar el barco que en este momento no lo voy a
+
+03:05.620 --> 03:12.580
+ocupar como podrán notar también hay shortcuts si ustedes quieren ocultarlo automáticamente es comarca
+
+03:12.600 --> 03:17.680
+comande banca comande hace que aparezca como Alka.
+
+03:17.810 --> 03:21.430
+Aunque también hace que se oculte bien.
+
+03:21.770 --> 03:26.840
+Vamos a empezar con la hermosa crear nuestro Hola mundo puede crear un dip con la clase conteiner
+
+03:29.890 --> 03:36.660
+esto es una etiqueta de hecho mejor dicho una clase del buzo para hacer un contenedor.
+
+03:36.690 --> 03:43.680
+Nada del otro mundo son una caja de texto en medio para que se mira bonita dentro de la etiqueta H1
+
+03:44.670 --> 03:53.820
+lo que yo quiero hacer es Hola Mundo pero directamente de angula para decirle a la angula que voy a
+
+03:53.820 --> 03:59.190
+trabajar con él o sea que esta página va a ser controlada puramente por angula.
+
+03:59.550 --> 04:05.020
+Aquí en el html vamos a agregar la primera directiva.
+
+04:05.640 --> 04:08.370
+Se preguntarán qué es una directiva.
+
+04:08.370 --> 04:13.890
+Las directivas son pequeños bloques de instrucciones o complejos bloques de instrucciones pueden ser
+
+04:13.890 --> 04:15.330
+pequeños pueden ser grandes.
+
+04:15.330 --> 04:17.250
+Qué le dicen angular.
+
+04:17.460 --> 04:20.220
+Hay que hacer esto o hay que hacerlo otro.
+
+04:20.220 --> 04:25.970
+En este caso la directiva ya le dice angular todo lo que estás haciendo aquí.
+
+04:26.000 --> 04:31.550
+Toda esta página es controlada por mí por angula voy a darle.
+
+04:31.680 --> 04:39.840
+Ese para salvar esto es así como está si lo ejecutamos en el navegador puede darle salva puede abrir
+
+04:39.840 --> 04:43.540
+el nuestra carpeta de archivo.
+
+04:43.540 --> 04:47.820
+Voy a ejecutar el inexplicado HTML haciendo doble click o abriéndolo directamente en Chrome.
+
+04:47.990 --> 04:54.370
+Como podrán ver aparece Hola mundo pero aquí no hemos utilizado angular en lo absoluto.
+
+04:56.150 --> 05:06.260
+Si queremos ya empezar a utilizar angular en este caso vamos a poner doble llave voy a poner esto entre
+
+05:06.260 --> 05:16.460
+comillas porque es una variable de texto desde angular que es voy a poner la siguiente etiqueta cierro
+
+05:16.460 --> 05:24.290
+cierro Yards lo que quiero decir con esto es ok anular lo que está aquí dentro imprimirlo.
+
+05:24.370 --> 05:36.050
+Esta variable imprima la string imprima no salvamos regresamos al navegador web refrescamos y como podrán
+
+05:36.050 --> 05:40.340
+ver esto ha sido impreso por Angueira.
+
+05:40.370 --> 05:46.150
+Jota es bueno felicidades has hecho tu primer Hola Mundo desde ángulos.
+
+05:46.280 --> 05:46.880
+Sencillo no.

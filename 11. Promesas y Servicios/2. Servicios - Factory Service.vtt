@@ -1,0 +1,802 @@
+WEBVTT
+
+00:03.250 --> 00:09.570
+Bienvenidos nuevamente a esta sección de servicios promesas y otras cosas.
+
+00:09.570 --> 00:15.660
+Primero que nada en el material adjunto los comprimen y tener dos carpetas de un archivo de texto pueden
+
+00:15.660 --> 00:22.080
+abrir y yo les voy a explicar qué es esta cuestión y por otro lado tienen la carpeta del ejercicio tal
+
+00:22.080 --> 00:24.530
+cual lo dejamos en la clase anterior.
+
+00:24.600 --> 00:32.130
+Esto es porque queremos trabajar ya con esto lo único que si le dices que le metí el busto eso es oro
+
+00:32.160 --> 00:35.890
+porque no me gusta cómo se miran las cosas así es pero allá ustedes.
+
+00:36.360 --> 00:38.370
+Eso fue lo único que hice lo más sencillo es tal cual.
+
+00:39.120 --> 00:40.680
+Entonces qué es lo que haremos hoy.
+
+00:40.800 --> 00:49.640
+Vamos a trabajar con servicios que son creados a través del método Factory triangula algunos datos se
+
+00:49.640 --> 00:56.060
+conocen como Factory seis meses pero es dependiendo de donde ustedes lo encuentren.
+
+00:56.080 --> 01:02.060
+Bueno vamos a abrirlo en nuestro proyecto Text y van a ver que aquí está lo que es la introducción me
+
+01:02.070 --> 01:07.080
+gusta y vamos a hacer un par de modificaciones a este proyecto.
+
+01:09.460 --> 01:16.480
+Primero que nada voy a quitar esto de mi bar no lo vamos a mostrar esto en angular controladores vamos
+
+01:16.480 --> 01:25.240
+a quitar todo esto vamos a dejar el controlador pelado vamos así nomás vamos a quitarle el nombre Main
+
+01:25.270 --> 01:36.800
+controller a personas personas Controller que no vamos a ocupar la promesa o el servicio de diferidos
+
+01:36.800 --> 01:40.380
+aquí vamos a quitar el servicio o servicio.
+
+01:41.120 --> 01:49.150
+Lo vamos a dejar así pelado personas Esco algo sencillo y aquí ya no se va a llamar controlar a otras
+
+01:49.160 --> 01:57.590
+personas controlar que vayan así si te han pedido un tienen problemas con el pasa y sigamos adelante.
+
+01:57.590 --> 02:10.110
+Voy a quedarme un nuevo archivo en angular plica servicios J es aquí donde empezaremos a crear estas
+
+02:10.110 --> 02:11.220
+cosas.
+
+02:11.460 --> 02:14.910
+Igual voy a copiar esta línea de promesas controladores.
+
+02:15.300 --> 02:21.610
+Voy a poner acá pero aquí será servicios seamos una nueva.
+
+02:21.700 --> 02:25.860
+Nuevo nombre acá en el App punto J.V.
+
+02:26.070 --> 02:28.780
+Se acuerdan que teníamos habíamos importado controladores.
+
+02:28.800 --> 02:36.300
+Ahora vamos a importar los servicios esto ustedes lo pueden ordenar como les parezca como les parezca
+
+02:36.300 --> 02:37.190
+más ordenado.
+
+02:37.200 --> 02:41.650
+Mucha gente hace esto para ponerlos así en líneas.
+
+02:41.740 --> 02:43.050
+Igual va a funcionar.
+
+02:43.050 --> 02:46.290
+No se preocupen.
+
+02:47.110 --> 02:53.110
+Hemos creado un nuevo archivo que ocupamos que es requerido para nuestro módulo principal y debemos
+
+02:53.110 --> 02:59.320
+importarlo acá servicios no importa si está antes o después de controladores.
+
+02:59.320 --> 03:01.520
+Lo importante es que esté después de.
+
+03:01.600 --> 03:04.580
+Después de esta parte de la PP y abajo de algún árbol.
+
+03:04.780 --> 03:06.140
+Eso es todo.
+
+03:06.660 --> 03:14.540
+Gravó y ahora sí viene lo bueno y lo bueno qué es lo que queremos hacer antes de que empecemos a hacer
+
+03:14.810 --> 03:18.230
+ese código extraño verdad que esto no tiene mucha ciencia.
+
+03:18.230 --> 03:26.600
+Aquí en él en personas controles puede definir un punto personas que son objeto lógicamente son objeto
+
+03:28.780 --> 03:30.520
+en el índex HTML.
+
+03:30.550 --> 03:37.370
+Vamos a poner aquí Klaus Conteiner del Bushra Borrow.
+
+03:37.500 --> 03:52.140
+Vamos a hacer aquí un H1 servicios HRE una línea haremos un y vamos a imprimir el objeto personas en
+
+03:52.170 --> 03:53.630
+un formato Gyatso.
+
+03:54.750 --> 04:01.800
+Pero vamos a irnos abramos ese ejercicio y una vez hecho para que vean qué es lo que estamos haciendo
+
+04:03.070 --> 04:06.840
+los servicios somos las consolas no debe aparecer ningún error.
+
+04:06.900 --> 04:11.880
+Si sale un error en el video y miren que qué faltó o no.
+
+04:12.400 --> 04:13.170
+Ok sigamos
+
+04:15.840 --> 04:20.380
+controladores vamos a parar vamos a pasar un objeto llamado Data.
+
+04:20.400 --> 04:30.330
+Por decir algo se puede llamar como sea no data nuestra data es un arreglo de objetos por ejemplo nombre
+
+04:31.010 --> 04:38.610
+sin nombre no necesario las comillas guachimanes comillas pero ya van a ver porque los tri-Ace Fernando
+
+04:40.560 --> 04:52.830
+da 30 y termina con tricomas sólo lo cree así recargó y no va a aparecer aquí el objeto o lo que queremos
+
+04:53.050 --> 04:53.380
+ser.
+
+04:53.470 --> 04:55.790
+Queremos crear un servicio que nos regrese toda esta información.
+
+04:57.290 --> 05:04.870
+Le vamos a poner aquí también cargando como fotos por decir algo.
+
+05:05.690 --> 05:07.560
+Yo le voy a explicar para qué es eso.
+
+05:07.690 --> 05:15.410
+Ven que ahí va creándose el objeto nosotros no queremos que toda nuestra lógica o mejor dicho nuestra
+
+05:15.410 --> 05:17.750
+lógica no debería estar en el controlador.
+
+05:17.840 --> 05:25.520
+Debemos de segmentar para crear procesos encapsulados funciones totalmente funcionales por sí mismos
+
+05:25.580 --> 05:30.430
+y cuando ocupemos manejar personas en otro lado simplemente usaríamos el servicio.
+
+05:31.580 --> 05:41.250
+O qué vamos a hacer esta tecnología aquí en servicios por si vamos a empezar a APP punto Factory le
+
+05:41.250 --> 05:41.860
+pueden dar.
+
+05:41.910 --> 05:48.550
+Si ya tienen eso se va a crear si no les voy a explicar aquí paso a paso el nombre del servicio personas
+
+05:48.750 --> 05:52.520
+se le pueden poner el nombre que se qué.
+
+05:53.590 --> 06:00.180
+Qué requerimientos va a tener esto pues va a tener va a ocupar el HTTP porque vamos a hacer un rico
+
+06:00.180 --> 06:08.770
+West mediante promesas como dije promesas entonces hay que poner el servicio qu Koma y a quién Folsom.
+
+06:08.790 --> 06:19.200
+Vamos a pedir HTTP como los de este tipo de servicio necesita regresar un objeto en este caso por defecto
+
+06:19.230 --> 06:25.260
+me está regresando una función pero no vamos a entrar en eso ya no nos vamos a complicar como está como
+
+06:25.260 --> 06:28.820
+estaba puesto que es una manera correcta de hacerlo.
+
+06:29.280 --> 06:31.790
+Nosotros vamos a crear todo el objeto.
+
+06:32.030 --> 06:33.190
+Ok empecemos.
+
+06:33.250 --> 06:40.190
+Bar Sails que es un estándar en muchos lados esto es lo que vamos a regresar todos a regresar.
+
+06:41.090 --> 06:43.900
+Returning set vamos regresar.
+
+06:43.930 --> 06:50.970
+Esto qué pasaría o piensen ustedes qué pasaría si llego yo lo que yo quiero regresar es esto qué pasa
+
+06:50.970 --> 06:52.560
+si ocupo todo esto.
+
+06:52.560 --> 06:54.780
+Estoy acá controlé me voy acá.
+
+06:54.920 --> 06:57.900
+Controlé es lo mismo.
+
+06:57.950 --> 07:01.620
+Si decimos sólo lo vamos a mover de aquí adentro de nuestro servicio.
+
+07:01.620 --> 07:05.310
+Voy a grabar todo aquí lo voy a quitar.
+
+07:05.450 --> 07:09.980
+Voy a ser que simplemente sea lo que yo guardo.
+
+07:09.990 --> 07:12.740
+Esto no tiene nada que ver el servicio no está puesto en ningún lado.
+
+07:12.740 --> 07:18.720
+Simplemente quiero que vean que se va que se limpia toda esta parte el servicio está creado.
+
+07:19.040 --> 07:27.350
+Tenemos nuestro controlador y también tenemos la dependencia o la inyección de este servicio son nuestros
+
+07:27.340 --> 07:30.550
+nuevos servicios cómo usamos este servicio.
+
+07:32.250 --> 07:39.360
+Muy fácil en el taller donde queremos usar el servicio en la parte de la definición del controlador
+
+07:40.660 --> 07:46.130
+vamos a ponerle en cualquier lado otro objeto así como mandamos el cubo mandamos andamos el HTTP.
+
+07:46.390 --> 07:51.470
+Aquí vamos a mandar personas como sintácticamente como está esto.
+
+07:51.750 --> 07:57.920
+Personas personas Koma y acuerdense que si ponemos otro parámetro acá hay que ponerlo aquí.
+
+07:58.160 --> 08:04.980
+Personas ahora este es todo un objeto que ese sujeto es lo que sea que tengamos definido.
+
+08:06.420 --> 08:11.440
+Entonces si llegamos nosotros esperamos aquí personas salvo los cambios.
+
+08:11.440 --> 08:13.670
+Regreso acá y recargo navegador web.
+
+08:13.690 --> 08:19.730
+Tenemos el mismo resultado exceptuando de que ahora nuestro controlador está más limpio.
+
+08:19.780 --> 08:25.150
+Sabemos que esto es un servicio y sabemos que están en la carpeta servicios y sabemos que podemos modificar
+
+08:25.150 --> 08:27.570
+esto valga la redundancia de servicios.
+
+08:27.580 --> 08:29.310
+Pero bueno ustedes capta la idea.
+
+08:30.860 --> 08:37.190
+Ok entonces vamos a agregarle un poco de complejidad a estos el servicio no tiene sentido que regrese
+
+08:37.190 --> 08:39.630
+algo estático data estática.
+
+08:40.560 --> 08:42.470
+No tendría razón de ser.
+
+08:42.470 --> 08:52.160
+Vamos a hacer que se pegue a una a un aplicativo que está en internet que nos va a construir data ficticia
+
+08:52.320 --> 08:59.220
+la vamos a traer acá mediante el HTTP recuesto lo vamos a hacer asíncrono mediante una promesa y lo
+
+08:59.220 --> 09:06.010
+vamos a mostrar acá y esto nuestros controladores no deberían de ser afectados.
+
+09:06.070 --> 09:07.570
+Nada.
+
+09:08.610 --> 09:14.910
+Empresas primero que nada vamos a crear una función Seitz.
+
+09:15.210 --> 09:17.160
+O sea este objeto.
+
+09:17.160 --> 09:18.410
+Punto.
+
+09:18.720 --> 09:27.960
+Cargar data es igual a una función con paréntesis ya ves el tiempo o si esto les parece errado esto
+
+09:27.960 --> 09:29.270
+es puro JavaScript.
+
+09:29.270 --> 09:34.860
+Pronto subire el curso de JavaScript porque es muy interesante este tipo de conceptos por bueno que
+
+09:34.860 --> 09:41.550
+sepan ahí está si no lo único que estoy haciendo acá es que al liceo ya está listo y agregando una nueva
+
+09:41.550 --> 09:53.470
+función esto esto entonces voy a hacer referencia al ser punto cargando igual Tru o sea en este momento
+
+09:53.470 --> 09:58.120
+en el momento en que yo llame esta función esta variable va a cambiar esto voy a decir es que estás
+
+09:58.120 --> 10:05.820
+cargando data por consecuencia inmediatamente aquí ser aquí se va a ver el cambio de esta variable que
+
+10:07.040 --> 10:13.040
+se acuerdan cómo decíamos que íbamos a hacer promesas cómo empezaron las promesas entonces decíamos
+
+10:13.130 --> 10:19.920
+que necesitamos definir una variable que es igualar el servicio como punto de Fert referido punto y
+
+10:19.930 --> 10:20.230
+coma.
+
+10:23.860 --> 10:28.800
+Voy a hacer un paréntesis aquí para tener espacio para trabajar y empecemos lo bueno.
+
+10:29.170 --> 10:39.460
+Http: punto aquí Jayson son P Jayson P es para traer información de lugares fuera de nuestro dominio
+
+10:40.910 --> 10:45.900
+puede ser que esto lo estamos ejecutando local en la carpeta o ya no está en el local justo estaba carpeta.
+
+10:46.690 --> 10:48.620
+Y qué es lo que va a traer.
+
+10:48.720 --> 10:54.350
+Voy a dejarlo así por un momento si lo hace correcto.
+
+10:54.950 --> 11:06.480
+Folsom si lo hace correcto voy a poner aquí function Success a poner una data y si lo hace
+
+11:09.880 --> 11:15.350
+si lo hace correcto es esto y si lo hace mal Junction error.
+
+11:18.130 --> 11:30.480
+Voy a poner aquí el responsable el error es un tipo ok Ellison va a hacer una petición al servidor y
+
+11:30.480 --> 11:33.440
+si lo hace correcto va a pasar esto y si lo hace mal va a ser esto.
+
+11:33.630 --> 11:38.460
+Se acuerdan del ejercicio anterior donde había una decisión pues es ahí ya van agarrando espero que
+
+11:38.460 --> 11:46.370
+habían agarrado que es lo que estamos haciendo hoy un servicio es que ningún Jayson genera Itto que
+
+11:46.380 --> 11:54.540
+sería esta dirección Jayson Generator puntocom en el archivo aquí donde vamos a usar el archivo que
+
+11:54.540 --> 11:57.540
+ustedes encontraron que era para el generador para copiarse.
+
+11:57.570 --> 12:06.780
+Todo esto lo vamos al generador no van a reemplazar por todo esto que está acá más grande debería de
+
+12:06.780 --> 12:09.860
+funcionar aquí ustedes especifican cuánta data quieren.
+
+12:09.990 --> 12:15.400
+En este caso se nos pueden dejarlo en 5 de cinco registros.
+
+12:15.450 --> 12:22.840
+La edad va a estar oscilando entre 20 a 40 y va a traer un hombre cualquiera genera y aquí tienen su
+
+12:22.840 --> 12:27.870
+data su data particular importante.
+
+12:27.970 --> 12:29.870
+Le vamos a tocar el botón aquí ok.
+
+12:32.030 --> 12:41.150
+Ya se subió y ahora kopi tu clip por Ocuppy vuelve a ser lo que ustedes quieran copy clip por si nosotros
+
+12:41.150 --> 12:44.300
+abrimos una nueva pestaña y pegamos.
+
+12:44.790 --> 12:51.590
+Copio y Chaverra lo quiero ver pero si vamos a una pestaña le damos control ve bien dice Jason Dereito
+
+12:51.620 --> 12:52.420
+puntocom.
+
+12:52.450 --> 12:56.990
+Pillais son clavarla la y nos aparece esto.
+
+12:57.020 --> 13:01.830
+Ustedes pueden quitar este parámetro de intentados lo dejan así para que salga en una sola línea.
+
+13:03.290 --> 13:07.030
+Ok ahí lo tendremos.
+
+13:07.360 --> 13:09.260
+Vamos a copiar toda esta instrucción.
+
+13:10.410 --> 13:19.100
+Controlé vamos a aquel código y vamos a pegarlo acá así tal cual vino allá arriba.
+
+13:19.730 --> 13:25.160
+Pero es importante lo siguiente muy importante y si lo dejan así les va a dar un error de Cross Domain
+
+13:25.530 --> 13:31.560
+CETC van a poner este parámetro signo de dólar signo de interrogación.
+
+13:31.570 --> 13:32.170
+Kovac
+
+13:34.610 --> 13:36.940
+Kovac igual.
+
+13:37.190 --> 13:42.770
+Jayson en mayúscula ni un bajo Kovac en mayúscula.
+
+13:42.770 --> 13:47.420
+Esto es simplemente pareciera que es una función que se retornó y está Ladakh.
+
+13:47.570 --> 13:54.680
+Con esto se iba a funcionales okey Kovac igual yo hizo un balance que estamos trayendo de este servicio
+
+13:54.680 --> 13:57.260
+de internet.
+
+13:57.410 --> 14:04.610
+Simplemente voy a hacer aquí el consuelo de la data voy a ser un consuelo.
+
+14:04.610 --> 14:06.010
+Todo bien.
+
+14:07.430 --> 14:09.650
+Y aquí voy a poner.
+
+14:09.980 --> 14:16.250
+Una carita triste y Consol no solo ver la carita triste de que algo pasó mal.
+
+14:17.940 --> 14:22.330
+Votó cerrar esto un poco.
+
+14:22.390 --> 14:26.500
+Acuérdense que esta es nuestra función y qué es lo que queremos hacer.
+
+14:26.500 --> 14:33.550
+Bueno esto ya no lo ocupamos la data de toda esta data la podemos dejar vacía no vamos a vaciar la data
+
+14:36.210 --> 14:38.820
+y apenas sea llamado el servicio.
+
+14:38.920 --> 14:40.630
+Ocupamos cargar esta información.
+
+14:40.630 --> 14:46.090
+O sea queremos que cuando el servicio solicitado inmediatamente haga la petición a nuestro banco esta
+
+14:46.120 --> 14:49.710
+página de internet traiga la data cómo hacemos eso.
+
+14:49.950 --> 14:53.460
+Pues sencillo presuntamente vamos a hacer X 0 Punto.
+
+14:53.610 --> 15:01.990
+Cargar data data ese punto cargar data cuando esa instancia de un servicio llega y empieza a barrer
+
+15:02.000 --> 15:03.550
+todo esto secuencialmente.
+
+15:03.890 --> 15:09.680
+Llega la función pues se entra a la función y ejecuta esto y cuando ya termina de hacer esto regresa
+
+15:09.690 --> 15:11.350
+al set.
+
+15:11.450 --> 15:14.050
+Ojo todavía no estoy usando la promesa.
+
+15:14.180 --> 15:20.540
+Es decir cuando se ejecuta esta función todo y no hay nadie del que se retienes que regresar la promesa
+
+15:20.540 --> 15:22.500
+de que ok lo hice lo hice bien.
+
+15:22.550 --> 15:29.690
+Todavía no estamos usando eso simplemente vamos a ver en la consola el objeto vacío de la data pero
+
+15:30.170 --> 15:34.550
+en un momento debimos de aparecer en la cual debería aparecer la consola que se hizo la petición.
+
+15:34.550 --> 15:36.090
+Eso es lo que estoy esperando que pase.
+
+15:36.970 --> 15:49.780
+Ojalá que las promesas Recaro navegador web esperemos un momento saber puede demorar su rato porque
+
+15:49.890 --> 15:53.780
+ya tengo mucho más saber que pasó Yeison P.
+
+15:54.430 --> 15:56.920
+Cargar data cargar data.
+
+15:56.920 --> 16:00.940
+Voy a escribir aquí con solo función llamada
+
+16:03.990 --> 16:04.890
+cargo.
+
+16:05.190 --> 16:06.000
+Ahora sí lo hizo.
+
+16:06.000 --> 16:06.690
+No sé qué pasó.
+
+16:06.690 --> 16:10.850
+Tardó tanto su su rato en responder pero bueno ahí lo hizo.
+
+16:10.860 --> 16:16.190
+Aquí tenemos nuestra data no aquí la data aquí están nuestros.
+
+16:16.200 --> 16:17.430
+Aquí están nuestras personas.
+
+16:20.500 --> 16:28.810
+Voy a regresar aquí vamos bien voy a borrar esto yo no voy a decir ah perfecto yo sé que la data destaca
+
+16:29.440 --> 16:32.530
+la data está ni un momento que se llama data.
+
+16:32.590 --> 16:33.800
+Listo listo listo.
+
+16:34.300 --> 16:36.710
+Entonces nos van a decir o ser igual.
+
+16:36.750 --> 16:40.480
+Carga puntos cargando igual fotos.
+
+16:40.530 --> 16:49.220
+Perfecto es que pensó eso pues perfecto y punto data igual la data de acá data es igual a Vine aquí
+
+16:49.260 --> 16:58.250
+sonará raro esto data apuntó data porque nuestro toca la data.
+
+16:58.790 --> 17:03.380
+En este renglón entonces para que no nos confundamos pongamos la respuesta.
+
+17:03.530 --> 17:06.900
+Respuesta La mejor respuesta de respuesta.
+
+17:09.310 --> 17:16.320
+El punto data es igual la respuesta punto de datos lo que venga lo va a meter ahí y seguimos y listo.
+
+17:16.400 --> 17:21.520
+Miren aquí va a pasar algo que no debe no se debe de hacer mediante promesas.
+
+17:21.560 --> 17:27.860
+Va a funcionar acá porque se está haciendo muy rápido pero no es la manera de hacerlo cargo y vamos
+
+17:27.850 --> 17:36.500
+a ver que ya hizo la petición y ahí hizo la solicitud de la información al servidor y actualizó el Skype
+
+17:36.840 --> 17:40.770
+pero no debería ser esto hecho de esta manera.
+
+17:40.770 --> 17:49.100
+Aquí cuando son procesos asíncronos debemos utilizar las promesas o sea usar el servicio como está acá.
+
+17:49.800 --> 17:56.100
+Entonces vamos a arreglar esto un poco el código arreglemos esto un poco para que funcione mejor.
+
+17:58.120 --> 18:06.660
+Esto lo voy a quitar y esto lo voy a quitar y todo esto toda esta parte de la vida la vamos a eliminar
+
+18:06.900 --> 18:09.230
+vamos a hacerlo de la manera correcta.
+
+18:09.450 --> 18:20.040
+Acuérdense nosotros nosotros ocupamos decirle a la promesa a quien llamó la promesa al Skype de decirle
+
+18:20.100 --> 18:27.670
+okey angular ya hice el trabajo de ir a traer la data aquí la tienes o dio algún error y €200 no puede
+
+18:27.670 --> 18:30.420
+hacer algo así tiene que ser esta parte.
+
+18:31.230 --> 18:33.240
+Entonces vamos a hacer
+
+18:36.110 --> 18:39.050
+hacer la respuesta punto.
+
+18:39.110 --> 18:48.660
+Haciendo referencia a nuestro servicio como punto precisó y una vez hagamos el punto reject voy a poner
+
+18:48.660 --> 18:58.830
+aquí el error error al cargar y podemos podemos ponerle también vayámonos pueden mandarla Response de
+
+18:58.870 --> 19:00.210
+Perrot también si ustedes quieren.
+
+19:02.350 --> 19:08.290
+Ok qué es lo que va a resolver esta función qué es lo que va a resolver.
+
+19:08.530 --> 19:12.230
+Entonces lo que nos interesa a nosotros es la data como tal.
+
+19:12.250 --> 19:13.860
+Respuesta punto data.
+
+19:15.360 --> 19:16.730
+Eso es lo que nos interesa.
+
+19:17.040 --> 19:19.470
+Y si no puede ser puede regresar un error.
+
+19:20.010 --> 19:26.130
+Acuérdese que aquí estamos llamando la función pero vamos a hacerla con la promesa aquí o en introducir
+
+19:26.130 --> 19:28.400
+muy superficialmente lo que se llama el RUT.
+
+19:28.420 --> 19:35.550
+Esto es como el Skype pero es lo que está arriba arriba es antes del Eshkol pero voy a hacer una clase
+
+19:35.890 --> 19:42.660
+una sección definida sólo para ese elemento erótico porque es importante creo que no se cubrió mi curso
+
+19:43.770 --> 19:44.710
+pero bueno.
+
+19:44.930 --> 19:47.330
+Imagínense el robot Skype como el papá del Skype.
+
+19:47.340 --> 19:50.160
+Eso es todo por ahorita es el padre de Skype.
+
+19:50.320 --> 19:53.850
+Entonces eso es todo lo que ocupamos por los momentos.
+
+19:53.850 --> 20:00.710
+Por qué no podemos decir bueno pero en la clase pasada vimos que quieren les cojunto programes igual.
+
+20:01.080 --> 20:05.830
+Cargar data pero aquí esto va a dar un error muy gorda.
+
+20:05.940 --> 20:12.290
+Bueno un error porque les Kop no está definida porque no está definido porque no está puesto acá.
+
+20:12.290 --> 20:19.700
+En este caso voy a usar el robot Esco robot Skype Koma y acuerdense que si yo inyecto algo acá tengo
+
+20:19.700 --> 20:31.820
+que inyectarlo aquí Rouch Skype en este caso va a funcionar muy parecido Cusco va a ser la promesa del
+
+20:31.830 --> 20:32.760
+Cusco.
+
+20:33.030 --> 20:36.220
+Punto.
+
+20:37.340 --> 20:39.140
+Punto de acuerdense.
+
+20:39.170 --> 20:40.210
+Son dos funciones.
+
+20:40.220 --> 20:50.550
+La acción positiva y la acción negativa function parentesis esta es la positiva y la segunda es cuando
+
+20:50.550 --> 20:59.350
+es el reject como opción paréntesis o paréntesis bajo punto y coma.
+
+20:59.580 --> 21:08.550
+Aquí voy a poner la data porque es lo que estamos mandando es sólo la información y aquí el error fue
+
+21:08.550 --> 21:18.390
+mandar un error y decir aquí un solo un error un error error.
+
+21:19.710 --> 21:26.540
+Y aquí vamos a hacer lo siguiente es una de las ventajas del Josquin que esto está pasando por referencia.
+
+21:27.120 --> 21:35.250
+Entonces Shelf punto data es igual a la data que estamos mandando acá y también ocupamos decirle que
+
+21:35.250 --> 21:41.250
+ya terminó de cargar es ahí cuando llamamos a la función se cambió y ocupamos ahora decir que ya terminó
+
+21:41.250 --> 21:44.850
+de cargar cero punto.
+
+21:45.330 --> 21:55.230
+Cargando Alfonso falso ya terminó de cargar y muestra la rata ciudad un error pues igual va a mostrar
+
+21:55.290 --> 21:56.670
+que ya terminó de cargar.
+
+21:56.670 --> 22:07.170
+Sería bueno poner ahí una nueva crisis diciendo mensaje de error o un mensaje y vamos a definirlo así
+
+22:07.170 --> 22:14.760
+vacío mensaje el mensaje va a contener exitosamente o termino con error.
+
+22:15.330 --> 22:18.550
+Igual aquí pondremos el punto mensaje.
+
+22:18.540 --> 22:23.070
+Igual información cargada correctamente
+
+22:25.780 --> 22:33.890
+y aquí si lo hace mal pues error al cargar Data Bueno dejémoslo así.
+
+22:38.040 --> 22:48.320
+Y luego bueno esto cambia los valores y debería refrescarse en el disco Cosas recargar y tenemos otro
+
+22:48.320 --> 22:56.780
+error aquí dice que no se puede leer de algo que no está definido y esto es porque se me fue se me fue
+
+22:56.930 --> 23:03.060
+porque hay veces que se acuerda en el video anterior le dije siempre que pone en un punto diferente
+
+23:03.500 --> 23:05.460
+que el ratón sea un ratón.
+
+23:05.600 --> 23:11.880
+Entonces por cuestiones didácticas a mí se me fue también plata y eso es lo que pasa aquí.
+
+23:12.020 --> 23:12.920
+Tonto.
+
+23:13.010 --> 23:14.590
+Otro conjunto.
+
+23:15.310 --> 23:22.360
+Si eso es lo que está esperando estoy esperando que le que todo el objeto retocó y ahora si guardamos
+
+23:22.360 --> 23:28.120
+los cambios requeríamos navegador web y ustedes pueden ver aquí la variable dice lo que está cargando
+
+23:29.710 --> 23:30.620
+dice.
+
+23:30.820 --> 23:32.800
+Hay un lobby.
+
+23:32.830 --> 23:37.040
+Nosotros podemos si quieren para que esto se mira mejor un time out después de que la información requiere
+
+23:37.410 --> 23:42.690
+que demore un segundo se demoró un segundo en hacerla.
+
+23:42.690 --> 23:51.350
+En la resolución sólo para fines didácticos esto no debería ir entonces ven cargando termina de cargar
+
+23:51.920 --> 23:53.750
+información cargada correctamente.
+
+23:55.500 --> 24:00.900
+Esto se hace de esta manera para que ustedes tengan un control en la página en las páginas de estilo
+
+24:00.900 --> 24:15.970
+ustedes pueden hacer algo como un Leuven Class Lebon Primary y poder cargando data esto debería verse
+
+24:15.970 --> 24:26.140
+sólo si ponen en Guillou sólo si personas junto cargando solo sobrellevarse si está cargando
+
+24:28.840 --> 24:33.560
+y pueden observar ahí ahí lo está haciendo.
+
+24:33.610 --> 24:38.610
+Sé que esto ha sido un video largo ha sido pesado pero lo vamos a dejar así después.
+
+24:38.630 --> 24:41.930
+Próximamente profundicé profundizaremos más en estos temas.
+
+24:42.430 --> 24:46.630
+Entonces espero que esto les haya gustado y les haya servido de poco a poco vamos haciendo este curso
+
+24:46.630 --> 24:48.600
+cada vez más grande.
+
+24:48.740 --> 24:49.560
+Veo a la siguiente clase.

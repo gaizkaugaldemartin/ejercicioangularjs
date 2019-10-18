@@ -1,0 +1,172 @@
+WEBVTT
+
+00:03.240 --> 00:08.670
+Bienvenidos nuevamente a esta clase deambular o miraremos cómo instalar SAMP o SX para las personas
+
+00:08.670 --> 00:09.840
+que estén trabajando en Windows.
+
+00:09.840 --> 00:16.030
+Los motivos que se vayan a la siguiente clase donde se muestra esto mismo pero en Windows 8.1.
+
+00:17.370 --> 00:24.390
+Para comenzar descargaremos del sitio oficial la herramienta del SAMP en este caso es SAMP para OS X
+
+00:24.530 --> 00:30.500
+hacemos clic comenzará la descarga yo la voy a cancelar porque yo ya lo hice yo la tengo descargada.
+
+00:31.560 --> 00:43.310
+Cerramos descarga este archivo de gustábamos con doble clic y aquí nuevamente doble clic a abrir pedirá
+
+00:43.360 --> 00:50.560
+la clave del usuario que permite que pueda hacer instalaciones en nuestro ordenador.
+
+00:50.560 --> 00:58.390
+La colocamos esperamos un momento que empiece a cargar el instalado mensaje de bienvenida siguiente
+
+00:58.930 --> 01:00.730
+instalaremos estas dos cosas siguiente
+
+01:03.520 --> 01:10.210
+el SAM se va a instalar en la carpeta donde están todas las aplicaciones Qassam siguiente no queremos
+
+01:10.210 --> 01:14.050
+leer nada de adicional de Sam.
+
+01:14.110 --> 01:20.220
+Siguiente todo está listo para continuar siguiente y comenzará la instalación.
+
+01:20.220 --> 01:25.320
+En este momento voy a cortar el video para mostrarles el final de esta parte.
+
+01:25.920 --> 01:27.480
+Ok ya terminó.
+
+01:27.600 --> 01:33.060
+Dejamos seleccionado esta opción y le damos Finnish aquí nos va a abrir nuestro navegador web.
+
+01:33.070 --> 01:38.970
+A usted les va a aparecer algo que dice Bienvenidos a cerrar esto lo que quiero mostrarle es este panel
+
+01:38.970 --> 01:41.040
+administrativo el resto.
+
+01:41.070 --> 01:49.290
+Este panel administrativo que instala SAP por defecto trae los siguientes botones ir a la carpeta donde
+
+01:49.290 --> 01:50.120
+está el aplicativo.
+
+01:50.120 --> 01:56.520
+En este caso ustedes ven Yotoco medre en aplicaciones SAP San finds y aquí están todos los archivos
+
+01:58.770 --> 02:01.280
+quiere cerráramos también.
+
+02:01.750 --> 02:06.960
+Aquí viene lo importante si queremos levantar nuestra base de datos en mayo se cuele tocaremos a start.
+
+02:07.180 --> 02:12.550
+En este caso no lo haremos y levantar el servidor Apache le daremos a start.
+
+02:12.550 --> 02:15.240
+Esperen a que esto se ponga en verde.
+
+02:15.820 --> 02:22.850
+Mientras en la carpeta de sus aplicaciones SAP esta carpeta es muy importante.
+
+02:22.860 --> 02:26.930
+Aquí es donde vamos a colocar nuestros aplicativos.
+
+02:27.690 --> 02:36.210
+Nuestros aplicativos de estas clases es bueno ser ordenados les va a pedir que les pidió un usuario
+
+02:36.210 --> 02:39.500
+dependiendo de qué tan restrictivo tengan nuestro sistema operativo.
+
+02:39.690 --> 02:47.040
+Creamos una carpeta que se llama de mí donde pondremos todos nuestros trabajos.
+
+02:47.100 --> 02:55.220
+Voy a minimizar esto perdón voy a minimizarlo cooperemos el ejercicio que hicimos la clase pasada la
+
+02:55.230 --> 03:02.580
+pegaremos en esta carpeta y ahora lo único que tendremos que hacer.
+
+03:03.260 --> 03:07.400
+Lo único que tenemos que hacer es ir a nuestro local Ouest
+
+03:10.570 --> 03:23.850
+nuestro local Jost Leca ayúdenme ayúdenme Reca y el nombre del host y daremos entre como comer.
+
+03:23.900 --> 03:29.380
+Antes no funcionaba y ahora sí funciona porque estamos corriendo en un servidor ya un servidor Apache
+
+03:29.820 --> 03:37.370
+y estamos listos en este momento para usar otro tipo de directivas como la directiva inchi en Yingluck
+
+03:37.580 --> 03:42.890
+que es la que permite agarrar archivos locales o archivos externos e incluirlos dentro de nuestra página
+
+03:43.460 --> 03:48.010
+o hacer directivas un poco más o mejor dicho hacer procedimientos un poco más complejos como el posteo
+
+03:48.010 --> 03:49.960
+de información a servidores.
+
+03:50.060 --> 03:54.080
+Pero antes de continuar en la siguiente clase quiero explicar un poco de unos posibles problemas que
+
+03:54.080 --> 04:00.530
+ustedes pueden tener en SX por ejemplo en nuestra carpeta que acabamos de crear.
+
+04:00.530 --> 04:07.300
+Hay países que no les aparece nada aquí va a decir que el sitio web está con el error cero cuatro cero
+
+04:07.300 --> 04:13.430
+tres que es el error de prohibición o sea quiere decir que sí existe la carpeta pero por privilegios
+
+04:13.430 --> 04:15.450
+o permisos no se puede usar.
+
+04:15.460 --> 04:22.490
+Yo les recomiendo que hagan clic en la carpeta que crearon y así obtener más información en esta sección
+
+04:22.490 --> 04:23.120
+de acá.
+
+04:23.240 --> 04:24.230
+Vamos a tocar el candado.
+
+04:24.230 --> 04:31.890
+Pondremos nuestro nuevo nuestro nombre nuestra contraseña de administrador queremos estar te aplicar
+
+04:31.980 --> 04:33.240
+a los sitios incluidos.
+
+04:33.240 --> 04:38.520
+Esto es darle privilegios de sólo lectura a todo el mundo y a los administradores menos al usuario principal.
+
+04:40.040 --> 04:40.990
+Debemos aceptar.
+
+04:41.130 --> 04:45.710
+Esperamos un momento cerramos y refrescamos en la mayor web.
+
+04:45.750 --> 04:49.690
+Esto debería de ser que ya puedan desplegarse toda la información.
+
+04:49.710 --> 04:56.510
+Lo mismo sucedería si sólo ustedes ven como las etiquetas de angular si sólo ven la expresión de aramburã
+
+04:56.700 --> 04:58.800
+pero no la ejecución del mismo.
+
+04:58.800 --> 05:03.420
+Esto también es el mismo problema entonces esa es una manera de solucionar la mayoría de estos inconvenientes
+
+05:03.420 --> 05:04.970
+que pueden tener entonces más.
+
+05:05.010 --> 05:06.420
+Lo veo en la siguiente clase.

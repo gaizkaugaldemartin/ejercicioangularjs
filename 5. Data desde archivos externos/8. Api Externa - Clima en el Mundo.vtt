@@ -1,0 +1,223 @@
+WEBVTT
+
+00:03.410 --> 00:08.480
+Saludos nuevamente Bienvenidos a estas clases de angular os veremos un tema muy parecido al de la clase
+
+00:08.480 --> 00:12.120
+anterior solo que trabajaremos como un Jayson un poco más complejo.
+
+00:12.310 --> 00:17.220
+Ya es algo que no está toda la raíz sino que tiene diferentes ítems.
+
+00:17.270 --> 00:23.630
+Les pido que por favor se descarguen el archivo que se encuentra en el documento adjunto lo descomprime
+
+00:24.290 --> 00:32.120
+y de acá lo vamos a mover a nuestra carpeta ayúdenme y lo arrastrábamos Al Shula text como lo hemos
+
+00:32.120 --> 00:35.670
+hecho en los demás clases que dejamos acá.
+
+00:35.720 --> 00:38.730
+Necesito que observemos el índex y el Apep p.ej..
+
+00:39.050 --> 00:41.590
+Ahí es donde están aplicados los cambios.
+
+00:41.600 --> 00:49.440
+Simplemente es otro L pero la obtención se adquiere de la misma manera.
+
+00:49.530 --> 00:57.630
+Toda la información cae en una variable que se llama clima y en el Index como podemos observar aparece
+
+00:58.230 --> 01:01.040
+el clima junto con el filtro de yeux.
+
+01:01.200 --> 01:04.860
+Podemos los cambios y quiero que lo miremos en el suplente.
+
+01:04.860 --> 01:11.580
+En el editor en el navegador web aquí yo ya lo tengo abierto o para observar trae información referente
+
+01:11.670 --> 01:20.490
+a una ciudad de Japón llamada Sussex sus en todo su y trae las coordenadas.
+
+01:20.740 --> 01:28.860
+Información de El País cuando sale el sol pero cuando sale el sol este es el show son la puesta de sol
+
+01:29.580 --> 01:34.350
+el clima esto lo trae en grados Kelvin hay que hacer una conversión.
+
+01:35.780 --> 01:42.170
+Si el tipo del cielo está despejado esto es información real pero el Jayson es un poco más complejo
+
+01:43.170 --> 01:45.450
+entonces hay una página de internet muy buena.
+
+01:45.450 --> 01:53.040
+Vamos a copiar todo esto que ofrece este servicio de parcial por lo que se llama o parcial o un Jayson
+
+01:54.220 --> 02:00.150
+copiamos esto acá y como podrán observar aquí se los pone un poco más ordenado quitemos coordenadas
+
+02:00.240 --> 02:08.580
+6 Wer tenemos la base de Main aquí se ve un poco más fácil que como se tiene aquí.
+
+02:09.150 --> 02:17.820
+Entonces trabajaremos un poco con esto vamos a simular que queremos obtener información referente a
+
+02:17.820 --> 02:19.320
+la latitud y la longitud.
+
+02:19.340 --> 02:26.340
+Esto está dentro de un grupo que se llama Cordemex o Kort dentro de él se encuentra la longitud y la
+
+02:26.340 --> 02:26.840
+latitud.
+
+02:26.850 --> 02:35.260
+Entonces utilicemos vamos a ponerlo acá latitud y longitud dos puntos.
+
+02:35.390 --> 02:40.320
+Voy a hacer un salto de línea aquí porque no se nos viene muy pegado esto entonces cómo usamos toda
+
+02:40.320 --> 02:42.260
+esa información está dentro del clima.
+
+02:42.510 --> 02:44.010
+Punto.
+
+02:44.160 --> 02:50.720
+Dentro de cual lo ponemos y esto está dentro de lo latitud.
+
+02:51.030 --> 03:02.330
+Entonces punto lat y quiero poner también al lado solo por una coma la longitud Long Lomnitz votamos
+
+03:02.340 --> 03:11.550
+los cambios regresamos al navegador web miremos los cambios aquí y latitud y longitud 39 y 130 35 y
+
+03:11.550 --> 03:16.010
+139 que son los que corresponden a esto de acá.
+
+03:16.080 --> 03:26.750
+Ahora supongamos que queremos obtener el país no este el país se encuentra dentro de seis contre vamos
+
+03:26.850 --> 03:27.840
+a ponerlo a Chamarro
+
+03:31.430 --> 03:34.350
+país eso está dentro del clima.
+
+03:34.350 --> 03:37.000
+Punto 6 punto.
+
+03:37.270 --> 03:47.160
+En cuanto a los cambios regresamos a nuestro navegador web recargamos país app perfecto.
+
+03:47.250 --> 03:52.170
+Ahora trabajamos con las fechas que les parece y trabajamos con la puesta de sol y cuando amanece.
+
+03:52.160 --> 03:57.170
+Buenas noches sigamos aquí en nuestro Jayson Parse.
+
+03:57.170 --> 04:07.790
+Tenemos que estar dentro de 6 el sonreís responderemos amanece los puntos apolínea anochece los puntos
+
+04:08.270 --> 04:10.270
+se encuentra dentro del clima.
+
+04:10.270 --> 04:21.080
+Punto 6 punto como para observar sonreís y la otra es el 11 zoncera listo.
+
+04:21.200 --> 04:26.450
+Guardamos los cambios vamos a nuestro navegador web refrescamos y podrán observar que aparecen las fotos
+
+04:26.480 --> 04:29.480
+pero en un formato que no es comprensible para nosotros.
+
+04:29.490 --> 04:38.230
+Para computadoras sí pero para otros no. Entonces usaremos la tubería y usaremos el filtro Droit guardamos
+
+04:38.260 --> 04:42.150
+cambios regresamos a nuestro navegador web y ahora aparece ahí.
+
+04:42.170 --> 04:49.430
+Lamentablemente esa fecha no es la correcta eso no es cuando amanece en cuanto sale porque lo que queremos
+
+04:49.430 --> 04:57.650
+mostrar acá solo es la hora entonces queremos mostrar la hora 2.2 minutos y los segundos cuando es que
+
+04:57.650 --> 05:06.200
+anochece y amanece o guardamos los cambios de navegador web y ahí sí los tenemos más claramente no amanecen
+
+05:06.290 --> 05:12.850
+a las 7 con un minuto y anochece a las 7 con dos salidas están Apoc podría confirmar esto.
+
+05:12.860 --> 05:15.610
+Por favor no una cosa más.
+
+05:15.770 --> 05:22.680
+Hay algo interesante aquí que es la obtención de la temperatura actual que es emplazada en el campo
+
+05:22.680 --> 05:28.370
+temp que se encuentra dentro de Main pero este en Kelvin encontrarãn navegando en internet encontré
+
+05:28.370 --> 05:35.740
+que para sacar la temperatura en Celsius Deck dado dado los Kelvin simplemente crestado 273 a la temperatura.
+
+05:35.740 --> 05:42.180
+Esto entonces bien la temperatura en kelvin se encuentra aquí main theme.
+
+05:42.530 --> 05:49.710
+Entonces ponga Molinet vamos a hacer dos saltos de línea temperatura los puntos se encuentra dentro
+
+05:49.710 --> 05:56.970
+del clima junto a un tótem guardamos cambios estamos acá sólo para que aparezca la temperatura en kelvin.
+
+05:56.970 --> 05:58.780
+Listo.
+
+05:58.890 --> 06:02.910
+Aquí vamos a hacer una fórmula en el propio punto J.
+
+06:03.000 --> 06:03.930
+Haremos lo siguiente.
+
+06:03.960 --> 06:14.390
+Scott estuvo aquí Kelvin Celsius ser igual a una función va a recibir los Kelvin.
+
+06:14.570 --> 06:22.960
+Iban a retornar los Celsius entonces empezemos Celsius va ser igual a recordemos lo que decía la página
+
+06:23.680 --> 06:35.460
+200 273 como aquienes va a ser igual a la temperatura en kelvin menos los 200 73 .15.
+
+06:35.560 --> 06:44.230
+Pero eso puede dar un número con muchos decimales entonces Redon diábolos más otro round Celsius por
+
+06:44.230 --> 06:53.200
+100 suscríbete para que en JavaScript el Brown se echa se echa todos los decimales pero eso lo vamos
+
+06:53.200 --> 06:59.680
+a multiplicar por 100 y luego lo dividimos entre 100 para tener los anti grados correctos entonces después
+
+06:59.680 --> 07:03.550
+sólo vamos a tener que llamar a esta función acá
+
+07:06.490 --> 07:11.770
+lo metemos entre paréntesis le mandamos la temperatura en kelvin guardamos los cambios regresamos al
+
+07:11.770 --> 07:17.680
+navegador web ejecutamos y listo.
+
+07:17.680 --> 07:23.340
+Entonces así de fácil podemos ejecutar funciones dentro de expresiones para hacer conversiones.
+
+07:23.380 --> 07:30.820
+Vivimos el filtro de fechas y obtuvimos datos que se encuentran en un Jayson con una estructura diferente
+
+07:31.250 --> 07:38.560
+y espero que este ejercicio les haya ayudado a comprender más acerca del uso de Jacksons APIs y más
+
+07:38.560 --> 07:41.040
+filtros lo veo en la siguiente clase.

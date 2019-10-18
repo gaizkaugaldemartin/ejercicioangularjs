@@ -1,0 +1,385 @@
+WEBVTT
+
+00:03.000 --> 00:09.360
+Bienvenidos a esta nueva sección de amolar en español lo que veremos a continuación o pequeña.
+
+00:09.470 --> 00:15.310
+Este pequeño bloque de cursos para hacer resoluciones a problemas que varios usuarios han presentado
+
+00:15.610 --> 00:20.020
+y bien seguir expandiendo la herramienta y cursos para obtener el máximo provecho del dinero que ustedes
+
+00:20.020 --> 00:21.660
+han invertido.
+
+00:21.670 --> 00:28.000
+A continuación lo que vamos a hacer es hacer nuestra aplicación más apta para dispositivos móviles.
+
+00:28.090 --> 00:34.210
+Si bien es cierto que una aplicación web es totalmente funcional en un dispositivo móvil no quiere decir
+
+00:34.210 --> 00:39.490
+que funcionen a la misma velocidad a la cual trabaja una aplicación de escritorio principalmente porque
+
+00:39.490 --> 00:43.900
+como son páginas web sí que más de uno lo ha visto de baloncesto como un link.
+
+00:43.930 --> 00:50.440
+Eso demora un poco o toca un botón y hay un día que se llama hay un tiempo de espera para que haga la
+
+00:50.440 --> 00:56.050
+acción y eso tiende a incomodar y la gente en teoría está acostumbrada a saber que funciona más lento
+
+00:56.080 --> 00:59.600
+pero no tiene que ser así entonces vamos a trabajar en eso.
+
+00:59.860 --> 01:03.790
+Primero que nada vamos a descargar el archivo que se encuentra en el material adjunto lo descomprime
+
+01:03.800 --> 01:11.630
+hemos no vamos a abrir contiene una aplicación de algunas básicas sólo sólo las librerías puestas Vandal
+
+01:11.650 --> 01:20.140
+que las de animaciones el fonación la librería de busca y el angular y un archivo de Apella configurado
+
+01:20.330 --> 01:20.790
+no mucho.
+
+01:20.790 --> 01:27.300
+Este archivo del meta no se preocupen ya lo vamos a ver Irache índex también ya no vamos a ver cómo
+
+01:27.390 --> 01:30.620
+este ejercicio lo vamos a simular en un dispositivo móvil.
+
+01:30.630 --> 01:33.840
+En este caso vamos a probarlo en un iPad y un iPhone.
+
+01:33.840 --> 01:40.080
+Entonces le recomendaría que por favor lo vayamos a colocar para que todo funcione igual lo vayamos
+
+01:40.080 --> 01:47.310
+a colocar en nuestra carpeta de ayúdenme crearemos una nueva carpeta dentro llamada bonos que iremos
+
+01:47.310 --> 01:51.230
+poniendo todos los diferentes bonos que vamos a seguir agregando orita.
+
+01:51.240 --> 01:59.550
+El primero es Elendil Touch pero vamos a ver elejercicio ahí está hecho vamos a dar por un lado y ya
+
+01:59.550 --> 02:00.070
+no nos sirve.
+
+02:01.210 --> 02:05.570
+En algunos sistemas operativos en este caso a veces x A veces es necesario hacer lo siguiente Vamos
+
+02:05.570 --> 02:12.590
+a hacerlo paso a paso para que todos resolver la mayoría de problemas que otros han tenido a veces es
+
+02:12.590 --> 02:19.100
+necesario llegar aquí y habilitar este candado que iban a pedirles su usuario y contraseña y es importante
+
+02:19.100 --> 02:27.620
+que ustedes aquí coloquen la siguiente opción sólo lectura y escritor al usuario y aplicar a todos los
+
+02:27.620 --> 02:28.900
+ítems incluídos.
+
+02:28.910 --> 02:33.710
+A veces es necesario hacer eso en Windows no necesario aquí dependiendo de qué tan restrictivo tenga
+
+02:33.710 --> 02:35.260
+el sistema operativo.
+
+02:35.270 --> 02:40.310
+Otro error muy común que se ha hecho es que por defecto llegamos y le damos doble clic aquí y abre el
+
+02:40.310 --> 02:46.880
+navegador web y todo parece bien pero como queremos ejecutarlo desde el servidor o sea que corra usando
+
+02:46.880 --> 02:51.570
+el servidor Sam que configuramos anteriormente esta dirección no funciona.
+
+02:51.820 --> 02:56.530
+Entonces ocupamos la dirección IP de nuestra máquina para simular el servidor.
+
+02:56.840 --> 03:03.110
+En este caso vamos a ver la IP que tenemos en Windows pueden ejecutar una ventana abrir una ventana
+
+03:03.110 --> 03:12.250
+de comando y escribir IP confit puede Uds. obtener Zip pero en este caso vamos a ponerlo en mi PC y
+
+03:12.860 --> 03:14.100
+debería servir lo mismo.
+
+03:14.540 --> 03:19.250
+Revisemos que no haya errores si hay algún error aquí pues tendremos que ver qué es para saber cómo
+
+03:19.250 --> 03:20.340
+solucionarlo.
+
+03:20.330 --> 03:23.940
+Pero así como esta debería de verse igual.
+
+03:24.110 --> 03:26.600
+Hacer esto ok.
+
+03:26.820 --> 03:33.410
+Primero que nada si nosotros vamos a copiar todo esto yo voy a abrir un simulador ustedes si tienen
+
+03:33.410 --> 03:44.690
+un dispositivo móvil en sus manos pueden llegar y usar esta dirección y abrir su navegador web por defecto
+
+03:44.780 --> 03:50.210
+ya sea cron chafar y cualquier otro no necesariamente tiene que ser dispositivo iOS puede ser un Android
+
+03:50.210 --> 04:00.730
+perfectamente abrir el navegador web y poner la dirección al poner la dirección debería parecerles esto
+
+04:01.350 --> 04:05.370
+no debía parecerles lo que ustedes están viendo.
+
+04:05.650 --> 04:06.710
+Igual igual.
+
+04:07.620 --> 04:08.340
+Ok.
+
+04:08.380 --> 04:13.880
+A continuación lo que haremos es agregar un botón para demostrar el problema.
+
+04:13.930 --> 04:22.900
+Primero el problema y después aplicamos la solución voy a agarrar toda la carpeta en iTouch toda la
+
+04:22.900 --> 04:25.380
+carpeta y la voy a soltar en el texto.
+
+04:25.930 --> 04:32.630
+Abriremos el índex y abriremos p.ej. es ok.
+
+04:32.650 --> 04:33.690
+Será esto un poco más grande
+
+04:36.470 --> 04:43.010
+como podrán ver no tiene nada del otro mundo el engullía Belinelli controlan las librerías del Bushra
+
+04:43.010 --> 04:45.800
+del anime y Jonasson nada del otro mundo.
+
+04:47.160 --> 04:48.090
+Vamos a crear un botón
+
+04:51.630 --> 05:03.230
+con la clase BDN para que su botón PTM Primary vamos a agregarle un icono a ponerle el Jonasson de telefonazo
+
+05:03.310 --> 05:09.960
+Search y le pondremos un texto al botón Mostrar alerta.
+
+05:10.030 --> 05:18.820
+No me gusta que eso se corten entonces voy a habilitar otra y aquí aparece salvo miremos acá aparece
+
+05:18.820 --> 05:30.860
+el botón perfecto ahora vamos a agregarle una función que va a ser Jenji click mostrar bajo alerta.
+
+05:31.060 --> 05:38.250
+No necesitamos que reciban ningún parámetro es una demostración copió esto vamos al API p.ej. ese y
+
+05:38.260 --> 05:40.070
+aquí crearemos nuestro.
+
+05:40.120 --> 05:51.410
+Nuestra función es cojunto mostrar alerta o hacer igual a una función y lo hacemos así al ver mostrar
+
+05:51.650 --> 05:53.680
+alerta.
+
+05:56.360 --> 06:02.590
+Ok entonces por tanto todo lo vamos a nuestro navegador web refrescamos y tocamos el botón debería parecerme
+
+06:02.690 --> 06:03.210
+a él.
+
+06:03.300 --> 06:05.060
+Zlatan mostró tableta.
+
+06:05.350 --> 06:11.720
+Si ustedes ven aparece de manera instantánea Yotoco y aparece todo y aparece ahora qué pasa en nuestros
+
+06:11.720 --> 06:13.250
+dispositivos móviles.
+
+06:13.250 --> 06:18.740
+Para la práctica ustedes tienen que copiar toda esa dirección exactamente igual y poner a su navegador
+
+06:18.740 --> 06:20.880
+web de su dispositivo.
+
+06:20.900 --> 06:26.040
+Pueden ser tabletas pueden ser celulares contar estén conectados a la misma red WiFi se puede usar.
+
+06:26.270 --> 06:32.590
+Ojo la dirección ladivisión tiene que ser igual incluyendo la dirección y tienes que ponerla HTTP 2.1
+
+06:32.660 --> 06:42.230
+completa 192 168 bueno aquí dependerá de su dirección IP que uses la copia aquí abrí mi simulador refresco
+
+06:42.520 --> 06:50.130
+y voy a tocar este botón si ustedes ven demorã como un segundo 800 milésimas más o menos poco más poco
+
+06:50.130 --> 06:52.870
+menos de nuevo clic ok.
+
+06:53.060 --> 06:59.640
+Como un segundo y eso no funciona bien en ese tiempo ustedes no saben si se trata de la aplicación si
+
+06:59.640 --> 07:06.150
+está haciendo algo si no no es práctico que eso suceda así todos vamos a trabajar en resolver lo primero
+
+07:06.150 --> 07:13.140
+que nada como es una aplicación móvil todo esto está muy pequeño cuando dispositivo un dispositivo táctil
+
+07:13.800 --> 07:20.370
+hace clic en ese botón va a ser muy difícil pues para eso vamos a resolverlo primero agregando la siguiente
+
+07:20.370 --> 07:24.930
+instrucción en el archivo txt verdad Mtro que se había puesto acá que habíamos dicho que no ignorará
+
+07:25.010 --> 07:30.690
+pues lo vamos a abrir y vamos a copiar todo esto eso es un metatarso que le va a decir al navegador
+
+07:30.690 --> 07:33.850
+web que es una aplicación móvil hecha para móviles.
+
+07:33.870 --> 07:43.470
+Copiamos toda esta información tomamos aquí el índex lo vamos a poner abajo del DF menos 8 lo pego y
+
+07:43.470 --> 07:47.400
+lo que es más que todo es decirle al navegador web que el ancho va a ser el ancho del dispositivo o
+
+07:47.400 --> 07:53.910
+sea el que tenga el dispositivo no vas a poder hacer es hacer zoom con los dedos y entre otras cosas
+
+07:54.210 --> 07:55.480
+voy a guardarlo todo.
+
+07:55.640 --> 08:02.880
+Regreso a mi simulador o a su dispositivo móvil van a refrescarlo y se va a ver más más apto para móviles
+
+08:03.350 --> 08:04.510
+y en la misma pantalla.
+
+08:04.530 --> 08:10.120
+Aquí no varió en lo absoluto y está igual pero aquí sí ya se hizo más agradable.
+
+08:10.320 --> 08:17.580
+Aunque si yo toco el botón siempre sigue estando la demora no resolvamos eso en la página de angular
+
+08:18.370 --> 08:29.200
+JBS ustedes van a poder descargar la librería en módulos adicionales la librería del ángulo Otoch .1.000
+
+08:29.220 --> 08:37.970
+puntos JDBC y el mapa vamos a descargar el mapa y vamos a descargar el Touch .1.000 punto J.S.
+
+08:38.260 --> 08:41.630
+Vamos a descargar ahí listo.
+
+08:41.690 --> 08:46.400
+Es una librería muy pequeña como ustedes podrán observar un par de líneas de código pero eso hace una
+
+08:46.400 --> 08:48.240
+gran diferencia.
+
+08:48.320 --> 08:53.090
+Ok regresemos a donde descargamos los archivos descargas.
+
+08:53.090 --> 08:56.390
+Estos dos archivos lo vamos a copiar o cortar.
+
+08:56.540 --> 09:06.820
+Bonus en iTouch JS lí porque son librerías de alguna pegaremos acá copiar esto cómo los agregamos ahí.
+
+09:06.860 --> 09:09.540
+Entonces necesitamos hacer referencia a ellos.
+
+09:10.370 --> 09:24.150
+En este en esta se ha pegado esto estamos hacerle la referencia a dicho archivo no nos escota es el
+
+09:24.160 --> 09:28.490
+ID y lo pusimos acá en iTouch cuarto.
+
+09:29.280 --> 09:33.280
+Agregamos el comentario en iTouch
+
+09:37.030 --> 09:43.840
+ok una vez incluido esto necesitamos decirle angular que dispone de un nuevo y una librería a través
+
+09:44.350 --> 09:46.870
+de la inyección de ésta.
+
+09:46.900 --> 09:52.240
+De esta forma le vamos a adicionar el módulo touch.
+
+09:52.430 --> 09:53.580
+Voy a guardar las cosas.
+
+09:53.590 --> 09:54.550
+Todos los cambios.
+
+09:54.670 --> 10:00.640
+Regreso a mi navegador web del celular puede refrescar navegador web y voy a tocar el botón
+
+10:06.270 --> 10:08.410
+que no funcionó.
+
+10:08.490 --> 10:11.470
+Vamos a ver errores en el módulo.
+
+10:11.790 --> 10:21.470
+Entonces vamos a hacer referencia se explica la referencia a ver qué nos dice saber si hay errores o
+
+10:21.520 --> 10:24.970
+que si Root nos está diciendo mucho.
+
+10:25.050 --> 10:26.430
+Estamos usando en general.
+
+10:27.270 --> 10:30.930
+Entonces hay veces como les digo puede ser que ustedes tengan ese error.
+
+10:30.930 --> 10:35.820
+Puede ser que no cuando se adicionan acá dependiendo de las políticas restrictivas vamos a tener que
+
+10:35.820 --> 10:41.590
+volver a hacer esta partecita de acá de volver a darle los privilegios.
+
+10:41.700 --> 10:45.690
+Es son dolor a veces con esas medidas de seguridad que no tiene
+
+10:48.760 --> 10:51.040
+refrescarlo aquí todo se ve bien.
+
+10:51.040 --> 10:54.640
+Vamos a ver ahora que hay que funcionar que funcione igual.
+
+10:54.640 --> 11:03.140
+Vamos a ver en el simulador repescar y vamos a hacerlo igual o debería ser mucho más rápido.
+
+11:03.490 --> 11:11.380
+Si ustedes ven click y ésta no está haciendo dos veces no sé por qué lo está haciendo dos veces.
+
+11:11.400 --> 11:19.770
+Vamos a revisar si el problema que sucede es que en este caso mi dispositivo acepta tanto el click touch.
+
+11:19.780 --> 11:26.940
+Por eso lo hace dos veces pero si ustedes lo prueban en su teléfono celular o yo lo acabo de hacer les
+
+11:26.940 --> 11:32.790
+debería de aparecer sólo una vez y de funcionar exactamente cuando ustedes tocan el botón sea de manera
+
+11:32.790 --> 11:33.900
+instantánea.
+
+11:34.020 --> 11:39.960
+Entonces esto es todo por ahora y lo peon en la siguiente clase que próximamente estaría bien.
+
+11:40.500 --> 11:41.060
+Gracias.

@@ -1,0 +1,613 @@
+WEBVTT
+
+00:02.860 --> 00:06.360
+Bienvenidos realmente este curso de keirin en español.
+
+00:06.360 --> 00:12.900
+Hoy vamos a ver el tema de las promesas pero un mal de una persona me ha dicho Fernando yo no me acuerdo
+
+00:12.900 --> 00:18.480
+cómo es que es estructura todo el código porque siempre hemos estado descargando el material adjunto
+
+00:18.510 --> 00:24.360
+se lo vamos a volver a curato poco más rápido y a la vez enseñarlas otra manera en donde ustedes pueden
+
+00:25.190 --> 00:27.870
+como ustedes pueden crear la estructura de archivos Yangüela.
+
+00:27.940 --> 00:33.640
+Entonces también espero que les guste y es bastante funcional y así explicamos otro tipo de cosas.
+
+00:34.170 --> 00:36.600
+Entonces vamos a empezar la carpeta.
+
+00:36.600 --> 00:41.520
+Ojo que esto lo voy a hacer en el escritorio a pesar de que es algo asíncrono lo que vamos a hacer va
+
+00:41.520 --> 00:47.790
+a funcionar ya van a ver si haya más promesas dentro de la carpeta promesas del acuerdo así que no tengo
+
+00:47.790 --> 01:00.510
+nada en carpeta J.V y dentro de la misma tenemos libre de esto una vez lo voy a abrir es el texto para
+
+01:00.510 --> 01:01.080
+tenerlo ahí.
+
+01:01.500 --> 01:05.650
+Yo estoy más acostumbrado a trabajar desde casa.
+
+01:07.020 --> 01:10.220
+Vamos a abrir una ventana de navegador web.
+
+01:10.410 --> 01:20.440
+Vamos a buscar angular que ya está con la versión 1:5 1 5 y cuando salga la versión 2 ya se puede probar.
+
+01:20.490 --> 01:21.350
+Todavía está en beta.
+
+01:21.450 --> 01:26.890
+Lo más probable es que salga a finales de año por ahí finales de año 2016.
+
+01:26.970 --> 01:33.920
+Esto ha cambiado bastante pero ya explicaremos más a detalle lo que es el angular 2 o sea descargarla
+
+01:34.250 --> 01:37.220
+la librería que eso es todo lo que ocupamos
+
+01:41.620 --> 01:43.840
+vamos a poner aquí dentro de la carpeta.
+
+01:43.840 --> 01:50.380
+Este no no es para este ejercicio no voy a meter Busto sólo lo voy a hacer la retomo lo que queremos
+
+01:50.380 --> 01:53.940
+es demostrar las promesas de manera sencilla.
+
+01:54.560 --> 02:10.340
+Ok entonces voy a crear un nuevo nuevo archivo un archivo HTML nuevo salvo aquí en la raíz llamado índex
+
+02:10.430 --> 02:12.630
+junto a HTML.
+
+02:12.750 --> 02:15.780
+Te pondré promesas.
+
+02:15.990 --> 02:22.650
+Voy a crear un pequeño Dib aquí nada más para poner que la variable que controlaremos con las promesas
+
+02:25.510 --> 02:31.100
+y sigamos de otra manera que me gusta bastante de trabajar en alguna es ponernos a chip.
+
+02:31.130 --> 02:38.700
+Los archivos ya que yo he creado deambular en una carpeta que se llame ángulo dentro de esa carpeta
+
+02:39.210 --> 02:47.040
+angular vamos a poner el pie p.ej. ese controladores servicios y otras cosas que ya van a ver en sus
+
+02:47.050 --> 02:47.580
+lentes.
+
+02:47.580 --> 02:52.780
+Yo tengo un plugin un paquete que se llama Advanced New File pues si lo quieren descargar.
+
+02:52.860 --> 03:02.140
+Esto me permite administrar archivos desde angular plica hace p.ej. es directamente le voy a decir a
+
+03:02.150 --> 03:08.450
+Pepe es igual a Angola punto Modu Zámolo y aquí estoy aquí.
+
+03:08.960 --> 03:25.310
+Además por ahora quietito se va a llamar promesa App Engine app igual ya comenzaba a Pepe.
+
+03:25.390 --> 03:26.320
+Seguimos.
+
+03:26.320 --> 03:36.240
+Voy a dejar esto así voy a crearme otro archivo otro chivo en Angola junto a volar Leca controladores
+
+03:36.520 --> 03:37.390
+puntos JS
+
+03:40.040 --> 03:49.340
+Copa estamos los puntos JS y aquí haremos algo parecido a esto que iban a decir más de uno.
+
+03:49.380 --> 03:55.050
+Qué paso acabo aquí más de uno y por qué los dos se llaman igual.
+
+03:55.280 --> 03:57.970
+Todavía no me han dejado terminar de escribir.
+
+03:57.970 --> 03:59.550
+Controlador.
+
+03:59.590 --> 04:03.420
+Controladores ok.
+
+04:03.430 --> 04:06.130
+Cómo pueden trabajar estos dos en conjunto.
+
+04:06.310 --> 04:07.960
+Vamos a hacer aquí una inyección.
+
+04:07.960 --> 04:09.650
+Esto es otra manera de trabajar.
+
+04:09.860 --> 04:11.290
+No vamos a hacer una inyección
+
+04:14.090 --> 04:15.260
+de esta parte de acá.
+
+04:17.640 --> 04:25.620
+Que hiciéramos esta sección sólo para controladores aéreos a Pepe punto controles se va a llamar Main
+
+04:26.340 --> 04:31.020
+controlã y aquí vamos a poner el disco.
+
+04:31.700 --> 04:39.150
+Crearemos una variable llamada Mi variable se llama Mi variable.
+
+04:39.150 --> 04:42.140
+La inicial estaremos en cero.
+
+04:42.530 --> 04:47.190
+Guardo los cambios voy a hacer una impresión de consola también.
+
+04:47.630 --> 04:48.590
+Todo ok.
+
+04:48.700 --> 04:59.890
+Sólo para probar grabo grabo y ahora necesitamos aquí hacer los respectivos supports scripts 60 primero
+
+04:59.880 --> 05:05.970
+en el ángulo JS plica y Leca angular .1.000 J.V.
+
+05:06.150 --> 05:16.760
+La otra está en angular aquí angular Apep punto botarse y la otra es controladores .3.
+
+05:16.770 --> 05:20.140
+Aquí estoy haciendo referencia al nombre de los archivos.
+
+05:20.250 --> 05:27.620
+Cuando todo vamos a ejecutar esto en fulcro me interesa ver la consola
+
+05:30.950 --> 05:39.420
+y este todavía no ha salido una.
+
+05:39.710 --> 05:48.260
+Tenemos que asignar el controlador que es lo que falta controla Main Ctrl Samain controla qué quería
+
+05:48.290 --> 05:49.810
+hacer referencia a esto.
+
+05:49.930 --> 05:55.070
+Recargó y así todo ok qué voy a ser un poco más grande.
+
+05:55.260 --> 05:56.300
+Vamos a ser así.
+
+05:56.310 --> 06:01.620
+Me interesa esto y también me interesa esta parte de acá.
+
+06:01.740 --> 06:08.900
+Aquí voy a hacer la impresión de la variable Miwa que es un número es un número muy grande y a mí esto
+
+06:08.900 --> 06:09.620
+es lo que me interesa.
+
+06:10.860 --> 06:16.400
+Qué son las promesas ahora si vamos a entrar en detalle qué son las promesas entonces la promesa.
+
+06:16.500 --> 06:22.200
+Igual que un español ustedes están hablando de una persona y me prometes que van a hacer aquel trabajo
+
+06:22.200 --> 06:24.300
+que te pedí si yo te lo prometo.
+
+06:25.260 --> 06:32.670
+Entonces pasa el tiempo y la persona digamos que es un buen amigo y lo se realiza el trabajo y regresa
+
+06:32.670 --> 06:36.860
+y te dice y mira Fernando yo hice el trabajo perfecto todos puedo seguir adelante.
+
+06:37.400 --> 06:43.440
+Entonces eso es básicamente la promesa es decirle a anular y ejecutar ese proceso.
+
+06:43.440 --> 06:50.490
+Mientras tanto yo sigo con mis con mi flujo normal pero cuando termines me avisas que terminaste y también
+
+06:50.490 --> 06:54.420
+necesito que me digas si terminaste bien o hubo un problema.
+
+06:54.420 --> 06:59.350
+Básicamente eso es básicamente eso es lo de las promesas.
+
+06:59.410 --> 07:02.270
+Entonces cómo hacemos ahora eso ya.
+
+07:02.590 --> 07:11.110
+Ya en el código hay un objeto aquí que se llama sino de dólar.
+
+07:12.230 --> 07:16.650
+Vamos a la documentación de Angola y dice que esos servicios que ayuda a correr funciones de manera
+
+07:16.650 --> 07:17.780
+asíncrona.
+
+07:17.780 --> 07:25.340
+Vale la pena decir que la angula JavaScript no es asíncrono pero bueno eso estoy haciendo un curso de
+
+07:25.340 --> 07:27.710
+JavaScript y espero que podamos subir pronto en verano.
+
+07:28.700 --> 07:35.560
+Pero bueno es un proceso asíncrono que por lo general hace que regrese a valores o excepciones.
+
+07:35.870 --> 07:38.460
+Cuando ha terminado de ser procesado.
+
+07:38.720 --> 07:41.790
+Entonces eso es lo que vamos a hacer.
+
+07:42.080 --> 07:43.300
+Se acuerdan más.
+
+07:43.310 --> 07:45.730
+Yo no estoy porque tenemos un time out.
+
+07:45.740 --> 07:47.120
+Lo voy a hacer de cada un segundo
+
+07:49.870 --> 07:54.540
+scoop punto mi bar es igual a incrementemos.
+
+07:55.890 --> 08:06.370
+Qué pasa si yo hago esto voy a hacer un consejo no sumado sumado quiero que miren qué es esto que está
+
+08:06.370 --> 08:22.050
+pasando esto el cargo se ejecutó aquí era un intervalo disculpen ser Interval ahora entonces cada segundo
+
+08:22.080 --> 08:28.860
+está ejecutando la función pero mi variable no está cambiando mi variable aquí no está cambiando.
+
+08:29.040 --> 08:36.230
+A pesar de que aquí les estoy diciendo que la sumarísimos se incrementen o no si yo llego acá que eso
+
+08:36.240 --> 08:37.380
+es lo que vamos a evitar.
+
+08:37.440 --> 08:40.260
+Esto no funciona para todos los casos.
+
+08:40.420 --> 08:40.970
+Punto.
+
+08:41.000 --> 08:42.980
+Aplique.
+
+08:43.200 --> 08:49.740
+Esto no funciona para todos los casos de recargo y ahora sí van a ver que se está refrescando nuestro
+
+08:50.040 --> 08:52.970
+principal Aicha ahí no hay problema.
+
+08:52.970 --> 09:02.420
+En teoría en teoría ok no vamos a hacer esto porque el objetivo de las promesas de este tipo de servicios
+
+09:02.420 --> 09:05.370
+no es trabajar con algo tan sencillo como esto.
+
+09:05.570 --> 09:11.780
+Por ejemplo nosotros buscamos traer data y cuando la data se procesa o haga funciones regrese ni avisar
+
+09:11.780 --> 09:13.150
+que hizo algo.
+
+09:13.250 --> 09:18.770
+Eso ya es algo un poco más especial y por ahí también hay una persona que preguntó Cómo podemos hacer
+
+09:18.980 --> 09:24.110
+cuando tenemos mil registros en nuestro servidor y queremos hacer la paginación de la data que se regresa.
+
+09:24.110 --> 09:30.270
+Esto se hace con promesas y servicios que será lo que vamos a ver a continuación pero que no compliquemos
+
+09:30.280 --> 09:32.620
+lo de las promesas innecesariamente.
+
+09:33.080 --> 09:40.670
+Voy a copiar esto voy a tener el código y vamos a trabajar con el objeto Cub con este club que es bien
+
+09:40.670 --> 09:43.700
+sencillo de usar y mucha gente lo complica.
+
+09:43.710 --> 09:46.940
+No se preocupen que aquí se va explicar paso a paso hasta aquí todo bien.
+
+09:47.090 --> 09:56.560
+Si no ponga le pasa a cómo en verdad lleguen a este punto y seguimos así como lEscola tenemos podemos
+
+09:56.560 --> 10:02.990
+nosotros mandar este nuevo objeto a nuestro controlador principal.
+
+10:03.130 --> 10:12.130
+Ojo que por cada uno de estos objetos que ponemos acá necesitamos mandar la misma cantidad de parámetros.
+
+10:12.140 --> 10:20.590
+Acá se hace que hay dos bandos de acuerdo entonces comencemos primero que nada vamos a crear una función
+
+10:21.480 --> 10:28.960
+que será será nuestra función asíncrona llamaremos le llamará se llamará sumarla function parentesis
+
+10:30.550 --> 10:32.140
+recibe un número como parámetro.
+
+10:32.520 --> 10:36.800
+Vamos a hacerlo un poquito vocoder un poco a esa hora esto ok.
+
+10:37.900 --> 10:46.360
+Vamos a usar el servicio Oku para nuestros procesos asíncronos y empecemos primero que nada hay que
+
+10:46.360 --> 10:51.800
+declarar una variable de tipo este servicio rebuscó igual a 1 dólar.
+
+10:51.880 --> 10:56.740
+Este curso si ustedes lo buscan en Internet o ejercicio todas las personas van a ver que el bien común
+
+10:56.800 --> 10:58.120
+y bien usado bastante usado.
+
+11:00.490 --> 11:12.010
+Ok entonces este esta variable que declara de tipo diferido Effect y que es diferido ni diferido.
+
+11:12.090 --> 11:16.700
+Eso sí yo sé que lo había escuchado mucho cuando especialmente los partidos de fútbol dicen Ah bueno
+
+11:16.700 --> 11:23.150
+el partido o está en vivo o está diferido y quiere decir que es diferido que el partido ya pasó y lo
+
+11:23.150 --> 11:27.380
+que estamos viendo es una repetición o sea algo que no sucedió en el mismo lapso de tiempo ya que no
+
+11:27.380 --> 11:28.940
+está pasando en el momento.
+
+11:29.100 --> 11:33.420
+Eso es todo un análisis que podemos decir por analogía.
+
+11:34.760 --> 11:45.260
+Ok entonces voy a aclarar otra variable llamada pongámosle correcto o válido igual.
+
+11:45.510 --> 11:51.960
+Esto es sólo para mostrarles que la promesa tiene que regresar o algo no sé por qué lo hizo bien o un
+
+11:51.960 --> 11:55.660
+rechazo entonces haremos lo siguiente.
+
+11:56.370 --> 12:02.070
+Bueno antes de que se me olvide es muy buena práctica que ustedes cuando declaran una variable de tipo
+
+12:02.690 --> 12:06.620
+del servicio inmediatamente la retorné Cup.
+
+12:06.640 --> 12:19.230
+Punto promesas programes y no es una función es un solo es un valor es el método que estamos pasando
+
+12:20.540 --> 12:24.600
+qué es lo que se quiere decir si hay alguien que siempre lo hace y qué es lo que queremos que haga la
+
+12:24.600 --> 12:26.960
+función y así si es válido.
+
+12:27.110 --> 12:40.250
+Así estuvo la primera siempre se puede decir que puntos rizó y regresar el número +1 o si lo quieren
+
+12:40.250 --> 12:49.430
+separado vamos a hacerlo acá nunca más y qué van a poner número si lo quieren hacer un poco más sencillo
+
+12:49.430 --> 12:51.100
+o más fácil de ver.
+
+12:51.620 --> 12:56.380
+Es decir en teoría nunca va a pasar porque siempre va a estar regresando otro.
+
+12:56.420 --> 13:04.940
+En este ejercicio que es el más sencillo que se me puede ocurrir un punto Wilson va a resolver y voy
+
+13:04.940 --> 13:05.870
+a poner aquí.
+
+13:05.870 --> 13:07.040
+No es un número.
+
+13:07.100 --> 13:16.150
+O mejor dicho no se sumará será algo y esto ya tenemos nuestra función asíncrona nuestra función asíncrona.
+
+13:17.880 --> 13:21.550
+Que se ejecutará en un tiempo y por los momentos no lo voy a complicar.
+
+13:22.490 --> 13:29.100
+Ahora me dirán cómo utilizamos la función casi casi igual casi igual a una función normal.
+
+13:29.150 --> 13:39.170
+Digo casi porque hay que hacer una cita especial ya vemos la función como llamada oficio o punto
+
+13:42.740 --> 13:46.020
+es decir ok.
+
+13:46.530 --> 13:48.790
+Quiero que vamos a pactar algo.
+
+13:48.850 --> 13:54.880
+Esto es como cuando hay dos amigos por ejemplo y uno le dice este prométeme que vas a hacer aquel trabajo
+
+13:54.910 --> 13:58.320
+y tu amigo dice sí sí te lo prometo y el amigo se va.
+
+13:58.420 --> 14:01.110
+Pasa un mes y luego regresa el trabajo.
+
+14:01.150 --> 14:03.190
+Al fin puedo seguir trabajando yo.
+
+14:03.710 --> 14:09.300
+Entonces ese es el concepto de las promesas contradecirle es encargarle hacer un trabajo y que te notifiquen
+
+14:09.310 --> 14:16.920
+cuando ya está hecho o cuando falló ok ahora quiero que hagamos una promesa y esa promesa va a ser llamar
+
+14:16.920 --> 14:23.640
+la función sumar no hacer llevar la función sumar.
+
+14:24.450 --> 14:24.870
+Ok.
+
+14:24.930 --> 14:26.490
+Y qué voy a mandarte.
+
+14:26.490 --> 14:31.990
+Voy a mandarle el valor 1 o según el número recuérdense que esta oposición reciba un parámetro como
+
+14:32.070 --> 14:42.960
+ese parámetro lo Shuman y después no regresa pero bueno ok este punto después de que la promesa se haya
+
+14:43.450 --> 14:51.710
+puesto nosotros necesitamos manejar el necesitamos manejar el rizó o el tope ironizó raquídeo reject.
+
+14:51.750 --> 14:53.920
+Pero no lo hizo mal.
+
+14:53.940 --> 14:57.210
+El reject o curris sólo hizo bien o lo hizo mal.
+
+14:57.930 --> 15:06.110
+Entonces nosotros ocupamos acá decirle angular qué hacer cuando Yar cuando regrese de la promesa.
+
+15:06.850 --> 15:16.280
+Entonces sacó punto Ramesh punto den Garetto un poco aparte y voy a hacer un poco de espacio para explicar
+
+15:16.280 --> 15:17.430
+esto.
+
+15:17.580 --> 15:20.120
+El Beneš eso va siempre siempre es de cajón.
+
+15:20.180 --> 15:27.380
+El tren necesita dos parámetros y estos parámetros son especiales tienen que ser dos funciones función
+
+15:27.390 --> 15:35.920
+proponer si función Punto y Coma necesita dos funciones la fuerza la positiva y la negativa es decir
+
+15:36.130 --> 15:38.800
+qué va a pasar cuando lo haga bien y qué va a pasar cuando lo haga mal.
+
+15:40.470 --> 15:50.210
+Ok gracias aullaba es que podemos hacer esta sintaxis function parentesis James y esto podemos aquí
+
+15:50.210 --> 15:52.760
+darle un entre y aquí podemos dar otro.
+
+15:53.740 --> 15:55.200
+Espero que no se hayan perdido lo que hice.
+
+15:55.300 --> 16:01.430
+Voy a hacerlo aquí de nuevo function parentesis llaves y qué voy a hacer.
+
+16:01.550 --> 16:10.210
+Entered y lo mismo para hallar la función positiva y la función negativa cerrar esto aquí voy a poner
+
+16:10.230 --> 16:15.240
+valor el valor de retorno que en este caso si lo hace correcto sería un número.
+
+16:15.240 --> 16:21.130
+Ahora se va a llamar bueno y aquí error que sería lo que mandemos acá lo que ponemos acá.
+
+16:21.140 --> 16:25.800
+Ahora se va a llamar error y qué puedo decir con eso.
+
+16:26.030 --> 16:32.530
+Vamos a ponerle un Huan no un error un solo punto Erro voy a poner el error sólo para que salga así
+
+16:32.540 --> 16:39.260
+en rojo y todo crítico llamativo y si lo hace bien entonces voy a decir con su blog.
+
+16:39.350 --> 16:45.200
+Promesa cumplida y cambiamos la variable que tenemos hoy scoop punto
+
+16:47.910 --> 16:56.710
+punto como se llamaba mi bar mi mano va a ser igual al valor de retorno creo que eso es todo.
+
+16:56.790 --> 17:04.720
+Voy a salvar los cambios vamos a probar si esto es cierto cada uno un llegado y aquí sale que no está
+
+17:04.720 --> 17:05.800
+pues no está definido.
+
+17:05.870 --> 17:10.410
+Perdón aquí es el valor del cargo.
+
+17:10.410 --> 17:11.340
+Promesa cumplida.
+
+17:11.380 --> 17:16.470
+Regresó dos porque Podemos los que matamos dos hace la sumatoria y regresó.
+
+17:16.740 --> 17:22.310
+En este caso no tiene mucho sentido porque lo hizo muy rápido demasiado rápido.
+
+17:23.180 --> 17:26.560
+Pero eso era sólo para fines ilustrativos.
+
+17:26.560 --> 17:30.740
+Ya en la vida real digamos un time out de un segundo
+
+17:33.520 --> 17:42.100
+y voy a mover esta función le voy a subir aquí arriba dentro del taimados y esto lo va a hacer en dos
+
+17:42.100 --> 17:52.420
+segundos en dos segundos va ejecutar esta función que resuelve o reject o rechaza perdón grabo cosa
+
+17:52.420 --> 17:54.030
+recargada otra vez está en cero.
+
+17:55.350 --> 17:58.190
+Pasan los dos segundos promesa cumplida y Cavolo.
+
+17:58.620 --> 18:06.720
+Ahora qué pasa si cambio aquí a Fox que no va a ser válido va a ejecutar el reject y debería de mostrar
+
+18:06.720 --> 18:07.830
+sólo la consola.
+
+18:07.910 --> 18:09.450
+Pongámoslo aquí.
+
+18:09.760 --> 18:11.950
+Punto mi bar.
+
+18:12.720 --> 18:21.620
+Igual le voy a poner aquí un error si un montón de signos de admiración Sorba que se mira sin más caótico
+
+18:22.150 --> 18:24.050
+que aprender de esos Recaro navegador.
+
+18:24.090 --> 18:31.910
+Dos segundos después no sé sumar te da error vuelvo aquí orden y fue llamado La línea 48 y la variable
+
+18:31.910 --> 18:34.750
+cambio a error.
+
+18:34.950 --> 18:39.650
+Ok espero que esto haya quedado un poco claro verdad yo sé que es mucho código y sé que la primera vez
+
+18:39.650 --> 18:45.890
+que lo hicimos con el tema era sólo apunto pley pero eso del conjunto Play no se va aplicar para los
+
+18:45.890 --> 18:52.190
+servicios cuando somos los asíncronos ya grandes cuando es pequeño lo hacemos y justo a tiempo que me
+
+18:52.190 --> 18:54.900
+estoy quedando sin batería entonces lo veo en la siguiente clase.
+
+18:54.920 --> 18:55.500
+Mucha suerte.

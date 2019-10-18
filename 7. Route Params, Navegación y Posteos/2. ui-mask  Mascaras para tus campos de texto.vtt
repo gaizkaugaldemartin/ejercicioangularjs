@@ -1,0 +1,109 @@
+WEBVTT
+
+00:03.370 --> 00:07.800
+Devenidos nuevamente esta clase de angular hoy veremos sobre máscaras y cómo estandarizar las máscaras
+
+00:07.810 --> 00:14.560
+en nuestra aplicación por ejemplo lo que queremos exponer es que ella no acepte más datos y sólo acepte
+
+00:14.560 --> 00:14.890
+números.
+
+00:14.890 --> 00:18.490
+No creemos que sea ya como un formato en particular.
+
+00:18.490 --> 00:19.860
+Cómo hacemos esto.
+
+00:19.860 --> 00:25.650
+Que lo que necesitamos primeramente es descargarnos la librería de Angola y guey pueden escribir alguna
+
+00:25.720 --> 00:30.100
+vivaracho o hay más y por lo general los va a llevar este link.
+
+00:30.100 --> 00:33.520
+Descargamos este archivo yo como buen año le varias veces
+
+00:36.320 --> 00:46.280
+imprimimos y cooperemos el útiles junto a mi punto Ojota es lo vamos a poner en nuestra cuota ese link
+
+00:47.180 --> 00:54.510
+lo dejamos aquí porque es parte de una librería ãngulo como necesitamos utilizarla.
+
+00:54.940 --> 00:58.040
+Vamos a hacer la referencia al al mismo código.
+
+00:58.060 --> 01:06.620
+Aquí yo lo tengo escrito guardado lo voy a volver a hacer pondremos esto libros y útiles .1.000 apuntó
+
+01:06.660 --> 01:07.250
+J.S.
+
+01:07.440 --> 01:15.600
+Guardamos todos los cambios cerramos acá y vamos a hacer una configuración en APP p.ej. eso con lo siguiente
+
+01:15.700 --> 01:24.600
+igual punto más cuando vamos todos los cambios y ya estamos listos para utilizar las máscaras pueden
+
+01:24.600 --> 01:31.590
+ver la referencia del bel de la página de cómo se usa porque hay otro montón de cosas interesantes pero
+
+01:31.740 --> 01:36.150
+por los momentos sólo trabajaremos con la máscara entonces del teléfono.
+
+01:36.500 --> 01:44.130
+Y para hacerla más crees Highway plica más va a ser igual a nueve nueve nueve pero dice que son números
+
+01:44.170 --> 01:53.130
+no nueve nueve nueve guardo todo regreso a mi navegador web descargamos la aplicación y cooperaba observar
+
+01:53.180 --> 01:54.000
+y aparecer.
+
+01:54.210 --> 02:02.240
+Y si lo borramos aparece la máscara para indicarle al usuario que ahí va a poner un teléfono ahora.
+
+02:02.340 --> 02:04.060
+Así nomás ya les funciona.
+
+02:04.170 --> 02:09.870
+Pero qué pasa si ustedes van a utilizar usa utilizan mucho las máscaras de teléfonos.
+
+02:10.380 --> 02:17.250
+Y después qué sé yo en su país deciden que los teléfonos sólo van a tener dos caracteres más tres caracteres
+
+02:17.250 --> 02:17.710
+más.
+
+02:17.940 --> 02:25.560
+Entonces tendrían que ir a cambiar toda la referencia del Mask para adaptarlas al nuevo formato cosa
+
+02:25.560 --> 02:26.870
+que no sería muy eficiente.
+
+02:26.880 --> 02:37.090
+No podemos hacer lo siguiente que es que el PP vota ese podemos definir en el escote pongámosle más
+
+02:37.450 --> 02:45.030
+o teléfono más o ser igual a nueve nueve nueve nueve nueve nueve.
+
+02:46.290 --> 02:51.980
+Puntico ahora si queremos utilizar esta variable en el libro hay más.
+
+02:52.000 --> 02:59.110
+Lo único que tenemos que hacer es como comilla teléfono más guardamos todo regresa a mi navegador web
+
+02:59.200 --> 03:07.630
+recargó y como podrá observar sigue funcionando de la misma manera sólo que ahora sólo tenemos una definición
+
+03:07.930 --> 03:09.130
+para las máscaras del teléfono.
+
+03:09.130 --> 03:14.080
+Esto es un poco más eficiente y les va a ayudar a ustedes a que en un futuro si alguna máscara de ustedes
+
+03:14.090 --> 03:17.300
+cambie entonces sólo se van a la apuntó botarse.
+
+03:17.320 --> 03:23.260
+Y lo modifica y eso sería todo practiquemos con otros campos y nos dicen que tal les va.

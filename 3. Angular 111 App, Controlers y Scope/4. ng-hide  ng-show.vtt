@@ -1,0 +1,85 @@
+WEBVTT
+
+00:03.340 --> 00:09.010
+Bienvenidos a esta clase donde veremos dos directivas muy importantes muy fáciles de usar pero a la
+
+00:09.010 --> 00:10.370
+vez muy poderosas.
+
+00:10.420 --> 00:17.800
+Estamos hablando del engine Guillo en la clase pasada vimos mejor dicho hicimos un ejercicio donde se
+
+00:17.800 --> 00:23.320
+muestra información del catedrático del profesor y al tocar el botón aparece su información abajo para
+
+00:23.320 --> 00:24.370
+ser editada.
+
+00:24.370 --> 00:31.270
+Tras presionar el botón Guardar o cancelar hacer una acción determinada pero siempre el cuadro persiste
+
+00:31.930 --> 00:38.560
+y esto es incómodo porque este cuadro siempre aparecerá aunque lo usemos o no cómo lo ocultamos.
+
+00:38.560 --> 00:42.120
+Perfecto vamos a hacerlo con las directivas que acabamos de ver.
+
+00:42.130 --> 00:47.560
+Para ello necesitamos crear una bandera o una variable que nos controle cuando queremos mostrarlo y
+
+00:47.560 --> 00:55.360
+cuando no. Entonces crearemos una variable en el proceso de control que se llame mostrársela será una
+
+00:55.360 --> 01:01.360
+variable booleana es decir tiene valores de verdadero falso mostrenca la vamos a poner como falsa
+
+01:04.050 --> 01:12.470
+cuando queremos que esta bandera cambie cuando la persona presiona el botón de Editar.
+
+01:12.480 --> 01:24.120
+Por eso la pondremos aquí ahora cuando queremos que se oculte o que esta bandera ya no se regrese a
+
+01:24.120 --> 01:30.960
+ser invisible cuando la persona guarda los cambios o cuando cancela cams guardamos la información en
+
+01:30.960 --> 01:36.770
+nuestra página p.ej. ese o nuestro chivó preguntó 1.13.
+
+01:37.140 --> 01:44.060
+Regresamos a al Index busquemos dónde está la sección que queremos ocultar.
+
+01:44.110 --> 01:51.780
+Como verán todo este Rou contiene el cuadro de visión podemos ponerlo.
+
+01:51.830 --> 01:56.840
+Podemos poner la directiva aquí porque no podemos ocultar este bloque o este de acá hagámoslo aquí arriba
+
+01:56.840 --> 02:08.860
+para que sea un poco más visible en Youssou idea una expresión en pocas palabras pide algo que regrese
+
+02:08.860 --> 02:16.620
+a un verdadero o falso colocaremos nuestra bandera mostrar cajas y cuando se carguen en vigor es falso
+
+02:16.620 --> 02:23.550
+por defecto entonces esto sólo se va a mostrar si esta condición es verdadera y aunque no me crean ahí
+
+02:23.580 --> 02:24.460
+ya terminó.
+
+02:24.510 --> 02:28.040
+Ya tenemos listo el ejercicio salvamos los cambios con controles.
+
+02:29.580 --> 02:37.610
+Vamos a regresar al navegador web lo abrimos cerrar esto como podrán observar ya no aparece el cuadro
+
+02:38.230 --> 02:41.140
+queremos el botón Editar aparece.
+
+02:41.260 --> 02:46.270
+Ahora solo se llama Juan Carlos notamos los cambios.
+
+02:46.670 --> 02:53.770
+Desaparece el cuadro se aplican los cambios y está funcionando de manera correcta.
+
+02:53.780 --> 02:54.710
+Bastante sencillo no.

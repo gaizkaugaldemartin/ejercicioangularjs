@@ -1,0 +1,214 @@
+WEBVTT
+
+00:03.590 --> 00:05.830
+Totalmente a esta clase de Angola.
+
+00:05.990 --> 00:08.910
+Lo que haremos hoy será jugar con el orden.
+
+00:09.650 --> 00:15.430
+Ordenar esas cosas normalmente es como ya han usado o han visto en otras páginas.
+
+00:15.440 --> 00:19.630
+Cuando la gente hace clic en el nombre de la columna se ordenan los datos.
+
+00:19.640 --> 00:25.970
+Igual acá toco aquí sexo y se debería de ordenar por sexo y toco aquí se ordenan por el nombre.
+
+00:26.220 --> 00:28.990
+Nosotros vamos a jugar con eso de el ordenamiento.
+
+00:29.010 --> 00:30.320
+Regresemos a nuestro código.
+
+00:31.320 --> 00:33.230
+Bajamos un poco aquí en el sexo.
+
+00:33.230 --> 00:36.170
+Voy a poner un salto de línea porque no me gusta que se mire tan pegado.
+
+00:36.170 --> 00:40.800
+Bajamos más y la magia pasa aquí.
+
+00:41.120 --> 00:42.680
+Aquí suceden las cosas.
+
+00:42.740 --> 00:49.030
+Pondremos una tubería Order voy y qué es lo que queremos ordenar.
+
+00:49.030 --> 00:49.400
+Por qué.
+
+00:49.410 --> 00:57.220
+Por qué vamos a ordenar lo que vamos a llevar por nombre por sexo es por nombre pero importante tener
+
+00:57.220 --> 01:04.480
+en cuenta que después del orden va y viene una variable una variable en este caso.
+
+01:04.490 --> 01:09.640
+Por eso voy a poner entre apóstrofe es porque es una variable de tipo string y no la tengo declararã
+
+01:09.860 --> 01:17.480
+declarada pero estoy manando que lo que quiero filtrar es por el nombre en apóstrofe importantes salvo
+
+01:17.480 --> 01:18.640
+los cambios.
+
+01:18.890 --> 01:20.840
+Regresemos al navegador web recargamos.
+
+01:20.870 --> 01:30.600
+Como podrán observar día sale de manera ascendente de la C K L y así va ok.
+
+01:30.640 --> 01:37.670
+Entonces regresando al código Supongamos que ustedes lo quieren al revés podrían ponerle un menos salvamos
+
+01:37.670 --> 01:45.010
+cambio y regresamos a nuestro navegador web descargamos y ahora sale ordenado de la letra más alta a
+
+01:45.170 --> 01:53.840
+la más baja pero todavía no está muy claro el hecho de hacer clic simplemente estoy demostrando acá
+
+01:53.930 --> 01:57.430
+cómo pueden hacer órdenes o degollamientos más sencillos.
+
+01:57.470 --> 02:03.830
+Pues hagamos el comportamiento el comportamiento cuando la gente haga clic aquí entonces haremos un
+
+02:03.830 --> 02:12.810
+hipervínculo para hacer algo que la gente puede hacer click vemos el nombre tendremos aquí adentro separamos
+
+02:12.820 --> 02:16.400
+acá y veremos qué sucede cuando la gente haga clic en esto.
+
+02:18.760 --> 02:27.110
+Cuando la gente haga clic en eso cambiaremos el orden de de ascendente o descendente.
+
+02:27.160 --> 02:35.950
+Para eso creamos una averiar que se llama Rivers que va a ser igual al revés es decir imagínense que
+
+02:35.950 --> 02:43.960
+valga que esto sea un truco ya sea True o verdadera si el verdadero va a ser igual al valor opuesto
+
+02:43.960 --> 02:44.400
+verdadero.
+
+02:44.400 --> 02:51.040
+En este caso sería falso y si yo fuera falso si es falso va a ser igual al valor opuesto en falso o
+
+02:51.670 --> 03:00.870
+negación de falso ese caso sería verdadero salvo los cambios en esta variable y la pondré aquí después
+
+03:00.870 --> 03:09.480
+del nombre los puntos primers primers pide un tercer parámetro en este caso pide un bordador un valor
+
+03:09.810 --> 03:14.690
+de verdadero falso y decir si lo quieres ascendente o descendente vamos los cambios.
+
+03:14.730 --> 03:21.840
+Regresamos a nuestro navegador web recargamos puedan observar si puede ser clic en este nombre hacemos
+
+03:21.840 --> 03:31.980
+clic y ordenar de manera alfabética descendente Toko ascendente algo que me estorba es que no se mide
+
+03:32.010 --> 03:33.310
+el icono del cursor.
+
+03:33.310 --> 03:47.290
+Entonces pongámoslo aquí arriba crearemos una clase se llame puntero tenemos llaves cursor Painter salvo
+
+03:47.290 --> 03:47.890
+los cambios.
+
+03:47.880 --> 03:56.530
+Voy a copiar esta clase y se lo vamos a poner a este punto de anclaje más puntero.
+
+03:56.670 --> 04:00.400
+Vamos todos regresamos al navegador web y ahora soy un poco mejor.
+
+04:01.600 --> 04:01.930
+Listo.
+
+04:04.330 --> 04:10.930
+Ok entonces hagamos lo mismo pero para el sexo regresamos a nuestro sublime texto en su editor de texto
+
+04:12.430 --> 04:15.050
+y haremos algo muy parecido a lo anterior.
+
+04:15.090 --> 04:25.050
+Crearemos un punto de anclaje sin hipervínculo con la clase puntero un clic vamos a esto no un momento
+
+04:25.050 --> 04:26.640
+para explicarlo.
+
+04:26.740 --> 04:29.840
+Habla espacio y esto viene igual igual igual.
+
+04:32.470 --> 04:34.390
+Ahí estamos haciendo lo mismo.
+
+04:34.740 --> 04:38.880
+Pero viene algo que sí tenemos que pensar.
+
+04:38.970 --> 04:45.890
+Aquí viene restableciendo una variable de tipo string en este caso con el nombre de la columna que queremos
+
+04:45.890 --> 04:46.590
+filtrar.
+
+04:47.330 --> 04:53.150
+Entonces si queremos entrar por sexo o mejor dicho ordenar por sexo tenemos que poner aquí el nombre
+
+04:53.150 --> 04:55.260
+de la columna en este caso sería sexo.
+
+04:56.600 --> 05:06.830
+Entonces vamos a crear aquí una nueva variable que se llame columna va a ser igual cierro con y como
+
+05:08.000 --> 05:10.920
+va a ser igual a que si yo toco el nombre sería el nombre.
+
+05:11.740 --> 05:21.760
+Y si yo toco sexo entonces sería sexo voy a copiar el nombre de esta variable que estamos creando y
+
+05:21.870 --> 05:23.780
+la regresaremos por ésta aquí.
+
+05:25.140 --> 05:32.660
+Es decir columna si yo toco el nombre va a ser por nombre y si Toko sexo va a ser por sexo.
+
+05:32.670 --> 05:38.700
+Guardamos los cambios regresamos a nuestro navegador web ejecutamos nuevamente y el sexo ahora también
+
+05:38.700 --> 05:42.250
+se puede hacer click es que lo hago.
+
+05:42.300 --> 05:49.320
+Mujeres y Hombres mujeres hombres tocó hombres acá el nombre y los de.
+
+05:49.620 --> 05:50.460
+Claro el nombre.
+
+05:50.490 --> 05:52.080
+Como estamos estamos ordenando la columna.
+
+05:52.080 --> 05:54.260
+Por eso se pierde el orden pero está bien.
+
+05:54.270 --> 05:59.640
+Es un comportamiento esperado y como podrá observar los filtros todavía funciona.
+
+05:59.640 --> 06:08.870
+Vamos a buscar a alguien que dejémoslos con todos tienen a pongámosle o que regrese dos que quiere regresar
+
+06:08.930 --> 06:14.490
+no regresa Tartus pero podrá observar que el filtro igual sigue funcionando.
+
+06:14.580 --> 06:15.540
+Parece magia.
+
+06:15.540 --> 06:17.940
+Muy sencillo muy fácil de hacer.
+
+06:17.970 --> 06:23.490
+Piensen cómo harían eso ustedes en otro lenguaje de programación y los veo en la siguiente clase.

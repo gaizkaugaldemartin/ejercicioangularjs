@@ -1,0 +1,226 @@
+WEBVTT
+
+00:03.620 --> 00:07.940
+O que en la clase pasada llegamos hasta este punto donde creamos Batahola y un par de registros que
+
+00:07.940 --> 00:13.590
+esto viene de nuestra base de datos nuestra y un nivel de alumnos.
+
+00:13.710 --> 00:22.750
+Y aquí vamos a hacer un par de inserciones de registros creemos por lo menos somos unas tres personas
+
+00:22.750 --> 00:36.580
+más o se creará Cristian entonces mayuscula Cristian Joel Pineda teléfono 22:34 54 45 y vive en la colonia
+
+00:38.200 --> 00:39.100
+Lomas de
+
+00:43.080 --> 00:44.910
+vamos a poner otro llamado.
+
+00:45.420 --> 00:49.280
+Vamos a ver qué se me ocurre.
+
+00:50.590 --> 01:00.570
+O sea ángel Morán Pérez tiene un teléfono 65 76 sin Helion o 23:34.
+
+01:00.840 --> 01:01.630
+No sé.
+
+01:01.840 --> 01:11.630
+Bueno aquí no sé dónde vive estaríamos aquí inserta un nuevo registro insertamos los dos objetivos a
+
+01:11.630 --> 01:23.420
+insertar a Marvin Marvin Fajardo con el teléfono cualquiera vive en la colonia no vive en el barrio
+
+01:24.420 --> 01:29.030
+21 de octubre el siguiente será
+
+01:32.530 --> 01:34.450
+odiamos a Ana María.
+
+01:34.660 --> 01:45.510
+Ana María primero con su teléfono porque cualquier teléfono no sé dónde vive eso lo actualizaremos después
+
+01:46.170 --> 01:50.920
+continuamos verificamos la data que examinar.
+
+01:50.940 --> 01:56.850
+Ya queremos salir todos aquí si no me equivoco creo que metí a Cristian aquí esto va sin yo.
+
+01:56.850 --> 02:03.210
+Los teléfonos usualmente se graban sin yo le quitan medio por cinco pesos por accidente verificamos
+
+02:03.210 --> 02:03.780
+la data.
+
+02:03.810 --> 02:05.560
+Todo parece estar bien.
+
+02:05.840 --> 02:11.790
+Estamos en nuestro programa recargamos de a todas las personas pero más de uno de ustedes ya está pensando
+
+02:12.300 --> 02:18.450
+aquí va a haber un problema porque cuando haya muchos registros cuando hayan bastantes registros la
+
+02:18.450 --> 02:20.860
+tabla se crecerá mucho para abajo.
+
+02:21.030 --> 02:22.940
+Queremos mantener esto ordenado.
+
+02:22.950 --> 02:29.250
+Qué les parece si mantenemos sólo la visualización de cinco registros por pantalla o por página entonces
+
+02:29.250 --> 02:32.060
+hagamos esa pequeña configuración.
+
+02:32.060 --> 02:37.270
+No regresamos a nuestro alumnos.
+
+02:38.120 --> 02:49.390
+A nuestra alumnos punto HTML se acordarán hay una hay un filtro de angular que es limit tú podemos ponerle
+
+02:49.450 --> 02:56.710
+cinco registros por decir algo voy a guardar todo eso mi navegador web recargó y sólo aparecen los primeros
+
+02:56.710 --> 02:57.070
+cinco.
+
+02:57.700 --> 03:01.590
+Pero qué pasa con los otros los siguen ahí pero nos están mostrando la información.
+
+03:02.290 --> 03:07.270
+Entonces tenemos que hacer un procedimiento despareció en un par de botones para avanzar y retroceder
+
+03:08.980 --> 03:14.470
+y así poder visualizar toda la data que vemos anteriores
+
+03:16.740 --> 03:20.970
+siguientes.
+
+03:21.570 --> 03:30.940
+Ambos serán con la clase veten MTM Primary guardo más o menos para hacer esta funcionalidad al tocar
+
+03:30.940 --> 03:37.030
+siguientes va a pasar los siguientes cinco y así sucesivamente hasta llegar al final y viceversa.
+
+03:37.060 --> 03:44.590
+Al tocar anteriores debería de regresarme a los registros posteriores o que regresemos a nuestro nuestro
+
+03:44.590 --> 03:53.960
+código deambular y como hacemos esto a Pepe si no lo ocupamos lo vamos a cerrar vamos acá tenemos una
+
+03:53.980 --> 04:04.490
+bandera llamada posición la iniciamos con cinco lo que querrá decir que en vez de este 5 usaremos posición
+
+04:04.900 --> 04:12.110
+así si vamos incrementando esta variable se van a ir filtrando de cinco los grupos que yo ponga.
+
+04:12.770 --> 04:21.120
+Pero qué pasa si yo pongo 10 acá qué pasa qué pasa si yo pongo 10 a recargar llevábamos 10 registros
+
+04:21.150 --> 04:26.210
+pero no es exactamente lo que yo quiero lo que yo quiero que siempre se miren 5.
+
+04:26.330 --> 04:33.580
+Hay una buena manera de hacer esto que es aplicar un segundo filtro otro límite.
+
+04:33.600 --> 04:39.980
+No hay ningún no hay ninguna limitante para hacer este tipo de filtro pero vamos a ponerle un menos
+
+04:40.040 --> 04:44.390
+5 por eso lo queremos ver de 5 en 5.
+
+04:44.480 --> 04:50.170
+Ahora miremos nuevamente ven que ya no empieza con Ana.
+
+04:50.450 --> 04:51.370
+Ahora está con Juan.
+
+04:52.400 --> 04:59.370
+Si yo pongo 15 guardo los registros a mi regreso van a aparecer los últimos.
+
+04:59.510 --> 05:00.870
+La última de la lista es Susana.
+
+05:00.890 --> 05:06.110
+No voy a poner aquí 20 y ahí estamos en el final.
+
+05:06.320 --> 05:11.840
+La última de la lista es usar vamos a dejar de hacer esto en 5 recargo entonces eso es todo lo que tenemos
+
+05:11.840 --> 05:18.740
+que hacer ir incrementando de cinco en cinco y procurarnos de no pasarnos de El largo total del arreglo.
+
+05:19.100 --> 05:23.550
+Igual si estamos en la última procurar no restar de menos de cero.
+
+05:23.930 --> 05:29.920
+Entonces hagamos esa funcionalidad Hagamos el siguiente primero programemos el botón Siguiente.
+
+05:31.460 --> 05:39.810
+Entonces haremos una fusión en el disco llamada siguientes se llevará una función no recibe ningún parámetro
+
+05:40.220 --> 05:52.500
+telépata y vamos a decir lo siguiente si nuestros Kop punto alumnos punto Lent es decir éste va a tener
+
+05:52.500 --> 05:53.700
+el número total de registros.
+
+05:53.730 --> 05:55.460
+Asumamos que sean diez o doce.
+
+05:58.080 --> 06:03.480
+Si esto es mayor a la posición Skout punto posición
+
+06:05.920 --> 06:11.990
+25 es mayor a 5 si entonces lo que haremos es scoop punto.
+
+06:12.160 --> 06:16.060
+Posición más igual.
+
+06:16.200 --> 06:29.780
+5 Unicom cuando los datos operemos esta función y se la pegaremos al botón X click silletas guardamos
+
+06:29.830 --> 06:33.510
+cambios en navegador web y proveemos el voto.
+
+06:34.240 --> 06:40.420
+Parece funcionar y cuando llegamos aquí al final ya no. Si uno sigue moviéndose para que esté totalmente
+
+06:40.420 --> 06:42.700
+seguro de que no se está incrementando.
+
+06:42.760 --> 06:51.630
+Qué les parece si ponemos aquí la posición sólo para ver el valor 5 10 15 y ahí ya no paso porque ya
+
+06:51.640 --> 06:55.390
+no hay más efecto.
+
+06:55.540 --> 07:04.730
+Ahora hagamos lo mismo o mejor dicho proceso inverso al copiar todo esto anteriores vamos a tener anteriores
+
+07:06.710 --> 07:16.550
+le voy a decir si la posición si la posición actual es mayor a 5 porque ya los cinco los últimos.
+
+07:16.550 --> 07:25.550
+Entonces le restó 5 a la posición guardo los cambios en función vamos a ponérsela al botón con un clic.
+
+07:25.880 --> 07:33.820
+Cuánto regresó a mi navegador web el cargo me llevó al siguiente siguiente ya no pasa después.
+
+07:33.830 --> 07:39.800
+Anterior anterior y ya no hay registros anteriores como para observar de una manera muy sencilla creamos
+
+07:39.800 --> 07:47.630
+nuestra tabla dinámica que se lee datos de una base de datos que tiene controles de navegación y ustedes
+
+07:47.630 --> 07:54.410
+pueden si desean pueden crear la opción aquí arriba con un jitter para que la gente escriba una palabra
+
+07:54.410 --> 07:58.280
+y se filtre esto pero eso lo dejaremos para después.
+
+07:58.400 --> 08:00.710
+Ok entonces los veo en la siguiente clase.

@@ -1,0 +1,145 @@
+WEBVTT
+
+00:03.410 --> 00:05.160
+Bienvenidos nuevamente a la clase de hoy.
+
+00:05.180 --> 00:09.410
+Yo sé que les va a gustar a muchos que es el concepto de animaciones vamos a aprender a animar cualquier
+
+00:09.410 --> 00:13.550
+elemento HTML de una manera muy sencilla y muy explícita.
+
+00:13.550 --> 00:24.080
+Olvídense de escribir una línea de código acá lo que haremos es usar un estilo llamado ánime y si es
+
+00:25.240 --> 00:27.930
+esto es externo al angula.
+
+00:28.100 --> 00:34.130
+Esta hoja de estilos lo que contiene es una serie de animaciones CSS 3 un montón de animaciones CS3
+
+00:34.690 --> 00:37.530
+que les permitirá a ustedes animar lo que ustedes.
+
+00:39.810 --> 00:47.470
+Ahí hay Flash y bounds y swing de todo un poco.
+
+00:47.650 --> 00:54.520
+Hay un montón que ya alguien escribió por nosotros y lo único que nos queda es descargarla con este
+
+00:54.760 --> 00:56.580
+enlace y usarla.
+
+00:56.590 --> 01:04.750
+Entonces empecemos ya la descargué la hoja de estilos abriré mi carpeta donde están las descargas.
+
+01:04.750 --> 01:11.900
+Voy a copiar este archivo como es un archivo de estilos CSS lo pondremos en CSS.
+
+01:12.270 --> 01:16.270
+Pegamos acá vamos a nuestro proyecto.
+
+01:16.570 --> 01:22.030
+Como verán ya existe aquí y ya lo podemos ver si ya está actualizado.
+
+01:22.030 --> 01:23.400
+Tenemos que ser referencia al mismo.
+
+01:24.080 --> 01:34.190
+Entonces pondremos aquí sólo la referencia es una hoja de estilos que tendrá la ubicación en CSS en
+
+01:34.550 --> 01:38.940
+plica animated puntos y ese es damos los cambios.
+
+01:39.030 --> 01:42.910
+Y ya está listo para ser usada.
+
+01:43.110 --> 01:50.470
+Bajamos un poco en el cuadro de mostrar Cájar que tiene la directiva en Guillou como es una clase como
+
+01:50.490 --> 01:51.780
+son estilos.
+
+01:51.810 --> 02:00.780
+Hay que poner clases para decirle al programa quiero que animes esta caja criamos la clase anime Maigret
+
+02:03.200 --> 02:09.030
+y el nombre de la animación que queremos en este caso pueden irse a la página original y aquí ver cualquiera
+
+02:09.030 --> 02:19.380
+de estas animaciones las que dicen out son para que se anime con salida es que dicen y son para que
+
+02:19.380 --> 02:20.630
+aparezca.
+
+02:20.650 --> 02:26.970
+Usaremos el bounds Browns y salvamos los cambios y eso es todo lo que hay que hacer.
+
+02:27.120 --> 02:36.160
+Todo lo que hay que hacer o saber que estamos en navegador web es el botón y aparece la animación.
+
+02:36.160 --> 02:41.490
+Claro esta animación es un poco como se dice es un poco exagerada.
+
+02:41.500 --> 02:46.770
+No hagamos otra que sea un poco más seria.
+
+02:46.790 --> 02:55.310
+Otra que es fue en Sailing lo que va a ser es que va a parecer un poco más sutil en lo particular a
+
+02:55.310 --> 02:58.540
+mí no me gusta que estas animaciones tarden tanto.
+
+02:58.580 --> 03:03.590
+Hay algunas que sí se ven bien pero no me gusta que tardé tanto porque normalmente yo ya quiero usar
+
+03:03.590 --> 03:09.610
+toco el botón y ya quiero que esté editando la animación ésta demoró un segundo entonces hagámosle una
+
+03:09.610 --> 03:18.520
+pequeña modificación a nuestro chivó de anime juntos vigueses vamos a abrirlo y crearemos una clase
+
+03:18.520 --> 03:19.450
+que se llame Fast
+
+03:23.340 --> 03:28.660
+o podrán ver esto es una variable que controla la duración de las animaciones.
+
+03:28.770 --> 03:35.900
+Por lo general de un segundo les queremos acelerar vamos a poner la que sea de cuanto 1 punto 4 por
+
+03:36.190 --> 03:37.330
+1.4 segundos.
+
+03:37.410 --> 03:41.970
+Guardamos aquí en nuestro Giovanni Metaponto si esa es la clase que creamos es fácil ustedes pueden
+
+03:41.970 --> 03:51.670
+ponerle el nombre VDC si queremos acelerar esto entonces pondremos Maigret el nombre de la animación
+
+03:51.760 --> 03:59.930
+y Faust salvo los cambios o regreso al navegador de cargo y al presionar este botón que aparece mucho
+
+03:59.930 --> 04:00.470
+más rápido.
+
+04:02.800 --> 04:09.830
+Ya es un poco más agradable y bueno les invito a que ustedes se pongan a jugar con las la lista de animaciones
+
+04:09.830 --> 04:17.360
+que hay porque son un montón son un montón y pueden animar lo que ustedes quieran puede animar como
+
+04:17.360 --> 04:20.500
+ustedes quieran donde ustedes quieran.
+
+04:22.740 --> 04:28.830
+Pueden animar imágenes pueden animar cualquier cualquier elemento HTML y si ustedes lo pueden ver lo
+
+04:28.830 --> 04:29.390
+pueden animar.
+
+04:29.400 --> 04:39.590
+Nada más hagámoslo con la fotografía de aquí del nuestro porque son animadores él toda otra vez.
+
+04:39.610 --> 04:43.010
+Cuando regreso y listo.

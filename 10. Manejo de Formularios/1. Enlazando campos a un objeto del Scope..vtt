@@ -1,0 +1,655 @@
+WEBVTT
+
+00:03.040 --> 00:07.430
+Bienvenidos nuevamente este curso triangular y a continuación hay toda una sección dedicada solo al
+
+00:07.430 --> 00:12.630
+manejo de formularios se descarga el material junto porque vamos a trabajar solo con eso a lo largo
+
+00:12.920 --> 00:20.360
+de estas clases que están a continuación los descomprime lo abrimos pueden ahora lo vi una vez en el
+
+00:20.880 --> 00:29.140
+en su Zuleima text abren el archivo índex y yo voy a habilitar de una vez el burócrata para que se mire
+
+00:29.140 --> 00:30.840
+completo.
+
+00:31.300 --> 00:33.730
+Abran por favor y una vez en el Dulko
+
+00:36.650 --> 00:43.000
+y quiero que observen qué es lo que está pasando acá es un formulario común y corriente con varios campos
+
+00:43.130 --> 00:43.920
+pues tocar este botón.
+
+00:43.930 --> 00:46.520
+No pasa nada aquí tampoco.
+
+00:46.840 --> 00:52.210
+Dejen abierta de una vez la sección de la consola para que ustedes puedan ver tanto lo que están en
+
+00:52.210 --> 00:58.490
+los valores de las cajas de texto lo que va a aparecer en esta caja y lo que retorna a la consola.
+
+00:58.540 --> 01:02.810
+Necesito que tengan esa vista de los tres elementos simultáneamente.
+
+01:04.080 --> 01:06.450
+Imagínense que este es un formulario básico.
+
+01:06.690 --> 01:11.410
+Imagínese que ustedes tienen datos y necesitan obligar a la persona que ingrese algo como se puede hacer
+
+01:11.410 --> 01:11.720
+eso.
+
+01:12.160 --> 01:16.480
+Hay muchas maneras de hacerlo ustedes pueden hacer que en el posteo de la información válida en los
+
+01:16.480 --> 01:25.270
+campos pero vamos a hacer una manera elegante sencilla y al final les enseñaré un método semi automático
+
+01:25.360 --> 01:29.380
+de hacer validaciones en coagular G10.
+
+01:29.620 --> 01:42.060
+OK supongamos que queremos validar nuestro nombre en HTML 5 incorporó esto recuerda.
+
+01:42.420 --> 01:49.450
+Yo veo los cambios y regreso al navegador web recargó van a ver que aparece esto yo puedo ingresar aquí
+
+01:49.450 --> 01:57.520
+cualquier tontería pero ya Dialog ya lo permite pero un vacío hace que aparezca este cuadrito igual
+
+01:57.520 --> 02:06.850
+números correos combos funciona con todo por los momentos la voy a quitar en el archivo en la carpeta
+
+02:06.860 --> 02:17.570
+J.V p.ej. eso sí prevemos una función en el scoop llamada Guardar guardar datos es igual a una función
+
+02:18.430 --> 02:29.220
+y aquí no voy a poner un solo posteo o posteando posteando opinó desposa
+
+02:32.290 --> 02:38.440
+lo que queremos es que esa función se dispare cuando el formulario es enviado o sea hecho con un submit
+
+02:40.120 --> 02:46.660
+aquí en el formulario creemos llamáramos la función en Submit llamará a la función guardar datos que
+
+02:46.660 --> 02:54.100
+está en el Esco no hay ningún problema todo bien regresa al navegador Toko exigir campo o poner aquí.
+
+02:54.130 --> 03:04.260
+Fernando Toko y no está pasando nada creo que no recargue el navegador web porque ya estaba en si yo
+
+03:04.280 --> 03:11.840
+toco el botón hacer submit y sale posteando que Fernando lo mismo pasa hacia el puesto de información
+
+03:13.160 --> 03:14.940
+pero esta validación es práctica.
+
+03:15.010 --> 03:21.830
+Es buena práctica pero a la vez o sea la validación del HTML5 pero a la vez nos quita mucho control
+
+03:22.280 --> 03:24.220
+de lo que está sucediendo.
+
+03:24.620 --> 03:32.020
+Entonces vamos a utilizar angular para esto ahora están es muy amable con los formularios y nos crea
+
+03:32.650 --> 03:38.590
+cuando nosotros le ponemos un nombre Nein cuando le ponemos un nombre de nuestro formulario este caso
+
+03:38.590 --> 03:43.640
+se llamará formulario o FLM pero ustedes quieran ponerle.
+
+03:44.020 --> 03:50.280
+Si ustedes le ponemos un nombre de este tipo angular al leerlo crea una variable en el escote llamada
+
+03:50.290 --> 04:02.370
+formulario la voy a poner acá formulario ok grabado los cambios regresa al navegador cargo y venga que
+
+04:02.370 --> 04:07.310
+aparece todo este montón de código pero sale muy difícil de leer.
+
+04:07.310 --> 04:16.930
+Entonces utilizaremos el filtro Jayson y ahora si sale ordenado hay una sección de errores que no hay
+
+04:16.930 --> 04:22.270
+ningún error porque el formulario no tiene ninguna validación el nombre formulario si está sucio.
+
+04:22.350 --> 04:29.770
+Si el festín es si no ha sido manipulado por el usuario de alguna manera sí es válido si es inválido
+
+04:30.070 --> 04:36.670
+y si ha sido enviado o posteado o hecho un submit en este caso aunque yo toque cualquier cosa aquí y
+
+04:36.790 --> 04:39.700
+seleccione el pricing sigue estando el truco.
+
+04:39.820 --> 04:43.050
+Si van a aparecer ustedes me engañaste esto no es así verdad.
+
+04:43.060 --> 04:45.130
+No cambió nada.
+
+04:45.160 --> 04:51.460
+Lo que pasa es que ninguno de estos formularios ninguno de estos campos del formulario está siendo manipulado
+
+04:51.460 --> 04:55.000
+por angular todavía necesitamos ponerle una variable el.
+
+04:55.090 --> 04:56.800
+Más de uno habrá pensado en eso.
+
+04:56.800 --> 04:58.310
+Qué pasó entonces.
+
+04:58.350 --> 05:04.730
+Se te molesto pongámosle esos valores una manera de manejar todos los valores de un formulario y quedando
+
+05:04.790 --> 05:11.410
+un objeto o punto for Data pongamos lo declaremos como objetos y
+
+05:15.170 --> 05:16.980
+qué listo.
+
+05:16.980 --> 05:24.740
+Ahora acaba uno de esos valores a cada uno de nuestros objetos le pondremos también una propiedad de
+
+05:24.740 --> 05:31.010
+ese objeto en Model igual for Data junto al nombre.
+
+05:31.010 --> 05:41.660
+Esto lo voy a copiar lo mismo aquí en Model que iba a cambiar la edad aquí va a cambiar el género.
+
+05:41.670 --> 05:45.070
+Hay gente que le pone sexo a ustedes pónganle como ustedes quieran.
+
+05:45.510 --> 05:55.380
+Y el correo me guardo todo regresó al navegador web recargó y quiero que miren presten atención aquí
+
+05:55.380 --> 05:57.110
+en el Prestige en el Prestige.
+
+05:58.330 --> 06:02.590
+Si yo toco acá y pongo Fernando ven qué pasó.
+
+06:02.590 --> 06:07.030
+Cambió el Liberty y cambió Dirty pero el cambió.
+
+06:07.090 --> 06:11.410
+Lo importante aquí es el Kristinn quiere decir que el formulario ha sido manipulado por el usuario aunque
+
+06:11.410 --> 06:12.660
+el usuario borre esto.
+
+06:13.750 --> 06:15.190
+Quiere decir que ya fue manipulado.
+
+06:15.190 --> 06:16.480
+Esto es importante.
+
+06:16.630 --> 06:20.820
+El formulario es válido pues sí es válido porque no tiene ninguna validación.
+
+06:20.820 --> 06:30.110
+Ok ahora qué pasa qué pasa qué pasa si yo llego acá y le pongo ni nombre quiero que vean eso.
+
+06:30.790 --> 06:37.170
+Guardo cargo navegador web y apareció más información en el formulario.
+
+06:37.500 --> 06:43.120
+En nuestra batidores formulario de Scoop o en formulario ahora creó todo esta sección.
+
+06:43.120 --> 06:47.760
+Todo esto está bueno si tiene validado si tiene validadores.
+
+06:48.940 --> 06:53.260
+Si ya ha sido parcheado si ha sido tocado se ha sido manipulado.
+
+06:53.260 --> 06:59.940
+Todos tienen su Kristinn en su Kristinn.
+
+07:00.400 --> 07:05.240
+Sí es válido si es inválido si tiene errores que recibe el nombre y otras cosas.
+
+07:05.720 --> 07:14.870
+Si nosotros le ponemos acá ahora la etiqueta HTML Ricoeur igual recuerda da buenos datos regreso al
+
+07:14.870 --> 07:18.200
+cargo y ahora veo mucho más información.
+
+07:18.530 --> 07:25.100
+Más de uno se va como se dice aborrecer de tanta información que tira esto pero bueno no se preocupen
+
+07:25.370 --> 07:35.750
+estamos sólo con el ni vamos a ver cual aquí está el Nain pero este es el Nahim del formulario y este
+
+07:35.750 --> 07:42.100
+es el que nos interesa el del nombre nombre tiene validadores que vamos a bajar a bajar.
+
+07:42.250 --> 07:43.050
+Válido.
+
+07:43.070 --> 07:44.900
+Falso es inválido.
+
+07:44.900 --> 07:46.110
+Correcto.
+
+07:46.250 --> 07:50.610
+Qué error está dando está dando el error de que es requerido.
+
+07:51.530 --> 08:00.030
+Si yo llego yo y cambio 1 2 3 y nos quedamos aquí viendo el nombre van a ver que en la parte de errores
+
+08:00.060 --> 08:03.130
+ya no hay ningún objeto.
+
+08:03.250 --> 08:06.980
+Ahí ya van teniendo ustedes idea de qué es lo que estamos haciendo.
+
+08:07.080 --> 08:12.850
+Voy a hacer lo mismo con el correo porque correo es algo especial.
+
+08:12.870 --> 08:15.710
+Correo es algo especial entonces le pondremos aquí
+
+08:20.260 --> 08:26.950
+y en Gmail y me y nos falta saber hasta el mínimo del recuerdo.
+
+08:26.960 --> 08:30.580
+Ok voy a guardar aparte del nene y lo pondré aquí.
+
+08:32.990 --> 08:40.950
+Nain y me guardo todo voy a regresar al Crom recargo.
+
+08:41.200 --> 08:47.450
+Aquí aparece mucha información pero vamos a irnos a el que dice y estoy acá.
+
+08:47.470 --> 08:51.200
+Esto será importante no ha sido tocado precisó Chatruc.
+
+08:51.250 --> 08:56.060
+Si el error que está dando ahorita es requerido recuerda truc.
+
+08:56.760 --> 09:00.210
+Si yo me pongo Fernando así no más.
+
+09:00.430 --> 09:05.320
+Fernando y lo intentaré guardar Fernando y lo de guardar.
+
+09:05.530 --> 09:13.270
+Va a aparecer el error de HTML5 diciendo que incluye por menos incluir un número una arroba en la dirección
+
+09:13.270 --> 09:15.480
+de correo y aquí no regresa ninguna regla.
+
+09:15.580 --> 09:24.180
+Si vamos a ver los errores del email está teniendo un error de que hay un error de error de walkthrough
+
+09:25.530 --> 09:27.280
+ok.
+
+09:27.550 --> 09:32.740
+Más de uno ya pensando Ah bueno entonces quiere decir que yo sólo hay Dennison para mostrar estos errores.
+
+09:32.740 --> 09:36.830
+Sí correcto eso es lo que vamos a hacer pero un poquito más adelante.
+
+09:37.090 --> 09:45.610
+Ahora cuando esto del HTML5 pueda dar problemas a muchos problemas de funcionalidad sino que puede ser
+
+09:45.610 --> 09:50.020
+que no vaya con el estilo de su página y ustedes quieren hacer algo personalizado y que esa cosa no
+
+09:50.020 --> 09:50.810
+aparezca.
+
+09:50.910 --> 09:55.360
+Cómo tienen el formulario de HTML5 o la validación de HTML5.
+
+09:55.370 --> 09:56.650
+Pues muy fácil.
+
+09:56.650 --> 10:06.340
+En el foro ponen no validad igual a no validad graves cambios regreso al formulario el cargo toca el
+
+10:06.340 --> 10:13.240
+botón Y ahora sí está posteando ahora está posteando acá y ya no aparecen los mensajes.
+
+10:13.360 --> 10:19.210
+A pesar de que hay errores en el formulario Ok sigamos adelante.
+
+10:20.660 --> 10:28.340
+Sería bueno no postear nada aquí no hacer el puesto de información si el formulario está mal o está
+
+10:28.610 --> 10:29.250
+con error.
+
+10:29.990 --> 10:32.330
+Cómo sabemos si el formulario tiene error.
+
+10:32.510 --> 10:39.740
+Aquí hay una muy fácil que dice Bally ok y miren que tenemos tiempo de dolor.
+
+10:40.360 --> 10:45.910
+Cómo se llama la variable que tiene toda esa información se llama formulario y cómo se llama la variable
+
+10:45.940 --> 10:55.830
+que tiene si esta falso si es inválido sino dólar valio podemos mandarlo así en nuestro Apep p.ej. ese
+
+10:56.400 --> 11:08.210
+ahora podemos recibir un parámetro que diga válido y hacemos lo siguiente y si no es vario si no es
+
+11:08.210 --> 11:13.360
+válido hagamos un ratón ya es esto de esta manera.
+
+11:13.380 --> 11:19.200
+Aquí recibe formal no es válido lo que recibo aquí no hago nada no hago ningún posteo voy a recargarlos
+
+11:19.200 --> 11:27.760
+datos toco y no parece nada pero aquí voy a escribir Fernando y en el correo y escribir mi correo cuerda.
+
+11:27.800 --> 11:36.130
+Y ahora si postea o qué bien puede recargar el navegador web para limpiar los campos.
+
+11:36.480 --> 11:44.200
+Y si yo toco este botón sería bueno sea no pasa nada si no postea pero a la vez me gustaría o mejor
+
+11:44.200 --> 11:48.530
+dicho debe decir dónde está el error dónde está el posteo dónde está el error.
+
+11:48.670 --> 11:54.700
+El usuario tiene que saber y nosotros no tenemos que hacerlo pensar quiero que miren esto aquí en el
+
+11:55.020 --> 12:06.130
+melindres HTML este que es requerido hay una clase en Bushra que dice Haz error trotó regreso aquí Acro
+
+12:06.290 --> 12:09.280
+recargo y ven que aparece esto en rojo.
+
+12:11.430 --> 12:20.220
+Ok aparecen Rob el en la caja de texto todo es todo esto parece.
+
+12:20.560 --> 12:26.770
+Entonces aquí ya da una indicación de que aquí está el problema y hay otra que es hacerlo ñas y otra
+
+12:26.770 --> 12:29.320
+que es Success success.
+
+12:29.380 --> 12:35.100
+Así cargo y que ahora aparece como en un verde inclusive un sombrero verde.
+
+12:35.890 --> 12:44.360
+Entonces esa es buena manera para decir eso para indicar la persona que hay un problema.
+
+12:44.480 --> 12:55.220
+Otra cosa es que se usa mucho es son las ayudas de información por ejemplo falta o este campo es necesario
+
+12:55.510 --> 13:02.860
+este campo es necesario lo ponemos así miremos como qué es lo que pasa.
+
+13:03.170 --> 13:14.760
+Este campo es necesario y la clase que hay que ponerle a éste es jaiak Block esto es del gusto de todos
+
+13:14.780 --> 13:22.810
+estos de vuestro gravó regreso y ven que inclusive se pone en rojo si lo ponemos en verde hojas Success
+
+13:23.940 --> 13:29.960
+Ah bueno y bueno en verde igual esto no hay que mostrarlo a menos de que sea necesario pero ya vamos
+
+13:29.960 --> 13:30.750
+a ver eso.
+
+13:30.890 --> 13:33.440
+Sólo quería explicar esos dos conceptos.
+
+13:33.560 --> 13:36.670
+Se acuerdan que vimos el Class en class.
+
+13:36.710 --> 13:41.780
+Hay otra manera de utilizar esto mediante mandándolo algún objeto.
+
+13:41.780 --> 13:42.960
+Cómo hacemos eso.
+
+13:43.070 --> 13:49.690
+Voy a poner llaves enter y aquí vamos a escribir un par de expresiones.
+
+13:49.730 --> 14:03.130
+Por ejemplo voy a decir que va a regresar algún error si los puntos el formulario si el formulario tonto
+
+14:04.570 --> 14:13.880
+cómo se llama el campo se llama nombre equipo nombre si capós nombre punto es invalide puedes usar invalide
+
+14:14.270 --> 14:23.350
+o negarlo vamos a hacer el vamos a negarlo acá si no es válido va a aparecer esto que voy a recargar
+
+14:23.370 --> 14:31.760
+navegador web y de entrada recargo y ella aparece en rojo pero ese rojo voy a poner aquí una coma y
+
+14:31.760 --> 14:40.160
+ahora vamos a poner aquí el haz Success va a aparecer siempre y cuando el formulario sea válido esta
+
+14:40.180 --> 14:47.480
+Copa y si no está además aquí este otro signo está además acuerdense que ponerle el signo de admiración
+
+14:48.140 --> 14:53.890
+en un Juliano algo que regrese tú lo hace fouls los efforts ok.
+
+14:54.440 --> 14:59.010
+Recargo navegador el navegador web y el capó requerido.
+
+14:59.040 --> 15:06.440
+Y aquí voy a escribir nada como ven pueden ver y aparece en verde pero no queremos nosotros que cuando
+
+15:06.440 --> 15:09.640
+cargamos el navegador web veis todas las para todos los campos que aparezcan en rojo.
+
+15:09.650 --> 15:10.650
+Eso no es así.
+
+15:10.640 --> 15:17.960
+Eso no debería verse en ningún lado se ve así sólo se ponen en rojo cuando cuando se postea y detecta
+
+15:17.960 --> 15:31.780
+que hay problemas de validación ok entonces aquí podemos hacer una condición adicional and el formulario.
+
+15:32.430 --> 15:40.060
+Punto de Acuerdo como se llamaba la que nos decía si ha sido tocado Christin te deja incluyendo el signo
+
+15:40.060 --> 15:49.710
+de dólar amplis sin y como estos son booleano y que el precio no sea cierto.
+
+15:50.160 --> 15:53.110
+O sea que ya haya sido manipulado.
+
+15:53.110 --> 15:54.900
+Voy a poner esto mismo aquí abajo
+
+15:58.600 --> 16:06.680
+grabo regresa navegador web recargó como puedes observar no ya este texto tengo que ocultar lo que vamos
+
+16:06.670 --> 16:07.410
+a hacer.
+
+16:07.420 --> 16:13.720
+De momento aparece en gris y empiezo a escribir Fernando y se queda en verde y si yo lo quito ahora
+
+16:13.720 --> 16:20.110
+sí ya está en rojo porque Christin ya cambió osaría ese campo ha sido manipulado.
+
+16:20.510 --> 16:25.720
+Yo sé que esto ya se ve mucho y ya es mucha lógica y mucha mucha lógica en todo esto.
+
+16:25.730 --> 16:36.110
+Por ejemplo en mi blog deberiamos de hacerle deberiamos de hacerle un hendija hoy en día si el formulario
+
+16:40.670 --> 16:43.800
+eutsi nuestro campo es válido.
+
+16:43.880 --> 16:53.800
+Ok se va a ocultar si ese campo es válido para regresarlo y aquí sigue apareciendo y también hay que
+
+16:53.800 --> 16:59.500
+ponerle pricing también y no hacer y no haya sido manipulado.
+
+17:04.450 --> 17:14.960
+Grabó regresó al navegador web recargó o aquí pasó algo no saber y el formulario y el formulario está
+
+17:14.960 --> 17:22.780
+intacto se va a ocultar siempre y cuando el campo sea inválido y no se haya manipulado o perdón perdón
+
+17:22.810 --> 17:31.690
+perdón o o así perdón señores escribió Fernando.
+
+17:31.840 --> 17:36.830
+Ella aparece porque tiene datos pero yo lo quito y el campo es necesario escribió Fernando ocultó al
+
+17:36.830 --> 17:37.260
+campo.
+
+17:37.760 --> 17:39.140
+Y ahí está bien.
+
+17:39.260 --> 17:44.570
+Ok esto funciona para todo esto funciona inclusive para el correo electrónico.
+
+17:44.570 --> 17:52.280
+Sólo hagamos ese ejemplo de correo electrónico debo a enseñar otro tipo de posteo para el correo electrónico
+
+17:52.290 --> 18:04.160
+tiene una ventaja y una desventaja aquí estamos con el correo electrónico o podemos hacer la misma cuestión
+
+18:04.160 --> 18:15.240
+acá en las que se pueden mandar objetos y aquí en el Forum Grug en las tierras del Ebro vamos a poner
+
+18:15.240 --> 18:24.950
+aquí también el párrafo pero en este caso tendría dos párrafos por la clase FELCC se me olvida ese nombre
+
+18:24.970 --> 18:28.740
+es el Bloc el Bloc.
+
+18:28.850 --> 18:30.700
+Hay que ser dos 1.
+
+18:30.890 --> 18:49.130
+Este campo es requerido y no tiene formato de correo dos errores que vamos por acá por acá grabo los
+
+18:49.140 --> 18:55.360
+datos regreso navegador web qué voy a escribir Fernando o cualquier cosa y si yo toco este botón soy
+
+18:55.400 --> 18:56.190
+yo escribo acá
+
+18:59.730 --> 19:00.210
+voy a escribir.
+
+19:00.210 --> 19:04.000
+Fernando acordémonos aquí en nuestra sección de.
+
+19:04.650 --> 19:10.660
+Dentro de error va a tirarnos que el error que está pasando es el error del correo.
+
+19:11.080 --> 19:19.490
+Y si está vacío vamos a ver el error es que es requerido allá yo sé que más de uno pensó la solución
+
+19:19.970 --> 19:22.440
+y mail error.
+
+19:22.600 --> 19:34.710
+Recuerdo que entonces es este este mensaje este mensaje de acá va a aparecer en Gy yo cómo va a hacerlo
+
+19:34.710 --> 19:42.850
+al revés soy yo y ustedes quieran en este caso vamos a usar el Yo sí formulario punto y punto.
+
+19:42.870 --> 19:45.960
+Bueno aquí vamos y punto.
+
+19:46.120 --> 19:49.970
+Herron con el signo de dólar punto.
+
+19:49.980 --> 19:51.210
+Error.
+
+19:51.440 --> 19:53.840
+Punto.
+
+19:56.820 --> 20:02.340
+Va a aparecer si el error es de que el campo tiene un formulario o sea que ese campo es requerido.
+
+20:02.760 --> 20:09.900
+Y ahora voy a escribir aquí cualquier cosa y haremos todo lo mismo pero va a aparecer si el error que
+
+20:09.900 --> 20:13.110
+tiene es de el correo electrónico
+
+20:16.990 --> 20:18.110
+es lo mismo.
+
+20:20.070 --> 20:26.770
+Aquí sólo se habla pero en vez de ver cuál es y cuál es el que esta palabra aunque se llame igual en
+
+20:26.770 --> 20:31.340
+todos los campos este Immelt hace referencia a este trabajo.
+
+20:31.720 --> 20:38.530
+No grabamos todo acá regresó al navegador web recargó Fernando porque si no tira el otro error de validación
+
+20:39.020 --> 20:45.080
+lo que el pricing cambió porque ya este campo requerido voy a escribir cualquier cosa.
+
+20:45.100 --> 20:53.680
+Fernando no tiene formato correo arroba todavía no tiene formato correo gmail puntocom.
+
+20:53.730 --> 21:01.800
+Si llegó a un punto de error puntocom funciona OK y aquí ya puedo postear si borro esto.
+
+21:02.340 --> 21:07.280
+Aquí la verdad es que faltó algo porque está saliendo en verde porque aquí estamos haciendo la validación
+
+21:07.280 --> 21:08.150
+con el nombre.
+
+21:08.150 --> 21:18.430
+Aquí me equivoqué disculpen aquí es así es así es Fernando se ve que aparece el otro campo Fernando.
+
+21:18.450 --> 21:25.950
+Punto reproches 85 arroba gmail.com ya salen en verde acusarían amarillo porque tengo guardada la contraseña.
+
+21:25.950 --> 21:34.460
+Fernando arroba gmail.com y ahora sí ya puedo postear o como ustedes podrán observar hay muchas maneras
+
+21:34.520 --> 21:36.380
+de obtener información del formulario.
+
+21:36.380 --> 21:39.850
+La verdad es que casi todo esto lo hace angular por nosotros.
+
+21:40.280 --> 21:46.250
+De esta manera nosotros tenemos un control absoluto de todo lo que pasa pero el problema que presenta
+
+21:46.250 --> 21:51.470
+esto es que hay mucha lógica de programación en nuestro formulario y esto hay que evitarlo esto no es
+
+21:51.470 --> 21:52.460
+bueno.
+
+21:52.880 --> 21:59.180
+Puede ser que ustedes necesiten hacer una variación específica en algo en algo y esto les da la facilidad
+
+21:59.180 --> 22:02.690
+y el control de hacerlo pero no es práctico no el amor.
+
+22:02.690 --> 22:03.500
+La mejor manera.
+
+22:03.500 --> 22:08.810
+A continuación les voy a enseñar unas formas automáticas de hacer validaciones pero esto les haya servido
+
+22:08.810 --> 22:09.250
+bastante.

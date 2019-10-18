@@ -1,0 +1,33 @@
+<p>Si desean actualizar la librería de AngularJS del proyecto, pueden bajarla del sitio oficial y reemplazar el archivo que se adjunta en las siguientes clases.  Adicionalmente tendremos que cambiar lo siguiente:</p>
+
+<p><br></p>
+
+<p>Si usamos la version 1.6 &gt;, en lugar de esto:</p>
+
+
+
+<pre class="prettyprint linenums">$http.get('data.json').success(function(data)){
+...
+..
+});</pre><p>Es esto:</p><pre class="prettyprint linenums">$http.get('data.json')
+.then(function(respuesta) {
+    // Todo BIEN, la información viene en la respuesta.
+})</pre><p>Básicamente eso es todo el cambio para poder seguir trabajando con la version más actualizada de Angular</p><p><br></p><h4>Notas:</h4><p>Anteriormente se hacía así:</p><pre class="prettyprint linenums">$http.get('data.json')
+.success(function(data) {
+
+})
+.error(function(data, status) {
+
+})
+.finally(function() {
+
+});</pre><p>En la version 1.6 &gt;, la estructura completa del HTTP es:</p><pre class="prettyprint linenums">$http.get('data.json')
+.then(function(respuesta) {
+    // Todo BIEN, la información viene en la respuesta.
+})
+.catch(function(respuesta) {
+    // Problemas con la peticion
+})
+.finally(function() {
+    // Al terminar el THEN o CATCH
+});</pre><p><br></p><p><br></p>

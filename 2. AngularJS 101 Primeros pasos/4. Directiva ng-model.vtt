@@ -1,0 +1,184 @@
+WEBVTT
+
+00:02.780 --> 00:04.830
+En la clase anterior vimos sobre filtros.
+
+00:04.830 --> 00:09.220
+Hoy vamos a tocar el tema de lo que es el módulo.
+
+00:09.230 --> 00:15.930
+El módulo nos permite enlazar a variables aunque no estén definidas.
+
+00:16.070 --> 00:19.790
+Ya van a ver qué increíble es esto.
+
+00:19.790 --> 00:24.440
+Vamos a crear en base a nuestro proyecto anterior vamos a borrar eso le recomiendo que haga siempre
+
+00:24.460 --> 00:27.450
+mantenga su copia para no perder el ejercicio.
+
+00:27.560 --> 00:36.440
+Vamos a crear un párrafo y vamos a decir su nombre los puntos le damos un espacio vamos a crear un campo
+
+00:36.440 --> 00:49.820
+de texto con la clase del bootstrap form Cancho vamos a poder Nucleus Jonder ingrese su nombre salvamos
+
+00:49.820 --> 00:57.740
+los cambios y nos vamos a nuestro navegador web refrescamos y va a aparecer la siguiente su nombre una
+
+00:57.740 --> 01:03.640
+caja de texto donde vamos a poder escribir cosas pero como todavía no hacen nada vamos a conectar esto.
+
+01:05.170 --> 01:12.700
+Para enlazar este campo de texto a una variable de Angola vamos a usar lo que es el módulo le vamos
+
+01:12.700 --> 01:16.780
+a asignar el nombre de la variable que se edita.
+
+01:16.780 --> 01:23.860
+Por ejemplo el nombre aunque no esté definido en ningún lado angulares lo suficientemente inteligente
+
+01:23.860 --> 01:29.590
+para decidir que esta variable órbita no existe o yo la voy a crear y una vez creada cualquier cambio
+
+01:29.590 --> 01:37.460
+que esa variable ocurra se va a actualizar en todas las páginas por ejemplo así salvamos regresamos
+
+01:37.460 --> 01:44.910
+a nuestra página web refrescamos y ahora al escribir algo se va a ver reflejado aquí también.
+
+01:45.170 --> 01:54.230
+Qué pasa si le aplicamos un filtro inmediatamente a esto del o por qué salvamos o regresamos a nuestro
+
+01:54.230 --> 02:01.130
+navegador web porque sacamos la página y al escribir va a aparecer todo en mayúscula aunque no lo hayamos
+
+02:01.130 --> 02:01.580
+hecho así.
+
+02:02.780 --> 02:10.760
+Elegimos nos permite enlazar cualquier tipo de cualquier tipo de control por ejemplo no sé qué les parece
+
+02:10.820 --> 02:14.100
+si usamos un Select.
+
+02:14.240 --> 02:17.350
+Esta es la estructura de un Select.
+
+02:17.780 --> 02:20.930
+Esto porque no lo ocupamos y eso lo vamos a poner la clase.
+
+02:21.080 --> 02:30.460
+El Twitter Busso un fork control option a copiar esto tres veces o poner uno dos tres.
+
+02:30.500 --> 02:36.230
+Costa Rica México y Colombia
+
+02:40.180 --> 02:45.070
+a esto le vas a poder elegimos suponerle una variable según una variable país
+
+02:48.720 --> 02:59.150
+vamos a ponerle etiqueta seleccione el país los puntos y vamos a mostrar el valor contenido de la variable
+
+02:59.150 --> 03:07.610
+país salvamos los cambios regresamos a nuestro navegador web y como podrán ver podremos seleccionar
+
+03:07.610 --> 03:14.840
+el país que queremos y eso nos va a actualizar inmediatamente el valor de país.
+
+03:14.840 --> 03:20.930
+Ahora hay otras cosas interesantes que quiero puntualizar es que en cualquier momento que esta variable
+
+03:20.930 --> 03:27.800
+cambie ya sea en código JavaScript o en cualquier otro lado o en la página web se va a actualizar la
+
+03:27.800 --> 03:29.360
+referencia inmediatamente.
+
+03:29.360 --> 03:35.240
+Eso es una maravilla porque nosotros no tenemos que estar referenciando al valor punto Text de cualquier
+
+03:35.240 --> 03:41.360
+elemento sea eso ya se acabó por usar otro tipo de elementos porque algunas nos permite usar cualquiera
+
+03:41.360 --> 03:42.190
+que deseemos.
+
+03:42.260 --> 03:47.600
+Por ejemplo un check box seleccione una opción
+
+03:53.160 --> 04:04.380
+para hacer un check box es un check box check box Proton vamos a poner un valor en modo igual a Topete
+
+04:04.470 --> 04:04.800
+1
+
+04:09.260 --> 04:17.010
+Opción 1 Opción 2 vamos a ponerle un salto de línea para que no se hubiera pegado.
+
+04:17.030 --> 04:25.800
+Esto va a ser la opción 2 pero como es un check box no sería una opción seleccione las opciones que
+
+04:25.820 --> 04:34.560
+desea esputos y es exactamente igual que T-1.
+
+04:34.900 --> 04:43.110
+2 a hacer un salto de línea aquí Salvago los cambios con controles o Comaneci regresamos a nuestro navegador
+
+04:43.110 --> 04:50.820
+web refrescamos la página y van a ver que ahora al cambiar los valores de los checkpoints va a cambiarse
+
+04:50.820 --> 04:56.970
+dinámicamente el valor de la variable al inicio ustedes podrán haber visto que no aparece ninguna variable
+
+04:57.190 --> 05:03.300
+ahorita no hay nuestras E.T.A entonces tiene un valor nulo ya vamos a ver más adelante cómo inicializar
+
+05:03.300 --> 05:09.480
+estos valores mientras sigamos por acá haciendo otros ejercicios con diferentes tipos.
+
+05:09.480 --> 05:12.960
+Creo que el que nos falta ahorita es el radio.
+
+05:12.960 --> 05:19.140
+Seleccione el género ya que el género sólo puede ser u hombre o mujer.
+
+05:19.140 --> 05:27.860
+Vamos a hacer lo mismo un imput pero en vez de un text es un radio le vamos a poner el valor masculino
+
+05:28.020 --> 05:28.260
+en
+
+05:32.600 --> 05:48.930
+una y vamos a copiar esto para ser uno femenino y F ahora para pasarle al módem cuando es un radio ambos
+
+05:48.930 --> 05:54.390
+campos van a poder modificar la misma variable porque queremos almacenarla en una sola.
+
+05:54.390 --> 05:58.470
+Entonces vamos a ponerle la variable género en ambos.
+
+05:58.480 --> 06:02.190
+Ambos editan la misma variable y lo vamos a poner.
+
+06:02.200 --> 06:07.830
+Vamos a explicar al lado de la misma manera salvamos los cambios con controles o Comaneci en nuestro
+
+06:07.830 --> 06:14.460
+navegador web refrescamos la página y como podrán ver al seleccionar masculino aparece la M y si cambiamos
+
+06:14.460 --> 06:20.390
+a femenino dinámicamente se actualizan los valores.
+
+06:20.490 --> 06:24.520
+Hay muchas cosas que se pueden hacer con los modelos de datos.
+
+06:24.670 --> 06:29.670
+Esto es lo que permite es que nosotros no tengamos que estar escribiendo una y otra vez a la hora de
+
+06:29.670 --> 06:35.520
+agarrar valores y ponerse en los campos de texto sino que de esta manera cada elemento ya sabe qué variable
+
+06:35.520 --> 06:35.900
+maneja.

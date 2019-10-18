@@ -1,0 +1,583 @@
+WEBVTT
+
+00:02.760 --> 00:04.360
+Bienvenidos nuevamente al curso de Angola.
+
+00:04.370 --> 00:09.950
+Hoy tenemos la demostración de un pequeño plugin de terceros que es bastante bonito pero que les va
+
+00:09.950 --> 00:10.880
+a gustar.
+
+00:11.000 --> 00:16.760
+De paso este va a ser la introducción a cómo utilizar librerías externas en nuestras aplicaciones de
+
+00:16.760 --> 00:22.100
+angula si es que es bastante sencillo y otra cosa es que próximamente estaremos subiendo otro video
+
+00:22.130 --> 00:28.400
+donde vamos a utilizar ya Bushra para nuestra aplicación de angula pero sin más.
+
+00:28.400 --> 00:31.230
+Vamos a empezar hay tres archivos en la sección de descarga.
+
+00:31.250 --> 00:33.040
+Este puede estar comprimido o no.
+
+00:33.330 --> 00:40.360
+Este es ya el R.L que usaremos para descargar lo que haremos a continuación es extractar Hospitalet
+
+00:40.850 --> 00:42.290
+es bien bonito muy bonito.
+
+00:42.290 --> 00:44.510
+Yo sé que le va a gustar.
+
+00:44.740 --> 00:51.050
+Otros otros que están en materia de descarga es el Sweet dealer el proyecto al que tiene el 02 y el
+
+00:51.050 --> 00:56.260
+master es por si acaso esta página ya no funciona porque no se ha estado arriba desde hace muchos años.
+
+00:56.270 --> 00:58.680
+Pero el caso es que ya no funciona o se caiga.
+
+00:58.940 --> 01:03.720
+Entonces este es contiene ya el proyecto descargado.
+
+01:04.300 --> 01:05.530
+Qué es el switcher.
+
+01:05.730 --> 01:13.990
+Ustedes tan acostumbrados a ver alertas así como esta medio feas pero el suelo leer lo que hace es darles
+
+01:13.990 --> 01:16.740
+la posibilidad de hacer este tipo de alertas.
+
+01:16.990 --> 01:20.530
+Ya van a ver que cuando ustedes lo hagan en su computadora se va a ver más bonito de aquí tal vez había
+
+01:20.530 --> 01:24.840
+un pequeño frame villain en la grabación.
+
+01:24.850 --> 01:34.690
+Pero bueno hay otro tipo de mensajes es bien elegante ahí los invito a que practiquen y hay mucha información.
+
+01:34.700 --> 01:38.720
+Vaya pero decir que este plugin lo hizo Tristan Edwards.
+
+01:38.800 --> 01:45.600
+Ahí están las páginas para más información de Syrian a la sección de descargas y descarga en el archivo.
+
+01:45.610 --> 01:53.250
+Eso es lo que va a hacer es descargar archivos que está que tengo acá el master o sea el Sweet Suay
+
+01:53.290 --> 01:54.910
+Tauler Master.
+
+01:54.940 --> 02:03.070
+Ok entonces empecemos en él en el archivo 2 estaban domótico poniendo esa nomenclatura.
+
+02:03.250 --> 02:10.540
+Si lo abrimos tiene una aplicación de una aplicación ya dealguna básica muy parecido al utilizado en
+
+02:10.540 --> 02:16.850
+el curso anterior señala en Touch entonces los comprimidos y el mismo procedimiento lo vamos a abrir
+
+02:16.850 --> 02:21.810
+en el sur text no copamos correrlo en el servidor.
+
+02:21.880 --> 02:31.190
+Esto es una ventaja vale la pena también decir que este plugin es responsive es decir se adapta al celular
+
+02:31.610 --> 02:36.920
+o diferentes pantallas y lo que tienen acá no es más que la incorporación de producto de la librería
+
+02:36.940 --> 02:42.540
+que hemos estado usando a lo largo del curso y ya está todo colocado para empezar a trabajar el suelo
+
+02:42.570 --> 02:50.480
+de leer cómo funciona vamos a descomprimir el material excluída Alert el que descargamos y aquí hay
+
+02:50.480 --> 02:51.040
+ejemplos.
+
+02:51.040 --> 02:59.670
+Inclusive este archivo índex la página de la página ya que ellos tienen una demostración así que igual.
+
+02:59.720 --> 03:04.100
+Sea como sea no vamos a perder esta información.
+
+03:04.370 --> 03:08.380
+Ok entonces empecemos a utilizarlo para que el video no sea muy largo.
+
+03:08.410 --> 03:15.320
+Queremos esas pequeñas demostraciones hacer llamadas al FidoNet y ponerlas en nuestra aplicación Yaguara
+
+03:15.410 --> 03:20.970
+y tal vez lo más difícil va a ser que no es tan complicado cuando ya son imputs es decir cuando Yap
+
+03:21.340 --> 03:30.320
+cuando ya se manejan valores de retorno por ejemplo acá se hace una acción y si yo toco aquí cancelar
+
+03:30.370 --> 03:36.520
+ha sido otra acción pero nosotros tenemos que disparar esto y manejar esto desde angula y cambiar Balaur
+
+03:36.590 --> 03:40.250
+variable triangular para disparasen para que funcionen nuestros programas.
+
+03:40.400 --> 03:46.370
+Entonces empecemos bien sencillo vamos a estar abajo lo único que pide es la instalación o mejor dicho
+
+03:46.370 --> 03:48.010
+la referencia a estas dos librerías.
+
+03:48.020 --> 03:56.740
+Este no necesita cuerito entonces voy a copiar estas dos líneas lo que es el Sors y el perdón lo que
+
+03:56.740 --> 04:04.220
+es el script Ilic o sea el estilo y el archivo JavaScript lo vamos a poner acá suelta pero queremos
+
+04:04.220 --> 04:07.250
+los dos.
+
+04:07.400 --> 04:12.860
+De esta manera ahora estos dos archivos hay que ponerlos en nuestro nuestro aplicación.
+
+04:13.220 --> 04:18.820
+Entonces lo que se descarga o lo que está apuntando son estos a estos dos archivos.
+
+04:19.910 --> 04:25.480
+Entonces copiamos estos dos archivos vamos a nuestro carpeta de proyecto aquí.
+
+04:25.570 --> 04:30.760
+Yo acostumbro a poner otra que se llame plugins cuando son cosas de terceros ya.
+
+04:30.760 --> 04:32.590
+Código encapsulado.
+
+04:32.590 --> 04:38.800
+Luego crearemos otro switch Alert X pondremos la información encima.
+
+04:38.920 --> 04:43.830
+Así cuando tengamos más plugins lo vamos agregando y todos están ubicados en una sola en una sola carpeta
+
+04:43.830 --> 04:50.460
+y los podemos manejar actualizar porque esas cosas se pasan cambiando a cada rato.
+
+04:50.470 --> 04:51.900
+Ok entonces apuntemos a esto.
+
+04:52.080 --> 05:00.790
+Entonces ya no es tan indis está en plugins Leca Sweet Alert switcher y lo mismo acá
+
+05:05.170 --> 05:13.230
+vamos a abrir nuestro índex aquí en micro y vamos a ver si no hay ningún error.
+
+05:14.040 --> 05:15.400
+Refrescamos no hay ningún error.
+
+05:15.400 --> 05:16.940
+Vamos bien.
+
+05:17.860 --> 05:22.060
+Entonces comencemos vamos a crear un botón
+
+05:25.660 --> 05:35.500
+un botón con la clase de Bustan en MTN Primary vamos a poner un mensaje normal o alerta una alerta normal
+
+05:37.030 --> 05:47.220
+y en click en mi click mostrar alerta que eso es todo.
+
+05:47.290 --> 05:51.010
+Vamos a abrir el app de puntos J.V que también está ya todo está relacionado.
+
+05:51.020 --> 06:00.400
+Ya lo tienen ahí en este punto J.V y haremos el punto mostrado alerta Alfonso parentesis que ya tenemos
+
+06:00.400 --> 06:02.340
+relacionado a la función y el botón.
+
+06:02.350 --> 06:06.640
+Ahora que lo que queremos hacer vamos a empezar con eso vamos a estar arriba
+
+06:09.190 --> 06:18.670
+lo dejaremos para después vamos a empezar con esta pasta básica y copiamos esto nos vamos al código
+
+06:20.610 --> 06:21.780
+pondremos aquí puntico.
+
+06:21.800 --> 06:33.190
+En cuanto a los cambios recargó mi página web debería de funcionar 20 horas es decir bueno si queremos
+
+06:33.190 --> 06:42.010
+cambiar este mensaje por una variable de ángulo muy sencillo vamos a crear una llamada Dummy o text
+
+06:43.030 --> 06:46.150
+o mensaje mensaje de texto.
+
+06:46.330 --> 06:50.130
+Ustedes pongan el nombre que quieran hacer iguala Hola mundo
+
+06:52.810 --> 06:54.760
+entonces en vez de este mensaje
+
+06:58.920 --> 07:00.470
+haremos el disco apuntó.
+
+07:00.740 --> 07:01.470
+Mensaje text
+
+07:04.460 --> 07:15.010
+regresamos el cargo y ahí está mostrándose como una variable de Angola pero este mensaje lo vamos a
+
+07:15.010 --> 07:20.690
+hacer mucho voy a dejarlos y cortito mensaje así para que sea más manejable que ya hicimos la primera
+
+07:21.300 --> 07:32.960
+con hacer otra por lo que cooperemos estoy acá pegaremos y sigamos con los ejemplos de la página vamos
+
+07:32.970 --> 07:33.570
+a hacer esto.
+
+07:33.600 --> 07:42.150
+Acá ya tiene dos textos un título y un subtítulo entonces si vamos a copiar esto de acá.
+
+07:42.400 --> 07:53.060
+Este es un texto con un subtítulo aquí en el código que de copiar en vez de mostrar alerta oponerle
+
+07:53.190 --> 07:58.740
+mostrar subtitulo y expondremos alerta con subtitulo con su
+
+08:01.840 --> 08:03.600
+mostrar subtítulos.
+
+08:03.710 --> 08:13.340
+Nos regresamos a la vez 0.13 vamos a clonar esto otra vez y aquí subtitulo que haríamos todo esto por
+
+08:13.350 --> 08:15.000
+la nueva instrucción tricomas
+
+08:17.640 --> 08:21.550
+ponerla aquí un título igual.
+
+08:21.820 --> 08:22.570
+Este es el título
+
+08:25.400 --> 08:31.060
+de Koma adquirimos otra Pskov puntos subtitulo igual.
+
+08:31.070 --> 08:41.520
+Este es un subtítulo en el App punto J.S. ustedes le pueden poner lo que ustedes deseen
+
+08:44.980 --> 08:57.610
+y ahora pongamos la saga Desco punto título y aquí como punto subtítulo lo que ya está.
+
+08:57.630 --> 09:03.180
+Guardamos los cambios cerciorarme de que se llama así la función osaran soy perfecto guardamos todo
+
+09:03.990 --> 09:13.080
+revisamos el Crom el cargo y listo tenemos nuestras dos alertas funcionando con mensajes con variables
+
+09:13.080 --> 09:20.670
+de Pskov de nuestro nuestro la aplicación de Yangüela que sigamos vamos a ver qué más tenemos por acá.
+
+09:20.710 --> 09:26.310
+Tenemos esta interesante esto es lo que queríamos llegar.
+
+09:26.370 --> 09:27.690
+Así que un símbolo.
+
+09:28.950 --> 09:40.340
+Voy a manejar esto y voy a darle un control se copiarles todo esto y lo voy a poder Hunding porque va
+
+09:40.370 --> 09:44.220
+a ser rojo y voy a ponerle confirmación.
+
+09:47.240 --> 09:51.480
+Igual acá confirmación.
+
+09:51.890 --> 09:56.260
+Vamos al Apep apuntó JBS.
+
+09:56.390 --> 09:59.420
+Todo esto nuevo.
+
+09:59.420 --> 10:00.320
+Confirmación.
+
+10:01.810 --> 10:03.850
+Le voy a pegar el código el switch Alert.
+
+10:03.870 --> 10:09.150
+Claro aquí sale todo comprimido aquí vamos a darle una estabulación es inocentes para que esto quede
+
+10:09.720 --> 10:12.350
+manejable.
+
+10:12.870 --> 10:18.160
+Estas propiedades que tiene el switch Alert están descritas al final de la página.
+
+10:18.450 --> 10:24.260
+Sería bueno que le diéramos una ley una pequeña leída para saber qué es lo que estamos haciendo.
+
+10:24.260 --> 10:28.930
+Si ustedes ven aquí hay otra otros Fido Alert como incrustado.
+
+10:29.160 --> 10:36.630
+Esto sólo se va ejecutar si la respuesta fue positiva de la confirmación del Warming de nuestra notificación
+
+10:36.630 --> 10:40.640
+del Warman entonces aquí lo voy a ver igual.
+
+10:40.680 --> 10:47.620
+Lo mismo se puede utilizar el conjunto título y dejémosle dejaremos lo demás.
+
+10:47.630 --> 10:51.310
+Si este Warden es obligatorio hay cuatro tipos de hospitales.
+
+10:51.750 --> 10:53.580
+El color del botón.
+
+10:53.580 --> 11:01.460
+Y aquí podemos cambiarlo si borrarlo aquí.
+
+11:01.900 --> 11:14.360
+Son confirmó que guardamos todo y aquí cambiamos estoy acá borrado cambiamos este texto tu archivo imaginario
+
+11:15.620 --> 11:26.170
+ha sido borrado ya no lo ocupamos contó guardo y funciona de la misma manera bien elegante hoy están
+
+11:26.180 --> 11:27.490
+a la vez que recargarse.
+
+11:27.490 --> 11:34.440
+Acá tocamos nuestro alerta este archivo se ha borrado.
+
+11:34.440 --> 11:42.120
+Es un título que no cambiamos si le toco cancelar no pasa nada pero si toco si borrado aparece la otra
+
+11:42.140 --> 11:47.930
+notificación quiero decir que si nosotros tuviéramos alguna función que elimina algo el momento para
+
+11:47.930 --> 11:50.380
+llamar la función sería aquí.
+
+11:50.660 --> 11:53.480
+Sería este momento.
+
+11:53.480 --> 12:04.120
+Aquí quiero mostrarles un pequeño una pequeña y ahora posible problema que puede tener Skype punto borrado.
+
+12:06.730 --> 12:13.660
+Borrado mensaje vamos a ponerlo así va a ser igual.
+
+12:13.660 --> 12:15.580
+Y a quién no le voy a poner nada.
+
+12:15.800 --> 12:18.620
+Va a ser un texto vacío.
+
+12:19.090 --> 12:20.150
+Copiar todo esto.
+
+12:22.820 --> 12:26.700
+No voy a poner aquí abajo y voy a decir que les computó borrado.
+
+12:26.800 --> 12:35.720
+Voy a poner archivo borrado es decir cuando se ejecute una acción positiva de este estudio alertó esta
+
+12:35.720 --> 12:41.960
+variable debe de cambiar en nuestros Kopp por archivos borrados estaban esta variable la vamos a poner
+
+12:43.350 --> 12:45.980
+aquí abajo en el H2.
+
+12:46.230 --> 12:52.520
+No vamos a publicar aquí y quiero que miren lo que pasa que toco el botón.
+
+12:52.560 --> 13:00.810
+Aquí no debería de cambiar no pasa nada pero si toco esto no debe aparecer aquí abajo un texto pero
+
+13:00.840 --> 13:06.190
+ven que no pasó nada no pasó nada tuvo que haber aparecido un mensaje.
+
+13:06.180 --> 13:12.510
+Voy a poner aquí a BC para que vean que sí está funcionando tuvo que haber aparecido aquí un mensaje
+
+13:12.570 --> 13:15.710
+pero no sucedió ahora porque no sucedió.
+
+13:16.150 --> 13:24.000
+Porque como esto es una librería externa la angular aun cuando estas funciones cambian el disco está
+
+13:24.150 --> 13:28.130
+cambiándolo de manera sincronizada algunas no se da cuenta de lo que pasó aquí.
+
+13:28.170 --> 13:34.500
+Ese es el principal problema ahora pero nosotros ocupamos utilizar esto como hacemos de una manera muy
+
+13:34.500 --> 13:41.440
+sencilla cuando se cambian de manera síncrona o aplico plugins o cosas que no son de angular cambian
+
+13:41.460 --> 13:50.590
+variables Desco lo digo ocupamos es Escofet punto haploide eso es para que refresque el disco.
+
+13:50.970 --> 13:52.470
+Creo que esto se vio en el curso.
+
+13:52.620 --> 13:55.820
+Yo creo que más de uno ya lo tuvo en la punta de la lengua y lo voy a hacer.
+
+13:56.910 --> 13:59.240
+Vamos a regresar el Crom recargamos.
+
+14:00.210 --> 14:06.060
+Confirmamos si borrado y como ustedes pueden observar cambió el disco y muestra cómo cambió nuestro
+
+14:06.060 --> 14:12.980
+texto bueno de esa manera podemos hacer lo que queramos ya con cualquier con cualquier plugin.
+
+14:13.020 --> 14:18.710
+Sólo vamos a trabajar con el último que es este de acá el programa Hola mundo
+
+14:21.450 --> 14:28.180
+que vamos a cambiar esto va a ser uno que recibe un parámetro y nos cambia también una variable disco
+
+14:29.690 --> 14:40.160
+que voy copiar todo esto lo voy a tener en el voy a darle un 4S regreso acá haremos otro.
+
+14:40.330 --> 14:50.190
+Otro de estos otra sección acá borro esto y aquí lo voy a poner imput porque es una captura de información
+
+14:53.750 --> 14:56.300
+Input text.
+
+14:56.760 --> 14:58.350
+Este va a ser un info para cambiar
+
+15:01.510 --> 15:06.940
+listo nos vamos a aquí y aquí hay mucho que copiar.
+
+15:06.950 --> 15:16.400
+Entonces escribamos esto es Copp punto mostrar un bajo input igual function parentesis ya ves la historia
+
+15:16.400 --> 15:19.450
+de orillan de manejar us de memoria no.
+
+15:19.670 --> 15:24.650
+Lo único malo es que cuando le el control ve y va a pasar todo esto pero bueno va a salir todo en una
+
+15:24.650 --> 15:31.700
+sola línea pero bueno en la vida real es práctico que sea sólo una línea ya no hay tabulación y se apaga
+
+15:31.700 --> 15:41.550
+la computadora es mejor que hay un tip que podemos eliminar todos estos Lumet ustedes Ordem lo delego
+
+15:41.550 --> 15:49.600
+un poquito de estabulación para que se mire ordenado y no este esta cosa todo pegado a todo horrible.
+
+15:50.520 --> 15:51.900
+Vamos a analizar qué es lo que viene acá
+
+15:56.890 --> 16:02.600
+la ventaja de angular es que es totalmente compatible con con JavaScript.
+
+16:02.600 --> 16:05.470
+Entonces la librería de JavaScript cualquiera la podemos usar.
+
+16:08.210 --> 16:16.360
+Ok quiero que miremos qué es el código que viene acá el input valio es es el texto ingresado pero aunque
+
+16:16.360 --> 16:18.030
+no seleccioné nada puede venir vacío.
+
+16:18.460 --> 16:21.530
+Entonces por eso se hace esta condición acá para evaluarlo si no viene nada.
+
+16:21.550 --> 16:22.560
+Entonces que no haga nada.
+
+16:22.600 --> 16:32.080
+Este es el Bretton Woods ahora si vino un mensaje como base a un texto cualquiera sea mostraron alerta
+
+16:32.170 --> 16:33.880
+diciendo que necesitas escribir algo.
+
+16:33.880 --> 16:44.080
+Vamos a ponerlo en español necesitas escribir algo y quizá esto sea si viene algo como menos de ceros
+
+16:44.080 --> 16:50.620
+a cero caracteres o menos vas a mostrar ese mensaje y si no decir excelente escribiste
+
+16:53.180 --> 16:54.370
+imput.
+
+16:54.860 --> 17:00.030
+Y qué tipo subseries de los tipos de swing de Alerts.
+
+17:00.580 --> 17:01.990
+Ahora qué queremos hacer.
+
+17:01.990 --> 17:09.580
+Queremos que cuando alguien ingrese algo en vez de usar esta misma manera de archivo borron colocarlo
+
+17:09.580 --> 17:10.420
+allá arriba.
+
+17:12.040 --> 17:18.820
+Entonces es la misma cuestión el mensaje borrado va a ser igual a este imput Balli lo vamos a colocar
+
+17:18.820 --> 17:24.750
+aquí se lo vamos a hacer a nuestra maderable del disco y lo mismo que hay que hacer es usar el conjunto
+
+17:24.790 --> 17:29.410
+Plait guardo todo debería de funcionar bien.
+
+17:29.710 --> 17:32.880
+Cambiamos esto para que esté en español verdad o imput.
+
+17:35.970 --> 17:39.800
+Pondremos aquí escribe algo interesante.
+
+17:40.860 --> 17:48.860
+Tipo es de tipo input muestra el botón de cancelar si lo son con Frenzy la animación el Pleiss folder
+
+17:49.850 --> 17:51.760
+pondremos escribir algo.
+
+17:51.830 --> 17:55.680
+Este es el texto que sale dentro de la caja de Teck del input.
+
+17:57.040 --> 17:57.830
+Ok ya estamos.
+
+17:57.830 --> 18:02.770
+Vamos a regresar a nuestro público y vamos a probar que funciona.
+
+18:02.780 --> 18:07.010
+Descargamos un imput Hola Mundo.
+
+18:07.170 --> 18:08.540
+Se tuvo que cancelar.
+
+18:08.570 --> 18:16.700
+No pasa nada pero si yo escribo Hola Mundo y OK excelente escribió Hola Mundo.
+
+18:16.720 --> 18:20.410
+Y aquí aparece nuestro nuestro mensaje.
+
+18:21.270 --> 18:23.640
+Bueno espero que les haya gustado este escrito Aulet.
+
+18:23.650 --> 18:28.540
+La idea es que vayamos dominando otras herramientas externas.
+
+18:28.540 --> 18:34.360
+Próximamente vamos a hacerlo en Oviedo ya con las librerías del vostra pero el próximo es para usar
+
+18:34.370 --> 18:36.720
+ya QWERTY dentro de nuestras aplicaciones.
+
+18:36.980 --> 18:38.550
+Si lo veo en la próxima clase.

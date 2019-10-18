@@ -1,0 +1,220 @@
+WEBVTT
+
+00:03.410 --> 00:09.230
+Vividos nuevamente este curso de angular hoy empezaremos a utilizar ya nuestra base de datos que configuramos
+
+00:09.230 --> 00:10.410
+utilizando el SAMP.
+
+00:10.610 --> 00:18.830
+Vale la pena decir que es necesario el uso de la base de datos para ser un ejemplo real es decir cómo
+
+00:18.830 --> 00:24.380
+podemos hacer un curso completo de angulas si no podemos o si no vemos el puesto o información entonces
+
+00:24.410 --> 00:30.380
+tenemos que hacerlo tenemos que poder grabar información a una base de datos utilizando angula entonces
+
+00:30.380 --> 00:37.400
+para eso utilizaremos un servidor Apache que se configuró con el SAM usaremos código PHP básico un par
+
+00:37.400 --> 00:42.350
+de librerías y clases que yo hice que se las voy a obsequiar para que ustedes puedan trabajar de manera
+
+00:42.350 --> 00:48.590
+más fácil y así no tener problemas en cuanto a la creación de servicios y procedimientos y postearon
+
+00:48.590 --> 00:54.290
+así que no se preocupe lo que necesitan de PHP será explicado aquí les pido que por favor sigan los
+
+00:54.290 --> 01:03.090
+pasos así como se van haciendo o que empecemos con ellos estos o que descargues el archivo que se encuentra
+
+01:03.180 --> 01:10.110
+en el material de descarga ténganlo a mano porque lo vamos a utilizar o la configuración para la base
+
+01:10.110 --> 01:15.900
+de datos en SAMP es muy parecida para Windows como para OS X pero vamos a empezar a hacerlo con Windows
+
+01:15.900 --> 01:21.990
+sólo para variar en nuestra máquina de Windows pondremos en el choc quien escritorio y sólo para tenerlo
+
+01:21.990 --> 01:27.960
+a mano lo primero que tenemos que hacer es abrir nuestro panel de control de SAMP que es este que se
+
+01:27.960 --> 01:31.680
+encuentra por acá ejecutaremos el Apache y el Maye se cueles.
+
+01:31.680 --> 01:35.460
+Ambos son necesarios si el Maye se cuele no les levanta.
+
+01:35.460 --> 01:40.020
+A veces hay incompatibilidad con el Skype así que les sugiero que lo cierren y después lo puedan volver
+
+01:40.020 --> 01:40.650
+a abrir.
+
+01:40.890 --> 01:48.690
+Primero cierren el Skype lo ejecutan el start y normalmente ese es un problema pero no debería haber
+
+01:48.690 --> 01:50.650
+ningún otro ok.
+
+01:50.680 --> 01:58.690
+Entonces administramos la base de datos presionando click aquí eso lo llevará a local Jospeh PHP.
+
+01:58.850 --> 02:05.450
+La gente que está en OS X puede escribir esta dirección igual igual que esta es nuestra archivo básico
+
+02:06.410 --> 02:09.110
+para manejar la base de datos nuestra página básica.
+
+02:09.430 --> 02:14.350
+Vale la pena decir que si les usuario y password cosa que dudo pero pueden ser el usuario y password
+
+02:14.350 --> 02:16.040
+de la máquina.
+
+02:16.360 --> 02:25.300
+No vamos a hablar mucho sobre PHP y ni nos vamos a enfocar mucho en eso QL SQL sólo vamos a enfocarnos
+
+02:25.390 --> 02:31.300
+en lo necesario para trabajar con lo demás pues les recomendaría que hay muchos muchos buenos cursos
+
+02:31.760 --> 02:38.710
+donde se pueden entender más referentes de tema pero qué vamos a crear nuestra base de datos en esta
+
+02:38.710 --> 02:46.990
+opción de acá nos dicen que ahí tenemos nuestra base de datos llamada Univer o Univer de un bajo debe
+
+02:47.200 --> 02:49.150
+de databases.
+
+02:49.330 --> 02:53.380
+Es importante que lo vayan haciendo lo más parecido a mí porque yo les voy a facilitar a ustedes después
+
+02:53.410 --> 03:00.370
+un archivo PHP de configuración para que ustedes se conecten fácilmente a la base de datos.
+
+03:00.400 --> 03:09.370
+Repito no es un curso de PHP ni es un curso de malla SQL pero haremos uso de lo básico en cotejamos
+
+03:09.650 --> 03:15.740
+seleccionaremos en general un bajo si eso es para poder utilizar caracteres tildes y otras cosas las
+
+03:15.740 --> 03:17.940
+señas por ejemplo damos crear.
+
+03:17.980 --> 03:20.020
+Esto es bastante rápido.
+
+03:20.020 --> 03:23.230
+Una vez creada la base de datos necesitamos crearnos un usuario.
+
+03:23.240 --> 03:33.010
+Esta opción de acá el usuario a quien dice Agregar usuario se llamará Univer y un bajo y user es importante
+
+03:33.100 --> 03:43.090
+repito que lo pongan igual en el servidor será local Ouest en la contraseña 1 2 3 4 5 6 2 3 4 5 6.
+
+03:43.120 --> 03:50.950
+Del 1 al 6 marcaremos todos los privilegios porque queremos que creó tablas índices etcetc bajamos vamos
+
+03:51.160 --> 03:58.470
+y hacemos clic aquí continuar listo ya tenemos creado el usuario y tenemos creada la base de datos.
+
+03:58.560 --> 04:05.900
+Ok entonces damos clic aquí y Univer theme y pulsaremos el archivo que descargamos que se encuentra
+
+04:05.900 --> 04:15.950
+en el escritorio en este momento este de acá ok seleccionando acá en Univer debe asegurarse de que has
+
+04:15.950 --> 04:24.460
+hecho click en no sólo para crear en otro lado y Univer debe importar seleccionaremos el archivo alumnos
+
+04:24.460 --> 04:27.990
+punto de SQL y hacemos clic en Continuar.
+
+04:27.990 --> 04:30.450
+Esto no debería darles ningún problema.
+
+04:30.600 --> 04:35.730
+La importación ya se ejecutó correctamente al hacer eso inmediatamente le va a parecer aquí la tabla
+
+04:35.820 --> 04:39.410
+que tiene una información general de Registros.
+
+04:39.480 --> 04:45.540
+Yo personalmente creo que para facilitar esto para no tener que crearlos uno por uno.
+
+04:45.540 --> 04:45.810
+OK.
+
+04:45.840 --> 04:53.280
+Una vez hecho esto la gente que esté Windows se espera o se espera y espera que se acabe esta clase
+
+04:53.430 --> 04:55.770
+para pasar a la siguiente MSX.
+
+04:55.810 --> 04:56.310
+Cómo es.
+
+04:56.310 --> 05:03.550
+Es muy parecido se aseguran de que el SAMP esté corriendo y el cual esté poniendo también impondremos
+
+05:03.690 --> 05:07.920
+PHP Marianín es muy parecido a Windows.
+
+05:07.920 --> 05:14.970
+Como podrán observar nos iremos a la pestaña de base de datos o mejor aquí nueva creamos la base de
+
+05:14.970 --> 05:23.520
+datos llamada Univer y un bajo debe cotejan miento general soy igual que en Windows crear importante
+
+05:23.520 --> 05:26.710
+que lo hagan exactamente igual que yo con los mismos nombres.
+
+05:26.710 --> 05:30.310
+Es importante siguen siguiendo.
+
+05:30.420 --> 05:35.890
+Vamos a ocupar crear un usuario llamado y Univer más abajo.
+
+05:35.940 --> 05:46.050
+Yo tengo varios aquí creados llamado y Univer con bajo user para el local Ouest la contraseña 1 2 3
+
+05:46.050 --> 05:57.000
+4 5 6 1 2 3 4 5 6 bajamos más marcamos todos los privilegios vamos más continuar listo ya tenemos la
+
+05:57.000 --> 05:57.630
+nuestra.
+
+05:57.670 --> 06:04.580
+Nuestro usuario y nuestra base de datos como podrán observar en el universe no hay ninguna tabla.
+
+06:04.600 --> 06:08.980
+Entonces vamos a crear la tabla usando la opción Importar.
+
+06:08.980 --> 06:15.880
+Es importante para Dapena decirle de nuevo que seleccionen y Univer si no se va a crear en otro lado
+
+06:16.270 --> 06:24.490
+se les puede crear en otro o cualquier otro lado importar seleccionamos el archivo buscaremos el laclase
+
+06:24.500 --> 06:26.840
+que en el archivo descargado.
+
+06:26.990 --> 06:35.140
+Este caso alumnos SQL DoubleClick continuar le saldrá un resumen.
+
+06:35.300 --> 06:40.750
+Es importante que diga que la importación se ejecutó y que ustedes puedan ver los registros aquí al
+
+06:40.740 --> 06:47.330
+hacer en la tabla Luna hacer clic deben de ver los registros y bien si algo le salió mal les pido que
+
+06:47.330 --> 06:53.390
+por favor vuelvan a ver el video porque es importante que esto esté funcionando así con los usuarios
+
+06:53.540 --> 06:57.730
+y con la base de datos ok los veo en la siguiente clase.

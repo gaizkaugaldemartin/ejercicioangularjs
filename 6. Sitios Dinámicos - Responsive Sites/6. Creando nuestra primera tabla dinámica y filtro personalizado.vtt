@@ -1,0 +1,322 @@
+WEBVTT
+
+00:03.580 --> 00:05.540
+Saludos nuevamente y bienvenidos.
+
+00:05.560 --> 00:11.650
+El tema de hoy va a ser prácticamente un repaso de lo que se ha visto anteriormente pero utilizando
+
+00:11.800 --> 00:19.190
+unas herramientas de PHP y verificando el comportamiento del mismo en nuestro servidor en nuestra computadora.
+
+00:19.240 --> 00:25.690
+Es importante que tengan corriendo el SAMP que tengan corriendo el servidor Apache y la base de datos
+
+00:26.690 --> 00:33.280
+se van a descargar el archivo adjunto lo descomprime y ya no lo ocupamos.
+
+00:33.280 --> 00:42.010
+Cerciórese de que digan nada más y Univer a este archivo lo vamos a mover a nuestra carpeta de nuestro
+
+00:42.010 --> 00:47.410
+proyecto principal vamos a hablar un poco sobre lo que contiene este.
+
+00:47.970 --> 00:54.060
+Esta nueva versión es importante que empezamos a trabajar con ésta porque ya tiene un par de cosas nuevas.
+
+00:54.060 --> 00:56.510
+Primero que nada trema Chew PHP info.
+
+00:56.550 --> 01:03.090
+Si los que conocen poco de PHP saben qué es esto ya lo vamos a ver corriendo en un navegador web a su
+
+01:03.090 --> 01:06.510
+vez hay una nueva carpeta con código PHP.
+
+01:06.510 --> 01:13.560
+Dentro de esta carpeta se encuentran clases que ahí se encuentran nuestra clase base de datos que está
+
+01:13.680 --> 01:20.360
+la la hice personalmente qué nos va a ayudar a nosotros a conectarnos a nuestra base de datos.
+
+01:20.370 --> 01:27.720
+Vale la pena decir que como ésta no es una clase de PHP SQL entonces sólo muy general se utiliza en
+
+01:27.720 --> 01:34.980
+esta clase para la gente que sabe de PHP pero lo invito a que lo revise y a comprobar qué fácil es crear
+
+01:34.980 --> 01:43.800
+servicios y ejecutar instrucciones SQL y aquí entonces como podrán observar es importante que el usuario
+
+01:43.860 --> 01:50.370
+que creamos en la clase pasada coincida con éste el password y también la base de datos.
+
+01:50.400 --> 01:56.010
+Es importante que esté así si lo crearon exactamente igual como se vio en el video Pasabán no van a
+
+01:56.010 --> 01:59.870
+tener ningún problema si no tienen que adaptar estos parámetros.
+
+02:00.060 --> 02:09.080
+Eso es todo en la clase de servicios lo que tiene es otro chivó PHP que genera un listado de todos los
+
+02:09.080 --> 02:09.870
+alumnos.
+
+02:10.070 --> 02:11.170
+Cómo generar listados.
+
+02:11.240 --> 02:19.420
+Primero que nada hace la inclusión de la clase base de datos que se miró en el documento pasado cambia
+
+02:19.420 --> 02:24.550
+el Jaider de la página para que no sea HTML sino que sea una aplicación Jayson.
+
+02:24.790 --> 02:31.900
+Construimos nuestro SQL que no es más que traer todos los registros de alumnos ordenados por nombre
+
+02:33.280 --> 02:41.680
+y hace un eco de una función llamada Goy Jayson Ross y recibe como parámetro el SQL.
+
+02:41.680 --> 02:46.570
+En pocas palabras esto es todo lo que se necesita hacer para generar un servicio web que regresa todos
+
+02:46.570 --> 02:52.700
+los alumnos de nuestra base de datos o vamos a cerrar esto.
+
+02:54.240 --> 03:01.140
+Y vamos a comenzar haciendo un par de cosas abriremos este texto que lo tengamos aquí a la mano.
+
+03:02.380 --> 03:08.610
+Vamos a nuestro navegador web refrescamos asegúrese de que todo funcione.
+
+03:08.610 --> 03:17.240
+Todo debería funcionar bien para verificar que nuestro PHP funcione vamos a quitar estoy acá y pondremos
+
+03:17.240 --> 03:20.640
+PHP IMPO punto PHP salirles.
+
+03:20.690 --> 03:27.860
+Esta pantalla no necesariamente es la misma versión pero sí sería salirles esto morado saber los códigos.
+
+03:27.860 --> 03:31.640
+Eso quiere decir que el PHP y el Apache están funcionando correctamente.
+
+03:31.700 --> 03:38.410
+Si le sale solo el archivo de PHP fosas la información escrita.
+
+03:38.600 --> 03:41.270
+Hay algún problema con él como su servidor de Pazzi.
+
+03:41.270 --> 03:49.120
+Yo les recomendaría que por favor intenten reinstalar el SAMP sería la manera más sencilla ok una vez
+
+03:49.120 --> 03:50.510
+el PHP está funcionando.
+
+03:50.550 --> 03:58.720
+Es decir que estamos listos para empezar vamos a crear nuestro nuestro tablet en la mitad de alumnos
+
+03:58.780 --> 04:01.540
+y otro par de cosillas interesantes.
+
+04:01.540 --> 04:06.940
+Como les digo esto es un repaso o lo sentirán como un repaso de las clases anteriores.
+
+04:07.030 --> 04:17.030
+Vamos a abrir el archivo alumnos HTML y alumnos controles juntos J.V como podrán observar y obtener
+
+04:17.050 --> 04:20.170
+la inclusión del archivo http:.
+
+04:20.920 --> 04:22.590
+Entonces comencemos a usarlo.
+
+04:22.600 --> 04:27.820
+Primero que nada declaremos son un breve telescopio de alumnos que contendrá todos los alumnos de nuestra
+
+04:27.820 --> 04:29.570
+base de datos.
+
+04:29.710 --> 04:37.660
+Posteriormente haremos el uso del HTTP .7 parentesis y aquí viene lo bueno de donde vamos a traer lo
+
+04:37.660 --> 04:46.920
+data la data Labs a través de nuestro archivo PHP servicios alumnos listado punto PHP Okkhoy entonces
+
+04:47.050 --> 04:58.210
+Whippet el nombre tenemos acá y la ruta sería PHP Plaka servicios fletán alumnos punto PHP.
+
+04:58.400 --> 05:05.570
+Imagínense que fuera un Jayson fueron archivo Jayson y Chay son Tarrida de toda la información pues
+
+05:05.630 --> 05:09.260
+es exactamente lo mismo es casi casi casi igual.
+
+05:09.800 --> 05:20.010
+Entonces sí si funciona si lo hace correctamente llamará a la función data y dicha función que es lo
+
+05:20.010 --> 05:30.770
+que va a ser va a actualizar los alumnos de esta manera cuando los datos me regreso a mi alumnos.
+
+05:30.860 --> 05:36.420
+HTML y aquí solo para corroborar que todo esté bien.
+
+05:36.480 --> 05:43.410
+Alumnos Leca ya hizo los cambios regresó a mi navegador web de cargo.
+
+05:43.430 --> 05:49.320
+Como podrán observar aparece la información en este punto yo sé que ustedes ya saben qué es lo que tienen
+
+05:49.320 --> 05:54.920
+que hacer si han estado platicando y haciendo su tarea ahora van a saber que esto es pan comido.
+
+05:56.880 --> 06:07.760
+Ok entonces creamos la tabla creemos nuestra tabla dinámica aquí vamos a poner un H4 listado de alumnos
+
+06:08.120 --> 06:20.320
+en el sistema nuestro título aquí lo quitamos tenemos una línea crearemos un robot esto de mostrar una
+
+06:20.320 --> 06:29.170
+línea tablet si vemos nuestra base de datos en nuestra estructura tenemos código nombre teléfono y dirección
+
+06:29.590 --> 06:33.580
+la dirección puede ser muy grande así que la dirección la pongamos pongamos el código nombre y.
+
+06:36.090 --> 06:42.970
+Hacemos un HR th un trébol de código.
+
+06:42.990 --> 06:43.680
+Código
+
+06:46.950 --> 06:58.300
+nombre y el teléfono y luego tener una línea.
+
+06:59.510 --> 07:04.270
+Que contendrá la información de los alumnos.
+
+07:05.100 --> 07:07.820
+Entonces sí se acuerdan.
+
+07:08.830 --> 07:22.470
+Kiba la clase Trebol The Wall Street y aquí va nuestro RIP repe alumno.
+
+07:22.610 --> 07:34.010
+En nuestro alumnos guardamos todo alumno en alumnos acuérdense que alumnos es lo que viene de aquí de
+
+07:34.380 --> 07:42.950
+nuestra tabla de tabla de mayo se cuele entonces un poco la información aquí.
+
+07:43.620 --> 07:46.650
+Alumno punto primero es el código.
+
+07:46.920 --> 07:55.550
+Luego es el nombre y luego es el teléfono cómo sabemos qué nombres son los que estoy poniendo porque
+
+07:55.560 --> 08:02.530
+quién el archivo ustedes van a poder ver nombre teléfono dirección código es lo mismo.
+
+08:02.530 --> 08:05.310
+No lo damos todo.
+
+08:05.310 --> 08:10.460
+Regresemos a nuestro navegador web refrescamos los datos a nuestra página y podrán ver el listado que
+
+08:10.460 --> 08:13.100
+proviene de la base de datos.
+
+08:13.370 --> 08:16.380
+Si no me creen entonces insertamos un nuevo registro.
+
+08:16.490 --> 08:29.060
+No le pongamos el código porque es auto incrementado vamos a ponerle Susana Paz teléfono 88 76 99 00
+
+08:29.740 --> 08:40.090
+y vive en la colonia Lomas del Portillo y continúa CSMA inserción.
+
+08:40.200 --> 08:48.620
+Regreso a mi refresco y va a aparecer Susana Paz como está ordenado alfabéticamente por la instrucción
+
+08:48.620 --> 08:50.140
+SQL quisimos.
+
+08:50.590 --> 08:54.620
+Ya no tenemos ningún problema nosotros ok pero esto no termina acá.
+
+08:54.650 --> 09:01.460
+Normalmente los teléfonos no tienen este formato por lo general tienen un guion o algún código diaria
+
+09:01.700 --> 09:05.680
+pero en nuestro caso lo que queremos es que los primeros cuatro dígitos salgan así.
+
+09:05.690 --> 09:13.220
+Luego un guion y los otros después pero no hay ningún filtro de angular que nos permita hacer eso con
+
+09:13.220 --> 09:14.540
+los teléfonos.
+
+09:14.540 --> 09:21.820
+Entonces qué les parece si creamos nuestro filtro personalizado es decir como si quisiéramos hacer esto
+
+09:24.970 --> 09:33.120
+como si quisiéramos hacer eso pero pero con algo así va el enfoque algo parecido y no va a salir que
+
+09:33.140 --> 09:35.390
+iba a pagar un error por qué no existe este filtro.
+
+09:36.040 --> 09:46.670
+Entonces creemos creamos el filtro para crear dicho filtro vamos a irnos a p.ej. ese y haremos los siguientes
+
+09:47.340 --> 09:53.460
+espacios acá AP pontos Filter para decirle que vamos a crear un nuevo filtro con el nombre teléfono
+
+09:54.260 --> 09:54.890
+Koma.
+
+09:54.940 --> 10:00.670
+Esto es una función de la angula y necesita ejecutar Cinq.
+
+10:00.760 --> 10:03.650
+Este es un estándar así se programan los filtros.
+
+10:03.750 --> 10:05.720
+Vamos a nuestra nueva función.
+
+10:05.830 --> 10:13.280
+Queremos recibir el número que se encuentra que el número que se encuentra acá lo puedes recibir.
+
+10:13.290 --> 10:25.180
+Ese número de la siguiente manera returned el número que se está intentando filtrar punto.
+
+10:25.210 --> 10:31.860
+El switching lleva ya más que todo de 0,4 la más corta.
+
+10:32.000 --> 10:40.280
+Luego le vas a humanizar un guión y luego va a ser el número subes nuevamente pero sólo de 4 en adelante
+
+10:40.520 --> 10:43.310
+o Tocoma guardo los datos.
+
+10:43.310 --> 10:44.600
+Eso sería todo.
+
+10:44.600 --> 10:55.590
+Voy a comentar esto filtro personalizado de teléfono de teléfono cuando los cambios regresó a mi navegador
+
+10:55.590 --> 11:04.780
+web eso mi navegador web y aquí proveemos teléfono o los cambios.
+
+11:04.780 --> 11:12.870
+Regreso a mi navegador web de cargo y como pueden observar ya aparece correctamente nuestro guión en
+
+11:12.990 --> 11:14.640
+los teléfonos.
+
+11:14.970 --> 11:18.750
+En este momento voy a dejar el video así artícu.lo.
+
+11:19.230 --> 11:25.590
+Si pueden intenten hacer nuevamente con los ojos cerrados o mejor dicho sin ver el video y los veo en
+
+11:25.590 --> 11:26.450
+la siguiente clase.

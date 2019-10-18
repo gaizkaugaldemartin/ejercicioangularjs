@@ -1,0 +1,235 @@
+WEBVTT
+
+00:03.620 --> 00:04.490
+Saludos.
+
+00:04.550 --> 00:11.990
+Vamos a continuar con el curso angular en español tocaremos el tema de HTTP request.
+
+00:11.990 --> 00:18.530
+éste es particularmente una de las mecanismos más utilizados para obtener información de recursos externos.
+
+00:18.530 --> 00:24.370
+Por ejemplo un archivo Jayson o un servicio web o cualquier otra cosa.
+
+00:24.500 --> 00:27.350
+Entonces empezaremos con la clase.
+
+00:27.350 --> 00:33.290
+Primero que nada descargues en materia de punto como ya es común lo descomprime y tendrán esta carpeta
+
+00:33.920 --> 00:39.660
+abriremos este nuevo archivo este nuevo proyecto tiene varias particularidades.
+
+00:39.680 --> 00:47.780
+Una de ellas es que trae un archivo externo un archivo Jackson si lo abrimos contiene un listado de
+
+00:47.780 --> 00:56.100
+profesores en este tipo de formato pueden investigarse más sobre lo que es el JavaScript Object Protection
+
+00:56.290 --> 00:59.000
+o en pocas palabras Jayson en Internet.
+
+00:59.400 --> 01:05.490
+Pero es un tipo de formato particular tiene una estructura definida y fácil de entender es muy usada
+
+01:05.610 --> 01:13.560
+a nivel mundial últimamente tiene un archivo Jayson tiene lo mismo el CSS las fuentes imágenes no tenemos
+
+01:13.560 --> 01:20.580
+ninguna tenemos el archivo de lapiz p.ej. ese y el Imex lo abriremos en el Shula text.
+
+01:20.580 --> 01:21.660
+Igual que siempre.
+
+01:21.740 --> 01:23.670
+Nada nuevo del otro mundo.
+
+01:23.670 --> 01:32.010
+Abriremos el índex abriremos el libro p.ej. ese y abriremos digámoslo así solamente estátus quiero que
+
+01:32.010 --> 01:37.650
+observemos las estructuras que vienen pre predefinidas en el archivo.
+
+01:37.650 --> 01:40.710
+Primero que nada el busto ya esté instalado.
+
+01:40.710 --> 01:48.180
+La librería de anime está instalada en el ángulo 10 instalado y la referencia en la puerta 2.13 y está
+
+01:48.180 --> 01:49.350
+activada.
+
+01:49.560 --> 01:59.580
+Sólo nos queda utilizar la data regresemos al archivo APK p.ej. ese y aquí podrán tener ver que tiene
+
+01:59.580 --> 02:03.460
+la referencia a Giap en Giap.
+
+02:03.600 --> 02:12.350
+Ejemplos Pepe tiene su main controles suman encontró el que está aquí y estamos listos para comenzar
+
+02:13.250 --> 02:18.770
+pero primero déjenme explicarles este nuevo concepto del HTTP HTTP.
+
+02:18.860 --> 02:26.960
+Este procedimiento como tal y como está el HTTP se llama Inyección entonces para poder utilizar las
+
+02:26.960 --> 02:35.660
+funciones de obtención de datos externos usando el controlador HTTP es necesario hacerlo de esta manera
+
+02:35.660 --> 02:42.620
+declararlo dentro del arreglo ponerlo acá y a su vez también ponerla aquí.
+
+02:42.650 --> 02:50.060
+Si agregaríamos otra otro tipo de inyección tendríamos que ponerlo acá pero no tenemos que ponerlo aquí
+
+02:50.210 --> 02:52.140
+como sea.
+
+02:52.190 --> 03:01.340
+Por ejemplo si yo a Pepe este tendríamos que definirlo nuevamente aquí pero eso mucho proceso después
+
+03:01.460 --> 03:08.060
+no se preocupen por ahora listo entonces empecemos a utilizar lo que es el HTTP request.
+
+03:08.060 --> 03:15.920
+Primero que nada queremos hacer un listado de nuestro archivo Jayson de el archivo de los profesores
+
+03:16.340 --> 03:20.950
+que tiene esta información si bien es una estructura muy similar a la que hemos estado usando tiene
+
+03:21.000 --> 03:31.350
+Saidi su sexo nombre segundo nombre teléfono y el celular entonces le vemos en el disco 1 un arreglo
+
+03:31.350 --> 03:40.080
+de datos en este caso serán profesores de aclararemos como un arreglo vacío cooperemos esta información
+
+03:40.780 --> 03:51.280
+lo vamos al índex HTML y sólo quiero que observemos lo que es profesores con la tubería el Jayson este
+
+03:51.280 --> 04:01.930
+tipo de filtro si lo cargamos en nuestro navegador web por defecto nuestro cargo en nuestro navegador
+
+04:01.930 --> 04:07.460
+web podrá observar que aparece un arreglo Vacío perfecto.
+
+04:08.110 --> 04:14.540
+Revisando el texto vamos a cargar los datos de manera dinámica.
+
+04:14.700 --> 04:24.940
+Tenemos el HTTP la instrucción que estamos pasando aquí por parámetro punto IET paréntesis entre comillas
+
+04:24.940 --> 04:27.140
+o mejor dicho apóstrofe sencillos.
+
+04:27.190 --> 04:30.560
+Tenemos que poner la dirección del archivo que queremos leer.
+
+04:30.730 --> 04:34.050
+En este caso quiero que miren que estamos en la raíz.
+
+04:34.060 --> 04:42.930
+Tenemos que ir a la carpeta Jayson y estamos buscando el archivo profesores junto Jason Jayson Leca
+
+04:43.150 --> 04:45.070
+profesores potos Jayson.
+
+04:45.340 --> 04:47.750
+Una vez hace eso subseries.
+
+04:47.770 --> 04:58.870
+Si lo hace bien va a ejecutar esta función función parentesis llaves y este es el código que se va a
+
+04:58.870 --> 05:05.230
+ejecutar código cuando es correcto cuando es correcta la petición
+
+05:09.790 --> 05:17.860
+lo que va hacer es mediante Ajax o sea sin hacer mi voto un refrescamiento en la página vas a cargarte
+
+05:17.950 --> 05:19.990
+este archivo.
+
+05:19.990 --> 05:23.390
+La información lo quiero meter en este.
+
+05:23.500 --> 05:24.730
+En esta variable scoop
+
+05:28.380 --> 05:37.170
+qué información Cómo obtengo la data vamos a agregarle un parámetro de retorno que se llama data pondremos
+
+05:37.170 --> 05:44.170
+data y al hacer esto tenemos referencia a todo esta información que está en este archivo.
+
+05:44.220 --> 05:54.660
+Todo esto está dentro de un arreglo llamado profesores Natta punto profesores punto y com es decir le
+
+05:54.700 --> 05:57.310
+estamos diciendo al navegador web o mejor dicho la angula.
+
+05:57.510 --> 05:58.690
+Extradite mediante AJAX.
+
+05:58.720 --> 06:01.850
+Este archivo todo esta información si bien es correcto.
+
+06:01.890 --> 06:08.930
+Eso sí no hay ningún problema en la petición de los datos mételo en la variable data cuando entra a
+
+06:08.930 --> 06:10.090
+la función.
+
+06:10.430 --> 06:17.270
+Vamos a aceptarle a nuestro arreglo vacío nuestro objeto vacío de profesores lo que contenga la data
+
+06:18.290 --> 06:18.890
+del arreglo.
+
+06:18.890 --> 06:28.090
+Profesores sabremos los cambios no vamos a ir a nuestro navegador web y observar que no para hacer nada
+
+06:29.020 --> 06:36.010
+porque no aparece nada por algo que se llama cross Cross Origin request.
+
+06:36.070 --> 06:39.650
+Este es un error y a la vez no.
+
+06:39.840 --> 06:47.380
+Esto es una política de seguridad que tiene el Crom para evitar peticiones externas de sitios que no
+
+06:47.380 --> 06:55.260
+están por decirlo así en el mismo dominio ya van a ver si copiamos la dirección y abrimos el Firefox
+
+06:55.290 --> 07:04.710
+por ejemplo y pegamos esto en el Firefox aquí si vemos la data porque el Firefox o por menos la versión
+
+07:04.710 --> 07:08.730
+que yo estoy usando no tiene habilitada ese S.O.
+
+07:08.850 --> 07:10.800
+Esa restricción del crossed Domain.
+
+07:10.800 --> 07:18.420
+Ahora si lo abrimos en Safari por ejemplo o en Opera serviremos en opera como podrán ver da el mismo
+
+07:18.420 --> 07:19.000
+error.
+
+07:19.010 --> 07:28.570
+Mismo problema entonces lo que quiero que miremos es la introducción a lo que será la siguiente clase
+
+07:28.570 --> 07:34.450
+que es instalar nuestro propio servidor Apache porque ya estamos entrando a los temas jugosos a lo que
+
+07:34.450 --> 07:40.670
+es el posteo de información de datos a la recolección de datos a la carga dinámica mediante Ayax.
+
+07:40.780 --> 07:48.100
+Entonces es necesario ya un poco de poder de un servidor para eso los espero en la siguiente clase que
+
+07:48.280 --> 07:56.740
+hablarán sobre cómo instalar el SAM para Sx y si ustedes están trabajando en Windows se la saltan y
+
+07:56.740 --> 08:01.000
+se van a la siguiente que es la instalación de SAP y correr estos archivos en Windows.

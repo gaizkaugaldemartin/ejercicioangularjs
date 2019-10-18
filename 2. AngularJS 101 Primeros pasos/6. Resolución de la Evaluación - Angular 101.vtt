@@ -1,0 +1,46 @@
+WEBVTT
+
+00:02.530 --> 00:03.460
+Saludos nuevamente.
+
+00:03.460 --> 00:09.370
+Vamos a hacer la resolución de la evaluación anterior lo que se pedía era básicamente esto crearse una
+
+00:09.370 --> 00:15.460
+nueva carpeta o un nuevo proyecto en el cual va a tener la siguiente estructura la carpeta CSS donde
+
+00:15.460 --> 00:21.910
+se encuentra el tuyo puso la carpeta Fonds donde están las fuentes del busto la carpeta y eso es opcional
+
+00:21.940 --> 00:29.680
+pero se miró en la clase la carpeta J.V en la cual existe otra llamada Halim la cual contiene el angular
+
+00:29.680 --> 00:38.470
+.1.000 punto J.V abriendo el archivo índex punto HTML veremos que está la inclusión de la librería del
+
+00:38.470 --> 00:47.320
+bus la inclusión de la librería de la angula en su irrespetó dirección el CTO de engullía aquí arriba
+
+00:47.830 --> 00:52.480
+más abajo el título del primer campo de texto con su Ngen.
+
+00:52.630 --> 00:58.720
+Aquí como lo podemos ver que está grabã el nombre tiene una particularidad del autofocus que esto no
+
+00:58.720 --> 01:04.630
+se miró pero esto es para que cuando se cargue la página aparezca el cursor en ese campo de texto.
+
+01:04.630 --> 01:12.950
+Luego viene el lugar de trabajo que se captura con la variable lugar trabajo con su Pleiss donde luego
+
+01:13.130 --> 01:22.430
+el salario en dólares donde tiene su NG Model salario con sus tres Jolene ingrese salario.
+
+01:22.590 --> 01:29.400
+Más abajo es el despliegue de la información el nombre que está en Perquis el lugar de trabajo que está
+
+01:29.410 --> 01:33.980
+en Novacaixa y el salario que tiene la máscara de moneda.
+
+01:33.980 --> 01:37.200
+Bueno eso era todo y los veo en la proxima sección.

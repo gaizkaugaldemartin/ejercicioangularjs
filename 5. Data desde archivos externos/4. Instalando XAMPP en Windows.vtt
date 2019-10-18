@@ -1,0 +1,121 @@
+WEBVTT
+
+00:03.130 --> 00:04.990
+Bienvenidos nuevamente a esta clase de angular.
+
+00:04.990 --> 00:11.950
+Hoy veremos más que todo comenzará en Windows la cual es una herramienta que configura varios servicios
+
+00:12.010 --> 00:17.640
+en nuestra computadora de manera muy sencilla como es un servidor Apache una base de datos mayor secuela
+
+00:18.190 --> 00:25.990
+la cual usaremos para grabar información y que quede permanente en algunas tablas y el servidor Apache
+
+00:25.990 --> 00:31.420
+lo utilizaremos para correr nuestros locales outs y un poco de código cuando ya queremos obtener los
+
+00:31.420 --> 00:34.270
+datos y procesar los datos desde el lado del servidor.
+
+00:34.300 --> 00:40.270
+Para eso descargaremos el SAMP vamos a la página oficial de SAP y lo descargamos para el Windows.
+
+00:40.370 --> 00:47.290
+Como podrán ver aquí ya nos dicen que la versión de PHP trae también lo descargamos haciendo click aquí
+
+00:47.550 --> 00:53.470
+y ya lo tengo descargado el archivo es este de acá lo ejecutamos.
+
+00:53.590 --> 00:59.080
+Es bastante cómoda la instalación queremos que cargue un momento.
+
+00:59.080 --> 01:06.070
+Esto va a depender un poco de su sistema operativo donde la velocidad la computadora NeXT.
+
+01:06.330 --> 01:10.330
+Si ustedes no quieren instalar algo por ejemplo no quiero instalar affect Simmel para hacer pruebas
+
+01:10.330 --> 01:11.260
+de correo.
+
+01:11.560 --> 01:17.500
+No quiero instalar Mercuri Hummel Server ustedes déjenlo si quieren todo como está por defecto o quitan
+
+01:17.590 --> 01:24.310
+esas dos el FTP Server esto tampoco lo okupados ni empellón pero déjenlos si esto es lo mínimo necesario
+
+01:24.310 --> 01:32.510
+para para correrlo Next se va a instalar en C carpetas Sam siguiente no queremos leer nada más ahorita
+
+01:32.510 --> 01:33.040
+de eso.
+
+01:33.040 --> 01:41.820
+Siguiente siguiente entonces empezar a instalar el proceso puede demorar unos minutos dependiendo de
+
+01:41.830 --> 01:47.010
+su disco duro y los que estén lo que estén haciendo en ese momento se puede adelantar el video hasta
+
+01:47.010 --> 01:51.180
+que esté lista la instalación como podrán observar en este momento ya terminó.
+
+01:51.900 --> 01:57.270
+Aparece esta pantalla les pregunta si quieren iniciar el Panel Administrativo en este momento vamos
+
+01:57.270 --> 02:01.670
+a darle si tenemos su momento.
+
+02:02.110 --> 02:07.170
+Este es el panel del Zapp si queremos levantar en nuestro Apache tocamos aquí.
+
+02:07.210 --> 02:11.890
+Si queremos levantar nuestra base de datos tocamos acá en este momento no lo vamos a hacer sólo con
+
+02:12.310 --> 02:17.110
+el servidor Apache listo ahora que es lo que sigue.
+
+02:18.460 --> 02:25.580
+Si nosotros votamos ahora el local Ouest podrán ver que aparece la pantalla Elza pueden poner aquí en
+
+02:25.580 --> 02:32.090
+español los errores de T.F pero bueno esto no se preocupen lo que quiere decir esto es que está bien
+
+02:32.090 --> 02:34.360
+configurado nuestro Zap.
+
+02:34.400 --> 02:42.320
+Ahora cómo empezamos a ejecutar nuestros programas ya en dicha herramienta abriremos el Cé de nuestro
+
+02:42.320 --> 02:53.680
+equipo aquí en la carpeta SAMP HT HT docx y aquí es donde colocaremos nuestros proyectos.
+
+02:53.690 --> 02:58.130
+En este caso yo le recomendaría que lo mantengamos bien ordenado por ejemplo queremos una carpeta que
+
+02:58.130 --> 03:08.630
+se llame my abrimos y el ejercicio que teníamos ayer o que hicimos de la clase pasada lo pegaremos acá
+
+03:11.020 --> 03:12.600
+sólo nos movemos como ustedes.
+
+03:12.890 --> 03:16.040
+Y estamos listos para que se ejecute.
+
+03:16.040 --> 03:22.510
+Abrimos el CROM y en vez del SAMP escribiremos ayúdenme que es la carpeta que creamos.
+
+03:22.500 --> 03:29.360
+Como podrá observar y UDE me parece este listado y aquí está la carpeta con el ejercicio que no funcionaba.
+
+03:30.000 --> 03:36.350
+Lo ejecutamos y ahora sí funciona ya que ahora estamos ejecutando un servidor en nuestra computadora.
+
+03:36.350 --> 03:41.640
+Esto es una copia casi idéntica a cómo va a funcionar en un sitio web desplegado.
+
+03:42.110 --> 03:47.570
+Así que estamos listos para hacer ya otro tipo de directivas como el ending club como el posteo o información
+
+03:47.600 --> 03:51.980
+o el HTTP POST entre otras cosas los veo en la siguiente clase.

@@ -1,0 +1,178 @@
+WEBVTT
+
+00:03.410 --> 00:08.450
+Saludos bienvenidos a esta clase aseguró nuevamente hoy tocaremos sobre la directiva Enjoy options la
+
+00:08.450 --> 00:13.880
+cual nos permite trabajar con repeticiones de datos que vienen de otros objetos.
+
+00:13.880 --> 00:19.700
+Es muy parecido al Enjoy repeat pero este está destinada específicamente para el manejo de selectores
+
+00:20.030 --> 00:21.680
+o de los Selects.
+
+00:21.680 --> 00:28.040
+Necesito que se descarguen el material adjunto de la clase lo descomprime abrimos y como podrán observar
+
+00:28.100 --> 00:30.110
+es un proyecto vacío.
+
+00:30.140 --> 00:34.400
+Lo hará en el suelo índex como ya lo han hecho muchas veces y van a notar cambios en los siguientes
+
+00:34.400 --> 00:35.620
+archivos.
+
+00:35.680 --> 00:42.110
+Notarán cambios en el índex punto HTML que está el proyecto vacío y también notarán cambios en el Apep
+
+00:42.110 --> 00:51.760
+p.ej. ese que contiene un arreglo de países entonces comencemos el tema es bastante es bastante fácil.
+
+00:51.760 --> 00:59.440
+Primero tenemos que hacer es un una etiqueta que diga selecció en el país lospuntos puntos haremos un
+
+00:59.440 --> 01:12.940
+Select no ocupamos el Heydi ni Nein sólo podremos elegir modo pondremos país seleccionado país seleccionado
+
+01:14.200 --> 01:17.940
+y en la parte de las opciones pondremos una opción vacía no
+
+01:20.700 --> 01:33.160
+selección ahí nada del otro mundo agrícola en la clase de Bushra por otro entonces podremos pensar que
+
+01:33.340 --> 01:35.090
+podríamos utilizaron en rootkit.
+
+01:35.390 --> 01:37.660
+Y es cierto podemos utilizar un ancho europeo de aquí
+
+01:41.520 --> 01:51.590
+de la siguiente manera En TripIt pondremos país en países valio que tendrá esto será a país punto Heydi
+
+01:52.490 --> 02:01.350
+y la etiqueta será país punto nombre Superdome esto está en minúscula salvo los cambios opinemos aquí
+
+02:01.860 --> 02:02.700
+tiene que ver igual.
+
+02:02.700 --> 02:06.580
+País se minuscula en Heydi contiene el código de país y después viene el nombre.
+
+02:07.170 --> 02:11.420
+Entonces queremos mostrar el país allí y después ser el país top
+
+02:14.610 --> 02:18.160
+con los cambios regresamos a nuestro navegador web.
+
+02:18.620 --> 02:22.380
+Abrimos y podremos observar aparece en los países.
+
+02:22.400 --> 02:24.110
+Todo parece funcionar bien.
+
+02:24.120 --> 02:32.050
+No todo pareciera funcionar bien entonces por qué usar en Giorgios.
+
+02:32.410 --> 02:34.970
+Vamos a la p p.ej. s.
+
+02:35.030 --> 02:42.010
+Dentro de nuestro controlador principal pondremos definiremos una variable que pondremos en valor al
+
+02:42.010 --> 02:49.870
+país seleccionado pongámosle Skype junto al país seleccionado va a ser igual vamos a seleccionar Emiratos
+
+02:49.870 --> 02:51.370
+árabes Unidos.
+
+02:51.700 --> 02:58.260
+Pongamos que este es el código que está por defecto seleccionado y para que miren de que esto está funcionando.
+
+02:58.300 --> 03:06.120
+Vamos a copiar esta variable y la pondremos aquí al lado se muestre país seleccionado al lado mandamos
+
+03:06.160 --> 03:13.710
+los cambios regresamos al navegador web recargamos y como podrán observar aparecen aparece que está
+
+03:13.710 --> 03:17.020
+seleccionado pero aquí no vemos el cambio no lo vemos reflejado aquí.
+
+03:18.680 --> 03:23.520
+O podrán ver todo está igual todo está todo parece estar bien pero no vemos reflejado el cambio y cambio
+
+03:23.520 --> 03:24.700
+a Croacia.
+
+03:24.860 --> 03:29.560
+Si cambio Ecuador sí cambió España se cambió a Estados Unidos.
+
+03:29.630 --> 03:36.410
+Hoy sí está bien pero cuando recargamos por primera vez la página no se ve claramente el objeto o mejor
+
+03:36.410 --> 03:40.610
+dicho cuando se asigna un valor dinámicamente a un eje TripIt.
+
+03:40.940 --> 03:48.500
+Si lo asignã bien pero no se ve reflejado en el controlador del CD entonces cómo arreglamos eso utilizando
+
+03:48.570 --> 03:51.010
+un Elendil options.
+
+03:51.150 --> 03:52.670
+Será un salto de línea.
+
+03:52.910 --> 03:53.780
+Selección
+
+03:56.670 --> 04:06.260
+selección del país spots aquí choque con la selección del país
+
+04:09.860 --> 04:12.980
+entonces haremos un Select Select.
+
+04:12.980 --> 04:19.970
+No vamos a poner ningún Airy aquí pero sí vamos a creerle la opción por defecto esta que tenemos acá
+
+04:20.660 --> 04:23.380
+tendremos la opción por defecto para obligarlo.
+
+04:23.930 --> 04:37.130
+Y aquí viene la magia en Gmail será igual al país seleccionado el país seleccionado Clas con control.
+
+04:37.980 --> 04:48.590
+Y aquí viene lo interesante haremos Enjoy options pero dentro del Select voy a quitarle un rato para
+
+04:48.590 --> 04:50.010
+que lo podamos ver.
+
+04:50.570 --> 05:00.200
+Entonces en Options vamos a seleccionar el país punto Heydi como como la etiqueta o Lebon país punto
+
+05:00.200 --> 05:03.890
+nombre para cada país.
+
+05:03.890 --> 05:15.850
+En países queremos seleccionar el Heydi como valor país punto nombre con etiqueta de cada país dentro
+
+05:15.850 --> 05:24.190
+de país con los cambios previstos en nuestro navegador web recargamos y si bien aparecen todos los datos
+
+05:24.550 --> 05:32.500
+correctamente señalados y por defecto por defecto aparece seleccionada correctamente el país que quisimos
+
+05:32.530 --> 05:39.900
+aunque se lo echamos no era Emiratos árabes Unidos y cerrar a este que abajo estaba otra definición.
+
+05:40.020 --> 05:46.900
+Ok ok voy a quitar C-C Emiratos árabes Unidos eres acá y ahora sí.
+
+05:46.900 --> 05:53.370
+Emiratos árabes Unidos está seleccionado si yo cambio a Cuba aquí también se cambia Cuba y Ecuador.
+
+05:53.380 --> 05:58.330
+Lo interesante es que después esto ya vuelve a funcionar no así VP el de arriba también funciona pero
+
+05:58.960 --> 06:07.200
+para este tipo de controladores o de casos es mejor utilizar el Tenchi options para este caso.

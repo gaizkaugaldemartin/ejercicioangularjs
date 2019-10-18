@@ -1,0 +1,178 @@
+WEBVTT
+
+00:04.100 --> 00:10.010
+Algo que hace anular lo que es son los filtros los que van a ayudar nosotros ahorramos mucho tiempo
+
+00:10.370 --> 00:16.110
+y evitamos largas horas de programadas o crear funciones complejas cuando alguien ya las hizo por nosotros.
+
+00:16.130 --> 00:22.060
+Para eso vamos a hacer referencia a la página oficial de angular docx punto angular es punto Berge en
+
+00:22.130 --> 00:23.400
+la sección de filtros.
+
+00:23.480 --> 00:29.390
+Yo les recomendaría que guarden esta página porque haremos referencia a ella constantemente.
+
+00:29.390 --> 00:34.070
+Aquí podremos ver que hay una serie de códigos que están a nuestra disposición pero angolano sólo nos
+
+00:34.070 --> 00:39.250
+da la referencia que es lo que hace sino también nos da ejemplos de cómo funciona cada uno de sus filtros.
+
+00:39.290 --> 00:45.950
+Por ejemplo el de moneda lo que hace el filtro de moneda es convertir un número y le pone un formato
+
+00:45.950 --> 00:53.270
+de Moner así desde así más abajo vamos a poder ver que están los ejemplos y hay un like previo o una
+
+00:53.330 --> 00:57.870
+visualización en tiempo real de cómo funciona el código.
+
+00:58.190 --> 01:05.700
+Vamos a regresar a nuestro programa y nos habíamos quedado en el ejercicio anterior creando nuestro
+
+01:05.790 --> 01:06.440
+mundo.
+
+01:06.510 --> 01:12.720
+Le recomendaría que haga una copia del ejercicio para no perderlo y así hacerlo no buscamos empecemos
+
+01:12.810 --> 01:20.670
+vamos a cambiar esta etiqueta vamos a ponerle filtros no ponerle esta marca sólo para mantener la referencia
+
+01:20.780 --> 01:21.890
+inglés español.
+
+01:21.990 --> 01:23.010
+Queremos un subtítulo
+
+01:27.840 --> 01:32.760
+y crearemos una línea que empezamos a usar los filtros.
+
+01:32.810 --> 01:40.730
+Empezamos con el de texto de texto supongamos que tienen una variable o un string mal formateado por
+
+01:40.730 --> 01:41.270
+ejemplo.
+
+01:41.320 --> 01:41.610
+Así
+
+01:45.410 --> 01:49.920
+si salvamos los cambios nos vamos a nuestra carpeta de proyecto y lo ejecutamos.
+
+01:50.360 --> 01:55.310
+Podremos ver que aparece tal cual está escrito.
+
+01:55.310 --> 01:57.070
+Regresemos a Xuven text.
+
+01:57.070 --> 02:05.880
+Vamos a crear una nueva IP una nueva línea como Ansip que veremos un salto de reglón y ahora aplicándole
+
+02:06.020 --> 02:12.660
+el filtro para capitalizarlo todo Hopper o Perquis.
+
+02:12.950 --> 02:14.900
+De esta manera Al-Shabab los cambios.
+
+02:14.900 --> 02:22.210
+Regresamos a nuestro navegador web y lo ejecutamos verán que ahora sale capitalizado correctamente.
+
+02:22.550 --> 02:27.170
+Supongamos que ahora lo quieren todo en minúscula entonces como un chip para crear una línea una copia
+
+02:27.170 --> 02:28.060
+del lining.
+
+02:28.390 --> 02:38.210
+Tenemos un reglón acá y ahora en vez de Perquis lo Walkers salvamos regresamos al navegador web refrescamos
+
+02:38.460 --> 02:42.530
+y aparece en minúscula.
+
+02:42.980 --> 02:46.040
+De esta manera se aplican todos los filtros todos los filtros son iguales.
+
+02:46.040 --> 02:54.050
+Empezamos a utilizar ahora el de moneda por ejemplo filtro de moneda los puntos que hay supongamos que
+
+02:54.050 --> 03:02.330
+tenemos un artículo que cuesta 1350 dólares 1360 x cantidad salvo crear una nueva línea
+
+03:06.900 --> 03:12.290
+y vamos a ponerle el filtro de moneda salvamos los cambios.
+
+03:12.290 --> 03:21.020
+Regresamos a nuestro navegador web y como podrán observar en el primero aparece 1356 formato y después
+
+03:21.020 --> 03:24.620
+ya aparece con el formato correcto 1350 dólares.
+
+03:24.650 --> 03:28.810
+Ustedes me dirán bueno pero yo no ocupo que salga el de dólares porque mi moneda no es esa.
+
+03:28.920 --> 03:30.350
+Ok no hay ningún problema.
+
+03:30.670 --> 03:39.010
+Vamos a crear una nueva línea como en Chile para crear la línea y en vez de solo mandar el filtro de
+
+03:39.010 --> 03:45.010
+correos y le mandamos un parámetro solo ustedes pueden poner cualquier tipo de moneda cualquier símbolo
+
+03:45.220 --> 03:46.120
+lo que sea.
+
+03:46.180 --> 03:52.990
+Por ejemplo si se están usando colones costarricenses o peso colombiano peso mexicano o cualquier otro
+
+03:52.990 --> 03:56.800
+tipo de moneda quetzales entonces ponen el símbolo.
+
+03:56.920 --> 03:59.020
+Anteriormente imaginemos que estamos usando colones.
+
+03:59.020 --> 04:08.390
+Voy a poner el punto espacio salvamos regresamos al navegador web y a aparecer con ese formato ustedes
+
+04:08.390 --> 04:15.080
+dirán bueno no quiero que aparezca nada bueno perfecto manden lo básico salvamos regresamos a un navegador
+
+04:15.080 --> 04:19.960
+web y les va a aparecer solo el formato de moneda.
+
+04:19.970 --> 04:25.120
+De esta manera ustedes pueden poner lo que necesiten en su programa.
+
+04:25.130 --> 04:33.800
+Es muy esto de poner los filtros a la hora de despliegue de información da una seriedad bastante bastante
+
+04:33.800 --> 04:40.910
+buena al programa procuramos que todas las salidas de datos tengan filtros puestos para que las aplicaciones
+
+04:40.910 --> 04:46.550
+se miren más serias como había mencionado anteriormente todos los filtros se aplican igual de la misma
+
+04:46.550 --> 04:55.710
+manera en este caso utilizaremos el de moneda el perdón el número filtro el número los puntos sumamos
+
+04:55.730 --> 05:05.230
+que tiene un artículo o algo o tiene un monto o un número de un millón 350 000 X cosas.
+
+05:05.810 --> 05:10.400
+Salvamos si lo vemos así en el navegador web simplemente va a aparecer el millón 250 mil.
+
+05:10.420 --> 05:14.270
+Pero si es difícil de ver pues apliquemos el filtro de número
+
+05:18.730 --> 05:27.020
+donde salvamos al navegador web y listo ya lo tenemos bien formateado los números de esta manera hemos
+
+05:27.020 --> 05:29.170
+terminado la parte introductoria de los filtros.
+
+05:29.170 --> 05:33.350
+Más adelante utilizaremos tuits más avanzados y crearemos nuestros propios filtros personalizados.

@@ -1,0 +1,238 @@
+WEBVTT
+
+00:03.360 --> 00:05.460
+Bienvenidos nuevamente a esta clase de Angola.
+
+00:05.460 --> 00:11.130
+Volveremos sobre la inserción de registros en material adjunto se encuentra este archivo lo descarguen
+
+00:11.280 --> 00:18.540
+lo descomprime y podrán observar que es muy parecida a la anterior sólo que la diferencia este tiene
+
+00:18.540 --> 00:25.820
+un insert into y no un hombre pero es exactamente la misma cosa y se trabaja exactamente igual.
+
+00:25.920 --> 00:31.470
+Se llama la misma manera si es de la misma manera que Erotic pero lo que queremos hacer es un truquito
+
+00:31.470 --> 00:38.250
+como engañará nuestro código para poder utilizar la misma pantalla que ya tenemos pero para insertar
+
+00:38.520 --> 00:40.140
+como para actualizar datos.
+
+00:40.260 --> 00:42.470
+Entonces empecemos con eso.
+
+00:42.870 --> 00:49.650
+Primero que nada vamos a cortar este archivo lo vamos a mover a la carpeta ayúdenme y Univer PHP servicios
+
+00:50.030 --> 00:56.660
+no podremos con los demás alumnos crear abriremos nuestro proyecto en el texto.
+
+00:56.790 --> 01:02.100
+Yo lo tengo listo voy a abrir el navegador web para que recordar como habíamos quedado
+
+01:04.760 --> 01:06.150
+todos funcionando.
+
+01:06.300 --> 01:07.990
+Vamos a poner el botón acá.
+
+01:07.990 --> 01:10.650
+Qué les parece para que sea fácil de ver.
+
+01:10.860 --> 01:20.120
+Coloquemos un botón de Insertar en este lado y punto Rog le pondremos el alineamiento a la izquierda
+
+01:20.930 --> 01:22.240
+a la derecha.
+
+01:22.240 --> 01:32.350
+Tendremos un link creará uno o dos separaciones os damos todo Mirémoslo en el navegador web.
+
+01:32.650 --> 01:34.630
+Pero hagámoslo con el estilo que sea un botón.
+
+01:34.670 --> 01:37.490
+No es Class veten MTN.
+
+01:37.840 --> 01:41.700
+Pongámosle info para que se vea así.
+
+01:42.240 --> 01:47.770
+Entonces al tocar este botón nos vamos nos va a llevar a esta página pero con otro código aquí arriba
+
+01:47.800 --> 01:51.000
+porque acuérdese que suponemos cualquier código que no es válido.
+
+01:51.020 --> 01:58.830
+No regresa acá entonces vamos a hacer el truquito aquí les pondremos al alumno.
+
+01:58.830 --> 02:04.900
+Pero una bola de nieve o nuevo Molinuevo que guardamos todos.
+
+02:05.050 --> 02:11.430
+Y este nuevo realmente es un lo estamos mandando como si fuera un código no.
+
+02:11.730 --> 02:19.620
+Básicamente con esta pantalla terminamos vemos el alumno el controlador del alumno y si ven el código
+
+02:19.680 --> 02:24.580
+ahora en este momento lo llamamos desde el crear recibir el código nuevo.
+
+02:25.320 --> 02:30.690
+Entonces podemos decir que si es nuevo vamos a hacer una condición acá.
+
+02:30.850 --> 02:40.050
+Si el código es igual a nuevo entonces quiere decir que todo está bien.
+
+02:40.170 --> 02:51.330
+No lo vamos a mover para arriba aquí arriba entonces si su código es nuevo entonces lo que vamos a hacer
+
+02:52.140 --> 03:05.090
+es poner una bandera para decirnos si estamos creando creando y golfas estamos creando es creando igual.
+
+03:05.660 --> 03:14.310
+Aquí discúlpeme que llegó al punto y aquí es punto creando igual Trump y ahora si no estamos creando
+
+03:14.520 --> 03:19.800
+eso si no viene el código creando lo que se tiene que hacer es exactamente la misma validación que siempre
+
+03:20.540 --> 03:24.840
+es lo mismito lo mismito somos la tabulación acá
+
+03:28.040 --> 03:34.100
+qué quiere decir esto que si llegamos nosotros a nuestra página y lo mandamos a llamar desde aquí todo
+
+03:34.100 --> 03:39.860
+va a salir en blanco porque no carga el código nuncase es instrucción y aquí funciona como nuevo pero
+
+03:39.860 --> 03:44.900
+si yo escribo nuevos por ejemplo me va a sacar porque el código no coincide.
+
+03:45.140 --> 03:49.940
+Entonces ya tenemos nuestra bandera creando aquí.
+
+03:50.470 --> 04:00.270
+No queremos mostrar el código porque el código pusimos al alumno HTML porque el código no va a ser de
+
+04:00.270 --> 04:07.210
+ninguna manera se va a crear entonces podríamos crear esto en un bloque sin ninguna clase.
+
+04:07.210 --> 04:10.750
+Sólo vamos a mover esto acá.
+
+04:10.750 --> 04:14.530
+Voy a guardar todo sólo para que vean que no hay ningún cambio estético.
+
+04:14.530 --> 04:20.870
+Simplemente puse una división y aquí lo pondré en OID o mejor dicho en Guillou.
+
+04:21.110 --> 04:22.260
+He dicho.
+
+04:22.460 --> 04:23.530
+Ups.
+
+04:23.820 --> 04:34.530
+Si está creando si estamos creando hicieron la costumbre se va a ocultar si estamos creando.
+
+04:34.530 --> 04:35.680
+Es la única condición.
+
+04:35.760 --> 04:38.110
+Si estamos creando se va a ocultar.
+
+04:38.190 --> 04:43.820
+Regresamos acá y como podrán observar simplemente no sale el código pero si yo me voy a actualizaran
+
+04:43.820 --> 04:49.040
+a Ana Pineda si veo el código regreso creo no sale el código muy fácil.
+
+04:49.840 --> 04:51.760
+Entonces sigamos adelante.
+
+04:51.760 --> 04:57.880
+Vale la pena poner en los plazos Jonder a estos controles no claims oldies porque son buenos para decirle
+
+04:57.880 --> 05:05.890
+al usuario qué hacer pongámosle el nombre del alumno a quien teléfono nada porque ya se sabe qué es
+
+05:06.340 --> 05:08.750
+y en el texto de Isolde.
+
+05:08.830 --> 05:18.930
+Igual dirección dirección del alumno votábamos todo progreso para que puedan observar y perfecto.
+
+05:19.030 --> 05:25.540
+Vale la pena recordar que la condición que pusimos de recaer sigue funcionando aquí sigue funcionando
+
+05:25.540 --> 05:26.700
+de la misma manera.
+
+05:28.120 --> 05:34.260
+O regresando a nuestro código en la página recuérdese que la función no la hace el botón el botón de
+
+05:34.350 --> 05:40.010
+abajo no es éste quien hace la función de actualizar si no es el formulario como tal guarda al alumno
+
+05:40.620 --> 05:44.660
+entonces en la función guardar alguno que se encuentra en nuestro alumno.
+
+05:44.660 --> 05:45.980
+Controles.
+
+05:45.990 --> 05:52.410
+Tenemos que hacer la ley tenemos que saber si estamos creando o si estamos actualizando pulsaremos la
+
+05:52.410 --> 06:05.460
+siguiente condición y punto creando creando entonces vamos a crear si no vamos a ejecutar la rutina
+
+06:05.460 --> 06:08.210
+de actualización que es exactamente esta misma.
+
+06:08.780 --> 06:17.910
+Si lo movemos aquí adentro tap copio y si estamos creando es esta otra pero ya no es guardar es llamar
+
+06:18.320 --> 06:26.930
+voy a abrir de nuevo el Finder en junio y de mi rechupete clases servicios perdón servicios alumnos
+
+06:26.940 --> 06:31.770
+crear no es crear los cambios.
+
+06:31.840 --> 06:35.160
+Todo funciona de la misma manera todo está igual.
+
+06:35.160 --> 06:41.150
+Eso sería todo regreso aquí me alumnos todo parece estar bien debemos no probemos.
+
+06:41.340 --> 06:50.900
+Estoy creando voy a crear a Josué Castro Molina con un teléfono 77 yo cualquiera.
+
+06:51.360 --> 06:56.820
+Colonia Nueva armería.
+
+06:56.820 --> 06:58.030
+Qué sé yo.
+
+06:58.070 --> 07:00.500
+Bordamos cambios registro actualizado.
+
+07:00.720 --> 07:03.300
+Miremos a ver si ya existe.
+
+07:03.300 --> 07:08.370
+Josué Castro Molina y efectivamente hizo la inserción correctamente.
+
+07:08.520 --> 07:15.720
+Entonces los invito a que prueben a que a qué creen ustedes dos registros a que metan un par de un par
+
+07:15.730 --> 07:23.220
+más y los veo en la siguiente clase que explicaremos un par de cosillas bien divertidas para ponerle
+
+07:23.220 --> 07:25.890
+íconos a los botones y a los objetos.
+
+07:26.070 --> 07:27.560
+Entonces lo veo después.

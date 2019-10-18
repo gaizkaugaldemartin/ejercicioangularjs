@@ -1,0 +1,136 @@
+WEBVTT
+
+00:03.330 --> 00:09.630
+Respecto a la edición anterior llegamos hasta aquí pero ahora vamos a hacer un poco de agregarle complejidad
+
+00:09.660 --> 00:16.740
+a nuestra variable del PIT al hecho de agregarle comprimió me refiero a usar elementos un poco más complejos
+
+00:16.740 --> 00:24.050
+que onas siempre el reto en este caso para demostrar que puede manejar hasta objetos un poco más complejos.
+
+00:24.160 --> 00:33.150
+Crearemos un objeto estado profesores haremos son un poco más construido en este tiene
+
+00:35.610 --> 00:39.570
+tiene dentro un arreglo de objetos
+
+00:43.150 --> 00:54.750
+crearemos el primer profesor nombre Fernando Herrera Molina edad 29 o 28 Classe puntos.
+
+00:55.050 --> 01:12.090
+Programación estructurada y vendrá otro proceso con el nombre de mediatiza Flores el 24 y la clase introducción
+
+01:12.140 --> 01:20.140
+al proceso electrónico de datos y no dejemos a Juan Carlos afuera.
+
+01:20.250 --> 01:24.530
+Juan Carlos tiene una edad de 42 años.
+
+01:25.640 --> 01:30.140
+La clase es matemática 110.
+
+01:30.500 --> 01:37.530
+Visto los cambios regresamos a nuestro índex HTML y empezamos a usarlo.
+
+01:37.650 --> 01:46.910
+Voy a copiar el nombre del objeto para ponerlo aquí y así poder ver cómo lo construye el centro del
+
+01:46.910 --> 01:48.340
+país.
+
+01:48.400 --> 01:54.510
+Esta muestra muestra nuestro objeto con su árbol de profesores y dentro de él tiene un arreglo de objetos
+
+01:55.640 --> 02:04.400
+creamos una tabla no sé si les parece que si hubiera algo más interesante a hacer una tabla y usaremos
+
+02:05.330 --> 02:17.170
+T20 Street que es clase de Bushra una nueva línea jebe.
+
+02:17.960 --> 02:28.780
+Dentro de este Jer tenemos tres datos que es el nombre la edad y las clases que imparte y adentro vamos
+
+02:28.770 --> 02:31.560
+a poner una nueva línea.
+
+02:32.240 --> 02:39.290
+Vienen tres columnas en las cuales voy a poner sólo para que tengan la idea de qué es lo que estamos
+
+02:39.290 --> 02:40.550
+haciendo.
+
+02:40.550 --> 02:46.750
+Fernando de 11 años en la clase cualquier cosa salvo los cambios.
+
+02:46.830 --> 02:51.140
+Me voy a mi navegador web fresco y estamos construyendo esta tabla.
+
+02:51.140 --> 02:55.270
+Ahora queremos que esta tabla se llene en base a estos datos.
+
+02:56.720 --> 03:05.260
+Ok como esta es lo que se va a repetir por cada profesor que haya en el listado haremos en Hirukide
+
+03:05.260 --> 03:18.470
+aquí en Grp entre por qué voy a poner por cada proceso dentro del listado profesores.
+
+03:18.470 --> 03:20.590
+Punto.
+
+03:20.600 --> 03:25.500
+Los profesores se encuentran dentro de este objeto.
+
+03:26.300 --> 03:33.660
+Entonces esto se va a duplicar o a repetir por cada profesor que se encuentre en este listado.
+
+03:33.670 --> 03:42.310
+Voy a salvar su ingreso y como podrá observar se crean tres porque hay tres datos ahora usemos los que
+
+03:42.390 --> 03:43.080
+merece.
+
+03:43.100 --> 03:45.850
+Esto va a ser profesor punto.
+
+03:45.920 --> 04:00.550
+Nombre y Evenpro profesor punto edad y aquí profesor junto clásico guardamos los cambios mercado web
+
+04:01.250 --> 04:09.110
+y dinámicamente se nos creó esta tabla HTML y gracias al Bushra se ve así elegante pero podemos hacer
+
+04:09.110 --> 04:10.250
+muchas cosas con él.
+
+04:10.430 --> 04:18.300
+Rupi no necesariamente tendremos que inicializar en una clase de un archivo JavaScript separado.
+
+04:18.370 --> 04:25.430
+Lo podemos hacer dinámicamente por ejemplo vamos a crear una lista mostrando la tabla de multiplicar
+
+04:25.610 --> 04:31.720
+de dos del 1 al 10 dos por uno o dos dos por dos cuatro y así sucesivamente.
+
+04:31.720 --> 04:43.230
+Eso es lo que queremos hacer es dos por dos es igual a cuatro pero vamos a crear toda la tabla de multiplicar.
+
+04:44.180 --> 04:49.460
+Entonces queremos crear una tabla como ésta la sección que se va a duplicar o la que queremos repetir
+
+04:50.380 --> 04:59.490
+y repetir aquí voy a definir una variable número para barrer un arreglo que crearemos en este momento.
+
+05:01.740 --> 05:08.870
+Qué contendrá el número contendrá el valor de cada uno de estos elementos dependiendo de la Vuelta que
+
+05:08.870 --> 05:09.400
+esté haciendo.
+
+05:10.130 --> 05:15.640
+Entonces haremos dos por número es igual.
+
+05:17.350 --> 05:25.940
+A dos por número guardamos los cambios refrescamos en el navegador web y rápidamente creamos nuestra
+
+05:26.210 --> 05:30.550
+tabla de multiplicar en dos y así podría funcionar para cualquier otra cosa.

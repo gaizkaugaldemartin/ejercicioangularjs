@@ -1,0 +1,175 @@
+WEBVTT
+
+00:03.290 --> 00:08.150
+Bienvenidos nuevamente a esta clase de Angola operemos la directiva engaging Club la cual nos permite
+
+00:08.150 --> 00:15.650
+a nosotros resumir bastante la página web principal hacer que se miren más y más simple menos código.
+
+00:15.800 --> 00:25.340
+El engine club lo que hace es cortar o permitirnos importar archivos o código HTML de fuentes externas
+
+00:26.000 --> 00:27.340
+pero demasiado hablado.
+
+00:27.350 --> 00:32.590
+Vamos a la práctica cómo funciona esto en la vida real descargues el material adjunto de la clase.
+
+00:32.590 --> 00:39.610
+Es esta carpeta la descomprime y la vamos a mover esta carpeta la vamos a mover de donde sea que la
+
+00:39.610 --> 00:46.880
+descargamos y la necesitamos colocar en la carpeta ayúdeme esto esto si ustedes no saben cómo es la
+
+00:46.880 --> 00:53.180
+referencia a esta carpeta vienen la clase anterior OK en el hanging Cloud ustedes no van a poder hacer
+
+00:53.180 --> 00:59.570
+doble clic aquí no les va a funcionar no les va a funcionar si están usando Crom u otro navegador no
+
+00:59.570 --> 01:06.140
+les va a funcionar entonces lo que tendremos que hacer aquí es cambiar la referencia a esto porque ya
+
+01:06.140 --> 01:06.990
+no es.
+
+01:07.190 --> 01:15.700
+No es un archivo local lo que queremos hacer es ejecutarlo del local host local Ouest Leca y Adami y
+
+01:15.720 --> 01:23.780
+esto no hace falta Stainless local os plica ayúdenme en Yingluck y ahora sí porque estamos usando el
+
+01:23.780 --> 01:32.030
+servidor ya esto quiere decir que se está procesando en nuestra computadora o que vamos a abrir nuestro
+
+01:32.030 --> 01:38.370
+proyecto desde acá al subraye text como lo hemos venido haciendo siempre.
+
+01:38.420 --> 01:48.770
+Abriremos el archivo índex abriremos el archivo Apep juntos J.V y abriremos el archivo Jayson sólo para
+
+01:48.770 --> 01:55.070
+tenerlo así como podrá observar el archivo no tienen nada del otro mundo es lo mismo que hemos estado
+
+01:55.070 --> 02:01.700
+usando siempre en el PP junto JS simplemente tiene la referencia para obtener el archivo que se encuentra
+
+02:01.700 --> 02:04.880
+en los profesores y esos son los profesores.
+
+02:04.880 --> 02:14.870
+Así que comencemos primero que nada crearemos nuestra tabla con la clase Trebol dejémosle Streeck Crypt
+
+02:16.400 --> 02:18.960
+tendremos una línea.
+
+02:18.990 --> 02:28.060
+Esto sería una unidad Borger Borger con el nombre y el sexo vamos un poco generemos otra donde mostraremos
+
+02:28.060 --> 02:32.820
+las dos columnas será el nombre y el sexo.
+
+02:32.830 --> 02:41.070
+Para esto usaremos la directiva sit com Troje en profesores y profesores.
+
+02:41.080 --> 02:49.620
+Yo lo saco de aquí de esta red no es lo mismo aquí no hemos visto nada nuevo absolutamente nada nuevo
+
+02:49.630 --> 02:59.080
+si vemos aquí profesores tiene nombre y ese nombre los queremos poner aquí los dos nombres y CNOC nombre
+
+02:59.760 --> 03:02.830
+profe con tu nombre y profe.
+
+03:02.830 --> 03:03.590
+Punto.
+
+03:03.660 --> 03:13.720
+Ese nombre luego que abajo pondremos el sexo profe punto sexo damos los cambios vamos a nuestro navegador
+
+03:13.720 --> 03:17.360
+web descargamos y tenemos la tablet.
+
+03:17.500 --> 03:24.250
+Ok entonces empecemos a utilizar el engine club para eso vamonos a nuestra carpeta del proyecto tenemos
+
+03:24.970 --> 03:34.050
+otra que se llame parciales parciales entre revisamos a nuestro Zuleima Text y lo que queremos nosotros
+
+03:34.110 --> 03:36.270
+es reducir todo este código.
+
+03:36.270 --> 03:38.880
+Todo esto no lo queremos mostrar acá.
+
+03:38.880 --> 03:41.670
+Entonces abriremos una carpeta parciales.
+
+03:41.670 --> 03:52.110
+Click derecho nuevo archivo y aquí colocaremos colocaremos todo esta tabla HTML la pondremos aquí arreglamos
+
+03:52.110 --> 03:55.270
+un poco la separación.
+
+03:55.620 --> 04:04.120
+Listo pues damos los cambios y esto se va a llamar tabla profesores punto.
+
+04:04.140 --> 04:05.700
+HTML.
+
+04:05.970 --> 04:12.280
+Lo que hicimos aquí fue separar un pequeño bloque de código HTML que incluiremos en esta página.
+
+04:12.870 --> 04:15.100
+Cómo es la instrucción del engine Club.
+
+04:15.120 --> 04:17.840
+Entonces pondremos hundí en club.
+
+04:18.280 --> 04:27.030
+Este es y lo vamos a usar y pide un stream pensarías que es el lugar real pero no es una es una variable
+
+04:28.110 --> 04:32.830
+vamos a irnos a la p.ej. Eze y la vamos a crear de la siguiente manera.
+
+04:32.870 --> 04:40.650
+Esco punto TPL profesores hacer igual a
+
+04:43.330 --> 04:45.430
+path donde se encuentra nuestro chivó.
+
+04:45.440 --> 04:50.810
+Este caso sería parciales Leca DBL profesores punto.
+
+04:50.830 --> 04:55.300
+HTML es sintácticamente tiene que estar igual.
+
+04:55.420 --> 04:59.440
+Es importante que siempre nos acostumbremos a escribirlos tal cual se encuentra porque hay servidores
+
+04:59.440 --> 05:06.200
+de despligue que son sensibles a los caracteres o que cooperemos este tb.
+
+05:06.210 --> 05:11.750
+Los profesores guardamos cambios empezamos aquí y aquí va la variable.
+
+05:11.750 --> 05:18.100
+En este caso sería nuestro DBL profesores salvamos los cambios con controles o Comaneci empezamos a
+
+05:18.100 --> 05:24.340
+nuestro navegador web descargamos todo y debería de verse igual con la diferencia de que ahora estamos
+
+05:24.340 --> 05:30.610
+cargándolo mediante el engine Yingluck que es un poco más fácil que Angola es suficientemente inteligente
+
+05:30.610 --> 05:37.420
+para saber que todo esto es lo que necesitamos colocar y ejecutar este código.
+
+05:37.420 --> 05:43.880
+De esta manera logramos tener un resumido en bloques o pequeños segmentos diferentes códigos ustedes
+
+05:43.900 --> 05:50.770
+necesitarán volver a ejecutar esa tabla en otro lado podrían hacer referencia a este archivo y debería
+
+05:50.770 --> 05:52.440
+de funcionar exactamente igual.

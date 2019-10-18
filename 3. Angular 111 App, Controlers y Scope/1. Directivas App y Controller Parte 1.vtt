@@ -1,0 +1,400 @@
+WEBVTT
+
+00:00.390 --> 00:05.400
+Bienvenidos nuevamente este curso en la clase de hoy vamos a ver lo que son las directivas y la directiva
+
+00:05.400 --> 00:10.590
+controlé en material descargable de esta clase van a poder encontrar un archivo comprimido en el sitio
+
+00:10.590 --> 00:13.150
+que lo descarguen y lo descomprime.
+
+00:13.230 --> 00:20.340
+Eso nos va a ahorrar un poco el escribir van a poder observar que hay tres archivos en un archivo de
+
+00:20.340 --> 00:25.750
+JavaScript llamado profesor que lo único que contiene es una variable de JavaScript.
+
+00:26.030 --> 00:32.700
+Cerramos hay una imagen de un profesor espero que no se pueda haber usado la foto porque fue la que
+
+00:32.700 --> 00:34.570
+encontré en internet que me gustó.
+
+00:34.760 --> 00:35.700
+Hay otra.
+
+00:35.700 --> 00:40.660
+Otro chico es el de la estructura HTML y lo vamos a abrir sólo para que lo vean.
+
+00:41.250 --> 00:44.060
+Esto es una estructura básica de HTML usando Bushra.
+
+00:44.100 --> 00:52.920
+No se preocupen ya vamos a usar esto en particular y la carpeta del ejercicio 2 que está vacía en esta
+
+00:52.970 --> 01:01.470
+ya tiene el buscar las fuentes en la carpeta de imágenes la carpeta con él con el angular ya incluido
+
+01:01.920 --> 01:04.650
+y el índex que hace referencia a todo esto.
+
+01:04.680 --> 01:08.280
+Esto es para simplemente evitar la transcripción del mismo.
+
+01:08.280 --> 01:10.140
+Entonces qué es lo que vamos a hacer.
+
+01:10.140 --> 01:18.030
+Vamos a agarrar el ejercicio vacío lo vamos a mover al escritorio lo vamos a renombrar como ejercicio
+
+01:18.150 --> 01:27.200
+02 y vamos a empezar a trabajar con él vamos a abrir más más pequeño y vamos a empezar a trabajar.
+
+01:27.200 --> 01:32.820
+Lo primero que vamos a hacer es acomodar esto un poco necesitamos meter esta imagen.
+
+01:33.260 --> 01:38.060
+La imagen de Juan Carlos dentro de nuestro proyecto.
+
+01:38.060 --> 01:40.380
+Imágenes.
+
+01:41.690 --> 01:49.700
+Luego vamos a abrir el texto de esta manera vamos a arrastrar nuestro nuestra carpeta proyecto al intact
+
+01:49.730 --> 01:57.980
+para que así nos quede ya la audición del proyecto vamos a abrir el índex HTML y vamos a empezar a trabajar
+
+01:58.100 --> 02:00.090
+aquí.
+
+02:00.110 --> 02:06.400
+Ok tendremos que abrir nuestra carpeta donde se encuentran los archivos descargables que quedan que
+
+02:06.450 --> 02:13.780
+es la estructura y profesor los arrastramos dentro del texto simplemente para tenerlos a mano aquí como
+
+02:13.790 --> 02:14.620
+podrán ver sus lentes.
+
+02:14.630 --> 02:19.130
+3 Tus taps donde podemos navegar entre ellos mismos.
+
+02:19.160 --> 02:21.630
+Vamos a copiar todo esto que está acá.
+
+02:21.650 --> 02:29.540
+Todo esto desde el H1 hasta el cierre del DIP lo vamos a copiar como comanche o controlé nos regresamos
+
+02:29.540 --> 02:37.430
+a nuestro índex un poco espacio acá y lo vamos a pegar aquí aquí en este espacio comande hay que arreglar
+
+02:37.430 --> 02:44.930
+un poco la tabulación lo que pegamos fue esto tap tap tap para que esto quede un poco más ordenado musitar
+
+02:44.950 --> 02:47.020
+este espacio adicional.
+
+02:47.780 --> 02:52.970
+Como podrán ver ya está incrustado el código lo vamos a salvar y vamos a ver qué es lo que está haciendo
+
+02:53.380 --> 02:57.890
+esto ya no lo ocupamos lo vamos a cerrar en nuestra carpeta el proyecto lo vamos a abrir y quiero que
+
+02:57.890 --> 02:58.450
+miren eso.
+
+02:59.840 --> 03:06.680
+Profesor el nombre del progreso viene un texto vacío una edad y un recuadro donde va ir la fotografía
+
+03:06.680 --> 03:10.060
+del profesor regresando a nuestro texto.
+
+03:11.030 --> 03:17.740
+Con nuestro proyecto vamos a hacer que todo esto se cargue dinámicamente a partir de este archivo de
+
+03:17.770 --> 03:25.770
+llaves que tenemos acá o esta variable JavaScript que tendremos aquí porque este archivo ya no lo vamos
+
+03:25.770 --> 03:27.000
+a ocupar así que lo vamos a cerrar.
+
+03:28.670 --> 03:29.160
+Listo.
+
+03:29.240 --> 03:36.790
+Lo que sigue es crear nuestro archivo de configuración maestro del ángulo por decirlo así en J.S crearemos
+
+03:36.800 --> 03:44.690
+un nuevo archivo vamos a salvar de una vez llamado arte p.ej. es este archivo va a tener dos directivas
+
+03:45.000 --> 03:48.070
+o el módulo principal de angulas de nuestra aplicación.
+
+03:48.200 --> 03:55.670
+Para hacer eso tenemos declaró el siguiente Valeron Mac App averiguara angula punto módulo o módulo
+
+03:56.870 --> 04:02.180
+parentesis el nombre que va a tener nuestra aplicación en este caso vamos a hacer una aplicación para
+
+04:02.180 --> 04:11.180
+una universidad con catedráticos alumnos notas entre otras cosas y se va a llamar universidad a Pepe
+
+04:12.970 --> 04:17.220
+después de esto tenemos que mandar un arreglo de argumentos.
+
+04:17.230 --> 04:24.040
+Estos argumentos son dependencias que nuestra aplicación podría necesitar si nosotros especificamos
+
+04:24.040 --> 04:24.370
+una.
+
+04:24.820 --> 04:27.270
+Entonces angulos va a entender qué necesito.
+
+04:27.280 --> 04:30.010
+Esta otra librería o nuestra otra dependencia.
+
+04:30.200 --> 04:34.850
+Pero en este caso no vamos a trabajar con eso si que todavía no se preocupe poltico.
+
+04:35.140 --> 04:42.160
+Salvamos el CAI ahora este nombre que le pusimos a nuestra aplicación tiene que estar asociado en la
+
+04:42.160 --> 04:49.820
+página principal en este caso HTML engullía va a ser igual al nombre de nuestra aplicación sintácticamente
+
+04:49.860 --> 04:52.920
+tienen que llamarse igual mayúsculas y minúsculas importã.
+
+04:53.320 --> 05:01.050
+Así que por lo que yo le recomiendo que lo seleccionen controlé o comence y lo pegue bien.
+
+05:01.060 --> 05:05.920
+Ahora vamos a crear lo que son los controladores ya vamos a explicar qué es eso.
+
+05:05.950 --> 05:07.450
+AFP punto.
+
+05:07.520 --> 05:08.060
+Controles.
+
+05:08.100 --> 05:15.490
+Si ustedes pueden ver augurarle va tirando la pista de qué es lo que van haciendo que quieren hacer
+
+05:15.790 --> 05:16.840
+la docente.
+
+05:17.140 --> 05:23.070
+El nombre de este controlador se va a llamar profesor Ctrl.
+
+05:23.070 --> 05:24.330
+Estos son Naum.
+
+05:24.720 --> 05:31.630
+Eso es un estándar entre los desarrolladores de Angola que prefieren ponerle esta abreviatura al controlador
+
+05:33.240 --> 05:39.090
+por un momento nos vamos a mandar este parámetro vamos a quitar este aquí también sólo para mandar la
+
+05:39.090 --> 05:42.590
+función perfecta.
+
+05:42.590 --> 05:49.940
+Salvamos esto pero sí que son controladores los controladores son los que se encargan de manejar una
+
+05:49.940 --> 05:52.960
+parte de la página o la totalidad de la misma.
+
+05:53.030 --> 05:59.180
+Se recomienda que los controladores estén bien encapsulados es decir nuestro controlador profesor se
+
+05:59.180 --> 06:02.570
+va a encargar de todas las funciones relacionadas con el profesor.
+
+06:02.570 --> 06:08.480
+Así mismo si vamos a tener un alumno crearemos un controlador que se encargue de manejar todo lo relacionado
+
+06:08.480 --> 06:14.780
+con los alumnos y así con las listas y así con diferentes procedimientos los controladores albergan
+
+06:14.780 --> 06:19.430
+dentro de sí mismos una gran cantidad de código pueden ser funciones pueden ser variables pueden ser
+
+06:19.430 --> 06:24.030
+lo que sea pero se recomienda tratar de mantenerlo más simple y ordenado posible esto.
+
+06:24.920 --> 06:26.950
+Pero bueno suficiente teoría.
+
+06:26.990 --> 06:33.530
+Vamos a la práctica vamos a copiar nuestro nuestro objeto de JavaScript que se encuentra acá lo pegaremos
+
+06:33.530 --> 06:36.650
+aquí abajo para hacer referencia.
+
+06:36.650 --> 06:44.420
+Este archivo ya no lo necesitaremos lo vamos a hacerla y a continuación tendremos que se pierde o colocarle
+
+06:44.510 --> 06:47.870
+una propiedad a nuestro controlador profesor.
+
+06:47.870 --> 06:58.640
+Para hacer esto vamos a hacer referencia a disputo profesor va a ser igual a profesor data qué es lo
+
+06:58.640 --> 06:59.830
+que estamos haciendo aquí.
+
+07:00.050 --> 07:07.040
+Estamos creando dentro de nuestro controlador profesor una propiedad llamada profesor la cual va a tener
+
+07:07.040 --> 07:11.870
+los valores de este objeto vamos a salvarlos de los cambios.
+
+07:11.870 --> 07:18.940
+No vamos a regresar a nuestro archivo índex punto HTML como acabamos de crear un archivo nuevo de JavaScript
+
+07:20.060 --> 07:26.080
+que no se encuentra todavía incluido acá debemos hacer el script de ser ese.
+
+07:26.090 --> 07:34.510
+Eso está dentro de la carpeta JavaScript API p.ej. es sálvanos ahora cómo asociamos el controlador a
+
+07:34.510 --> 07:35.400
+la página.
+
+07:35.770 --> 07:41.950
+Vamos a bajar a nuestro Dib que tiene la clase del contenedor que esto no tiene nada que ver con esto
+
+07:41.950 --> 07:43.720
+de la clase no dice nada.
+
+07:45.180 --> 07:53.010
+Vamos a crear la siguiente directiva en Gy controla el controlador que nos está pidiendo acá tiene que
+
+07:53.010 --> 08:01.270
+ser el mismo sintácticamente como está escrito aquí comencé de copiar y pegamos aquí al hacer esto le
+
+08:01.270 --> 08:07.980
+estamos diciendo que todo este bloque que se encuentra incluido aquí desde aquí hasta acá lo va a manejar
+
+08:08.550 --> 08:11.780
+el profesor controlador.
+
+08:11.850 --> 08:20.580
+Las variables propiedades y funciones que vemos aquí adentro perfecto ahora lo que sigue es empezar
+
+08:20.580 --> 08:21.780
+a utilizar esas variables
+
+08:24.500 --> 08:33.980
+podemos empezara a crear expresiones regulares utilizando el professors controlador así pero es un poco
+
+08:33.980 --> 08:34.970
+largo y tedioso.
+
+08:34.970 --> 08:42.290
+Entonces mejor pongámosle un alias al controlador profesor para que sea más fácil de utilizar para hacer
+
+08:42.290 --> 08:46.210
+un alias Podemos as Troje que la gente le dice el profesor.
+
+08:47.260 --> 08:54.800
+Vamos aquí a la expresión del profesor describiremos lo siguiente profe punto que hacemos referencia
+
+08:54.800 --> 09:04.180
+con esto al controlador tonto profesor porque dentro del descontrolado profesor se encuentra una Borealis
+
+09:04.180 --> 09:08.430
+que se llama profesor y contiene toda la data.
+
+09:08.840 --> 09:16.220
+Punto nombre por qué punto nombre porque dentro del área del profesor se encuentra a nombre bio edad
+
+09:16.270 --> 09:19.540
+y la fotografía zarpamos los cambios.
+
+09:19.550 --> 09:25.450
+Y si todo esto está bien deberíamos de poder apreciar el nombre de Juan Carlos en nuestro proyecto a
+
+09:25.730 --> 09:27.060
+regresar aquí a Linex.
+
+09:27.200 --> 09:32.820
+Abrimos esto y como podrán ver aquí aparece Juan Carlos Pineda.
+
+09:32.870 --> 09:42.920
+Puede ser que a muchos de ustedes les aparezca lo siguiente desaparezca o voy a comentar esto les aparezca
+
+09:43.010 --> 09:51.680
+así si les aparece así quiero decir que no han incluido correctamente el archivo de configuración entonces
+
+09:51.770 --> 09:53.210
+mucho cuidado con esto.
+
+09:53.540 --> 10:01.310
+El siguiente paso será rellenar nuestros formularios con los demás datos que se encuentran en nuestra
+
+10:01.310 --> 10:02.790
+variable profesor.
+
+10:02.900 --> 10:11.130
+Para eso compraremos este archivo o esta línea de código y nos iremos al sours de esta imagen con Trouvé
+
+10:12.380 --> 10:18.590
+pero aquí no es la verdad el nombre lo que ocupamos aquí poner es el VfL o sea la foto
+
+10:21.780 --> 10:35.330
+uego en la avío del profesor colocaremos Bibo en general colocaremos helar salvamos todo.
+
+10:35.590 --> 10:41.380
+Si todo está correcto debería aparecer toda la información del profesor Juan Carlos Pineda así como
+
+10:41.390 --> 10:42.220
+estamos viendo.
+
+10:42.220 --> 10:42.670
+Saludos.
+
+10:42.670 --> 10:47.350
+Mi nombre es Juan Carlos Pineda encantado conocerle soy un apasionado instructor de Matemáticas Aplicadas
+
+10:47.350 --> 10:55.230
+cuánticas Duk él sabrá bien de qué manera muy sencilla he logrado colocar todos los datos.
+
+10:55.280 --> 11:03.860
+Pero ojo hay algo que no está del todo bien vamos a abrir la consola del Google Crom en ver opciones
+
+11:03.860 --> 11:12.280
+para desarrolladores consola JavaScript pero me está pareciendo este error de que la imagen no fue encontrada.
+
+11:12.470 --> 11:14.080
+Y quiere decir esto.
+
+11:14.180 --> 11:19.220
+Vamos a explicarlo de otra manera cuando un navegador web empieza a cargar la librería de angular todavía
+
+11:19.220 --> 11:27.150
+no está dentro del navegador web por lo que nuestro Browser lo que intenta es mostrar esta imagen así
+
+11:27.170 --> 11:33.330
+como esta ya Yahveh profe punto profesor punto foto ya que esa foto no existe en ningún lado.
+
+11:33.350 --> 11:39.850
+Pues eso muestra error pero cuando termina de ejecutarse el angular y se inicializar entonces alguna
+
+11:39.880 --> 11:46.230
+a decir Ojo aquí tengo que cambiar la imagen por la fotografía que nos está pidiendo el desarrollador.
+
+11:46.490 --> 11:50.170
+Por eso se ve bien después para evitar este error.
+
+11:50.240 --> 11:56.840
+Lo único que tenemos que poner aquí es que en vez de ser ese como una imagen normal hay que ver Sors
+
+11:57.500 --> 12:02.270
+salvamos o regresamos al navegador web donde estaba la página y listo.
+
+12:02.270 --> 12:05.270
+De esta manera tendremos nuestra aplicación funcionando perfectamente.

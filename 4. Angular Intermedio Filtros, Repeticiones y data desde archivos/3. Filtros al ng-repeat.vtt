@@ -1,0 +1,295 @@
+WEBVTT
+
+00:03.290 --> 00:06.180
+Saludos continuamos con las clases del Pit.
+
+00:06.370 --> 00:09.140
+Hoy aplicaremos filtros a esa directiva.
+
+00:09.140 --> 00:16.100
+Van a ver que podemos hacer búsquedas muy interesantes muy rápidas y fáciles de hacer casi sin una línea
+
+00:16.100 --> 00:16.770
+de código.
+
+00:16.790 --> 00:19.480
+De hecho como con dos líneas de código.
+
+00:19.690 --> 00:23.660
+Entonces empecemos descargues el archivo que se encuentra en material adjunto de la clase.
+
+00:24.140 --> 00:31.220
+Entonces imprimimos y van a ver la siguiente estructura algunos en el texto y los únicos dos archivos
+
+00:31.220 --> 00:38.100
+que cambian o podrán ver es lo mismo que tiene el mismo y tiene me gusta tener la chance de reanime
+
+00:38.100 --> 00:44.570
+que tiene el angular y tiene la referencia del archivo de configuración en nuestro muro de nuestro módulo
+
+00:44.570 --> 00:47.340
+de Angola en el PP.
+
+00:47.420 --> 00:50.230
+Punto J.V verán que es exactamente lo mismo.
+
+00:51.560 --> 01:01.850
+Exceptuando que tiene un arreglo de objetos que tiene un Heydi tiene un sexo nombre un avatar
+
+01:04.590 --> 01:12.280
+vemos los archivos hay imágenes de cada uno de estas personas lo queremos será hacer un listado con
+
+01:12.280 --> 01:20.110
+las 10 personas y hacer búsquedas automáticas usando directivas de angular y componentes Yangüela para
+
+01:20.110 --> 01:22.300
+navegar esta lista de registros.
+
+01:22.350 --> 01:31.790
+Entonces empecemos primero que nada notarán que hay una clase especial ya la vamos a utilizar entonces
+
+01:31.800 --> 01:36.270
+que lo primero vamos a hacer una tabla vamos a usar todos los registros que se encuentran en ese arreglo
+
+01:37.150 --> 01:41.020
+que pondremos la clase.
+
+01:41.550 --> 01:56.910
+Si creemos una nueva línea crearemos un GB vamos a poner en la primera abata o la imagen nombre sexo
+
+01:58.140 --> 02:09.640
+teléfono lo que también tenemos otro tenemos el celular el celular y ponemos el celular listo.
+
+02:09.780 --> 02:16.120
+Ahora creemos la otra línea para las donde pondremos la información.
+
+02:16.230 --> 02:23.310
+Son cinco tres cuatro cinco veces en la primera pondremos el laimagen.
+
+02:23.770 --> 02:26.840
+Segundo el nombre sexo teléfono celular es perfecto.
+
+02:28.210 --> 02:33.700
+Primero vamos a poner como esto lo que se va a repetir se va a repetir.
+
+02:33.710 --> 02:42.230
+N cantidad de veces aquí donde podremos el enchufe y repite pongámosle persona.
+
+02:42.370 --> 02:51.700
+Es sencillo en nuestro data se queda ser de datos seremos personas por cada persona en personas.
+
+02:51.860 --> 02:58.580
+Quiere decir que por cada cada registro que se encuentra en nuestro arreglo tomará el nombre de persona.
+
+02:59.130 --> 03:09.110
+Y empecemos empecemos con la imagen para mi imagen usamos el atributo en Guíxols directivo X Sors.
+
+03:09.290 --> 03:14.930
+Si ustedes se acuerdan o si prestaron atención mirarán todas estas imágenes están dentro de una carpeta
+
+03:14.930 --> 03:17.430
+que se llama y M.G. de imágenes.
+
+03:17.480 --> 03:23.100
+Entonces nuestro Sors tendrá que ser Inmegen placa y el nombre de la imagen.
+
+03:23.100 --> 03:28.950
+Subimos nuestro archivo podemos observar que tiene el nombre de la imagen.
+
+03:30.350 --> 03:42.090
+Entonces pondremos las dos selecciones expresión persona punto Avatar miremos a Bauta estamos acá y
+
+03:42.090 --> 03:43.460
+a esto les pondremos la clase
+
+03:46.300 --> 03:57.470
+pondremos en Clase A batan que está aquí arriba y aparte una clase de vostra seco circula la clase de
+
+03:57.480 --> 03:59.260
+Bushra circo.
+
+03:59.470 --> 04:06.100
+Si ustedes no quieren que su gente les haga esto de que maneja el worker o sea que se regresa aquí podemos
+
+04:06.100 --> 04:13.220
+ir a Viu Borbúa y lo deshabilitados para tener todo nuestro registro de la siguiente manera sabemos
+
+04:13.240 --> 04:15.040
+los cambios vamos a nuestro navegador web
+
+04:19.210 --> 04:25.950
+y como para observar se listan las 10 imágenes son circulares por la clase de vostra y tienen este tamaño
+
+04:27.510 --> 04:31.990
+porque les estamos diciendo que sean de 75 por 75.
+
+04:32.100 --> 04:32.820
+Continuemos.
+
+04:32.820 --> 04:38.080
+El siguiente es el nombre el nombre bastante sencillo ya saben como es persona.
+
+04:38.080 --> 04:42.250
+Punto nombres estamos haciendo nada del otro mundo.
+
+04:42.480 --> 04:46.790
+Lo que sigue va a ser el sexo teléfono y el celular.
+
+04:47.010 --> 04:54.870
+Vamos a hacer un truquito aquí del Zulina text viene el teléfono el perdón el sexo el celular teléfono
+
+04:54.980 --> 04:55.460
+el celular
+
+04:59.470 --> 05:03.450
+son cosas que el subte que suelen Texas. es muy fácil.
+
+05:03.640 --> 05:11.800
+Necesitamos hacer esta arquitectura se armó los cambios regresamos a nuestro navegador web y listo tenemos
+
+05:11.800 --> 05:16.090
+nuestra información de todas estas personas y están listas nada nuevo.
+
+05:16.090 --> 05:20.820
+Todo esto se vio en la clase pasada cómo aplicamos filtros ahora.
+
+05:21.080 --> 05:27.050
+Entonces empecemos con eso qué viene lo bueno comencemos a hacer la magia de angula.
+
+05:27.160 --> 05:33.380
+Primero que nada aclaremos un dip con la clase ROP de vostra para hacer una separación y haremos nuestra
+
+05:33.380 --> 05:37.060
+primera búsqueda búsqueda vemos un salto de línea.
+
+05:37.070 --> 05:46.040
+Crearemos un campo de texto en el cual tendrá el model más oponerle búsqueda lo que queremos buscar
+
+05:46.430 --> 05:53.130
+va a ser almacenado acá para que esto se mira más bonito queremos lo crearemos con la clase con control
+
+05:53.790 --> 06:03.230
+del Vostro y le pondremos un Pleiss folder folder igual ingrese lo que desea buscar.
+
+06:05.040 --> 06:09.920
+Sólo eso está mal escrito que ingrese lo que desea buscar.
+
+06:09.960 --> 06:18.840
+Ese es todo el país Golde le pondremos un salto de línea aquí abajo para que no se pegado y a continuación
+
+06:19.350 --> 06:21.120
+viene lo bueno vienen.
+
+06:21.210 --> 06:22.440
+Qué sencillo es.
+
+06:22.650 --> 06:25.090
+Pondremos una tubería aquí y aplicaremos el filtro.
+
+06:25.100 --> 06:30.230
+No igual que antes filtran los puntos que queremos filtrar.
+
+06:30.510 --> 06:40.620
+Queremos filtrar nuestro arreglo en base a la búsqueda a lo que escribió esto de acá o no hemos escrito
+
+06:41.010 --> 06:44.220
+ni una sola línea de código sólo usar un filtro.
+
+06:44.220 --> 06:51.030
+Salvamos los cambios revisamos a nuestro navegador web o podrán observar tenemos una caja de texto acá
+
+06:51.060 --> 06:57.930
+y si escribimos algo por ejemplo Kaur se filtran los datos automáticamente pueden buscar Austin por
+
+06:57.930 --> 07:12.840
+ejemplo y aparece ligamos o Brahian Orayen o los hombres mujeres o el teléfono 4 3 8 por ejemplo la
+
+07:12.840 --> 07:18.450
+gente que sabe programar saben que hacer esto no es tan sencillo hacer todo este mecanismo de filtros
+
+07:19.020 --> 07:27.390
+requiere su ciencia no es tan sencillo pero en angulares pan comido pero bien asumamos que queremos
+
+07:27.390 --> 07:34.560
+buscar sólo en el nombre y aparte agregarle otra condición de búsqueda que sea el sexo por ejemplo.
+
+07:34.560 --> 07:41.940
+Entonces empezamos a hacer eso crearemos una etiqueta sexo salto línea tenemos un Select no ocupamos
+
+07:41.940 --> 07:46.350
+ni el Heydi ni Henaine sólo en Gimondi.
+
+07:46.490 --> 07:56.130
+Igual le voy a explicar que es el que debe tener le pondremos la clase con control tendrá tres opciones
+
+07:57.690 --> 07:58.950
+una clase que será cualquiera
+
+08:01.830 --> 08:11.870
+tendremos otra clase que será mujeres y otra clase otro yo y otra hombres qué valores debe de llevar
+
+08:11.870 --> 08:12.390
+esto.
+
+08:12.400 --> 08:18.330
+Tienes que llevar los valores que están aquí aquí dice hombre y se mueve en minúscula.
+
+08:18.410 --> 08:24.860
+Así tienen que estar igual igual mujer hombre.
+
+08:25.040 --> 08:30.400
+En este no va a llevar nada porque esa es la idea que esté vacío por defecto.
+
+08:30.410 --> 08:32.610
+Este es el valor vacío.
+
+08:32.870 --> 08:40.460
+Ahora vamos con el íntimo del Kinji Model tienes que tener la idea sería generalmente una desgracia
+
+08:40.480 --> 08:48.010
+hace una se debería poner aquí sexo pero lamentablemente si no funciona ya que después del criterio
+
+08:48.010 --> 08:52.610
+de búsqueda tiene que recibir.
+
+08:52.850 --> 08:59.440
+Si lo quieres en orden inverso o ascendente o descendente u otro tipo de otro tipo de arquitectura que
+
+08:59.440 --> 09:00.980
+se explicará poquito después.
+
+09:01.130 --> 09:09.860
+Pero no sería eso lo que tenemos que hacer es crear un objeto por ejemplo búsqueda otro nombre y aquí
+
+09:09.860 --> 09:12.350
+sería búsqueda apuntó.
+
+09:12.350 --> 09:22.980
+Sexo observamos los cambios que hemos visto y ya no sería Filter mi nombre sería Filter chusquera es
+
+09:22.980 --> 09:29.850
+importante que si el nombre de nuestra propiedad sea así si lo queremos buscar el nombre tiene que llamarse
+
+09:29.970 --> 09:30.960
+igual nombre.
+
+09:31.020 --> 09:37.110
+Si queremos buscar sexo y llamarse igual igual igual sabemos los cambios.
+
+09:37.110 --> 09:38.510
+Regresemos al navegador web.
+
+09:38.610 --> 09:46.140
+Cargamos los datos tendremos aquí se nos pegó esto un poco pero podemos buscar ahora por mujeres o seleccionar
+
+09:46.140 --> 09:54.980
+sólo los hombres o cualquiera y asumamos que queremos buscar sólo los hombres que se llamen Lester.
+
+09:55.710 --> 10:02.730
+Y ahí está si ponemos mujeres que se llamen Lester pues no parece ninguna pero borramos y aparecen todas
+
+10:02.730 --> 10:05.040
+las mujeres listo.
+
+10:05.270 --> 10:06.020
+Bastante fácil.

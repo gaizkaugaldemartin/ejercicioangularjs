@@ -1,0 +1,124 @@
+WEBVTT
+
+00:03.350 --> 00:05.110
+Bienvenidos nuevamente a este curso de angula.
+
+00:05.160 --> 00:08.820
+Hoy empezaremos a utilizar APIs que se encuentran desplegadas en Internet.
+
+00:09.020 --> 00:15.620
+En este caso utilizaremos una para obtener la dirección IP la ciudad la latitud la longitud y otra información
+
+00:15.620 --> 00:19.240
+interesante de la persona que entra a nuestro aplicativo.
+
+00:19.250 --> 00:24.710
+Para eso les pido que por favor se descarguen el archivo que se encuentra en material adjunto lo descomprime
+
+00:25.610 --> 00:32.180
+y lo movemos a la carpeta al igual que lo hemos hecho siempre vamos a agarrar esta carpeta y la movemos
+
+00:32.360 --> 00:40.460
+a la abrimos en el Zuleima Text y vamos a poner estos dos archivos en pantalla lo que es el índex lo
+
+00:40.460 --> 00:45.260
+que es el índex y lo que es la p.ej. es en el archivo índex Como podrá observar.
+
+00:45.260 --> 00:53.320
+Ya viene como lo hemos utilizado en todas las demás clases todo configura y en el AVE p.ej. ese simplemente
+
+00:53.380 --> 01:01.130
+tiene un relé que está comentado este es el lugar donde tiene la información de la solicitud nos darán
+
+01:01.150 --> 01:07.010
+información copien copie todo esto lo abran en su navegador web.
+
+01:07.030 --> 01:13.030
+En este caso yo lo tengo abierto y aparece esta información yo en este momento me encuentro en Tegucigalpa
+
+01:13.030 --> 01:14.560
+Honduras así que está correcto.
+
+01:14.560 --> 01:19.220
+Estoy grabando sus videos aquí entonces comencemos a utilizarlo.
+
+01:19.220 --> 01:27.210
+Primero que nada ocultemos la barra lateral y empecemos HTTP HTTP punto.
+
+01:27.380 --> 01:32.250
+No sería un jet porque el jet es para archivos locales sería un Jayson.
+
+01:32.380 --> 01:36.420
+Es para obtener información de recursos externos.
+
+01:36.620 --> 01:45.440
+Cooperemos todo este wereables que se encuentra aquí punto bien lo podemos hacer en un ente punto subseries
+
+01:45.560 --> 01:54.200
+para que podamos ordenado orenses function parentesis data dentro de las llaves lo haremos de esta manera
+
+01:56.330 --> 02:07.940
+crearemos una variable en el disco llamada Geo la inicializar vamos a un arreglo así salvamos bien entonces
+
+02:08.120 --> 02:16.370
+lo que haremos es igualar nuestra orear el conjunto geo igual adapta Punto y Coma salvamos los datos
+
+02:18.130 --> 02:25.840
+vamos al Index puntuó HTML y vamos a hacer un par de Brig Lins aquí tendremos nuestro data no sabría
+
+02:25.850 --> 02:32.860
+lgo en formato Jayson guardamos los cambios esto es sólo para saber qué variables son las que podemos
+
+02:32.860 --> 02:33.570
+utilizar.
+
+02:34.140 --> 02:35.680
+Revisemos al navegador web.
+
+02:35.680 --> 02:45.550
+Abrimos la nueva pantalla y escribimos local Ouest y Adami laica y pez comeran cuando resuelve la dirección
+
+02:45.550 --> 02:46.250
+web.
+
+02:46.370 --> 02:49.750
+Tenemos los datos aquí mando listos para ser utilizados.
+
+02:49.750 --> 02:56.410
+Por ejemplo queremos obtener la dirección IP copiamos este plugin request esta dirección de donde salió
+
+02:56.410 --> 03:03.910
+la petición vamos a navegador web lector de texto y ponemos IP lospuntos cómo lo utilizamos igual que
+
+03:03.910 --> 03:04.460
+siempre.
+
+03:04.540 --> 03:08.360
+Punto e plugin request un salto de línea.
+
+03:08.550 --> 03:10.060
+Queremos el país.
+
+03:10.060 --> 03:18.910
+Vamos a buscar país es Geo proving contiene copiamos empezamos a Shulgin jugamos país los puntos de
+
+03:18.910 --> 03:21.830
+la misma manera apuntó Fontenay.
+
+03:22.060 --> 03:32.780
+Según Santorini opongamos vamos a ver en la moneda el símbolo de la moneda es que o bien curiosísimo
+
+03:32.840 --> 03:43.600
+en un BFM Nosotros vemos esto moneda dos puntos lo mismo pero aquí nos faltó el Geo GEO punto.
+
+03:43.720 --> 03:45.560
+Todo eso salto de línea.
+
+03:46.360 --> 03:52.150
+Guardamos los cambios y regresemos a nuestro navegador web recargamos y como podrán observar es una
+
+03:52.150 --> 03:58.170
+manera muy sencilla de trabajar con servicios web prácticamente solo son dos líneas de código y después
+
+03:58.170 --> 04:01.120
+sólo es usar los datos lo veo en la siguiente clase.

@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.470 --> 00:01.790
+Saludos nuevamente.
+
+00:01.800 --> 00:07.410
+Hoy lo que vamos a hacer es trabajar en nuestra organización del proyecto vamos a generar las carpetas.
+
+00:07.410 --> 00:13.850
+Vamos a descargar las librerías los estilos para que empecemos a trabajar en nuestro primer programa
+
+00:14.920 --> 00:18.840
+y listos para continuar perfecto.
+
+00:19.000 --> 00:23.520
+Lo primero que haremos es crear una carpeta para nuestro proyecto de nombre ejercicio
+
+00:25.990 --> 00:33.750
+01 en la cual vamos a poner todos nuestros archivos de JavaScript nuestras páginas web nuestros módulos
+
+00:33.780 --> 00:37.870
+etc. Todo va a quedar todo va a ser creado aquí adentro.
+
+00:38.340 --> 00:46.090
+Vamos a abrir la carpeta dentro de la cual vamos a crear la siguiente estructura una llamada CSS donde
+
+00:46.090 --> 00:47.770
+pondremos nuestros estilos.
+
+00:48.130 --> 00:56.530
+Otra con el nombre de M.G. donde pondremos imágenes otra carpeta con el nombre de J.S donde pondremos
+
+00:56.530 --> 01:06.370
+archivos JavaScript dentro de la misma crearemos otra llamada libre donde pondremos archivos de librerías
+
+01:06.370 --> 01:14.110
+de angular entre otros bien para instalar angular en nuestro proyecto es sumamente sencillo abrimos
+
+01:14.110 --> 01:20.420
+el navegador web buscamos angular en Google por lo general es la primera el primer link.
+
+01:20.430 --> 01:24.440
+Si no es angular y Punto G hacemos clic.
+
+01:24.660 --> 01:29.380
+Esta página contiene una información muy vasta de código de angula.
+
+01:29.400 --> 01:38.100
+Hay códigos tras códigos hay ejemplos hay guías hay documentación hay de todo pero en este caso lo vamos
+
+01:38.100 --> 01:45.090
+a enfocar ahorita únicamente en la sección de descargas vamos a seleccionar el branch 1.3 que es la
+
+01:45.090 --> 01:50.670
+versión actual de este video pero siempre usen la versión estable no quiere decir que la a 4 no se pueda
+
+01:50.670 --> 01:51.250
+usar.
+
+01:51.270 --> 01:57.600
+No estoy diciendo eso sino que ésta es la versión en la cual la gente experto de angula o los que ayudan
+
+01:57.600 --> 02:00.000
+a construir angular están trabajando actualmente.
+
+02:00.120 --> 02:05.970
+Usaremos la versión estable en el video usaremos la versión comprimida que es esta que está actualmente
+
+02:05.970 --> 02:12.750
+seleccionada la descomprimido tarda un poco más en cargar ya que tiene comentarios y tiene las funciones
+
+02:13.140 --> 02:20.760
+con tabulación y espacios para que sea más fácil de comprender pero no vamos a modificar nada de Angola
+
+02:21.130 --> 02:26.400
+entonces usaremos la versión comprimida en otros módulos adicionales.
+
+02:26.400 --> 02:32.340
+Posteriormente en los video vamos a usar otras librerías que se encuentran acá por los momentos sólo
+
+02:32.430 --> 02:39.420
+la versión estable y la versión comprimida somos Kling en descargas para notar que la descarga es sumamente
+
+02:39.420 --> 02:42.020
+rápida porque es pequeña su archivo muy pequeño.
+
+02:42.960 --> 02:51.120
+Vamos al Finder vamos a copiar el archivo cortar el archivo que acabamos de descargar.
+
+02:51.380 --> 03:00.390
+Nos vamos a nuestra carpeta del ejercicio la pondremos dentro del IMPO y listo ya tenemos instalado
+
+03:00.450 --> 03:01.810
+Angola de nuestro proyecto.
+
+03:02.160 --> 03:06.680
+Pero a continuación vamos a descargar otra cosa que no es necesaria para que funcione en Angola.
+
+03:06.690 --> 03:12.270
+Pero eso va a hacer que nuestra aplicación vaya agarrando ya un Lucasfilms sería una cosa más bonita
+
+03:12.370 --> 03:17.540
+agarrando caché se va a hacer saber Nyx para eso vamos a descargar el buzo
+
+03:20.940 --> 03:27.220
+Bootstrap por general la primera el primer link pero si no es que puso punto com
+
+03:30.330 --> 03:40.080
+vamos a hacer click en el Bushra y de nuevo en esta opción puedes cargar un archivo comprimido lo vamos
+
+03:40.370 --> 03:49.000
+a ver en las descargas no vamos a descomprimir ilustra pesona una es un estándar en Internet últimamente
+
+03:49.010 --> 03:54.920
+en los últimos años ha agarrado mucho apogeo y casi todos los sitios están construidos en Bushra ya
+
+03:54.920 --> 03:57.410
+que hace que nuestro sitio se pueda ver bien.
+
+03:57.510 --> 04:04.670
+En tanto en teléfonos celulares como en tabletas o en cualquier otro tipo de pantallas entonces seleccionaremos
+
+04:04.820 --> 04:14.120
+estas dos carpetas lo que CSS y Fonts las vamos a copiar nos vamos a ir a nuestro sitio 0 1 vamos a
+
+04:14.120 --> 04:20.890
+pegar le va a decir que va a remplazar porque ya existe una carpeta que se llama CSS.
+
+04:20.960 --> 04:23.950
+La hemos repasado todos no tienen nada.
+
+04:23.960 --> 04:31.730
+Tenemos aquí fuentes unas son buenas un tipo de letra más letras que están incluidas y que hay otros
+
+04:31.730 --> 04:39.860
+archivos de estilos lo que es el CSS CSS no lo voy a usar ninguno de estos cuatro sólo vamos a dar esos
+
+04:39.860 --> 04:45.140
+dos que se encuentran los estilos comprimidos ya que no los vamos a modificar y esto es un archivo necesario
+
+04:45.140 --> 04:46.260
+para él.
+
+04:46.320 --> 04:55.400
+El estilo .6 es listo ya tenemos instalado todo lo necesario y vamos a empezar ya con angular.

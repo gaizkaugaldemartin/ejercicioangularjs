@@ -1,0 +1,223 @@
+WEBVTT
+
+00:03.250 --> 00:09.000
+Nuevamente varios de ustedes me han preguntado cómo sé yo qué clases usar.
+
+00:09.130 --> 00:16.530
+Cómo sé qué clases existen en el vostra entonces para eso se decidió crear esta clase donde se va a
+
+00:16.530 --> 00:18.550
+hablar específicamente de eso.
+
+00:18.550 --> 00:25.420
+Nuestro objetivo no es salirse del angular pero vale la pena enfocar un poco por lo menos unos cinco
+
+00:25.420 --> 00:27.600
+minutos en este tema.
+
+00:28.680 --> 00:37.680
+Buscaremos Bushra en el navegador web y nos por lo general es el primer link si no es que busque As.com
+
+00:38.160 --> 00:39.220
+hacemos clic ahí.
+
+00:39.480 --> 00:44.790
+En esta página aparte de descargarlo vamos a poder encontrar información donde habla lo maravilloso
+
+00:44.790 --> 00:53.240
+que es este estilo es a nosotros no nos interesa tanto bla bla bla de gusto ya sabíamos que bueno entonces
+
+00:53.250 --> 01:05.390
+iremos directamente al CES es más tenemos esto un poco y acá hay una serie de información sobre las
+
+01:05.390 --> 01:14.150
+clases por ejemplo los botones se acuerdan que en el video anterior se utilizó lo que es el botón Primary
+
+01:16.260 --> 01:19.550
+el botón Success el botón Info del botón Home.
+
+01:19.590 --> 01:21.770
+Se usaron el Primary y el dengue.
+
+01:21.900 --> 01:27.650
+Cómo sabía que él también iba a ser rojo porque el busto que estábamos usando es el genérico y por defecto
+
+01:27.680 --> 01:29.130
+el genérico es rojo.
+
+01:29.340 --> 01:37.000
+Pero si usted quiere un botón verde tiene que hacer el BTL Success MTN si lo quieren como celeste organice
+
+01:37.070 --> 01:39.660
+lo quieren amarillo.
+
+01:39.690 --> 01:45.660
+Vayan a la sección de descargas de este curso descargan el archivo valga redundancia lo descomprime
+
+01:45.840 --> 01:49.900
+lo abren y es este diseño que está en pantalla.
+
+01:49.920 --> 02:01.140
+Actualmente abriremos el Index HTML text y como podrán observar lo único que tiene esto lo único que
+
+02:01.140 --> 02:04.250
+tiene esto es la inclusión del vostra.
+
+02:04.260 --> 02:10.890
+No estamos usando en lo absoluto la angula Entonces usemos un par de ejemplos.
+
+02:10.900 --> 02:20.110
+Por ejemplo si ustedes desean usar crear estos tipos de botones vamos a copiar todo esto.
+
+02:20.420 --> 02:27.050
+Estos equipos no todos los botones incluyendo el botón por defecto óseo como anche los pegaremos dentro
+
+02:27.050 --> 02:37.980
+de nuestro contenedor acá tenemos la tabulación salvamos deseamos a nuestro proyecto diputados como
+
+02:38.030 --> 02:41.770
+podrán ver ya tenemos los botones del mismo color
+
+02:44.950 --> 02:47.200
+regresamos acá.
+
+02:47.200 --> 02:59.730
+Si ustedes quieren que votos sea más grande por ejemplo vamos a hacer botón para poner un H1 porque
+
+02:59.730 --> 03:03.570
+siempre me gusta saber qué es lo que estamos haciendo.
+
+03:04.160 --> 03:05.400
+Bush
+
+03:09.490 --> 03:14.750
+entonces haremos un voto Bottom en la clase de TDN MTN Primi
+
+03:17.920 --> 03:19.390
+y le pondremos.
+
+03:19.420 --> 03:28.270
+Esto es un botón vamos cambios vamos a nuestro navegador web y van a ver el botón normal.
+
+03:28.270 --> 03:30.700
+Lo queremos grande en el botón queremos que sea el botón más grande.
+
+03:30.700 --> 03:36.720
+Aquí hay diferentes ejemplos por ejemplo está el latch el default mismo y el smog.
+
+03:36.970 --> 03:40.400
+Si queremos usar cualquiera de esos sólo hay que copiar esta clase.
+
+03:40.430 --> 03:48.460
+Si lo queremos grande controlé controlé salvamos regresamos al navegador web refrescamos y el botón
+
+03:48.540 --> 03:49.950
+ya es grande.
+
+03:49.960 --> 03:51.250
+Lo tienen súper pequeño.
+
+03:51.410 --> 03:54.430
+Entonces vamos a usar 20m x
+
+03:57.580 --> 03:58.820
+x salvados.
+
+03:58.920 --> 04:03.810
+Regresamos a nuestro navegador web y tienen el botón súper pequen.
+
+04:04.030 --> 04:10.540
+Ahora voy a eliminar este botón y aquí hay referencias a muchas cosas muchas cosas.
+
+04:10.570 --> 04:18.100
+Por ejemplo tenemos dos opciones tenemos tamaños tenemos el Estado si está activo o inactivo o presionado
+
+04:18.670 --> 04:27.160
+presionado cuando están habilitados o no pero no sólo hay dos botones también tenemos controles kapos
+
+04:27.220 --> 04:33.210
+de Passbook con Correos tenemos tablas por ejemplo Udes.
+
+04:33.250 --> 04:39.230
+Más adelante veremos tablas y lo más probable es que usemos una tabla estilizada de Vostro.
+
+04:40.230 --> 04:49.240
+Por ejemplo aquí lo copiamos vámonos a este lado la ponemos aquí le falta cierta información le faltan
+
+04:49.240 --> 04:58.740
+las Bulger y los dos creamos un par un T.R Th.
+
+04:59.770 --> 05:09.400
+Pongámosle título queremos los mostré y nuestro tener un TC es el cuerpo a cuerpo y lo creamos tres
+
+05:09.400 --> 05:10.180
+veces.
+
+05:10.180 --> 05:16.370
+Vamos a duplicar esto es una tabla con un encabezado y dos dos dos líneas.
+
+05:17.230 --> 05:24.280
+Si bien ya agarra el estilo unsolo que le pusimos nosotros que es una tabla y que tiene el estilo Stripped
+
+05:25.900 --> 05:26.800
+y listo.
+
+05:27.010 --> 05:28.840
+Hay un montón montón montón.
+
+05:28.840 --> 05:32.270
+La tipografía los tipos de tamaño que hay.
+
+05:32.350 --> 05:37.970
+Las cajas en tomos para abajo tienen que estar mejor explicado.
+
+05:38.050 --> 05:43.480
+Si ustedes ven por qué salía el 6 el tamaño 6 y después el 9.
+
+05:43.600 --> 05:51.610
+Para hacer que las cajas fueran más grandes pues hacemos referencia a esto una caja de tamaño completo.
+
+05:51.690 --> 05:54.850
+Eso está aquí Ingrid no somos Carlo
+
+06:00.940 --> 06:01.890
+options
+
+06:04.390 --> 06:05.530
+por lo general.
+
+06:05.730 --> 06:10.370
+La columna por ejemplo esta columna tiene un tamaño de 12.
+
+06:10.440 --> 06:17.100
+Si ustedes quisieran usar hacer dos bloques por ejemplo uno aquí y otro acá abriendo bloques de tamaño
+
+06:17.100 --> 06:19.730
+6 M6 igual 2.
+
+06:19.890 --> 06:24.720
+Si quieren hacer y quepan tres hacen de 4 4 4.
+
+06:24.720 --> 06:35.030
+Eso hace que sea 4 4 12 entonces de esa manera ustedes pueden acomodar los elementos como ustedes dicen.
+
+06:35.160 --> 06:41.520
+Les recomiendo que vengan a la página de ticket Bootstrap se vayan directamente CSS y se pongan a ver
+
+06:41.520 --> 06:50.190
+qué se pueda que la imagen era redonda era redonda porque le habíamos puesto la clase y MG le kárstico.
+
+06:50.190 --> 06:58.500
+Entonces generaba ésta pero ustedes pueden usar el round que sólo quiero hacer que tenga las órbitas
+
+06:58.740 --> 07:05.340
+en las esquinas o que sea un zombie que estas son de las que están acá y redondeadas pero tienen un
+
+07:05.340 --> 07:07.140
+marco bueno.
+
+07:07.230 --> 07:15.360
+Recuerden vénganse esta página manos en el vostra pónganse a jugar con él y ya verán que van a aprender
+
+07:15.360 --> 07:21.190
+muchas cosas interesantes y ustedes harán aplicaciones muy elegantes sin ningún esfuerzo.

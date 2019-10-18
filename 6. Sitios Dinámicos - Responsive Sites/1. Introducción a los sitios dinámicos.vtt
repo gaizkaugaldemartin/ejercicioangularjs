@@ -1,0 +1,208 @@
+WEBVTT
+
+00:01.480 --> 00:03.320
+Bienvenidos nuevamente a esta clase triangular.
+
+00:03.400 --> 00:08.860
+Hoy tendremos una breve introducción de lo que haremos a lo largo de esta sección y acercándonos al
+
+00:08.860 --> 00:14.950
+objetivo final que es hacer una pequeña aplicación web usando todas las herramientas aprendidas a lo
+
+00:14.950 --> 00:16.310
+largo de este curso.
+
+00:16.330 --> 00:19.140
+Para eso vamos a empezar a hablar sobre los sitios dinámicos.
+
+00:19.140 --> 00:21.430
+Una breve introducción.
+
+00:21.430 --> 00:27.430
+Normalmente un sitio web estándar funciona de la siguiente manera una persona se sienta en el ordenador
+
+00:28.300 --> 00:33.000
+ejecuta un R.L que cualquier dirección web.
+
+00:33.340 --> 00:39.190
+Eso hace el inicio de lo que se llama un recuesto una solicitud de información se la solicita al servidor
+
+00:39.250 --> 00:48.760
+el servidor regresa a es la página que quieres ver hacia una respuesta esa respuesta es interceptada
+
+00:48.760 --> 00:53.380
+por tu navegador web quien hace una serie de pasos.
+
+00:53.500 --> 00:58.730
+En este caso el despliegue de la respuesta y eso cambia la interfaz de usuario.
+
+00:59.290 --> 01:06.130
+Normalmente en un sitio web normal el despliegue de la respuesta ya viene como un sitio web pero vamos
+
+01:06.130 --> 01:07.920
+a verlo de otra manera.
+
+01:07.930 --> 01:12.380
+Gráficamente sería tu sitio en tu computadora.
+
+01:12.500 --> 01:18.800
+Hace una solicitud a un servidor este servidor se puede conectar a una base de datos o hacer uso de
+
+01:18.800 --> 01:25.550
+recursos que tienen por su lado y te responde algo por lo general te responde a una página HTML plana
+
+01:26.180 --> 01:33.450
+que tu navegador web interpreta y lo puedes observar esa página web tienes un CSS tiene su JavaScript
+
+01:33.450 --> 01:34.780
+y todo eso.
+
+01:35.000 --> 01:40.250
+De ahí supongamos que la persona dice quiero ir a la sección de comentarios de tu página o a la sección
+
+01:40.250 --> 01:43.550
+de contactos de la página o cualquier cosa.
+
+01:43.670 --> 01:49.900
+La persona hace clic en un lado y eso dispara una nueva solicitud al servidor se vierte nuevamente se
+
+01:49.900 --> 01:53.690
+comunica con la base de datos y genera una respuesta.
+
+01:53.690 --> 02:00.980
+Esto no es muy eficiente que digamos porque cada vez que se hace una solicitud tiene que recargar todo
+
+02:00.980 --> 02:02.680
+el sitio nuevamente.
+
+02:02.750 --> 02:08.480
+Claro si tienes un navegador web moderno no lo vas a sentir mucho porque la mayoría la mayoría de ellos
+
+02:08.480 --> 02:12.970
+guarda información en caché pero siempre hace una revisión.
+
+02:13.070 --> 02:15.680
+Si los archivos no han cambiado entonces.
+
+02:15.680 --> 02:17.350
+Pero esto no es muy eficiente.
+
+02:17.480 --> 02:23.110
+Vamos a ver un ejemplo de este tipo de páginas web aquí tenemos.
+
+02:23.130 --> 02:28.510
+Es una excelente página donde hay mucho recurso web te recomiendo que se dé una vuelta por acá pero
+
+02:28.570 --> 02:31.270
+en este caso quiero demostrarles que son un sitio web normal.
+
+02:31.270 --> 02:37.610
+Si yo hago click aquí hace un Raffles completo del sitio para mostrar la información requerida y muestra
+
+02:37.610 --> 02:39.220
+la información.
+
+02:39.220 --> 02:45.190
+Después nos vamos a otro lado vamos otro lado y como ustedes pueden observar hay un refresh del sitio
+
+02:45.190 --> 02:46.450
+web completo.
+
+02:46.450 --> 02:53.020
+Lo hace muy rápido por el caché de navegador pero cada vez que ustedes se mueven entre la página ven
+
+02:53.020 --> 03:00.290
+ese parpadeo recarga la información y tienen que volver a cargar el ñeque y todas las librerías ustedes
+
+03:00.310 --> 03:06.870
+tienen definidas todo el CSS y hace las verificaciones del mismo sea no es eficiente.
+
+03:07.150 --> 03:12.410
+Ahora miremos una que usé ya lo que se llama sitios dinámicos.
+
+03:12.640 --> 03:18.940
+En este caso la explicación gráfica sería la siguiente manera tu computadora llega y hace una solicitud
+
+03:18.940 --> 03:20.110
+al servidor.
+
+03:20.380 --> 03:26.050
+Igual igual y genera una respuesta al servidor genera una respuesta de la misma manera que es igual
+
+03:26.080 --> 03:27.640
+que la anterior.
+
+03:27.640 --> 03:32.830
+Pero qué pasa cuando la persona hace clic en algún link o quiere ver información en particular o hacer
+
+03:32.830 --> 03:37.020
+algo cualquier cosa hace una nueva solicitud al servidor.
+
+03:37.030 --> 03:45.040
+El servidor hace o ejecuta la respuesta pero esta respuesta es un breve un breve pedazo de código o
+
+03:45.040 --> 03:52.150
+puede ser una instrucción de Jayson o puede ser un archivo XML puede ser algo pero es mucho más pequeño
+
+03:52.240 --> 03:55.310
+que volver a cargar toda la página web.
+
+03:55.420 --> 03:59.050
+Vamos a ver un ejemplo de este tipo de sitios web
+
+04:02.280 --> 04:08.190
+aquí tenemos como ejemplo la página de documentación de Yangüela en la cual si yo hago clic en un link
+
+04:08.960 --> 04:11.900
+como podrá observar sólo refresca el contenido principal.
+
+04:11.910 --> 04:16.400
+En este caso se hace una solicitud al servidor sólo para refrescar el contenido.
+
+04:16.530 --> 04:24.410
+Este contenedor no voy aquí a From Jayson o Identity with inyecto solo refresquen este cuadro de acá
+
+04:24.420 --> 04:31.290
+yo puedo navegar durante horas y no voy a tener otro refresh en la página todo esto lo hace mediante
+
+04:31.290 --> 04:37.530
+un Mídete haya extraer la información la despliega en pantalla y de una manera muy sencilla y muy rápida
+
+04:37.530 --> 04:41.210
+y eficiente recarga el contenido de la página web.
+
+04:41.310 --> 04:45.130
+A eso es lo que nos referimos con sitios web dinámicos.
+
+04:45.330 --> 04:54.040
+Ahora que comprendemos un poco más esto imagínense el siguiente código que esto no es nada alejado a
+
+04:54.040 --> 04:54.730
+la realidad.
+
+04:54.730 --> 05:03.190
+Esto es lo que normalmente se hace mucho en los sitios web que es cargar la librería del QWERTY cargar
+
+05:03.190 --> 05:11.620
+el Bushra cargar el mapa de Google si estás usándolo cargar estilos cargar plugins cargar colores cargar
+
+05:12.520 --> 05:18.730
+por ejemplo y el final se ve una librería de Twitter se ve un formulario para validar se ve Pleiss Golde
+
+05:19.260 --> 05:24.780
+un montón de información y te aseguro que tú has hecho páginas que tienen más importaciones aún.
+
+05:25.760 --> 05:30.610
+Ahora imagínese cargar esto cada vez que la persona se mueve en tu página.
+
+05:30.610 --> 05:38.860
+Esto no es muy eficiente que digamos no pero para eso y esa es una de las fortalezas de angula.
+
+05:38.930 --> 05:45.110
+Para eso existe la angula para simplificar este tipo de cargas para hacer páginas web más dinámicas
+
+05:45.200 --> 05:47.560
+más eficientes y sencillos de programar.
+
+05:47.700 --> 05:51.500
+Así que sin más preámbulos los veo la siguiente clase y empecemos con esto.

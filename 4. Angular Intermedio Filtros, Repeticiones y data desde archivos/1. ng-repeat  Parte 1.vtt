@@ -1,0 +1,190 @@
+WEBVTT
+
+00:03.510 --> 00:05.180
+Nuevamente la clase de angulas.
+
+00:05.340 --> 00:12.740
+Hola Mundo hasta crear tus propias aplicaciones la clase de ulcera relacionada con el tema de repeticiones.
+
+00:12.850 --> 00:18.400
+Esto es algo muy interesante que les va a ayudar a reducir mucho el tiempo de desarrollo y hacer más
+
+00:18.400 --> 00:22.440
+simple sus páginas web a la hora de trabajarlas.
+
+00:22.550 --> 00:29.160
+Descargarse el archivo que se encuentra en el material de la foto de esta clase lo descomprime y obtendrá
+
+00:29.450 --> 00:36.220
+este proyecto que tiene lo mismo como lo dejamos pero está vacío como dejamos el ejercicio anterior
+
+00:36.280 --> 00:37.650
+pero sin nada más.
+
+00:37.830 --> 00:46.690
+Tiene la librería del estilo de animaciones las fuentes la imagen de Juan Carlos tiene ya configurado
+
+00:46.690 --> 00:54.200
+la guía y el Invex voy a abrirlo vamos a abrir esto con el text.
+
+00:55.680 --> 00:58.510
+Quiero que miremos dos archivos es lo importante.
+
+00:58.600 --> 01:06.650
+El índex y el Apep p.ej. es primero que nada van a notar esta introducción.
+
+01:06.650 --> 01:13.360
+Esta es una buena práctica que nuestras funciones de JavaScript estén encapsuladas De esta manera.
+
+01:13.360 --> 01:18.740
+Así están más protegidas para que no se puedan cambiar desde el exterior.
+
+01:18.950 --> 01:20.710
+Es buena práctica hacer esto.
+
+01:20.710 --> 01:24.490
+Otra cosa es que notarán es que está escrito de otra manera.
+
+01:24.490 --> 01:33.190
+El controlador de estos corchetes o llaves cuadradas que tenemos acá las vamos a necesitar porque en
+
+01:33.190 --> 01:40.150
+un futuro que ya vamos a empezar un futuro empezando creo que las próximas clases verán que se necesita
+
+01:40.270 --> 01:43.690
+mandar parámetros adicionales a las funciones de los controladores.
+
+01:43.840 --> 01:51.670
+Pero eso más adelante Orieta no se preocupe de ahí eso la única diferencia que tiene este p.ej. es en
+
+01:51.900 --> 01:59.440
+el Invex van a notar que lo único que tiene es la relación con el controlador principal el Estado controla
+
+01:59.430 --> 02:10.760
+el que se encuentra en p.ej. es lo único que tiene es la relación a eso de ahí un GB 1 GB y un espacio
+
+02:10.760 --> 02:11.870
+para que empecemos a trabajar.
+
+02:12.950 --> 02:20.060
+Vamos a abrirlo en el lucro y podrán observar que eso es todo lo que tiene simplemente el título manejando
+
+02:20.090 --> 02:21.100
+repeticiones.
+
+02:21.110 --> 02:26.150
+La idea es que ustedes servicio los tengan guardados para que ustedes vayan creando su propia biblioteca
+
+02:26.370 --> 02:33.380
+de documentación de angula es más empecemos en nuestro proyecto iremos a la carpeta o mejor dicho al
+
+02:33.380 --> 02:42.350
+archivo a Pepe J.V y crearemos una variable o mejor dicho un arreglo conjunto listado que va a ser igual
+
+02:42.410 --> 02:45.210
+a un arreglo al tener los siguientes nombres.
+
+02:45.230 --> 02:56.000
+Fernando Herrera Melissa Elisa Flores y Juan Carlos
+
+03:01.540 --> 03:11.140
+que tenemos nuestro arreglo salvamos los cambios vamos a dar Invex y voy a enseñarles un filtro nuevo
+
+03:11.320 --> 03:15.480
+que es el filtro Jaso.
+
+03:15.740 --> 03:23.990
+Voy a escribir hacer referencia al listado pero aquí tubería para hacer decir que esto es un filtro
+
+03:24.230 --> 03:32.750
+Jayson salvo los cambios me voy a ir al navegador web fresco y lo que van a ver aquí es la impresión
+
+03:32.750 --> 03:36.300
+de todo el contenido del arreglo.
+
+03:36.940 --> 03:41.890
+Este filtro de Jayson funciona muy bien cuando son objetos grandes ya lo vamos a ver a continuación
+
+03:41.920 --> 03:49.180
+pero de momento sólo quiero que miremos los datos que se encuentran en el arreglo.
+
+03:49.180 --> 03:56.580
+Vamos a empezar a usarlo bien supongamos que tenemos una lista ordenada que queremos que diga esto Fernando
+
+03:57.130 --> 04:08.950
+bla bla bla y aquí viene Belisa y después viene Juan Carlos vamos a hacer una lista ordenada si comprender
+
+04:10.130 --> 04:13.040
+pero esta manera es ineficiente porque ya tenemos el arreglo.
+
+04:13.040 --> 04:15.090
+Queremos usar el arreglo.
+
+04:15.260 --> 04:16.580
+Voy a abordar.
+
+04:16.580 --> 04:27.470
+Estoy acá dejaré solo el nombre y qué es lo que yo quiero que se repita n veces quiero que se repita
+
+04:27.500 --> 04:29.050
+n veces este bloque.
+
+04:29.200 --> 04:32.110
+Ok entonces esto es la etiqueta.
+
+04:32.220 --> 04:34.420
+Que se repiten escribiríamos repite
+
+04:37.320 --> 04:41.880
+como él la ayuda dice Qui valio en tatas.
+
+04:41.940 --> 04:50.520
+El dato es el origen de los datos es una variable o un objeto que contiene información o varias información
+
+04:50.530 --> 04:52.110
+dentro de él.
+
+04:52.200 --> 04:59.140
+El kit Balio esto es qué nombre le vamos a dar a cada uno de los elementos dentro de ese datarse.
+
+04:59.340 --> 05:04.460
+No se preocupen si no entienden porque esto es un concepto más o menos enredado de explicar pero van
+
+05:04.460 --> 05:11.690
+a ver que es bien sencillo declarar la variable que adentro nombre nombres no existe en ningún lado.
+
+05:11.690 --> 05:19.720
+La estoy creando en este momento nombres dentro del datas el cuál es el Data mi listado.
+
+05:20.220 --> 05:26.670
+Es decir por cada persona que está adentro va a recibir el nombre del listado o sea la variable va a
+
+05:26.670 --> 05:36.090
+ser nombre es decir voy a poner esto así salvamos los cambios regresamos a nuestro navegador web y como
+
+05:36.090 --> 05:43.380
+podrán observar ahora si salen completos o ahora sí lo está haciendo desde nuestra variable.
+
+05:43.380 --> 05:46.950
+O mejor dicho de nuestro Rey para que estén más seguros.
+
+05:47.190 --> 05:51.300
+Vamos a crearle un vamos a crearle un nuevo valor
+
+05:53.910 --> 05:57.420
+María Pérez salvo algunos cambios.
+
+05:57.420 --> 06:01.970
+Regreso a mi página web buscamos y ahora aparece María Pérez.
+
+06:01.980 --> 06:06.990
+No tenemos que hacer ningún cambio más porque ya todo eso está dentro de una variable.
+
+06:07.140 --> 06:12.270
+Les recomendaría que orita en este momento y se pongan a practicar haciendo repeticiones de otras cosas
+
+06:12.730 --> 06:13.810
+de cualquier cosa.
+
+06:14.310 --> 06:16.230
+Practiquemos y lo vemos en la siguiente clase.

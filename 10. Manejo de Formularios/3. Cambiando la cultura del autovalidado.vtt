@@ -1,0 +1,196 @@
+WEBVTT
+
+00:03.190 --> 00:09.750
+Me vinieron a la mente a complementar algo que un alumno mencionó que es muy cierto.
+
+00:09.750 --> 00:17.500
+El alumno fue Deyverson o Jadson no sé como pronunciar su nombre pero bueno él mencionó que es una mala
+
+00:17.500 --> 00:22.080
+práctica cambiar el código directamente como se hizo en el curso pasado o en la clase pasada y tienes
+
+00:22.080 --> 00:29.050
+toda la razón cuando haya actualizaciones de la herramienta de la herramienta Autobahn y de otra s si
+
+00:29.050 --> 00:33.520
+nosotros hacemos el cambio la versión más nueva vamos a perder esas modificaciones que nosotros hicimos
+
+00:33.520 --> 00:41.980
+directamente el código por lo general este tipo de librerías incluye un tipo de una forma de cambiar
+
+00:41.980 --> 00:44.170
+la cultura para hacer todo en español.
+
+00:45.290 --> 00:51.720
+Entonces vamos a hacer eso de hecho ahí está bien claro en la página vamos a buscar otro ángulo de atopar
+
+00:51.800 --> 00:52.640
+y nuevamente
+
+00:56.260 --> 01:05.760
+aquí vamos a buscar Zet Culture y aquí está y está bien claro para cambiar la cultura y aquí están los
+
+01:05.850 --> 01:12.160
+pasos a seguir entonces vamos a hacer eso mismo ustedes al descargarse la herramienta aquí con el zip
+
+01:12.160 --> 01:12.540
+FEIM
+
+01:15.730 --> 01:23.230
+vamos a quedarnos aquí en la cultura donde esta parte de acá entonces al descargarse el archivo para
+
+01:23.240 --> 01:28.230
+poder observar que en la carpeta de distribución hay una hay otra que se llama language.
+
+01:28.280 --> 01:37.640
+Aquí está la parte del auto validación y si bien está en italiano está en ruso y en otros idiomas y
+
+01:37.640 --> 01:40.290
+sólo parece que sólo está en español de Colombia.
+
+01:40.610 --> 01:43.340
+Entonces no hay problema vamos a usar eso.
+
+01:43.460 --> 01:50.440
+Este es un archivo Jayson entonces lo más probable que inclusive este archivo también se pueda.
+
+01:50.460 --> 01:56.490
+Puede ser que se actualicen o que pueden meter un tipo de validación nuevo por ejemplo un teléfono o
+
+01:57.270 --> 01:59.290
+cualquier cosa que se les ocurra en un futuro.
+
+01:59.370 --> 02:07.200
+Entonces es más fácil actualizar esto ok entonces se descargaron el material adjunto se descargaron
+
+02:07.200 --> 02:16.560
+el material adjunto lo comprimen lo vamos a ver en el text y vamos a abrir el JS a Pepe 1.13.
+
+02:16.810 --> 02:20.420
+Aquí está la definición como lo habíamos dejado anteriormente.
+
+02:20.550 --> 02:30.030
+Vamos a poner un par de espacios acá y si ustedes se fijaron ya puse el archivo de atonalidad de Colombia.
+
+02:31.120 --> 02:36.720
+El del español de Colombia no no tiene que pegar ahí simplemente lo ponen lo deberían poner en la carpeta
+
+02:36.720 --> 02:42.000
+pero yo lo hice por ustedes para sólo explicar la parte de código que tenemos que adicionar.
+
+02:42.570 --> 02:50.580
+Entonces regresamos a la página la Serret angular en la actualidad que aprenderme la volqueta usado
+
+02:50.610 --> 02:51.490
+bastante.
+
+02:55.980 --> 03:03.410
+Entonces lo que pide para sestear la cultura es usar el Resolve de errores por decirlo así.
+
+03:05.450 --> 03:14.350
+Entonces toda esta línea de código toda esta línea de código la vamos a poner aquí adentro que falta
+
+03:14.440 --> 03:20.750
+cerrar el paso que sería la tenemos en nuestra carpeta J.V explica Liev.
+
+03:20.770 --> 03:28.270
+Ahora tenemos MJS y aquí está otra.
+
+03:29.140 --> 03:35.950
+Ahora lo que sigue es colocar que sea quien lo utilice en el español que tenemos ahí.
+
+03:36.490 --> 03:46.460
+La segunda línea de error Message resolver el DCT a la cultura no pego esta tabulación correcta y aquí
+
+03:46.460 --> 03:52.580
+está por defecto francés pero no es francés es español es español.
+
+03:53.100 --> 04:00.060
+Colombia mayúscula es importante la sintaxis el Caillois pero aquí es importantes.
+
+04:00.950 --> 04:03.260
+La pista se la dan aquí en las últimas deaths.
+
+04:03.530 --> 04:07.160
+Pero bueno probemos ahora en nuestro.
+
+04:07.170 --> 04:11.530
+Así lo estamos recuerden que lo estamos ejecutando en el escritorio.
+
+04:12.260 --> 04:15.000
+Aquí nos va a tirar un error.
+
+04:15.120 --> 04:20.040
+A ver dice que no se puede ser el HTTP.
+
+04:20.140 --> 04:29.830
+Pues porque está utilizando los Domain recuesto estasituación una solicitud de supuestamente otro servidor.
+
+04:30.020 --> 04:34.400
+Esto ya lo vimos en el curso y esto no pasa en la vida real porque lo tenemos en servidores.
+
+04:34.400 --> 04:39.720
+Este código deberíamos de ejecutarlo porque hace unas ciertas cosas raras hace unas promesas que eso
+
+04:39.720 --> 04:42.210
+se va a ver a continuación.
+
+04:42.350 --> 04:46.010
+Necesitamos correríamos servidor o deshabilitar esa esa cosa.
+
+04:46.100 --> 04:48.550
+Pero yo realmente no recomiendo mucho eso.
+
+04:48.740 --> 04:56.270
+Entonces qué es lo que vamos a hacer voy a cerrar estas dos y voy a copiar mi carpeta toda mi carpeta
+
+04:56.270 --> 04:58.830
+del formulario auto validador.
+
+04:58.850 --> 05:05.160
+Todo esto lo voy a mover a donde hemos estado poniendo los ejercicios
+
+05:08.480 --> 05:13.450
+que me va a pedir por cuestiones de seguridad mías.
+
+05:13.860 --> 05:20.080
+Lo ponemos acá y aquí oracion vamos a irnos a nuestro Google otra vez.
+
+05:20.080 --> 05:29.790
+Local Jost plica de mi tamaño de mi placa formulario atodo el nombre que le pusieron aquí está de nuevo.
+
+05:29.790 --> 05:34.530
+Van a ver que ya no da el error de Cross Domain porque están en el mismo servidor o en el mismo dominio
+
+05:35.820 --> 05:38.850
+y al tocarlo aparece todo en español.
+
+05:38.850 --> 05:46.370
+De hecho si ustedes llegan acá y cambian los archivos Liev aquí el archivo Jayson igual van a tener
+
+05:46.730 --> 05:54.510
+pueden hacer los cambios de manera más seguro y más fácil de poner este campo es requerido.
+
+05:54.710 --> 05:55.580
+Por favor.
+
+05:55.580 --> 06:03.330
+Por favor ingrese al conjunto grabã cargan acá y van a ver que ya aparece esto.
+
+06:03.470 --> 06:06.280
+Entonces esto es una mejor práctica y fácil de actualizar.
+
+06:06.290 --> 06:14.750
+De hecho lo mejor de todo es que ustedes deben de usar los archivos los archivos comprimidos los archivos
+
+06:14.750 --> 06:20.030
+.1.000 porque están compactados son más ligeros y más rápidos de cargar el eso fue todo por ahorita
+
+06:20.120 --> 06:28.090
+y esperemos pronto que voy a subir lo de las promesas y servicios Protoman Factory seises.
+
+06:28.160 --> 06:29.570
+Eso va a ser lo próximo que vamos a poner.
+
+06:30.530 --> 06:35.210
+Espero les haya servido y gracias Jayden por puntualizar esto esto nos ayuda mucho a todos.

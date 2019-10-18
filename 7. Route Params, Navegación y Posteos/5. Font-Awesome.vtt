@@ -1,0 +1,199 @@
+WEBVTT
+
+00:03.570 --> 00:11.690
+Revendidos nuevamente este curso de angula aunque hoy no veremos directamente cosas ya veremos una nueva
+
+00:12.040 --> 00:19.830
+un nuevo estilo llamado Font azul que es excelente manejando iconos pues esto es un extra por decirlo
+
+00:19.830 --> 00:24.250
+así buscan formas en Google y les va a aparecer esta página.
+
+00:24.740 --> 00:33.810
+Vamos a descargarlo aquí y nos vamos a la sección de iconos la zona les regala a ustedes porque es gratuito
+
+00:33.870 --> 00:37.680
+una cantidad descomunal de iconos autorizados.
+
+00:37.860 --> 00:43.360
+Qué quiere decir esto que es torpe expandir todo lo que quieran y no se van a pixelar nunca aunque sea
+
+00:43.360 --> 00:44.540
+al tamaño de un muro.
+
+00:44.700 --> 00:47.300
+No se va pixelar nunca porque son vectores.
+
+00:47.550 --> 00:54.720
+Aparte de eso también da otras cosas interesantes como funcionalidades hacerlos más grandes y crear
+
+00:54.720 --> 01:03.190
+sus menús iconos que se muevan poniendo la variable o mejor dicho a la clase spin fusionando los que
+
+01:03.330 --> 01:06.480
+es una buena fuente de iconos bien completa.
+
+01:07.660 --> 01:13.780
+Vale la pena que el estudio en un momento donde descargamos el archivo fonación o podremos observar
+
+01:13.780 --> 01:24.450
+acá 8 comprimido la versión actual de la 4 3 0 voy a renombrar esto a solo un paso haciendo más solo
+
+01:24.540 --> 01:25.170
+fonación.
+
+01:25.260 --> 01:35.430
+Voy a copiar esto a mí y y lo pondré aquí en la raíz la carpeta Fona directamente y si ustedes podrán
+
+01:35.430 --> 01:41.130
+observar tiene una carpeta llamada Ce6 ocupamos hacer referencia a este archivo.
+
+01:41.130 --> 01:44.990
+Recuerden siempre utilizar el min porque cargan más rápido.
+
+01:45.000 --> 01:51.690
+Entonces vamos a buscar en Jonasson 1000 puntos veces en nuestro índex tenemos que hacer referencia
+
+01:51.750 --> 01:54.740
+al mismo lo podemos colocar después de la MMIC.
+
+01:54.870 --> 02:06.600
+No hay ningún problema y este se encuentra en Font Hasson Leca CSS Leca Fonade son puntos 0.06 guardo
+
+02:06.600 --> 02:14.830
+todo y ya estamos listos para utilizar todos los beneficios que nos regala esa librería de iconos.
+
+02:14.970 --> 02:17.480
+Entonces empezamos a utilizarlos.
+
+02:17.490 --> 02:19.470
+Aquí tiene su propio buscador.
+
+02:19.570 --> 02:20.630
+Ustedes buscan el plus.
+
+02:20.640 --> 02:22.440
+Hay varios iconos para agregar.
+
+02:22.440 --> 02:30.090
+Por ejemplo que está bonito y el plus usemos éste para nuestro icono de agregar alumno.
+
+02:30.090 --> 02:33.650
+Lo único que tenemos que hacer es miren bien el nombre y usarlos.
+
+02:34.020 --> 02:43.120
+Lo único que tenemos que hacer es nuestra nuestro botón crearemos una etiqueta y con la clase voy a
+
+02:43.120 --> 02:48.490
+hacer esto una nueva línea para que se mire un poco más un poco más cómodo.
+
+02:48.520 --> 02:55.410
+Lo único que tenemos que hacer es agregar una clase F A F.A y user leca.
+
+02:55.570 --> 03:04.430
+Los éste es el nombre que vimos aquí pero hay que agregarle F.A guardo todo regreso a mi navegador web
+
+03:05.570 --> 03:08.510
+recargó y les aparece el icono.
+
+03:08.530 --> 03:12.500
+Aquí como podrán observar y jaqueada con el mismo color queda con el mismo contexto.
+
+03:12.500 --> 03:13.680
+Se ve bastante bien.
+
+03:14.390 --> 03:22.070
+Ok entonces qué les parece si le colocamos botones aquí de izquierda a derecha vamos a buscar acá left
+
+03:22.280 --> 03:31.970
+por ejemplo este es un nombre extraño a El Chino no saber qué será entonces colocar lo que queremos
+
+03:31.970 --> 03:43.580
+acá no voy a hacer aquí un entes suponemos esto porque se viene un poco más fácil de editar ok.
+
+03:43.590 --> 03:52.570
+Entonces en el anteriores provocaremos la etiqueta clase baja o F.A o ok ya tenemos el left.
+
+03:52.650 --> 03:58.430
+Yo ahora sería este mismo pero con el Right no vale la pena decir que habrían de estar al revés porque
+
+03:58.430 --> 04:02.230
+queremos que sea al final right.
+
+04:03.100 --> 04:13.290
+Cuando todo regresó al navegador web refrescamos está bien y estamos listos con las flechas direccionales.
+
+04:13.400 --> 04:15.860
+Todo siguió funcionando crear.
+
+04:16.150 --> 04:20.800
+Regresemos ahora pongamos el de guardado datos pongámosle algo de Salvárcar.
+
+04:21.020 --> 04:32.840
+No vamos acá se ve que hay un disco floppy o está bonito este Floppy o en el alumno o botón lo tenemos
+
+04:32.840 --> 04:33.190
+aquí.
+
+04:36.430 --> 04:44.750
+Pongámoslo antes y Class F.A F.A menos Flopy creo que también hay un 6.
+
+04:44.780 --> 04:46.670
+No sé.
+
+04:46.770 --> 04:50.400
+No no ya no creo que ya lo removieron o te Flopy.
+
+04:52.790 --> 05:02.560
+Flopy menos o guardo todo mi navegador web fresco y tiene un bonito icono de salvar un bonito icono
+
+05:02.560 --> 05:09.520
+de un disquete bueno entonces pueden poner iconos donde ustedes quieran por ejemplo aquí alumnos hay
+
+05:09.600 --> 05:13.580
+1 ahí hay un icono que se llama Yussef.
+
+05:14.440 --> 05:23.470
+Entonces alumnos podemos poner aquí otro ícono por ejemplo Class fea fea y usais.
+
+05:23.600 --> 05:35.230
+Cuarto un navegador web fresco será saber son tu pulsen alumno pero donde no es en alumno es en las
+
+05:35.290 --> 05:39.760
+que podríamos poner rehúsen y éste sería.
+
+05:39.950 --> 05:52.150
+Este sería en alumnos a Red es bueno esto o el otro Tereso vamos a ver y salir alumnos crear algún alumno
+
+05:52.180 --> 06:00.350
+con un ícono y se ve bastante bien ya le da un toque de personalidad a la aplicación cosa que vale la
+
+06:00.350 --> 06:07.880
+pena decir que lo que son son pequeños detalles que hacen que hace que se mire más seria su aplicación
+
+06:08.420 --> 06:12.480
+puede poner estos íconos hasta en el menú pueden hacerlo donde ustedes deseen.
+
+06:12.740 --> 06:19.170
+Por ejemplo hasta inclusive hasta en el menú superior guardo todo.
+
+06:19.280 --> 06:25.530
+Voy a irme a mí a ver el menú en HTML.
+
+06:25.530 --> 06:37.490
+Vamos a buscar alumnos y aquí colocaremos el telefonazo no meter Stop está todo el punto de anclaje.
+
+06:37.500 --> 06:43.240
+Es que como tengo la fuente bien grande pero usted y yo creo que en su pantalla se va a ver sin ningún
+
+06:43.240 --> 06:45.040
+problema.
+
+06:45.240 --> 06:52.020
+No solo estoy arreglando la tabulación mirémoslo y aparece ya como ícono blanco porque el programa ya
+
+06:52.030 --> 06:55.140
+sabe o mejor dicho al estilo ya sabe qué menú es blanco.
+
+06:55.340 --> 06:57.420
+Entonces los veo en la siguiente clase.

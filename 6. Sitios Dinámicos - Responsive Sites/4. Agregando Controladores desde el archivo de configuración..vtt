@@ -1,0 +1,298 @@
+WEBVTT
+
+00:03.480 --> 00:05.290
+Bienvenidos nuevamente a esta clase de angulas.
+
+00:05.700 --> 00:10.620
+Hoy posiblemente tengamos la clase más difícil que hemos tenido hasta el momento si hay que poner mucha
+
+00:10.620 --> 00:11.600
+atención.
+
+00:11.640 --> 00:16.440
+Le recuerdo que si no lograron hacer el ejercicio anterior tal cual les pidió que descarguen el archivo
+
+00:16.440 --> 00:23.700
+adjunto que contiene todo el ejemplo así como está para iniciar esta clase o qué vamos a hacer varias
+
+00:23.700 --> 00:28.500
+cosas interesantes una hace un llamado desde el controlador principal.
+
+00:28.510 --> 00:33.980
+Mejor dicho desde un control secundario a una función alojada en el controlador principal esa función
+
+00:33.980 --> 00:37.190
+lo que hará es controlarnos nuestra navegación.
+
+00:37.250 --> 00:43.730
+Es decir cuando estemos en la página de profesores que aparezca el recuadro de profesores este recuadro
+
+00:43.730 --> 00:46.020
+de inicio que aparece aquí.
+
+00:46.080 --> 00:53.060
+Y si estamos en alumnos que aparece el recuadro acá en pocas palabras viéndolo desde desde el menú HTML
+
+00:53.950 --> 00:56.170
+lo que controla eso es esta clase.
+
+00:56.320 --> 01:02.270
+Decir yo quito esto y lo pongo en la opción de alumnos cuántos cambios mi navegador web podrá observar
+
+01:02.570 --> 01:05.120
+el que aparece selecciona ahora ex alumnos.
+
+01:05.900 --> 01:09.590
+Entonces lo que tenemos que hacer es jugar con esta opción.
+
+01:09.830 --> 01:17.430
+Todavía no tocaremos este archivo por los momentos lo siguiente que tenemos que hacer es crear un controlador
+
+01:17.430 --> 01:21.630
+por cada página ya que queremos que cada una de estas tal vez sólo la de inicio no.
+
+01:21.630 --> 01:28.820
+Pero queremos que cada una de estas páginas haga cierto tipo de código tenga algo adentro para eso creemos
+
+01:28.820 --> 01:35.290
+los controladores refrescar navegador web para quitar las opciones del menú y listo.
+
+01:35.290 --> 01:42.240
+Entonces qué les parece si comenzamos con el controlador de alumnos haremos clic derecho en la carpeta
+
+01:42.240 --> 01:50.070
+foto de ese nuevo archivo lo guardaremos como alumnos CPT R.L punto J.S.
+
+01:50.110 --> 01:58.780
+Esto es una manera de declarar que decirle al usuario o mejor dicho al otro programador que este es
+
+01:59.030 --> 02:01.450
+el controlador de alumnos.
+
+02:01.450 --> 02:03.180
+Entonces empecemos a Pepe punto.
+
+02:03.190 --> 02:09.220
+Controles top sería llamar alumnos controles tap tap.
+
+02:09.370 --> 02:15.220
+Lo mandaremos como parámetro y de esta manera ya tenemos listo nuestro controlador.
+
+02:15.220 --> 02:22.870
+Esto es lo mismo que hemos hecho en otras clases si copiar el nombre de alumnos Ctrl y me iré a mi archivo
+
+02:22.870 --> 02:29.800
+de confi junto J es aquí necesito decirle que cuando se encuentra navegando en esta página va a llamar
+
+02:29.860 --> 02:31.630
+el siguiente controlador.
+
+02:31.630 --> 02:40.540
+Cuál es ese controlador entonces será controlar los puntos alumnos controle todos los campos.
+
+02:40.590 --> 02:48.250
+Ahora acordémonos que si creé un nuevo archivo de JavaScript necesita ser instancia o llamado desde
+
+02:48.250 --> 02:54.010
+la página principal crearé un nuevo archivo pero una nueva referencia
+
+02:57.610 --> 03:02.290
+podremos leer le ponemos controlador de páginas y ese será alumnos.
+
+03:02.290 --> 03:09.880
+Controles comentamos todos los cambios y estamos listos para hacer la creación de la navegación del
+
+03:09.880 --> 03:11.230
+menú.
+
+03:11.780 --> 03:16.830
+Le ofrecemos al navegador web sólo para confirmar que el JavaScript si hubiera algún error aquí se desplegaría.
+
+03:19.260 --> 03:21.130
+Vamos a empezar a crear esa función.
+
+03:21.330 --> 03:25.590
+Las funciones acordémonos de que se encuentran en el controlador principal.
+
+03:26.760 --> 03:35.720
+Entonces empecemos crearemos la función scoop punto pongámosle que se active para decir que vamos a
+
+03:35.720 --> 03:44.970
+colocar algo por lo general generales para colocar datos igual a una función parentesis al recibir una
+
+03:44.970 --> 03:53.720
+opción la opción del menú y haremos lo siguiente Vamos a explicar la nueva directiva una nueva directiva
+
+03:53.720 --> 04:02.900
+llamada Enjoy class se acuerdan de que aquí si yo coloco este código es lo que hace que se ponga activo
+
+04:02.940 --> 04:04.800
+el menú.
+
+04:04.800 --> 04:14.640
+La directiva en ciclas lo que hace es como el engine es muy parecido al modelo que va a controlar esta
+
+04:14.640 --> 04:20.910
+sección pero en lugar de manejar una variable va a controlar una clase es decir esto que estoy poniendo
+
+04:20.910 --> 04:34.680
+acá o esta variable va a ser lo mismo que colocarle colocarle esto y el valor de El valor de decir que
+
+04:34.810 --> 04:40.150
+yo sé que es algo enredado pero ya vamos a ver en la práctica que es más sencillo entonces colocar m
+
+04:40.240 --> 04:47.760
+y niñosas menú de inicio menú profesores y alumnos de esta manera.
+
+04:48.050 --> 04:52.950
+Entonces hay tres por decirlo así variables que juegan con las opciones del menú.
+
+04:52.970 --> 05:00.520
+Eso sí yo pongo o cambio el valor a Inicio y quiero decir va a cambiar él la clase que se encuentre
+
+05:00.610 --> 05:11.460
+alojada en este contenedor vamos a ver cuánto cams voy a copiarme estas variables no voy a copiar a
+
+05:11.530 --> 05:23.350
+mi archivo principal donde estamos programando estas tres variables tendrán el valor por defecto de
+
+05:24.050 --> 05:29.860
+masivo y aquí cuando se llamen estas funciones quiero quitar la clase a todas a todas las opciones del
+
+05:29.860 --> 05:36.670
+menú porque sólo pondré una en particular cuál tendré que poner la que estoy mandado como parámetro
+
+05:36.670 --> 05:39.210
+en este caso de la siguiente manera.
+
+05:41.950 --> 05:48.190
+Y eso es absolutamente todo lo que en pocas palabras digo o que vas a limpiar todas las clases.
+
+05:48.190 --> 05:53.710
+Todas estas tres clases bien no van a existir no van a tener ningún valor y sólo vas a activar la que
+
+05:53.710 --> 06:01.510
+te estoy mandando por parametro que cómo llamamos esta función en nuestro archivo de alumnos controlé.
+
+06:01.690 --> 06:09.700
+Lo primero que haremos es hacer un llamado al Escofet punto ser ACTI que así se llama nuestra clase
+
+06:11.000 --> 06:12.680
+perdón nuestra función que se encuentra aquí.
+
+06:13.440 --> 06:16.020
+Y qué opción es la que vamos a mandar.
+
+06:16.020 --> 06:26.190
+La opción que mandaremos es M alumnos M alumnos un Tocoma guardamos todo y debería de funcionar.
+
+06:26.730 --> 06:27.740
+Esperemos que sí.
+
+06:28.220 --> 06:32.720
+Pero eso no va a funcionar porque estoy en alumnos me aparece alguno seleccionado.
+
+06:32.850 --> 06:38.130
+Si no voy a profesores y me voy inicio no otro todo bien no se cambie porque solo alumnos es el que
+
+06:38.130 --> 06:39.120
+tiene esa función.
+
+06:40.050 --> 06:46.860
+Entonces lo que sigue es crear los dos controladores restantes y colocarlo en la misma función.
+
+06:46.860 --> 06:52.370
+Entonces es muy parecido para ahorrarme tiempo voy a copiar todo este código vamos a ver la opción del
+
+06:52.370 --> 06:55.260
+menú que tenemos aquí.
+
+06:55.310 --> 07:09.330
+Ahora el profesores menos profesores Ctrl JS Pero queremos esto y aquí será profesores y nuestro menú
+
+07:09.390 --> 07:22.150
+es la opción emes profesores eso acá pego cuatro cambios a copiar todo esto creé un nuevo archivo llamado
+
+07:22.810 --> 07:31.590
+inicio inicio Ctrl 2.13 pero todo de modo que la opción del menú es el inicio.
+
+07:31.660 --> 07:32.690
+Eso es mi inicio
+
+07:35.530 --> 07:38.870
+y sería inicio Ctrl.
+
+07:38.970 --> 07:45.300
+Guardamos los cambios y en nuestro índex HTML creamos dos nuevos.
+
+07:45.450 --> 07:47.210
+Hay que crear estos dos.
+
+07:47.370 --> 07:57.990
+En este caso creé uno llamado profesores y también el otro de inicio para que estos se miren mejor vamos
+
+07:57.990 --> 08:00.200
+a ponerlos en el orden en el que se encuentran en el menú.
+
+08:01.080 --> 08:04.740
+Guardamos todos los cambios y debería de funcionar correctamente.
+
+08:04.740 --> 08:13.780
+No soy un alumnos que los profesores no no se cambio por qué no se cambió porque se nos olvidó agregar
+
+08:13.780 --> 08:25.280
+la referencia en nuestro Apep p.ej. es nuestro Chobe configuración entonces en él profesores cómo asignar
+
+08:25.280 --> 08:26.150
+el controlador
+
+08:28.700 --> 08:43.720
+llamado profesores Ctrl y en el de inicio controle los puntos inicio Ctrl damos todo a nuestro navegador
+
+08:43.720 --> 08:45.200
+web refrescamos.
+
+08:45.200 --> 08:51.700
+Estamos en el ojo pasamos a profesores estamos alumnos inicio profesores y esto funciona aunque refrescamos
+
+08:51.700 --> 08:52.410
+en navegador web.
+
+08:52.450 --> 08:59.380
+Como podrán observar porque estoy en esta página cuando carga la página recarga él recarga el controlador
+
+08:59.420 --> 09:06.460
+también entonces es bastante enredado estos procedimientos pero les pido que por favor no intenten hacer
+
+09:06.460 --> 09:10.140
+Uds. pruébelo.
+
+09:10.570 --> 09:18.340
+La mejor manera de resolver estos problemas o de agarrarle la expertise a estas opciones que acabamos
+
+09:18.340 --> 09:23.800
+de ver es practicando y fallando practicando y fallando más a recapitular.
+
+09:23.860 --> 09:30.640
+Primero que nada acordémonos que si creamos archivos nuevos de JSE los tenemos que agregar en nuestra
+
+09:30.640 --> 09:31.960
+página principal.
+
+09:32.450 --> 09:33.950
+Como están aquí.
+
+09:34.030 --> 09:44.200
+Lo otro es la directiva del Enjoy class que es para colocarle una clase a los elementos que contengan
+
+09:44.490 --> 09:47.380
+dicha dicha Directiva.
+
+09:47.380 --> 09:54.670
+Lo siguiente es que nuestro controlador que va a llamar la función principal que se encuentra en nuestro
+
+09:54.730 --> 10:02.270
+controlador principal valga la redundancia y crear la función y crear la función Cedat
+
+10:05.820 --> 10:11.670
+y en el archivo de configuración asignar los controladores a los peinas que deseamos.
