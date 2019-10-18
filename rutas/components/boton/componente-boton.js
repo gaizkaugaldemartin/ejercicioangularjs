@@ -5,7 +5,7 @@ angular.
     controller: function BotonController() {
 
       console.trace('BotonController');  
-      this.nombre = 'Mundo';
+      this.nombre = 'Pulsa para contar';
       this.contador = 0;
 
       //funciones

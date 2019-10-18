@@ -4,15 +4,23 @@ app.controller('formularioController', ['$scope', 'servicioConstantes',
 
     console.trace('formularioController');    
 
-    $scope.titulo = "Validacion Formulario";
-    $scope.fomulario = {
+    $scope.titulo = "Formulario";
+
+
+    $scope.formData = {};
+    /*
+    $scope.formData = {
         "email" : servicioConstantes.email,
         "nombre" : servicioConstantes.autor
-    };
+    };*/
+
 
     $scope.postear = ()=>{
+        console.trace('formulario sumitado %o', $scope.formData );
+    }
 
-        console.trace('formulario sumitado %o', $scope.fomulario );
+    $scope.changeStiles = (form)=>{
+        console.trace('formulario de la vista %o', form );
     }
 
 }]);

@@ -10,3 +10,24 @@
      <a href="#!/pokemones" class="btn btn-success btn-sm mb-2">Volver <i class="fas fa-undo-alt"></i></a>
 
 </div>
+
+
+<h3>Pokemon</h3>
+
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">nombre</th>
+        <th scope="col">weight</th>        
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="pokemon in pokemons">
+        <td>{{pokemon.id}}</td>
+        <td>{{pokemon.name}}</td>
+        <td>{{pokemon.weight}}</td>
+      </tr>
+    </tbody>
+</table>      

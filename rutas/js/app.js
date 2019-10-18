@@ -9,8 +9,8 @@ var app = angular.module('angularApp',['ngRoute','ngSanitize']);
                                       "titulo": "AngularApp",
                                       "idioma": "es-Es",
                                       "version": "1.0",
-                                      "autor": "Gaizka Ugalde",
-                                      "github": "https://github.com/"
+                                      "autor": "Gaizka Ugalde Martin",
+                                      "github": "https://github.com/gaizkaugaldemartin/ejercicioangularjs"
                                     } );
 
 /**

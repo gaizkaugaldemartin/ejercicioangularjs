@@ -16,5 +16,9 @@ function PokemonProvider($http){
     return $http.get(url);
   }  
 
+  
+  
+  
+
 
 }

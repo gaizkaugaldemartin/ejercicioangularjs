@@ -1,20 +1,22 @@
 <div ng-controller="serviceController">
 
-    <h2><i class="fas fa-server"></i> {{titulo}}</h2>
+    <h2 class="text-warning"><i class="fas fa-server"></i> {{titulo}}</h2>
     <p>AngularJS tiene realmente 5 tipos distintos de servicios:</p>
     <ol>
+      <b>
         <li>Constantes</li>
         <li>Valores</li>
         <li>Servicios</li>
         <li>Factorias</li>
         <li>Provedores</li>
+      </b>
     </ol>
 
     <p>Los nombres de los servicios deben seguir la misma nomenclatura que los nombre de las variables. Es decir que la primera palabra debe ser en minúscula y el resto de palabras deben empezar en mayúscula <b>CamelCase</b>.</p>
 
     <div class="card mb-3">
         <div class="card-header">
-          Constantes <a class="float-right" target="_blank" href="https://www.cursoangularjs.es/doku.php?id=unidades:03_servicios:05_constant">Curso Angular JS</a>
+          <b>Constantes</b> <a class="float-right text-success" target="_blank" href="https://www.cursoangularjs.es/doku.php?id=unidades:03_servicios:05_constant">Curso Angular JS</a>
         </div>
         <div class="card-body">         
           <p class="card-text">Mirar <code>app.js</code> para ver como se define el servicio de constantes</p>
@@ -24,7 +26,7 @@
 
     <div class="card mb-3">
         <div class="card-header">
-          Values <a class="float-right" target="_blank" href="https://www.cursoangularjs.es/doku.php?id=unidades:03_servicios:06_value">Curso Angular JS</a>
+          <b>Values</b><a class="float-right text-success" target="_blank" href="https://www.cursoangularjs.es/doku.php?id=unidades:03_servicios:06_value">Curso Angular JS</a>
         </div>
         <div class="card-body">         
           <p class="card-text">Parecido a las Constates, pero con valores que podrian cambiar, pr ejemplo el valor de Euribor.</p>          
@@ -33,12 +35,34 @@
 
     <div class="card mb-3">
         <div class="card-header">
-          Service <a class="float-right" target="_blank" href="https://www.cursoangularjs.es/doku.php?id=unidades:03_servicios:07_service">Curso Angular JS</a>
+          <b>Service</b><a class="float-right text-success" target="_blank" href="https://www.cursoangularjs.es/doku.php?id=unidades:03_servicios:07_service">Curso Angular JS</a>
         </div>
         <div class="card-body">         
           <p class="card-text">Mirar <code>app.js</code> funcion <code>Rectangulo</code></p>            
           <p class="card-text">Debemos usar una clase y no valores o constantes.</p>          
           El area de un rectangulo de 2 * 3 = {{ area }}
+        </div>
+    </div>
+
+    
+    <div class="card mb-3">
+        <div class="card-header">
+          <b>Factory</b><a class="float-right text-success" target="_blank" href="https://www.cursoangularjs.es/doku.php?id=unidades:03_servicios:07_service">Curso Angular JS</a>
+        </div>
+        <div class="card-body">         
+          <p class="card-text">La principal diferencia es que al método factory le pasamos ahora una función para que ésta retorne ahora el valor del servicio. Es decir que tenemos una función JavaScript que actúa como factoría, retornando la propia función de factoría el valor del servicio.</p>            
+         
+        </div>
+    </div>
+
+    
+    <div class="card mb-3">
+        <div class="card-header">
+         <b>Provider</b> <a class="float-right text-success" target="_blank" href="https://www.cursoangularjs.es/doku.php?id=unidades:03_servicios:07_service">Curso Angular JS</a>
+        </div>
+        <div class="card-body">         
+          <p class="card-text">Un provider es como un factory pero permite que se configure antes de crear el valor del servicio. En el tema anterior vimos el ejemplo del servicio de hash que se configuraba a través de un value llamado algoritmo. Aunque el ejemplo funciona, la verdad es que es un poco chapucero ya que aparentemente no hay relación entre algoritmo y hash . La relación entre ambos queda poco orientada al objeto. El provider viene en nuestra ayuda creando un objeto previo que permite configurar el factory antes de que cree el valor del servicio. Este nuevo objeto se llama Provider y en un bloque config podremos acceder a él para poder configurar nuestro servicio.</p>            
+      
         </div>
     </div>
 
