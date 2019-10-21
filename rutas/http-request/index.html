@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="ejemplosApp">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>http-request</title>
+
+
+        <!-- Incluir Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
+
+        <!-- Incluir AngularJS -->
+        <script src="js/lib/angular.min.js"></script>
+
+        <script src="js/app.js"></script>
+        
+    </head>    
+    <body>
+
+        <div class="container" ng-controller="mainCtrl">
+            
+            <h1>$HTTP Request</h1>
+            <h4>Data dinámica</h4>
+            <p>Debemos inyectar la variable $HTTP en el controlador</p>
+            <p>Acordaros que las peticiones son con ajax y Asincronas,mirar trazas de consola</p>
+            <p>Interesante usarusar las herramientas desarrollo de chrome, la pestaña NETWORKS (XHR)</p>
+            <hr>
+            
+
+            {{profesores}}<br><br>
+
+            <a href="http://127.0.0.1:5500/rutas/#!/ejercicios" class="btn btn-success btn-sm mb-2">Volver a los ejercicios</a>
+        </div><!-- fin del listadoCtrl -->
+
+      
+
+    </body>
+</html>

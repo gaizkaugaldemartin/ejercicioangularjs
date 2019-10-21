@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" ng-app> <!--Directiva para decir que es una App de Angular-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <script src="js/angular.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>{{ "Welcome to the hell 2 - Angular JS"}}</h1>  
+    <h1>{{ "Welcome to the hell 2 - Angular JS" | uppercase}}</h1>
+
+    <div class="container">
+    <ul class="list-group">
+
+        <a href="https://docs.angularjs.org/api/ng/filter" target="_blank">Documentacion</a>
+            <li class="list-group-item"><span class="badge badge-primary">uppercase</span>{{"uppercase" | uppercase}}</li>
+            <li class="list-group-item"><span class="badge badge-primary">lowercase</span>{{"lowercase" | lowercase}}</li>
+
+            <!---
+            <li class="list-group-item"><span class="badge badge-primary">Date</span><span>{{'1288323623006' | date:"MM/dd/yyyy 'at' h:mma"}}</span><br></li>
+            <li class="list-group-item"><span class="badge badge-primary">Date</span>{{"20191003T00:00:00" | date : 'yyyy/MM/DD'}}</li>
+            
+            
+            <li class="list-group-item">Morbi leo risus </li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+
+            -->      
+          </ul>
+    
+</div>
+
+<h2>Directiva ng-model</h2>
+
+Su nombre : {{ nombre | uppercase }}
+<br>
+<input type="text" ng-model="nombre" placeholder="Dime tu nombre" class="form-control">
+
+
+Selecciona el pais: {{pais}}
+
+<select ng-model="pais">
+<option value="es">España</option>
+<option value="eu">Euskadi</option>
+<option value="en">Ingles</option>
+
+
+</select>
+
+
+<br>Tus gustos: g:{{g}} g2:{{g2}} g3:{{g3}} g4:{{g4}} <br>
+
+<input type="checkbox" ng-model="g">Musica<br>
+<input type="checkbox" ng-model="g2">Surf<br>
+<input type="checkbox" ng-model="g3">Bromas<br>
+<input type="checkbox" ng-model="g4">Comedia<br>
+
+
+<br>Dime el genero <br>
+
+<input type="radio" ng-model="g">Hombre<br>
+<input type="radio" ng-model="g2">Mujer<br>
+
+<a href="http://127.0.0.1:5500/rutas/#!/ejercicios" class="btn btn-success btn-sm mb-2">Volver a los ejercicios</a>
+
+</body>
+</html>

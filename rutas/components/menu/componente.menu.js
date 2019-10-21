@@ -66,6 +66,12 @@ angular.
           "url": "#!/pokemones",
           "active": false,
           "icono": "fas fa-gamepad"
+        },
+        {
+          "nombre": "Ejercicios",
+          "url": "#!/ejercicios",
+          "active": false,
+          "icono": "fas fa-address-book"
         }
         
       ];
